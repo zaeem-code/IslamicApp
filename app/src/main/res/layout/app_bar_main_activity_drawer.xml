@@ -247,7 +247,7 @@
 
             <LinearLayout
                 android:orientation="vertical"
-                android:background="@drawable/corner_bn"
+                android:background="@drawable/corner_bn_black"
                 android:layout_width="0dp"
                 android:layout_height="45dp"
                 android:layout_weight="0.4">
@@ -330,7 +330,7 @@
 
             <LinearLayout
                 android:orientation="vertical"
-                android:background="@drawable/corner_bn"
+                android:background="@drawable/corner_bn_black"
                 android:layout_width="0dp"
                 android:layout_height="45dp"
                 android:layout_weight="0.4"

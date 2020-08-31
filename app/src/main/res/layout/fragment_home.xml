@@ -230,7 +230,7 @@
             android:layout_below="@+id/ayatoftheday_lyt"
             android:layout_marginTop="15dp"
             android:layout_marginHorizontal="15dp"
-            android:background="@drawable/corner_bn"
+            android:background="@drawable/corner_bn_black"
             android:paddingVertical="30dp"
             android:id="@+id/itla_e_mehfil_lyt">
 
@@ -311,7 +311,7 @@
             android:layout_below="@+id/hadeesoftheday_lyt"
             android:layout_marginTop="15dp"
             android:layout_marginHorizontal="15dp"
-            android:background="@drawable/corner_bn"
+            android:background="@drawable/corner_bn_black"
             android:id="@+id/wazifa_lyt">
 
             <TextView
@@ -353,7 +353,7 @@
             android:layout_below="@+id/wazifa_lyt"
             android:layout_marginTop="15dp"
             android:layout_marginHorizontal="15dp"
-            android:background="@drawable/corner_bn"
+            android:background="@drawable/corner_bn_black"
             android:id="@+id/eventoftheday_lyt">
 
             <TextView
@@ -397,7 +397,7 @@
             android:layout_below="@+id/eventoftheday_lyt"
             android:layout_marginTop="20dp"
             android:layout_marginHorizontal="15dp"
-            android:background="@drawable/corner_bn"
+            android:background="@drawable/corner_bn_black"
             android:id="@+id/islamicdate_lyt">
 
             <TextView
