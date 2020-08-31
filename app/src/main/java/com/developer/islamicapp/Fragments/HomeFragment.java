@@ -292,7 +292,7 @@ public class HomeFragment extends Fragment implements View.OnClickListener {
                     try{
                         ayat_admin=dataSnapshot.child("Ayat of the Day").getValue().toString();
                       event_admin=dataSnapshot.child("Event of the day").getValue().toString();
-                      hadese_admin=dataSnapshot.child("Hadees of the day").getValue().toString();
+                      hadese_admin=dataSnapshot.child("hadees of the day").getValue().toString();
                       mahfil_admin=dataSnapshot.child("Itlaa e Mahfil").getValue().toString();
                       namaz_time_admin=dataSnapshot.child("Namaze Time of the Year").getValue().toString();
                       ques_admin=dataSnapshot.child("Question of the day").getValue().toString();
