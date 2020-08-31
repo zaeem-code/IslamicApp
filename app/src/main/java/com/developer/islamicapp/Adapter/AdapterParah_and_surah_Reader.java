@@ -226,8 +226,9 @@ String apndArabi,apndurdu;
                         holder.textView_urdu.setTextColor(Color.parseColor("#006400"));
                     }
                     else {
-                        holder.textView.setTextColor(Color.BLACK);
-                        holder.textView_urdu.setTextColor(Color.BLACK);
+
+                        holder.textView.setTextColor(Color.parseColor("#FFD700"));
+                        holder.textView_urdu.setTextColor(Color.parseColor("#FFD700"));
 
                     }
 

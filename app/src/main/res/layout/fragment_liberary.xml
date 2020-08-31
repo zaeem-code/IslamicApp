@@ -22,17 +22,17 @@
         android:layout_height="300dp"
         app:sliderAnimationDuration="500"
         app:sliderAutoCycleDirection="right"
-        app:sliderAutoCycleEnabled="true"
+        app:sliderAutoCycleEnabled="false"
         app:sliderIndicatorAnimationDuration="500"
         app:sliderIndicatorGravity="center_horizontal|bottom"
         app:sliderIndicatorMargin="0dp"
         app:sliderIndicatorOrientation="horizontal"
         app:sliderIndicatorPadding="3dp"
         app:sliderIndicatorRadius="1dp"
-        app:sliderIndicatorSelectedColor="@color/colorText"
+        app:sliderIndicatorSelectedColor="@color/gold2"
         app:sliderIndicatorUnselectedColor="@android:color/transparent"
-        app:sliderScrollTimeInSec="1"
-        app:sliderStartAutoCycle="true" />
+        app:sliderScrollTimeInSec="0"
+        app:sliderStartAutoCycle="false" />
 
 
 

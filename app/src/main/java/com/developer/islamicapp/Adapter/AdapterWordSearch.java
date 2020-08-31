@@ -65,7 +65,7 @@ public class AdapterWordSearch extends RecyclerView.Adapter<AdapterWordSearch.Vi
             textView = itemView.findViewById(R.id.textx);
                textView_urdu=itemView.findViewById(R.id.texty);
             sound = itemView.findViewById(R.id.sound);
-            textView_urdu.setTextColor(Color.parseColor("#006400"));
+//            textView_urdu.setTextColor(Color.parseColor("#006400"));
             textView.setTypeface(new Typcast().Typcast(itemView.getContext(), "BB"));
                textView_urdu.setTypeface(new Typcast().Typcast(context,"A"));
 

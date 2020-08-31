@@ -240,7 +240,7 @@
                 android:textSize="27sp"
                 android:id="@+id/itla_e_mehfil_title"
                 android:text="Itlaa-e-Mahfil"
-                android:textColor="@color/colorText"
+                android:textColor="@color/gold2"
                 android:textStyle="bold"
                 android:gravity="center" />
             <TextView
@@ -294,8 +294,7 @@
                 android:paddingHorizontal="2dp"
                 android:layout_marginHorizontal="25dp"
                 android:paddingBottom="30dp"
-                android:text="Ayat of thefjasldkfadslkhfdasgflhkadsgflakhdfday"
-                android:textColor="@color/colorText"
+                 android:textColor="@color/colorText"
                 android:textStyle="bold"
                 android:gravity="center"
                 />
@@ -322,7 +321,7 @@
                 android:id="@+id/wazifa_title"
 
                 android:text="Wazifa of the day"
-                android:textColor="@color/colorText"
+                android:textColor="@color/gold2"
                 android:textStyle="bold"
                 android:layout_marginTop="5dp"
                 android:gravity="center" />
@@ -336,8 +335,7 @@
                 android:gravity="top|center"
 
                 android:paddingBottom="5dp"
-                android:text="adsfadsfadf"
-                android:textColor="@color/colorText"
+                android:textColor="@color/gold2"
                 android:textSize="14sp"
                 android:textStyle="bold"
                 android:visibility="visible" />
@@ -365,7 +363,7 @@
                 android:id="@+id/eventoftheday_title"
 
                 android:text="Event of the day"
-                android:textColor="@color/colorText"
+                android:textColor="@color/gold2"
                 android:textStyle="bold"
                 android:layout_marginTop="5dp"
                 android:gravity="center" />
@@ -377,10 +375,10 @@
                 android:layout_below="@+id/eventoftheday_title"
                 android:layout_marginTop="5dp"
                 android:gravity="top|center"
+                android:paddingHorizontal="5dp"
 
                 android:paddingBottom="5dp"
-                android:text="adsfadsfadf"
-                android:textColor="@color/colorText"
+                android:textColor="@color/gold2"
                 android:textSize="14sp"
                 android:textStyle="bold"
                 android:visibility="visible" />
@@ -410,7 +408,7 @@
                 android:layout_centerHorizontal="true"
 
                 android:text="Islamic Date"
-                android:textColor="@color/colorText"
+                android:textColor="@color/gold2"
                 android:textStyle="bold"
                 android:layout_marginTop="15dp"
                 android:gravity="center" />
@@ -425,7 +423,7 @@
                 android:gravity="top|center"
                 android:paddingBottom="2dp"
                 android:text="DD/MM/YYYY"
-                android:textColor="@color/colorText"
+                android:textColor="@color/gold2"
                 android:textSize="17sp"
                 android:textStyle="bold"
                 />
@@ -435,6 +433,7 @@
                 android:layout_height="50dp"
                 android:id="@+id/calander_img"
                 android:layout_marginLeft="30dp"
+
                 android:layout_centerInParent="true"
                 android:layout_alignParentLeft="true"
                 android:src="@drawable/calendar"/>
@@ -451,7 +450,7 @@
                 android:textSize="17sp"
                 android:layout_marginTop="5dp"
                 android:id="@+id/admin_calander"
-                android:textColor="@color/colorText"
+                android:textColor="@color/gold2"
                 />
 
         </RelativeLayout>

@@ -68,6 +68,7 @@ public class HomeFragment extends Fragment implements View.OnClickListener {
     DownloadManager downloadManager;
     private  View view;
     private int second=30;
+    String event_admin,hadese_admin,mahfil_admin,namaz_time_admin,ques_admin,wazifa_admin,islamic_cal,isamic_count,ayat_admin;
 
 
 
@@ -286,19 +287,44 @@ public class HomeFragment extends Fragment implements View.OnClickListener {
         databaseReference.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
-
-                if (dataSnapshot.hasChildren())
+               if (dataSnapshot.hasChildren())
                 {
-                    String ayat_admin=dataSnapshot.child("Ayat of the Day").getValue().toString();
-                    String event_admin=dataSnapshot.child("Event of the day").getValue().toString();
-                    String hadese_admin=dataSnapshot.child("Hadees of the day").getValue().toString();
-                    String mahfil_admin=dataSnapshot.child("Itlaa e Mahfil").getValue().toString();
-                    String namaz_time_admin=dataSnapshot.child("Namaze Time of the Year").getValue().toString();
-                    String ques_admin=dataSnapshot.child("Question of the day").getValue().toString();
-                    String wazifa_admin=dataSnapshot.child("Wazifa of the day").getValue().toString();
-                    String islamic_cal=dataSnapshot.child("IslamicCalander").getValue().toString();
-                    String isamic_count=dataSnapshot.child("second").getValue().toString();
-
+                    try{
+                        ayat_admin=dataSnapshot.child("Ayat of the Day").getValue().toString();
+                      event_admin=dataSnapshot.child("Event of the day").getValue().toString();
+                      hadese_admin=dataSnapshot.child("Hadees of the day").getValue().toString();
+                      mahfil_admin=dataSnapshot.child("Itlaa e Mahfil").getValue().toString();
+                      namaz_time_admin=dataSnapshot.child("Namaze Time of the Year").getValue().toString();
+                      ques_admin=dataSnapshot.child("Question of the day").getValue().toString();
+                      wazifa_admin=dataSnapshot.child("Wazifa of the day").getValue().toString();
+                      islamic_cal=dataSnapshot.child("IslamicCalander").getValue().toString();
+                      isamic_count=dataSnapshot.child("second").getValue().toString();}
+                    catch (Exception e){}
+if (TextUtils.isEmpty(ayat_admin)){
+    ayat_admin="NA";
+}
+                    if (TextUtils.isEmpty(event_admin)){
+                        event_admin="NA";
+                    }
+                    if (TextUtils.isEmpty(hadese_admin)){
+                        hadese_admin="NA";
+                    }
+                    if (TextUtils.isEmpty(mahfil_admin)){
+                        mahfil_admin="NA";
+                    }
+                    if (TextUtils.isEmpty(namaz_time_admin)){
+                        namaz_time_admin="NA";
+                    }
+                    if (TextUtils.isEmpty(ques_admin)){
+                        ques_admin="NA";
+                    }
+                    if (TextUtils.isEmpty(wazifa_admin)){
+                        wazifa_admin="NA";
+                    }if (TextUtils.isEmpty(islamic_cal)){
+                    islamic_cal="NA";
+                }if (TextUtils.isEmpty(isamic_count)){
+                    isamic_count="NA";
+                }
 
                     itla_e_mehfil_text.setVisibility(View.VISIBLE);
 
