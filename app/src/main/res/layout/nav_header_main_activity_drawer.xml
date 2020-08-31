@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical"
+    android:layout_marginTop="10dp" android:layout_width="fill_parent"
+    android:layout_height="fill_parent" android:weightSum="3.2"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:weightSum="1.0"
+        android:background="@drawable/corner_bn"
+        android:layout_weight="1.0">
+      <ImageView
+          android:layout_marginTop="20dp"
+          android:layout_width="match_parent"
+          android:layout_height="0dp"
+          android:layout_weight=".6"
+      android:src="@drawable/logo_main"
+      />
+
+
+        <TextView android:textSize="20.0sp"
+            android:textColor="@android:color/white"
+            android:gravity="center"
+            android:background="@android:color/transparent"
+            android:layout_width="fill_parent"
+            android:layout_height="0.0dip"
+            android:text="@string/app_name"
+            android:layout_weight="0.18" />
+
+
+        <TextView android:textSize="12.0sp"
+            android:textColor="@android:color/white"
+            android:gravity="center_horizontal"
+            android:background="@android:color/transparent"
+            android:layout_width="fill_parent" android:layout_height="0.0dip"
+            android:text="version 1.0.0"
+            android:layout_weight="0.15" />
+    </LinearLayout>
+  <FrameLayout
+      android:layout_width="fill_parent"
+      android:layout_height="0.0dip"
+      android:padding="10dp"
+      android:layout_weight="2.2"
+      android:background="@drawable/corner_bn">
+    <LinearLayout android:orientation="vertical"
+
+        android:weightSum="8.5"
+android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg2"  >
+        <RelativeLayout
+          android:id="@+id/statuseslyt"
+            android:background="@android:color/transparent"
+            android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="85.0dip" android:layout_weight="1.0">
+
+
+            <com.airbnb.lottie.LottieAnimationView
+                android:padding="1dp"
+                android:visibility="visible"
+android:layout_marginVertical="5dp"
+                app:lottie_colorFilter="@color/colorText"
+                android:id="@+id/home"
+                android:background="@android:color/transparent"
+                android:clickable="true"
+                android:layout_width="80.0dip"
+                android:layout_height="fill_parent"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                app:lottie_autoPlay="true"
+                app:lottie_loop="true"
+                app:lottie_rawRes="@raw/home" />
+
+
+
+
+            <TextView android:textColor="@color/colorWhite"
+                android:gravity="center|left"
+                android:id="@+id/home_text"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:background="@android:color/transparent"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="15.0dip"
+                android:text="Home"
+                android:layout_toRightOf="@id/home" />
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/Bstatuseslyt"
+            android:background="@android:color/transparent"
+
+            android:layout_width="fill_parent"
+            android:layout_height="0.0dip"
+            android:layout_marginTop="10.0dip"
+
+            android:layout_marginRight="85.0dip"
+            android:layout_weight="1.0">
+            <ImageView
+                android:padding="1dp"
+                android:visibility="visible"
+
+                android:id="@+id/About"
+                android:background="@android:color/transparent"
+                android:clickable="true"
+                android:layout_width="80.0dip"
+                android:src="@drawable/kalma_logo"
+                android:layout_height="fill_parent"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                />
+            <TextView android:textColor="@color/colorWhite"
+                android:gravity="center|left"
+                android:id="@+id/Abouttxt"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:background="@android:color/transparent"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="15.0dip"
+                android:text="About us"
+                android:layout_toRightOf="@id/About" />
+        </RelativeLayout>
+
+
+
+
+
+
+
+        <RelativeLayout
+            android:id="@+id/themseslyt"
+            android:background="@android:color/transparent"
+            android:layout_width="fill_parent"
+            android:layout_height="0.0dip"
+            android:layout_marginTop="10.0dip" android:layout_marginRight="85.0dip" android:layout_weight="1.0">
+            <com.airbnb.lottie.LottieAnimationView
+                android:padding="1dp"
+                android:visibility="visible"
+                android:layout_marginVertical="5dp"
+                app:lottie_colorFilter="@color/colorText"
+                android:id="@+id/share"
+                android:background="@android:color/transparent"
+                android:clickable="true"
+                android:layout_width="80.0dip"
+                android:layout_height="fill_parent"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                app:lottie_autoPlay="true"
+                app:lottie_loop="true"
+                app:lottie_rawRes="@raw/share" />
+
+            <TextView android:textColor="@color/colorWhite"
+                android:gravity="center|left"
+                android:id="@+id/sharetxt"
+                android:background="@android:color/transparent"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                  android:textSize="15sp"
+                  android:textStyle="bold"
+                android:layout_marginLeft="15.0dip"
+                android:text="Share"
+                android:layout_toRightOf="@id/share" />
+        </RelativeLayout>
+
+
+
+
+        <RelativeLayout
+            android:id="@+id/Bstatuseslyt1"
+            android:background="@android:color/transparent"
+
+            android:layout_width="fill_parent"
+            android:layout_height="0.0dip"
+            android:layout_marginTop="10.0dip"
+
+            android:layout_marginRight="85.0dip"
+            android:layout_weight="1.0">
+            <ImageView
+                android:padding="1dp"
+                android:visibility="visible"
+
+                android:id="@+id/About1"
+                android:background="@android:color/transparent"
+                android:clickable="true"
+                android:layout_width="80.0dip"
+                android:src="@drawable/like_icone"
+                android:layout_height="30dp"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                />
+            <TextView android:textColor="@color/colorWhite"
+                android:gravity="center|left"
+                android:id="@+id/Abouttxt1"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:background="@android:color/transparent"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="15.0dip"
+                android:text="Like us on FB"
+                android:layout_toRightOf="@id/About1" />
+
+
+
+        </RelativeLayout>
+
+
+
+
+        <RelativeLayout
+            android:id="@+id/Bstatuseslyt2"
+            android:background="@android:color/transparent"
+
+            android:layout_width="fill_parent"
+            android:layout_height="0.0dip"
+            android:layout_marginTop="10.0dip"
+
+            android:layout_marginRight="85.0dip"
+            android:layout_weight="1.0">
+
+
+
+            <ImageView
+                android:padding="1dp"
+                android:visibility="visible"
+                android:id="@+id/About2"
+                android:background="@android:color/transparent"
+                android:clickable="true"
+                android:layout_width="80.0dip"
+                android:src="@drawable/youtube_icon"
+                android:layout_height="30dp"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                />
+
+            <TextView android:textColor="@color/colorWhite"
+                android:gravity="center|left"
+                android:id="@+id/Abouttxt2"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:background="@android:color/transparent"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="15.0dip"
+                android:text="Youtube Link"
+                android:layout_toRightOf="@id/About2" />
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/Bstatuseslyt3"
+            android:background="@android:color/transparent"
+
+            android:layout_width="fill_parent"
+            android:layout_height="0.0dip"
+            android:layout_marginTop="10.0dip"
+
+            android:layout_marginRight="85.0dip"
+            android:layout_weight="1.0">
+            <ImageView
+                android:padding="1dp"
+                android:visibility="visible"
+
+                android:id="@+id/About3"
+                android:background="@android:color/transparent"
+                android:clickable="true"
+                android:layout_width="80.0dip"
+                android:src="@drawable/kalma_logo"
+                android:layout_height="fill_parent"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                />
+            <TextView android:textColor="@color/colorWhite"
+                android:gravity="center|left"
+                android:id="@+id/Abouttxt3"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:background="@android:color/transparent"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="15.0dip"
+                android:text="3D view"
+                android:layout_toRightOf="@id/About3"
+                />
+        </RelativeLayout>
+
+
+
+
+    </LinearLayout>
+
+
+  </FrameLayout>
+</LinearLayout>

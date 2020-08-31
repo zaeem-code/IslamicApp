@@ -1,0 +1,604 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    android:weightSum="5">
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:id="@+id/x"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.4"
+
+            >
+
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/tool"
+                android:background="@color/colorGreen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+
+                    >
+
+
+
+                    <RelativeLayout
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:layout_height="match_parent"
+                        >
+
+
+
+
+
+
+                        <TextView android:textSize="20dp"
+                            android:textColor="@color/colorText"
+                            android:id="@+id/home_text"
+                            android:layout_width="140dp"
+                            android:layout_height="wrap_content"
+                            android:text="Home"
+                           android:layout_centerInParent="true"
+
+                            />
+
+
+                        <ImageView
+                            android:layout_width="30dp"
+                            android:layout_height="40dp"
+                            android:src="@drawable/qibla_compass"
+                            android:id="@+id/qibla"
+                            android:layout_toRightOf="@id/home_text"
+                            android:layout_centerVertical="true"
+                            />
+
+
+                        <FrameLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_toRightOf="@id/qibla"
+                            >
+
+                            <ImageView
+                                android:layout_width="30dp"
+                                android:layout_height="40dp"
+                                android:src="@drawable/bellicon"
+                                android:layout_marginLeft="10dp"
+                                android:layout_gravity="center_vertical"
+                                android:id="@+id/notification"
+                                android:layout_toRightOf="@id/qibla"
+                                />
+
+
+                            <RelativeLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/corner_red"
+                                android:id="@+id/card"
+                                android:layout_marginLeft="30dp"
+                                android:layout_gravity="center_vertical"
+                                android:visibility="invisible"
+                                >
+
+                                <TextView
+                                    android:layout_width="20dp"
+                                    android:layout_height="20dp"
+                                    android:id="@+id/counter"
+                                    android:textSize="15sp"
+                                    android:textAlignment="center"
+                                    android:textColor="#ffecc73a"
+
+
+                                    />
+
+                            </RelativeLayout>
+
+
+                        </FrameLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+                    </RelativeLayout>
+
+
+
+
+
+
+
+                </RelativeLayout>
+
+
+
+            </androidx.appcompat.widget.Toolbar>
+        </com.google.android.material.appbar.AppBarLayout>
+
+
+
+
+
+
+
+
+
+    <LinearLayout android:orientation="vertical"
+        android:background="@drawable/home_bg"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/back_img"
+        android:layout_weight="1.59">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="7dp"
+
+            />
+
+
+        <LinearLayout android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:weightSum="2"
+            >
+            <TextView android:textSize="17sp"
+                android:textStyle="bold"
+                android:textColor="@color/colorWhite"
+                android:gravity="center_horizontal"
+                android:layout_width="0dp"
+                android:layout_height="20dp"
+                android:text="Pakistan" android:layout_weight="1"/>
+
+
+            <TextView android:textSize="17sp"
+                android:textStyle="bold"
+                android:textColor="@color/colorWhite"
+                android:gravity="center_horizontal"
+                android:layout_width="0dp"
+                android:layout_height="20dp"
+                android:text="Madina"
+                android:layout_weight="1"
+
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:weightSum="2">
+            <TextView android:textSize="17dp"
+                android:gravity="center_horizontal"
+                android:textColor="@android:color/white"
+                android:id="@+id/islamic_geo"
+                android:layout_width="0dp"
+                android:layout_height="20dp"
+                android:text="Islamic Date/Time"
+                android:layout_weight="1"
+                />
+            <TextView android:textSize="17dp"
+                android:textColor="@android:color/white"
+                android:gravity="center_horizontal"
+                android:id="@+id/gorgion"
+                android:layout_width="0dp"
+                android:layout_height="20dp"
+                android:text="Georgan Date/Time"
+                android:layout_weight="1"/>
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="2">
+
+
+            <TextView android:textSize="14dp"
+                android:gravity="center_horizontal"
+                android:id="@+id/pak_time"
+                android:layout_width="0dp"
+                android:textColor="@android:color/white"
+                android:layout_height="35dp"
+                android:text="Pakistan"
+                android:layout_weight="1"
+
+                />
+
+
+            <TextView android:textSize="14dp"
+
+                android:textColor="@android:color/white"
+                android:gravity="center_horizontal"
+                android:id="@+id/madina_time"
+                android:layout_width="0dp"
+                android:layout_height="35dp"
+                android:text="Madina"
+                android:layout_weight="1"/>
+        </LinearLayout>
+        <View android:layout_width="match_parent"
+            android:layout_height="10dp"/>
+
+
+        <LinearLayout android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="1">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:background="@drawable/corner_bn"
+                android:layout_width="0dp"
+                android:layout_height="45dp"
+                android:layout_weight="0.4">
+
+                <TextView android:textSize="15dp"
+                    android:textColor="@color/colorText"
+                    android:gravity="center_horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Current Namaz"/>
+
+                <TextView android:textSize="15dp"
+                    android:textColor="@color/colorText"
+                    android:gravity="center_horizontal" android:id="@+id/current_namaz" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Current Namaz"/>
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+
+
+
+
+
+
+        <LinearLayout
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="1"
+
+            >
+
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="0.2"
+
+                >
+                <TextView
+                    android:textSize="15dp"
+                    android:textColor="@color/colorWhite"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Sun Rise"
+
+                    />
+
+                <TextView
+                    android:textSize="16dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorWhite"
+                    android:gravity="center"
+                    android:id="@+id/sun_rise"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=""
+
+                    />
+
+
+
+
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.1"
+                />
+
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:background="@drawable/corner_bn"
+                android:layout_width="0dp"
+                android:layout_height="45dp"
+                android:layout_weight="0.4"
+
+                >
+                <TextView android:textSize="15dp"
+                    android:textColor="@color/colorText"
+                    android:gravity="center_horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Next Namaz"/>
+
+
+                <TextView
+                    android:textSize="15dp"
+                    android:textColor="@color/colorText"
+                    android:gravity="center_horizontal"
+                    android:id="@+id/next_namaz"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Current Namaz"
+
+                    />
+
+
+
+
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.1"
+                />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="0.2"
+
+                >
+
+                <TextView
+                    android:textSize="15dp"
+                    android:textColor="@color/colorWhite"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Sun Set"
+
+                    />
+
+
+                <TextView
+                    android:textSize="16dp"
+                    android:textColor="@color/colorWhite"
+                    android:gravity="center"
+                    android:id="@+id/sun_set"
+                    android:textStyle="bold"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=""
+
+                    />
+
+
+
+
+
+            </LinearLayout>
+
+
+
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <FrameLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2.7" />
+
+    <LinearLayout
+        android:layout_gravity="bottom"
+        android:background="@color/colorGreen"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:layout_weight="0.37"
+        android:layout_below="@+id/container"
+        >
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="5"
+
+            >
+
+            <LinearLayout
+                android:layout_gravity="center"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:weightSum="1"
+                android:layout_weight="1">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight=".6"
+                    android:src="@drawable/quranicinfo"
+                    android:id="@+id/gurann"/>
+
+
+
+                <TextView android:textSize="10dp" android:textColor="@color/colorText"
+                    android:gravity="center_horizontal|top"
+                    android:id="@+id/quran"
+                    android:layout_width="match_parent"
+                    android:layout_weight=".3"
+                    android:textAllCaps="true"
+
+                    android:textStyle="bold"
+                    android:layout_height="0dp" android:text="Quran"/>
+
+
+            </LinearLayout>
+
+
+
+
+
+
+            <LinearLayout
+                android:layout_gravity="center"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:weightSum="1"
+                android:layout_weight="1">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight=".6"
+                    android:src="@drawable/library"
+                    android:id="@+id/liberaryy"/>
+
+
+
+                <TextView android:textSize="10dp" android:textColor="@color/colorText"
+                    android:gravity="center_horizontal|top" android:id="@+id/liberary"
+                    android:layout_width="match_parent"
+
+
+                    android:layout_weight=".3"
+
+                    android:textAllCaps="true"
+                    android:textStyle="bold"
+                    android:layout_height="0dp" android:text="Library"/>
+
+
+            </LinearLayout>
+
+
+
+
+
+            <LinearLayout
+                android:layout_gravity="center"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:weightSum="1"
+                android:layout_weight="1">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight=".6"
+                    android:src="@drawable/home"
+                    android:id="@+id/homee"/>
+
+
+
+                <TextView android:textSize="12dp"
+                    android:textColor="@color/colorText"
+                    android:gravity="center_horizontal|top"
+                    android:id="@+id/home"
+                    android:layout_width="match_parent"
+                    android:layout_weight=".3"
+                    android:textAllCaps="true"
+
+                    android:textStyle="bold"
+                    android:layout_height="0dp" android:text="Home"/>
+
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_gravity="center"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:weightSum="1"
+                android:layout_weight="1">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight=".6"
+                    android:src="@drawable/dua_hands"
+                    android:id="@+id/ibadatt"/>
+
+
+
+                <TextView android:textSize="10dp" android:textColor="@color/colorText"
+                    android:gravity="center_horizontal|top"
+                    android:id="@+id/ibadat"
+                    android:layout_width="match_parent"
+
+                    android:layout_weight=".3"
+
+                    android:textStyle="bold"
+                    android:textAllCaps="true"
+                    android:layout_height="0dp" android:text="Ibadat"/>
+
+
+            </LinearLayout>
+
+
+
+
+            <LinearLayout
+                android:layout_gravity="center"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:weightSum="1"
+                android:layout_weight="1">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight=".6"
+                    android:layout_marginLeft="5dp"
+                    android:src="@drawable/live"
+                    android:id="@+id/livee"/>
+
+
+
+                <TextView android:textSize="10dp"
+                    android:textColor="@color/colorText"
+                    android:gravity="center_horizontal|top"
+                    android:id="@+id/live"
+                    android:layout_width="match_parent"
+                    android:layout_weight=".3"
+                    android:textStyle="bold"
+                    android:textAllCaps="true"
+                    android:layout_height="0dp"
+                    android:text="Live"/>
+
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

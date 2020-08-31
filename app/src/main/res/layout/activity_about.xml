@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+
+    android:orientation="vertical"
+    android:id="@+id/bg"
+    android:background="@drawable/bg2"
+    android:layout_height="match_parent"
+    android:weightSum="5" >
+    <ImageView
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:src="@drawable/backarrow"
+        android:clickable="true"
+        android:id="@+id/back"/>
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:padding="1dp"
+        android:clickable="true"
+        android:visibility="visible"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+android:background="@android:color/transparent"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/book" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_gravity="left|center_vertical"
+        android:layout_weight=".7"
+        android:background="@android:color/transparent"
+        android:gravity="center|top"
+        android:text="'Kalma channels is one of the most reliable source of providing authentic and up to date info related to any event accurs from all over the muslim world '"
+        android:textColor="@android:color/white"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:visibility="visible"
+        tools:ignore="HardcodedText" />
+    <com.airbnb.lottie.LottieAnimationView
+
+        android:background="@android:color/transparent"
+        android:padding="1dp"
+        android:clickable="true"
+        android:visibility="visible"
+        android:id="@+id/button_listen_from"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".5"
+
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/contact_us" />
+
+    <TextView
+        android:visibility="visible"
+        android:background="@android:color/transparent"
+        android:text="contact us for more Contenet"
+
+        android:autoSizeMaxTextSize="15sp"
+        android:autoSizeMinTextSize="5sp"
+        android:autoSizeTextType="uniform"
+        android:autoText="true"
+        android:gravity="center|top"
+        android:textStyle="bold"
+        android:layout_gravity="left|center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".2"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".5"
+        android:weightSum="5"
+        android:background="@android:color/transparent"
+        android:orientation="horizontal">
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:padding="1dp"
+            android:clickable="true"
+            android:background="@android:color/transparent"
+            android:visibility="visible"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".5"
+
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+            app:lottie_rawRes="@raw/whatsapp" />
+
+        <TextView
+            android:visibility="visible"
+            android:background="@android:color/transparent"
+            android:text="+00000000000."
+            android:autoSizeMaxTextSize="15sp"
+            android:autoSizeMinTextSize="5sp"
+            android:autoSizeTextType="uniform"
+            android:autoText="true"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:layout_gravity="left|center_vertical"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            />
+
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:padding="1dp"
+            android:clickable="true"
+            android:visibility="visible"
+            android:layout_width="0dp"
+            android:background="@android:color/transparent"
+            android:layout_height="match_parent"
+            android:layout_weight=".5"
+
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+            app:lottie_rawRes="@raw/email_us" />
+
+        <TextView
+            android:visibility="visible"
+            android:background="@android:color/transparent"
+            android:text="Kalma_ch@gmail.com"
+            android:autoSizeMaxTextSize="15sp"
+            android:autoSizeMinTextSize="5sp"
+            android:autoSizeTextType="uniform"
+            android:autoText="true"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:layout_gravity="left|center_vertical"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            />
+    </LinearLayout>
+
+    <ImageView
+        android:background="@android:color/transparent"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:src="@drawable/logo_main"
+        android:layout_gravity="center_horizontal"/>
+
+
+</LinearLayout>

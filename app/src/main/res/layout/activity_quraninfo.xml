@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/bg1"
+    android:layout_height="match_parent"
+    tools:context=".Activities.QuraninfoActivity">
+    <ImageView
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:src="@drawable/backarrow"
+        android:clickable="true"
+        android:id="@+id/back"/>
+    
+    <androidx.core.widget.NestedScrollView
+        android:layout_below="@id/back"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:paddingVertical="5dp"
+            android:layout_height="match_parent">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="300dp"
+                android:foregroundGravity="center"
+                android:layout_height="300dp"
+                android:id="@+id/c1"
+                app:cardBackgroundColor="@color/colorWhite"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/corner_bn"
+                app:cardCornerRadius="20dp"
+                android:visibility="visible"
+
+                android:layout_marginHorizontal="20dp"
+                android:elevation="10dp"
+                >/
+
+                <ImageView
+                    android:id="@+id/Hadeesbook1"
+                    android:layout_gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/book1"
+                    android:background="@android:color/white"
+                    android:scaleType="fitXY"></ImageView>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+
+                android:layout_width="300dp"
+                android:foregroundGravity="center"
+                android:layout_height="300dp"
+                android:id="@+id/c2"
+                android:layout_below="@+id/c1"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                app:cardBackgroundColor="@android:color/transparent"
+
+                android:background="@drawable/corner_bn"
+                app:cardCornerRadius="20dp"
+                android:layout_marginHorizontal="20dp"
+                android:elevation="10dp"
+                android:visibility="visible"
+                >/
+
+                <ImageView
+                    android:id="@+id/Hadeesbook2"
+                    android:layout_gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/book2"
+
+                    android:background="@android:color/white"
+                    android:scaleType="fitXY"></ImageView>
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+
+                android:layout_width="300dp"
+                android:foregroundGravity="center"
+                android:layout_height="300dp"
+                android:id="@+id/c3"
+                android:layout_below="@+id/c2"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                app:cardBackgroundColor="@android:color/transparent"
+                android:background="@drawable/corner_bn"
+                app:cardCornerRadius="20dp"
+                android:layout_marginHorizontal="20dp"
+                android:elevation="10dp"
+                android:visibility="visible"
+                >
+
+                <ImageView
+
+                    android:id="@+id/Hadeesbook3"
+                    android:layout_gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/book3"
+
+                    android:background="@android:color/transparent"
+                    android:scaleType="fitXY"></ImageView>
+            </androidx.cardview.widget.CardView>
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginHorizontal="30dp"
+                android:layout_marginVertical="13dp"
+                android:layout_marginTop="10dp"
+                android:id="@+id/KD"
+                android:layout_alignParentTop="true"
+
+                android:visibility="gone"
+                android:textSize="12sp"
+                android:text="۔الاسراء"
+                android:textColor="@color/colorText"
+                android:background="@drawable/corner_bn"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginHorizontal="30dp"
+
+                android:id="@+id/DA"
+                android:layout_below="@+id/KD"
+                android:textSize="12sp"
+                android:text="۔الاعراف"
+                android:visibility="gone"
+                android:textColor="@color/colorText"
+                android:background="@drawable/corner_bn"/>
+
+
+
+            <Button
+            android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginHorizontal="30dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/book1C"
+            android:layout_below="@+id/DA"
+            android:textSize="12sp"
+                android:visibility="gone"
+            android:text="۔الانشقاق"
+            android:textColor="@color/colorText"
+            android:background="@drawable/corner_bn"/>
+
+
+
+            <Button
+            android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginHorizontal="30dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/book1D"
+            android:layout_below="@+id/book1C"
+
+                android:visibility="gone"
+            android:textSize="12sp"
+            android:text="الحج"
+            android:textColor="@color/colorText"
+            android:background="@drawable/corner_bn"/>
+
+
+            <Button
+            android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginHorizontal="30dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/book1E"
+            android:layout_below="@+id/book1D"
+
+                android:visibility="gone"
+            android:textSize="12sp"
+            android:text="الرعد"
+            android:textColor="@color/colorText"
+            android:background="@drawable/corner_bn"/>
+
+            <Button
+            android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginHorizontal="30dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/book1F"
+
+            android:layout_below="@+id/book1E"
+
+                android:visibility="gone"
+            android:textSize="12sp"
+            android:text="السجدۃ"
+            android:textColor="@color/colorText"
+            android:background="@drawable/corner_bn"/>
+
+
+            <Button
+            android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginHorizontal="30dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/book1G"
+            android:layout_below="@+id/book1F"
+
+                android:visibility="gone"
+            android:textSize="12sp"
+            android:text="۔العلق"
+            android:textColor="@color/colorText"
+            android:background="@drawable/corner_bn"/>
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginHorizontal="30dp"
+                android:layout_marginTop="10dp"
+                android:id="@+id/book1H"
+                android:layout_below="@+id/book1G"
+                android:textSize="12sp"
+                android:text="لفرقان"
+
+                android:visibility="gone"
+                android:textColor="@color/colorText"
+                android:background="@drawable/corner_bn"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginHorizontal="30dp"
+                android:layout_marginTop="10dp"
+                android:id="@+id/book1I"
+                android:layout_below="@+id/book1H"
+                android:visibility="gone"
+                android:textSize="12sp"
+                android:text="۔النجم"
+                android:textColor="@color/colorText"
+                android:background="@drawable/corner_bn"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginHorizontal="30dp"
+                android:layout_marginTop="10dp"
+                android:id="@+id/book1J"
+                android:layout_below="@+id/book1I"
+                android:visibility="gone"
+                android:textSize="12sp"
+                android:text="النحل"
+                android:textColor="@color/colorText"
+                android:background="@drawable/corner_bn"/>
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginHorizontal="30dp"
+                android:layout_marginTop="10dp"
+                android:id="@+id/book1K"
+                android:layout_below="@+id/book1J"
+                android:visibility="gone"
+                android:textSize="12sp"
+                android:text="النمل"
+                android:textColor="@color/colorText"
+                android:background="@drawable/corner_bn"/>
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginHorizontal="30dp"
+                android:layout_marginTop="10dp"
+                android:id="@+id/book1l"
+                android:layout_below="@+id/book1K"
+                android:visibility="gone"
+                android:textSize="12sp"
+                android:text="ص"
+                android:textColor="@color/colorText"
+                android:background="@drawable/corner_bn"/>
+
+
+
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginHorizontal="30dp"
+                android:layout_marginTop="10dp"
+                android:id="@+id/book1m"
+                android:layout_below="@+id/book1l"
+                android:visibility="gone"
+                android:textSize="12sp"
+                android:text="فصلت"
+                android:textColor="@color/colorText"
+                android:background="@drawable/corner_bn"/>
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginHorizontal="30dp"
+                android:layout_marginTop="10dp"
+                android:id="@+id/book1n"
+                android:layout_below="@+id/book1m"
+                android:visibility="gone"
+                android:textSize="12sp"
+                android:text="مریم"
+                android:textColor="@color/colorText"
+                android:background="@drawable/corner_bn"/>
+
+
+
+
+        </RelativeLayout>
+        
+        
+        
+    </androidx.core.widget.NestedScrollView>
+</RelativeLayout>

@@ -1,0 +1,84 @@
+<androidx.core.widget.NestedScrollView
+
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    >
+
+
+        <androidx.cardview.widget.CardView
+android:layout_margin="5dp"
+            android:padding="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            app:cardBackgroundColor="@android:color/white"
+            android:background="@android:color/transparent"
+            app:cardCornerRadius="20dp"
+
+            android:elevation="10dp"
+            >
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+
+        <ImageView
+            android:clickable="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/sound"
+            android:visibility="gone"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="19sp"
+
+            />
+
+
+        <TextView
+    android:clickable="true"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textAlignment="center"
+    android:id="@+id/textx"
+    android:textColor="@color/black"
+    android:textStyle="bold"
+    android:textSize="20sp"
+            android:layout_margin="10dp"
+   />
+
+
+        <TextView
+            android:clickable="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textx"
+            android:id="@+id/texty"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:layout_marginTop="55dp"
+            android:textSize="20sp"
+            android:layout_margin="10dp"
+
+
+            />
+
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+
+</androidx.core.widget.NestedScrollView>
+
+
+

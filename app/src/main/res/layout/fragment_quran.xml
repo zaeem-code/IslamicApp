@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg1"
+    android:paddingVertical="10dp"
+    tools:context=".Fragments.QuranFragment">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/transparent" >
+
+
+
+    <RelativeLayout
+        android:id="@+id/quran_lyt"
+        android:layout_width="110dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="30dp"
+        android:background="@drawable/corner_new"
+        android:layout_height="105dp">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/quranicon"
+        android:id="@+id/quran"
+        android:clickable="true"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:textStyle="bold"
+            android:textColor="@color/colorText"
+            android:text="Quran"
+            android:gravity="center_horizontal"
+            android:textSize="14sp"
+            android:layout_below="@+id/quran"
+            android:id="@+id/quran_text"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/search_lyt"
+        android:layout_marginRight="30dp"
+        android:layout_alignParentRight="true"
+        android:layout_width="110dp"
+        android:background="@drawable/corner_new"
+        android:layout_height="105dp">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/ic_baseline_search_24"
+            android:tint="@color/colorText"
+            android:id="@+id/search"
+            android:clickable="true"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:textStyle="bold"
+            android:textColor="@color/colorText"
+            android:text="Search"
+            android:gravity="center_horizontal"
+            android:textSize="14sp"
+            android:layout_below="@+id/search"
+            android:id="@+id/search_text"/>
+
+    </RelativeLayout>
+
+
+
+    <RelativeLayout
+        android:layout_below="@+id/quran_lyt"
+        android:layout_marginTop="10dp"
+        android:id="@+id/quraninfo_lyt"
+        android:layout_width="110dp"
+        android:layout_marginLeft="10dp"
+         android:layout_centerHorizontal="true"
+        android:background="@drawable/corner_new"
+        android:layout_height="105dp">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/quranicinfo"
+            android:id="@+id/quraninfo"
+            android:clickable="true"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:paddingHorizontal="2dp"
+            android:textColor="@color/colorText"
+            android:text="Quran info"
+            android:clickable="true"
+            android:gravity="center_horizontal"
+            android:textSize="14sp"
+            android:layout_below="@+id/quraninfo"
+            android:id="@+id/quraninfo_text"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/translate_lyt"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="30dp"
+        android:layout_alignParentRight="true"
+        android:layout_width="110dp"
+        android:layout_below="@+id/quraninfo_lyt"
+        android:background="@drawable/corner_new"
+        android:layout_height="105dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/translationicon"
+            android:id="@+id/transalate"
+            android:clickable="true"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textColor="@color/colorText"
+            android:text="Urdu Translation"
+            android:gravity="top|center_horizontal"
+            android:paddingBottom="3dp"
+            android:paddingHorizontal="2dp"
+            android:textSize="14sp"
+            android:clickable="true"
+            android:layout_below="@+id/transalate"
+            android:id="@+id/transalate_text"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/recitation_lyt"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="30dp"
+        android:layout_alignParentLeft="true"
+        android:layout_width="110dp"
+        android:layout_below="@+id/quraninfo_lyt"
+        android:background="@drawable/corner_new"
+        android:layout_height="105dp">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/beautifulrecitation"
+            android:id="@+id/recitation"
+            android:clickable="true"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textColor="@color/colorText"
+            android:text="Beautiful Recitation"
+            android:paddingBottom="3dp"
+            android:gravity="top|center_horizontal"
+            android:textSize="14sp"
+            android:paddingHorizontal="2dp"
+            android:clickable="true"
+            android:layout_below="@+id/recitation"
+            android:id="@+id/recitation_text"/>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
+</androidx.core.widget.NestedScrollView>

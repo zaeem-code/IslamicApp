@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/colorWhite"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:elevation="3dp"
+
+    android:layout_height="wrap_content">
+
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:visibility="visible"
+        android:layout_width="280dp"
+        android:layout_marginLeft="10dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center_horizontal"
+android:id="@+id/net"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/internet" />
+    <TextView
+        android:layout_marginTop="15dp"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Try to turn onn internet  "
+        android:textColor="@android:color/black"
+        android:textSize="11sp"
+        android:layout_below="@+id/net"
+        android:id="@+id/notify"
+        android:layout_gravity="top"
+
+        android:gravity="center"/>
+        <Button
+            android:layout_gravity="bottom"
+            android:layout_below="@+id/notify"
+            android:layout_width="match_parent"
+            android:background="@drawable/cardbg2"
+            android:layout_marginHorizontal="100dp"
+            android:text="Ok"
+            android:layout_marginTop="5dp"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:textColor="#fff"
+            android:layout_marginBottom="10sp"
+            android:id="@+id/ok"
+            android:layout_height="30dp" />
+
+
+</FrameLayout>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/corner_white"
+    android:layout_margin="10dp"
+    android:id="@+id/layout"
+
+    >
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:id="@+id/layout1"
+
+        >
+
+
+
+
+
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/bellicon"
+        android:id="@+id/img_des"
+        />
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="title"
+        android:textSize="19sp"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:layout_marginLeft="20dp"
+        android:layout_toRightOf="@id/img_des"
+        android:id="@+id/title"
+
+        />
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/body"
+        android:textAlignment="center"
+        android:textSize="17sp"
+        android:layout_below="@id/title"
+        android:layout_toRightOf="@id/img_des"
+        android:layout_marginLeft="20dp"
+        android:hint="body"
+        android:textColor="@color/black"
+
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/time"
+        android:textAlignment="center"
+        android:textSize="17sp"
+        android:layout_below="@id/body"
+        android:layout_toRightOf="@id/img_des"
+        android:layout_marginLeft="20dp"
+        android:hint="time"
+        android:textColor="@color/black"
+
+        tools:ignore="NotSibling" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/date"
+            android:textAlignment="center"
+            android:textSize="17sp"
+            android:layout_below="@id/body"
+            android:layout_toRightOf="@id/time"
+            android:layout_marginLeft="20dp"
+            android:hint="date"
+            android:textColor="@color/black"
+
+            />
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/remove"
+            android:textAlignment="center"
+            android:textSize="17sp"
+            android:layout_below="@id/body"
+            android:layout_marginLeft="20dp"
+            android:hint="date"
+            android:text="remove"
+            android:background="@drawable/corner_bn"
+            android:layout_alignParentEnd="true"
+            android:textColor="@color/colorText"
+            android:visibility="invisible"
+
+            />
+
+
+
+
+
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

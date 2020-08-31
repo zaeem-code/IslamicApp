@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/bg1"
+    android:layout_height="match_parent">
+
+
+
+
+
+
+    <ImageView
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:src="@drawable/backarrow"
+        android:clickable="true"
+        android:id="@+id/back"/>
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        android:weightSum="3">
+        <androidx.legacy.widget.Space
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".3"/>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:background="@drawable/corner_white"
+            android:layout_margin="10dp"
+
+
+            >
+
+            <com.smarteist.autoimageslider.SliderView
+                android:visibility="visible"
+                android:layout_below="@+id/slider"
+
+
+                android:id="@+id/slider2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:sliderAnimationDuration="500"
+                app:sliderAutoCycleDirection="left"
+                app:sliderAutoCycleEnabled="true"
+                app:sliderIndicatorAnimationDuration="500"
+                app:sliderIndicatorGravity="center_horizontal|bottom"
+                app:sliderIndicatorMargin="0dp"
+                app:sliderIndicatorOrientation="horizontal"
+                app:sliderIndicatorPadding="3dp"
+                app:sliderIndicatorRadius="1dp"
+                app:sliderIndicatorSelectedColor="@color/colorText"
+                app:sliderIndicatorUnselectedColor="@android:color/transparent"
+                app:sliderScrollTimeInSec="1"
+                app:sliderStartAutoCycle="true" />
+
+
+
+
+        </LinearLayout>
+
+
+        <androidx.legacy.widget.Space
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".2"/>
+
+        <Button
+            android:layout_width="match_parent"
+
+            android:layout_height="0dp"
+            android:layout_marginHorizontal="30dp"
+            android:layout_weight=".34"
+            android:id="@+id/Msdua"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="5dp"
+            android:layout_below="@+id/KD"
+
+            android:textSize="20sp"
+            android:text="Masnoon Dua"
+            android:layout_centerHorizontal="true"
+
+            android:textColor="@color/colorText"
+            android:background="@drawable/corner_bn"/>
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>
+

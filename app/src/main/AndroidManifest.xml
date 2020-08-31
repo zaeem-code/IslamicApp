@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.developer.islamicapp">
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature
+        android:name="android.hardware.camera.ar"
+        android:required="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".Activities.SlideMasnon"></activity>
+        <activity android:name=".Activities.Notificaton_Activity" />
+        <activity android:name=".Activities.Youtube_video" />
+        <activity android:name=".Activities.NamazActivit_details" />
+
+        <service
+            android:name=".utils.FCMService"
+            android:enabled="true"
+            android:exported="true"
+            android:permission="com.google.android.c2dm.permission.SEND">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+            </intent-filter>
+        </service>
+
+        <activity android:name=".Activities.Treeka_Gusal" />
+        <activity android:name=".Activities.ZikarActivity" />
+        <activity android:name=".Activities.aboutActivity" />
+        <activity android:name=".Activities.NamazActivity" />
+        <activity android:name=".Activities.Tasbhi_counter_Activity" />
+        <activity android:name=".Activities.TasbHIActivity" />
+        <activity android:name=".Activities.ReadingBookActivity" />
+        <activity android:name=".Activities.QuraninfoActivity" />
+        <activity android:name=".Activities.SearchActivity" />
+        <activity android:name=".Activities.Read_quran_Activity" />
+        <activity android:name=".Activities.QuranActivity" />
+        <activity android:name=".Activities.SignupActivity" />
+        <activity android:name=".Activities.Beautiful_Activity" />
+        <activity android:name=".Activities.Video_view" />
+        <activity android:name=".Activities.VideoUpload" />
+        <activity android:name=".Activities.MainActivity" />
+        <activity android:name=".Activities.Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.hassanjamil.hqibla.CompassActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            tools:ignore="MissingClass" />
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.developer.islamicapp.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_path" />
+        </provider>
+    </application>
+
+</manifest>

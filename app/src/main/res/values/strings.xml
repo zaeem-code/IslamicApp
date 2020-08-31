@@ -1,0 +1,116 @@
+<resources>
+
+    <string name="abc_action_bar_home_description">Navigate home</string>
+    <string name="abc_action_bar_up_description">Navigate up</string>
+    <string name="abc_action_menu_overflow_description">More options</string>
+    <string name="abc_action_mode_done">Done</string>
+    <string name="abc_activity_chooser_view_see_all">See all</string>
+    <string name="abc_activitychooserview_choose_application">Choose an app</string>
+    <string name="abc_capital_off">OFF</string>
+    <string name="abc_capital_on">ON</string>
+    <string name="abc_menu_alt_shortcut_label">Alt+</string>
+    <string name="abc_menu_ctrl_shortcut_label">Ctrl+</string>
+    <string name="abc_menu_delete_shortcut_label">delete</string>
+    <string name="abc_menu_enter_shortcut_label">enter</string>
+    <string name="abc_menu_function_shortcut_label">Function+</string>
+    <string name="abc_menu_meta_shortcut_label">Meta+</string>
+    <string name="abc_menu_shift_shortcut_label">Shift+</string>
+    <string name="abc_menu_space_shortcut_label">space</string>
+    <string name="abc_menu_sym_shortcut_label">Sym+</string>
+    <string name="abc_prepend_shortcut_label">Menu+</string>
+    <string name="abc_search_hint">Search…</string>
+
+    <string name="player_error">Error initializing YouTube player: %s</string>
+    <string name="seek_to">Jump To</string>
+    <string name="seek_to_hint">Seconds</string>
+
+    <string name="abc_searchview_description_clear">Clear query</string>
+    <string name="abc_searchview_description_query">Search query</string>
+    <string name="abc_searchview_description_search">Search</string>
+    <string name="abc_searchview_description_submit">Submit query</string>
+    <string name="abc_searchview_description_voice">Voice search</string>
+    <string name="abc_shareactionprovider_share_with">Share with</string>
+    <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
+    <string name="abc_toolbar_collapse_description">Collapse</string>
+    <string name="app_name">IslamicApp</string>
+    <string name="appbar_scrolling_view_behavior">com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior</string>
+    <string name="bottom_sheet_behavior">com.google.android.material.bottomsheet.BottomSheetBehavior</string>
+    <string name="character_counter_content_description">Characters entered %1$d of %2$d</string>
+    <string name="character_counter_overflowed_content_description">Character limit exceeded %1$d of %2$d</string>
+    <string name="character_counter_pattern">%1$d / %2$d</string>
+    <string name="chip_text">Chip text</string>
+    <string name="clear_text_end_icon_content_description">Clear text</string>
+    <string name="no_network">Unable to connect to server. Check your Internet connection.</string>
+    <string name="network_error">Network error…</string>
+    <string name="network_error_message">Internet is not available, reconnect network and try again.</string>
+    <string name="back"><![CDATA[<]]></string>
+    <string name="ok">OK</string>
+    <string name="rewind"><![CDATA[<<]]></string>
+    <string name="forward"><![CDATA[>>]]></string>
+    <string name="pause">||</string>
+    <string name="common_open_on_phone">Open on phone</string>
+    <string name="common_signin_button_text">Sign in</string>
+    <string name="common_signin_button_text_long">Sign in with Google</string>
+    <string name="day1">Saturday</string>
+    <string name="day1m">Satu</string>
+    <string name="day2">Sunday</string>
+    <string name="day2m">Sun</string>
+    <string name="day3">Monday</string>
+    <string name="day3m">Mon</string>
+    <string name="day4">Tuesday</string>
+    <string name="day4m">Tues</string>
+    <string name="day5">Wednesday</string>
+    <string name="day5m">Wedn</string>
+    <string name="day6">Thursday</string>
+    <string name="day6m">Thur</string>
+    <string name="day7">Friday</string>
+    <string name="day7m">Fri</string>
+
+    <string name="fri">Fri</string>
+
+
+    <string name="mon">Mon</string>
+    <string name="month1">Muharram</string>
+    <string name="month10">Shawwal</string>
+    <string name="month10g">October</string>
+    <string name="month11">Dhul Qa`dah</string>
+    <string name="month11g">November</string>
+    <string name="month12">Thul Hijjah</string>
+    <string name="month12g">December</string>
+    <string name="month1g">January</string>
+    <string name="month2">Safar</string>
+    <string name="month2g">February</string>
+    <string name="month3">Raby` al-awal</string>
+    <string name="month3g">March</string>
+    <string name="month4">Raby` al-THaany</string>
+    <string name="month4g">April</string>
+    <string name="month5">Jumaada al-awal</string>
+    <string name="month5g">May</string>
+    <string name="month6">Jumaada al-THaany</string>
+    <string name="month6g">June</string>
+    <string name="month7">Rajab</string>
+    <string name="month7g">July</string>
+    <string name="month8">Sha`baan</string>
+    <string name="month8g">August</string>
+    <string name="month9">Ramadhan</string>
+    <string name="month9g">September</string>
+
+    <string name="mtrl_picker_range_header_title">Select a Date Range</string>
+    <string name="mtrl_picker_range_header_unselected">Start date – End date</string>
+    <string name="mtrl_picker_save">Save</string>
+    <string name="mtrl_picker_text_input_date_hint">Date</string>
+    <string name="mtrl_picker_text_input_date_range_end_hint">End date</string>
+    <string name="mtrl_picker_text_input_date_range_start_hint">Start date</string>
+    <string name="mtrl_picker_text_input_day_abbr">d</string>
+    <string name="mtrl_picker_text_input_month_abbr">m</string>
+    <string name="mtrl_picker_text_input_year_abbr">y</string>
+    <string name="mtrl_picker_toggle_to_calendar_input_mode">Switch to calendar input mode</string>
+    <string name="mtrl_picker_toggle_to_day_selection">Tap to switch to selecting a day</string>
+    <string name="mtrl_picker_toggle_to_text_input_mode">Switch to text input mode</string>
+    <string name="mtrl_picker_toggle_to_year_selection">Tap to switch to selecting a year</string>
+    <string name="mtrl_slider_range_content_description">%1$s to %2$s</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+
+
+</resources>

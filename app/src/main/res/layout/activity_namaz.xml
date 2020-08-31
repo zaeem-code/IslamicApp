@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/bg1"
+    android:layout_height="match_parent" >
+    <ImageView
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:src="@drawable/backarrow"
+        android:clickable="true"
+        android:id="@+id/back"/>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_below="@id/back"
+        android:layout_width="match_parent"
+        android:paddingVertical="10dp"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:paddingVertical="5dp"
+            android:layout_gravity="center_vertical"
+            android:layout_height="match_parent">
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginHorizontal="30dp"
+                android:layout_marginTop="10dp"
+                android:id="@+id/TN"
+                android:layout_alignParentTop="true"
+                android:textSize="14sp"
+                android:text="Tareeka Namaz"
+                android:textColor="@color/colorText"
+                android:background="@drawable/corner_bn"
+                 android:layout_marginBottom="30dp"
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginHorizontal="30dp"
+                android:layout_marginBottom="30dp"
+
+                android:id="@+id/TG"
+                android:layout_below="@+id/TN"
+                android:layout_marginTop="10dp"
+                android:textSize="14sp"
+                android:text="Tareeka Gusal"
+                android:textColor="@color/colorText"
+                android:background="@drawable/corner_bn"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginHorizontal="30dp"
+                android:layout_marginBottom="30dp"
+
+                android:id="@+id/TW"
+                android:layout_below="@+id/TG"
+                android:textSize="14sp"
+                android:layout_marginTop="10dp"
+                android:text="Tareeka Wazu"
+                android:textColor="@color/colorText"
+                android:background="@drawable/corner_bn"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginHorizontal="30dp"
+                android:layout_marginBottom="30dp"
+
+                android:id="@+id/NE"
+                android:layout_below="@+id/TW"
+                android:textSize="14sp"
+                android:layout_marginTop="10dp"
+                android:text="Namaze Eid"
+                android:textColor="@color/colorText"
+                android:background="@drawable/corner_bn"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginHorizontal="30dp"
+
+                android:id="@+id/NJ"
+                android:layout_below="@+id/NE"
+                android:textSize="14sp"
+                android:layout_marginTop="10dp"
+                android:text="Namaze Jinaza"
+                android:textColor="@color/colorText"
+                android:background="@drawable/corner_bn"/>
+
+
+
+
+
+
+
+        </RelativeLayout>
+
+
+
+    </androidx.core.widget.NestedScrollView>
+</RelativeLayout>

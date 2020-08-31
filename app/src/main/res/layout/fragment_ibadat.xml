@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/bg1"
+    android:layout_height="wrap_content"
+    tools:context=".Fragments.IbadatFragment">
+<RelativeLayout
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    android:layout_margin="20dp"
+    >
+
+    <RelativeLayout
+        android:layout_width="130dp"
+        android:layout_height="105dp"
+        android:id="@+id/Tasbeh"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/corner_bn">
+
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:src="@drawable/tasbee_imp"
+            android:layout_centerVertical="true"
+            android:id="@+id/zero"
+            android:layout_centerInParent="true"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:text="Tasbeeh"
+            android:textColor="@color/colorText"
+            android:id="@+id/zerot"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="20dp"
+            android:layout_below="@id/zero"
+            android:layout_centerInParent="true"
+            />
+
+
+
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="130dp"
+        android:layout_height="105dp"
+        android:layout_marginLeft="5dp"
+        android:id="@+id/Zikar"
+
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/Tasbeh"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/corner_bn"
+
+        >
+
+
+
+
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:src="@drawable/zikar"
+            android:layout_centerVertical="true"
+            android:id="@+id/one"
+            android:layout_centerInParent="true"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:text="Zikar"
+            android:textColor="@color/colorText"
+            android:id="@+id/onet"
+            android:layout_centerVertical="true"
+android:layout_centerInParent="true"
+            android:layout_below="@id/one"
+
+            />
+
+
+
+
+
+
+
+
+
+
+    </RelativeLayout>
+    <RelativeLayout
+
+        android:layout_marginRight="5dp"
+        android:layout_width="130dp"
+        android:layout_height="105dp"
+        android:id="@+id/Namaz"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/Tasbeh"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/corner_bn">
+
+
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:src="@drawable/namaz"
+            android:layout_centerVertical="true"
+            android:id="@+id/two"
+            android:layout_centerInParent="true"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:text="Namaz"
+            android:textColor="@color/colorText"
+            android:id="@+id/twot"
+            android:layout_centerVertical="true"
+
+            android:layout_centerInParent="true"
+            android:layout_below="@id/two"
+            />
+
+
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="130dp"
+        android:layout_height="105dp"
+        android:layout_marginLeft="5dp"
+        android:id="@+id/Hajj"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/Zikar"
+        android:layout_marginTop="20dp"
+
+        android:background="@drawable/corner_bn">
+
+
+
+
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:src="@drawable/hajj"
+            android:layout_centerVertical="true"
+            android:id="@+id/three"
+            android:layout_centerInParent="true"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:text="Hajj"
+            android:textColor="@color/colorText"
+            android:id="@+id/threet"
+            android:layout_centerVertical="true"
+            android:layout_centerInParent="true"
+            android:layout_below="@id/three"
+
+            />
+
+
+
+
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="130dp"
+        android:layout_height="105dp"
+        android:layout_marginRight="5dp"
+        android:textStyle="bold"
+        android:id="@+id/Roza"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/Namaz"
+        android:layout_marginTop="20dp"
+
+        android:background="@drawable/corner_bn">
+
+
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:src="@drawable/roza"
+            android:layout_centerVertical="true"
+            android:id="@+id/four"
+           android:layout_centerInParent="true"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:text="Roza"
+            android:textColor="@color/colorText"
+            android:id="@+id/fourt"
+            android:layout_centerVertical="true"
+              android:layout_centerInParent="true"
+            android:layout_below="@id/four"
+
+            />
+
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="130dp"
+        android:layout_height="105dp"
+        android:id="@+id/Zakat"
+        android:layout_marginLeft="5dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/Hajj"
+        android:layout_marginTop="20dp"
+
+        android:background="@drawable/corner_bn">
+
+
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:src="@drawable/zakat"
+            android:layout_centerVertical="true"
+            android:id="@+id/five"
+            android:layout_centerInParent="true"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:text="Zakat"
+
+            android:textColor="@color/colorText"
+            android:id="@+id/fivet"
+            android:layout_centerVertical="true"
+          android:layout_centerInParent="true"
+            android:layout_below="@id/five"
+            />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="130dp"
+        android:layout_height="105dp"
+        android:id="@+id/Umrah"
+        android:layout_marginRight="5dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/Roza"
+        android:layout_marginTop="20dp"
+
+        android:background="@drawable/corner_bn">
+
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:src="@drawable/umrah"
+            android:layout_centerVertical="true"
+            android:id="@+id/six"
+           android:layout_centerInParent="true"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:text="Umrah"
+
+
+            android:textColor="@color/colorText"
+            android:id="@+id/sixt"
+            android:layout_centerVertical="true"
+            android:layout_centerInParent="true"
+            android:layout_below="@id/six"
+            />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
+
+</androidx.core.widget.NestedScrollView>

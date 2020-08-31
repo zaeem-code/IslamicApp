@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    android:paddingVertical="3dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/bg1"
+    tools:context=".Fragments.LiberaryFragment">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"  >
+    <com.smarteist.autoimageslider.SliderView
+
+        android:visibility="visible"
+        android:layout_alignParentTop="true"
+
+
+        android:id="@+id/slider"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        app:sliderAnimationDuration="500"
+        app:sliderAutoCycleDirection="right"
+        app:sliderAutoCycleEnabled="true"
+        app:sliderIndicatorAnimationDuration="500"
+        app:sliderIndicatorGravity="center_horizontal|bottom"
+        app:sliderIndicatorMargin="0dp"
+        app:sliderIndicatorOrientation="horizontal"
+        app:sliderIndicatorPadding="3dp"
+        app:sliderIndicatorRadius="1dp"
+        app:sliderIndicatorSelectedColor="@color/colorText"
+        app:sliderIndicatorUnselectedColor="@android:color/transparent"
+        app:sliderScrollTimeInSec="1"
+        app:sliderStartAutoCycle="true" />
+
+
+
+    <ImageView
+        android:visibility="visible"
+        android:layout_below="@+id/slider"
+        android:layout_marginTop="20dp"
+        android:id="@+id/slider2"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+
+
+        />
+    
+    
+    <RelativeLayout
+        android:visibility="visible"
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_marginHorizontal="5dp"
+        android:layout_below="@id/slider2"
+        android:id="@+id/hadesbookslyt"
+        android:background="@drawable/book_corner"
+        android:layout_height="370dp">
+
+<TextView
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:textStyle="bold"
+    android:textSize="20sp"
+    android:textColor="@android:color/black"
+    android:text="Hadees"
+    android:layout_height="50dp"
+    android:id="@+id/title"
+    android:background="@drawable/book_corner"/>
+
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/quranicon"
+            android:layout_below="@+id/title"
+            android:layout_marginTop="30dp"
+            android:layout_alignParentLeft="true"
+          android:layout_marginLeft="10dp"
+            android:id="@+id/Hadeesbook1"/>
+
+        <TextView
+            android:layout_below="@+id/Hadeesbook1"
+
+            android:layout_marginLeft="10dp"
+            android:layout_width="100dp"
+            android:gravity="center|top"
+            android:textStyle="bold"
+            android:textSize="12sp"
+            android:textColor="@android:color/black"
+            android:text="Book 1"
+            android:layout_height="wrap_content"
+            android:id="@+id/book1N"
+            android:background="@android:color/transparent"/>
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/quranicon"
+            android:layout_below="@+id/title"
+            android:layout_marginTop="30dp"
+            android:layout_centerHorizontal="true"
+            android:layout_toRightOf="@id/Hadeesbook1"
+            android:layout_toLeftOf="@id/Hadeesbook3"
+            android:id="@+id/Hadeesbook2"/>
+        <TextView
+            android:layout_toRightOf="@id/Hadeesbook1"
+            android:layout_toLeftOf="@id/Hadeesbook3"
+            android:layout_below="@+id/Hadeesbook2"
+            android:layout_marginLeft="10dp"
+            android:layout_width="100dp"
+            android:gravity="center|top"
+            android:textStyle="bold"
+            android:textSize="12sp"
+            android:textColor="@android:color/black"
+            android:text="Book 2"
+            android:layout_height="wrap_content"
+            android:id="@+id/book2N"
+            android:background="@android:color/transparent"/>
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/quranicon"
+            android:layout_below="@+id/title"
+            android:layout_marginTop="30dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:id="@+id/Hadeesbook3"/>
+
+        <TextView
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:layout_below="@+id/Hadeesbook3"
+            android:layout_marginLeft="10dp"
+            android:layout_width="100dp"
+            android:gravity="center|top"
+            android:textStyle="bold"
+            android:textSize="12sp"
+            android:textColor="@android:color/black"
+            android:text="Book 3"
+            android:layout_height="wrap_content"
+            android:id="@+id/book3N"
+            android:background="@android:color/transparent"/>
+
+
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/quranicon"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/Hadeesbook1"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="10dp"
+
+            android:id="@+id/Hadeesbook4"/>
+        <TextView
+            android:layout_below="@+id/Hadeesbook4"
+
+            android:layout_marginLeft="10dp"
+            android:layout_width="100dp"
+            android:gravity="center|top"
+            android:textStyle="bold"
+            android:textSize="12sp"
+            android:textColor="@android:color/black"
+            android:text="Book 4"
+            android:layout_height="wrap_content"
+            android:id="@+id/book4N"
+            android:background="@android:color/transparent"/>
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/quranicon"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/Hadeesbook2"
+            android:layout_marginTop="50dp"
+            android:layout_toRightOf="@id/Hadeesbook4"
+            android:layout_toLeftOf="@id/Hadeesbook6"
+            android:id="@+id/Hadeesbook5"/>
+
+        <TextView
+            android:layout_below="@+id/Hadeesbook5"
+
+            android:layout_toRightOf="@id/Hadeesbook4"
+            android:layout_toLeftOf="@id/Hadeesbook6"
+            android:layout_width="100dp"
+            android:gravity="center|top"
+            android:textStyle="bold"
+            android:textSize="12sp"
+            android:textColor="@android:color/black"
+            android:text="Book 5"
+            android:layout_height="wrap_content"
+            android:id="@+id/book5N"
+            android:background="@android:color/transparent"/>
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/quranicon"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/Hadeesbook3"
+            android:layout_marginTop="50dp"
+            android:layout_marginRight="10dp"
+
+            android:id="@+id/Hadeesbook6"/>
+
+        <TextView
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:layout_below="@+id/Hadeesbook6"
+            android:layout_marginLeft="10dp"
+            android:layout_width="100dp"
+            android:gravity="center|top"
+            android:textStyle="bold"
+            android:textSize="12sp"
+            android:textColor="@android:color/black"
+            android:text="Book 6"
+            android:layout_height="wrap_content"
+            android:id="@+id/book6N"
+            android:background="@android:color/transparent"/>
+
+    </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_marginHorizontal="5dp"
+            android:layout_below="@id/hadesbookslyt"
+            android:background="@drawable/book_corner"
+            android:layout_height="370dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:textColor="@android:color/black"
+                android:text="Books"
+                android:layout_height="50dp"
+                android:id="@+id/title2"
+                android:background="@drawable/book_corner"/>
+
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/quranicon"
+                android:layout_below="@+id/title2"
+                android:layout_marginTop="30dp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="10dp"
+                android:id="@+id/book7"/>
+            <TextView
+                android:layout_below="@+id/book7"
+
+                android:layout_marginLeft="10dp"
+                android:layout_width="100dp"
+                android:gravity="center|top"
+                android:textStyle="bold"
+                android:textSize="12sp"
+                android:textColor="@android:color/black"
+                android:text="Book 7B"
+                android:layout_height="wrap_content"
+                android:id="@+id/book7B"
+                android:background="@android:color/transparent"/>
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/quranicon"
+                android:layout_below="@+id/title2"
+                android:layout_marginTop="30dp"
+                android:layout_centerHorizontal="true"
+                android:layout_toRightOf="@id/book7"
+                android:layout_toLeftOf="@id/book9"
+                android:id="@+id/book8"/>
+            <TextView
+                android:layout_toRightOf="@id/book7"
+                android:layout_toLeftOf="@id/book9"
+                android:layout_below="@+id/book8"
+                android:layout_marginLeft="10dp"
+                android:layout_width="100dp"
+                android:gravity="center|top"
+                android:textStyle="bold"
+                android:textSize="12sp"
+                android:textColor="@android:color/black"
+                android:text="Book 8B"
+                android:layout_height="wrap_content"
+                android:id="@+id/book8B"
+                android:background="@android:color/transparent"/>
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/quranicon"
+                android:layout_below="@+id/title2"
+                android:layout_marginTop="30dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="10dp"
+                android:id="@+id/book9"/>
+
+
+            <TextView
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="10dp"
+                android:layout_below="@+id/book9"
+                android:layout_marginLeft="10dp"
+                android:layout_width="100dp"
+                android:gravity="center|top"
+                android:textStyle="bold"
+                android:textSize="12sp"
+                android:textColor="@android:color/black"
+                android:text="Book 9B"
+                android:layout_height="wrap_content"
+                android:id="@+id/book9B"
+                android:background="@android:color/transparent"/>
+
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/quranicon"
+                android:layout_below="@+id/book7"
+                android:layout_marginTop="50dp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="10dp"
+
+                android:id="@+id/book4"/>
+
+            <TextView
+                android:layout_below="@+id/book4"
+
+                android:layout_marginLeft="10dp"
+                android:layout_width="100dp"
+                android:gravity="center|top"
+                android:textStyle="bold"
+                android:textSize="12sp"
+                android:textColor="@android:color/black"
+                android:text="Book 4B"
+                android:layout_height="wrap_content"
+                android:id="@+id/book4B"
+                android:background="@android:color/transparent"/>
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/quranicon"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/book8"
+                android:layout_marginTop="50dp"
+                android:layout_toRightOf="@id/book4"
+                android:layout_toLeftOf="@id/book6"
+                android:id="@+id/book5"/>
+            <TextView
+                android:layout_toRightOf="@id/book4"
+                android:layout_toLeftOf="@id/book6"
+                android:layout_below="@+id/book5"
+                android:layout_marginLeft="10dp"
+                android:layout_width="100dp"
+                android:gravity="center|top"
+                android:textStyle="bold"
+                android:textSize="12sp"
+                android:textColor="@android:color/black"
+                android:text="Book 5B"
+                android:layout_height="wrap_content"
+                android:id="@+id/book5B"
+                android:background="@android:color/transparent"/>
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/quranicon"
+                android:layout_alignParentRight="true"
+
+                android:layout_below="@+id/book9"
+                android:layout_marginTop="50dp"
+                android:layout_marginRight="10dp"
+
+                android:id="@+id/book6"/>
+
+            <TextView
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="10dp"
+                android:layout_below="@+id/book6"
+                android:layout_marginLeft="10dp"
+                android:layout_width="100dp"
+                android:gravity="center|top"
+                android:textStyle="bold"
+                android:textSize="12sp"
+                android:textColor="@android:color/black"
+                android:text="Book 6B"
+                android:layout_height="wrap_content"
+                android:id="@+id/book6B"
+                android:background="@android:color/transparent"/>
+
+
+        </RelativeLayout>
+</RelativeLayout>
+
+</androidx.core.widget.NestedScrollView>

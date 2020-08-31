@@ -1,0 +1,19 @@
+<TextView
+    android:clickable="true"
+    android:layout_width="match_parent"
+    android:layout_height="70dp"
+    android:background="@drawable/corner_bn"
+    android:gravity="center"
+    android:padding="3dp"
+    android:id="@+id/textx"
+    android:textColor="@color/colorText"
+
+    android:textStyle="bold"
+    android:layout_marginTop="30dp"
+    android:textSize="17sp"
+    android:text="Parah name/no."
+    xmlns:android="http://schemas.android.com/apk/res/android" />
+
+
+
+
