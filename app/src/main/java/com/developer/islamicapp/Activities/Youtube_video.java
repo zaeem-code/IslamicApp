@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.text.TextUtils;
 import android.widget.Toast;
 
 import com.developer.islamicapp.Model.Config;
@@ -18,6 +19,8 @@ public class Youtube_video extends YouTubeBaseActivity implements YouTubePlayer.
 
     private static final int RECOVERY_REQUEST = 1;
     private YouTubePlayerView youTubeView;
+
+    String uri;
     private MyPlayerStateChangeListener playerStateChangeListener;
     private MyPlaybackEventListener playbackEventListener;
 
@@ -26,7 +29,11 @@ public class Youtube_video extends YouTubeBaseActivity implements YouTubePlayer.
     {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_youtube_video);
+        try{
+            uri=getIntent().getStringExtra("uri");
+        }catch (Exception e){
 
+        }
         youTubeView = findViewById(R.id.youtube_view);
         youTubeView.initialize(Config.YOUTUBE_API_KEY, this);
         playerStateChangeListener = new MyPlayerStateChangeListener();
@@ -49,9 +56,10 @@ public class Youtube_video extends YouTubeBaseActivity implements YouTubePlayer.
 
         if (!wasRestored)
         {
-            player.cueVideo("8Lq3HyBCuAA");
+            if(!TextUtils.isEmpty(uri)){
+            player.cueVideo(uri);
 
-        }
+        }}
 
 
     }

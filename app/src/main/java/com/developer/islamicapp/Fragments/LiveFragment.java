@@ -105,30 +105,30 @@ View v;
                 break;
 
             case R.id.YT:
-                Intent intent=null;
-                try {
-                    intent =new Intent(Intent.ACTION_VIEW);
-                    intent.setPackage("com.google.android.youtube");
-                    if (!TextUtils.isEmpty(URLX)){
-                        intent.setData(Uri.parse( URLX));
+//                Intent intent=null;
+//                try {
+//                    intent =new Intent(Intent.ACTION_VIEW);
+//                    intent.setPackage("com.google.android.youtube");
+//                    if (!TextUtils.isEmpty(URLX)){
+//                        intent.setData(Uri.parse( URLX));
+//
+//                    }else {
+//
+//                        intent.setData(Uri.parse("https://www.youtube.com/channel/UCmV5CFC6bbZmMhqTUqZdlrg?view_as=subscriber"));
+//                    }
+//                     startActivity(intent);
+//                } catch (ActivityNotFoundException e) {
+//                    intent = new Intent(Intent.ACTION_VIEW);
+//                    if (!TextUtils.isEmpty(URLX)){
+//                        intent.setData(Uri.parse( URLX));
+//
+//                    }else {
+//
+//                        intent.setData(Uri.parse("https://www.youtube.com/channel/UCmV5CFC6bbZmMhqTUqZdlrg?view_as=subscriber"));
+//                    }  startActivity(intent);
+//                }
 
-                    }else {
-
-                        intent.setData(Uri.parse("https://www.youtube.com/channel/UCmV5CFC6bbZmMhqTUqZdlrg?view_as=subscriber"));
-                    }
-                     startActivity(intent);
-                } catch (ActivityNotFoundException e) {
-                    intent = new Intent(Intent.ACTION_VIEW);
-                    if (!TextUtils.isEmpty(URLX)){
-                        intent.setData(Uri.parse( URLX));
-
-                    }else {
-
-                        intent.setData(Uri.parse("https://www.youtube.com/channel/UCmV5CFC6bbZmMhqTUqZdlrg?view_as=subscriber"));
-                    }  startActivity(intent);
-                }
-
-//           startActivity(new Intent(getContext(), Youtube_video.class).addFlags(Intent.FLAG_ACTIVITY_NEW_TASK));
+           startActivity(new Intent(getContext(), Youtube_video.class).addFlags(Intent.FLAG_ACTIVITY_NEW_TASK));
                 break;
 
 

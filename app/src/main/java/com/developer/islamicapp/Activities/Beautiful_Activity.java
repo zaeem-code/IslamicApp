@@ -4,12 +4,16 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.DividerItemDecoration;
 import androidx.recyclerview.widget.GridLayoutManager;
+import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.os.Build;
 import android.os.Bundle;
+import android.text.TextUtils;
+import android.util.Log;
 import android.view.View;
 import android.widget.ImageView;
+import android.widget.Toast;
 
 import com.developer.islamicapp.Adapter.VideoAdapter;
 import com.developer.islamicapp.Model.Fire_model;
@@ -28,9 +32,9 @@ public class Beautiful_Activity extends AppCompatActivity {
 
     RecyclerView recyclerView;
     VideoAdapter videoAdapter;
+ArrayList<String>uri=new ArrayList<>();
 
-
-    DatabaseReference databaseReference;
+    DatabaseReference databaseReference_rec,databaseReference_urdu;
     ArrayList<Fire_model> filesList = new ArrayList<>();
   ImageView back;
 
@@ -51,11 +55,17 @@ public class Beautiful_Activity extends AppCompatActivity {
              }
          });
 
+String chk="rec";
+try {
+    chk=getIntent().getStringExtra("process");
+}catch (Exception e){ }
+if (chk.equals("rec")){
+    fetch_Recitation_firebase();
+}else {
 
+    fetch_urdu_firebase();
+}
 
-//         store_date_firebase();
-
-         fetch_url_firebase();
 
 
 
@@ -70,11 +80,13 @@ public class Beautiful_Activity extends AppCompatActivity {
 
 
 
-    public void fetch_url_firebase()
+    public void fetch_urdu_firebase()
     {
+try {
 
-        databaseReference= FirebaseDatabase.getInstance().getReference().child("data_url");
-        databaseReference.addValueEventListener(new ValueEventListener()
+
+        databaseReference_urdu= FirebaseDatabase.getInstance().getReference().child("urdu_data");
+        databaseReference_urdu.addValueEventListener(new ValueEventListener()
         {
             @Override
             public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
@@ -83,14 +95,12 @@ public class Beautiful_Activity extends AppCompatActivity {
                 {
 
                     String url=dataSnapshot1.child("url").getValue().toString();
-                    String download_status=dataSnapshot1.child("download_status").getValue().toString();
-                    String pos=dataSnapshot1.child("pos").getValue().toString();
-                    String key=dataSnapshot1.child("key").getValue().toString();
+                    Log.v("hassan",url);
 
 
+if (!TextUtils.isEmpty(url)){
 
-
-                   filesList.add(new Fire_model(url,download_status,pos,key));
+                   uri.add(url);}
 
 
 
@@ -100,7 +110,75 @@ public class Beautiful_Activity extends AppCompatActivity {
                 {
                     if (NetworkState.isOnline(getApplicationContext()))
                     {
+                        Log.v("hassan","url total size : "+uri.size());
                     SetUpRecyclerView();
+
+                    }
+                }
+
+
+            }
+
+            @Override
+            public void onCancelled(@NonNull DatabaseError databaseError) {
+
+                Toast.makeText(getApplicationContext(), "Sorry!\n Currently no urdu Translation available", Toast.LENGTH_SHORT).show();
+            }
+        });
+
+
+
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M)
+        {
+            if (NetworkState.isOnline(getApplicationContext()))
+            {
+//                SetUpRecyclerView();
+
+            }
+            else
+            {
+                SetUpRecyclerView_Offline();
+            }
+        }
+}catch (Exception e){
+    Toast.makeText(this, "Sorry!\n Currently no urdu Translation available", Toast.LENGTH_SHORT).show();
+}
+if (uri!=null){
+if (uri.size()<=0){
+    Toast.makeText(getApplicationContext(), "Sorry!\n Currently no urdu Translation available", Toast.LENGTH_SHORT).show();
+
+}}
+    }
+    public void fetch_Recitation_firebase()
+    {
+
+        databaseReference_rec= FirebaseDatabase.getInstance().getReference().child("video_data");
+        databaseReference_rec.addValueEventListener(new ValueEventListener()
+        {
+            @Override
+            public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
+
+                for (DataSnapshot dataSnapshot1:dataSnapshot.getChildren())
+                {
+
+                    String url=dataSnapshot1.child("url").getValue().toString();
+                    Log.v("hassan",url);
+
+
+                    if (!TextUtils.isEmpty(url)){
+
+                        uri.add(url);}
+
+
+
+
+                }
+                if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M)
+                {
+                    if (NetworkState.isOnline(getApplicationContext()))
+                    {
+                        Log.v("hassan","url total size : "+uri.size());
+                        SetUpRecyclerView();
 
                     }
                 }
@@ -136,12 +214,10 @@ public class Beautiful_Activity extends AppCompatActivity {
     public void SetUpRecyclerView()
     {
 
-        recyclerView.addItemDecoration(new DividerItemDecoration(this, DividerItemDecoration.HORIZONTAL));
-        GridLayoutManager gridLayoutManager = new GridLayoutManager(this,2);
-        recyclerView.setLayoutManager(gridLayoutManager);
+          recyclerView.setLayoutManager(new LinearLayoutManager(this));
 
 
-            videoAdapter = new VideoAdapter(this, filesList);
+            videoAdapter = new VideoAdapter(this, uri);
             recyclerView.setAdapter(videoAdapter);
             videoAdapter.notifyDataSetChanged();
 
@@ -156,8 +232,8 @@ public class Beautiful_Activity extends AppCompatActivity {
         recyclerView.setLayoutManager(gridLayoutManager);
 
         filesList.add(new Fire_model("","","",""));
-
-        videoAdapter = new VideoAdapter(this, filesList);
+///iska backup bana ha file ka
+//        videoAdapter = new VideoAdapter(this, filesList);
         recyclerView.setAdapter(videoAdapter);
         videoAdapter.notifyDataSetChanged();
 

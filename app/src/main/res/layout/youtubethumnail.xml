@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:elevation="15dp"
+    app:cardCornerRadius="3dp"
+
+    app:cardBackgroundColor="@color/black"
+    android:layout_width="match_parent"
+    android:background="@android:color/transparent"
+    android:layout_height="wrap_content"
+    android:padding="1dp"
+    android:layout_marginTop="5dp"
+    android:layout_marginBottom="2dp"
+    android:maxHeight="400dp"
+    android:minHeight="250dp"
+    tools:context=".Activities.Youtube_video">
+
+
+        <com.google.android.youtube.player.YouTubeThumbnailView
+            android:id="@+id/youtube_thumbnail"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:scaleType="centerCrop"
+            android:visibility="visible"/>
+
+        <RelativeLayout android:id="@+id/relativeLayout_over_youtube_thumbnail"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:background="@android:color/transparent"
+            android:visibility="visible">
+
+            <ImageView android:id="@+id/btnYoutube_player"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitCenter"
+                android:padding="90dp"
+                android:src="@drawable/play"/>
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>

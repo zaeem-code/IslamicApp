@@ -124,78 +124,35 @@ String apndArabi,apndurdu;
 
         if (chk.equals("Surah"))
         {
+            if (position==0) {
 
 
-            for (int i=0; i<data.size(); i++)
-            {
+                for (int i = 0; i < data.size(); i++) {
 
 
-                if (i==1){
+                    item = data.get(i);
 
-                    Log.v("Hassan", "main Data to manipulate:1:-:"+item.Arabic);
-                }
-
-                item = data.get(i);
-
-                if (i!=0)
-
-                {
+                    if (i != 0) {
 //                    apndArabi=apndArabi+"\n"+ item.Arabic.trim()+" ";
 //                    apndurdu=apndurdu+"  "+ item.Urdu.trim();
 
-                    TEMP=TEMP+"\n\n"+item.Arabic.trim()+"\n"+"\n"+item.Urdu.trim();
+                        TEMP = TEMP + "\n\n" + item.Arabic.trim() + "\n" + "\n" + item.Urdu.trim();
 
 
-                }
-                else if (item.Arabic.trim().length()==bism.trim().length()) {
-                   TEMP=item.Arabic.trim()+"\n"+"\n"+item.Urdu.trim();
+                    } else {
 
-               }else {
-////
-//                    apndArabi=item.Arabic.trim();
-//                    apndurdu=item.Urdu.trim();
-//if (item.Arabic.contains("بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ")){
-//                    item.Arabic="\n بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيم";}
-                    Log.v("Hassan", "main Data to manipulate:0::--:"+item.Arabic);
-                    try {
-                        item.Arabic=item.Arabic.replace("بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ"," بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ"+"\n\n");
-
-                        Log.v("Hassan", "main Data  manipulate:throughout::--:"+item.Arabic);
+                        TEMP = item.Arabic.trim() + "\n" + "\n" + item.Urdu.trim();
 
 
-                    }catch (Exception e){
-
-                        Log.v("Hassan", "main Data  manipulate:throughout::--:"+item.Arabic);
-                    }
-                    try {
-                        String x=item.Urdu;
-                        if (x.equals("المۤ")||x.equals("المصۤ")||x.equals("المصۤ")||x.equals("یسۤ")
-                                ||x.equals("طہۤ")){
-
-                            item.Urdu="";
-                        }
-
-                        Log.v("Hassan", "main Data  manipulate:throughout::--:"+item.Arabic);
-
-
-                    }catch (Exception e){
-
-                        Log.v("Hassan", "main Data  manipulate:throughout::--:"+item.Arabic);
                     }
 
-                    TEMP=item.Arabic.trim()+"\n"+"\n"+item.Urdu.trim();
-
-
-
+                    Log.v("Hassan", "main Data  manipulate:throughout::--:" + item.Arabic);
+                    Log.v("Hassan", "main Data  manipulate:throughout urdu::--:" + item.Urdu);
                 }
 
-                Log.v("Hassan", "main Data  manipulate:throughout::--:"+item.Arabic);
-                Log.v("Hassan", "main Data  manipulate:throughout urdu::--:"+item.Urdu);
+                holder.textView.setText(TEMP);
+                // holder.textView_urdu.setText(apndurdu);
             }
-
-            holder.textView.setText(TEMP);
-            // holder.textView_urdu.setText(apndurdu);
-
 
 
 

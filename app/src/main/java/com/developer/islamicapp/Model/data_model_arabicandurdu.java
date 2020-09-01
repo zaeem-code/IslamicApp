@@ -1,11 +1,13 @@
 package com.developer.islamicapp.Model;
 
 public class data_model_arabicandurdu {
-    public String Arabic, itemnumber,Urdu;
+    public String Arabic,Urdu,ENG;
 
-    public data_model_arabicandurdu(String Arabic, String itemnumber, String Urdu) {
+    public data_model_arabicandurdu(String Arabic, String Urdu,String ENG) {
         this.Arabic = Arabic;
-        this.itemnumber = itemnumber;
+
         this.Urdu = Urdu;
+
+        this.ENG=ENG;
     }
 }

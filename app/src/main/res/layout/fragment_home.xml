@@ -22,8 +22,9 @@
 
             <RelativeLayout
                 android:layout_width="match_parent"
-                android:layout_height="200dp"
+                android:layout_height="225dp"
                 android:paddingHorizontal="5dp"
+                android:minHeight="220dp"
                 android:layout_alignParentTop="true"
                 android:id="@+id/admin_lyt"
                 android:layout_margin="20dp"
@@ -33,8 +34,11 @@
 
                 <TextView
                     android:layout_width="match_parent"
-                    android:layout_height="40dp"
+                    android:layout_height="55dp"
                     android:textSize="15sp"
+                    android:padding="3dp"
+
+                    android:elevation="1dp"
                     android:text="Sign up for umrah  tickets :"
                     android:textColor="@android:color/black"
                     android:textStyle="bold"
@@ -65,9 +69,12 @@
 
                 <EditText
                     android:layout_width="match_parent"
-                    android:layout_height="40dp"
+                    android:layout_height="50dp"
+                    android:padding="3dp"
                     android:textSize="15sp"
                     android:hint="Answer"
+
+                    android:elevation="1dp"
                     android:textColor="@android:color/black"
                     android:textStyle="bold"
                     android:id="@+id/admin_answer"
@@ -91,9 +98,9 @@
                     android:text="Submit"
                     android:textSize="13sp"
                     android:textAlignment="center"
-                    android:background="@drawable/corner_bn"
+                    android:background="@drawable/corner_bn_black"
                     android:layout_margin="5dp"
-                    android:textColor="@color/colorText"
+                    android:textColor="@color/gold2"
 
                     >
 
@@ -146,7 +153,7 @@
                     android:textColor="@color/colorText"
                     android:layout_marginLeft="10dp"
                     android:layout_toRightOf="@+id/signup_text"
-                    android:background="@drawable/corner_bn"/>
+                    android:background="@drawable/corner_bn_black"/>
 
 
 
@@ -205,7 +212,6 @@
                 android:layout_marginTop="15dp"
                 android:paddingHorizontal="2dp"
                 android:layout_marginHorizontal="25dp"
-                android:text="Ayat of the afbadsfbasefbsda;kfasdlkflakdfjasldkfadslkhfdasgflhkadsgflakhdfday"
                 android:textColor="@color/colorText"
                 android:textStyle="bold"
                 android:gravity="center" />
@@ -249,10 +255,10 @@
                 android:layout_below="@+id/itla_e_mehfil_title"
                 android:paddingBottom="5dp"
                 android:textSize="14sp"
+                android:paddingHorizontal="5dp"
 
-                android:text="adsfadsfadf"
                 android:id="@+id/itla_e_mehfil_text"
-                android:textColor="@color/colorText"
+                android:textColor="@color/gold2"
                 android:textStyle="bold"
                 android:visibility="gone"
                 android:gravity="top|center" />
@@ -334,6 +340,7 @@
                 android:layout_marginTop="5dp"
                 android:gravity="top|center"
 
+                android:paddingHorizontal="5dp"
                 android:paddingBottom="5dp"
                 android:textColor="@color/gold2"
                 android:textSize="14sp"
@@ -375,7 +382,7 @@
                 android:layout_below="@+id/eventoftheday_title"
                 android:layout_marginTop="5dp"
                 android:gravity="top|center"
-                android:paddingHorizontal="5dp"
+                android:paddingHorizontal="7dp"
 
                 android:paddingBottom="5dp"
                 android:textColor="@color/gold2"

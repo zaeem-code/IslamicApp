@@ -118,17 +118,16 @@ translation_text=view.findViewById(R.id.transalate_text); translation_text.setOn
 
             case R.id.transalate:
             case R.id.transalate_text:
-                Toast.makeText(getContext(), ""+v.getId(), Toast.LENGTH_SHORT).show();
-
-                startActivity(new Intent(getContext(), VideoUpload.class));
+//                Toast.makeText(getContext(), ""+v.getId(), Toast.LENGTH_SHORT).show();
+                startActivity(new Intent(getContext(), Beautiful_Activity.class).putExtra("process","urdu"));
 
                 break;
 
             case R.id.recitation:
             case R.id.recitation_text:
 
-                Toast.makeText(getContext(), ""+v.getId(), Toast.LENGTH_SHORT).show();
-                startActivity(new Intent(getContext(), Beautiful_Activity.class));
+//                Toast.makeText(getContext(), ""+v.getId(), Toast.LENGTH_SHORT).show();
+                startActivity(new Intent(getContext(), Beautiful_Activity.class).putExtra("process","rec"));
 
                 break;
 

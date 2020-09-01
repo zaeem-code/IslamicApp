@@ -9,12 +9,16 @@ import android.widget.FrameLayout;
 import android.widget.RelativeLayout;
 import android.widget.Toast;
 import com.developer.islamicapp.Adapter.AdapterParah_and_surah_Reader;
+import com.developer.surahfiles.SURAH16TO30;
+import com.developer.surahfiles.SURAH1TO15;
+import com.developer.surahfiles.SURAH31TO60;
+import com.developer.surahfiles.SURAH61TO114;
 import com.developer.islamicapp.DB.DB;
 import com.developer.islamicapp.R;
 import com.developer.islamicapp.utils.Typcastregular;
 
 public class Read_quran_Activity extends AppCompatActivity implements View.OnClickListener {
-    String chk, chk_if_suparah_or_surah, DBx;
+    String chk, chk_parrah_or_surahnumber, DBx;
     RecyclerView recyclerView;
     FrameLayout bg;
     RelativeLayout bgx;
@@ -35,11 +39,11 @@ public class Read_quran_Activity extends AppCompatActivity implements View.OnCli
             chk=DBx;
         }catch (Exception e){}
         try {
-            chk_if_suparah_or_surah =getIntent().getStringExtra("Datafetch");
+            chk_parrah_or_surahnumber =getIntent().getStringExtra("Datafetch");
         }
         catch (Exception e)
         {
-            chk_if_suparah_or_surah ="1";
+            chk_parrah_or_surahnumber ="1";
         }
         if (!DBx.isEmpty())
         {
@@ -58,25 +62,37 @@ public class Read_quran_Activity extends AppCompatActivity implements View.OnCli
 
                     Toast.makeText(this, "parah--->"+DBx, Toast.LENGTH_SHORT).show();
                 try {
-                    REcent=getSharedPreferences(chk_if_suparah_or_surah,MODE_PRIVATE).getInt("Recent",0);
+                    REcent=getSharedPreferences(chk_parrah_or_surahnumber,MODE_PRIVATE).getInt("Recent",0);
                 }catch (Exception e){
                 }
 
                if (REcent>=0)
                 {
-                    askforRecent(chk_if_suparah_or_surah, DBx,REcent);
+                    askforRecent(chk_parrah_or_surahnumber, DBx,REcent);
                 }
 
 
                 }
 
-            Log.v("hassan","Parameters read auto: "+":"+DBx+":"+ chk_if_suparah_or_surah);
+            Log.v("hassan","Parameters read auto: "+":"+DBx+":"+ chk_parrah_or_surahnumber);
 try {
-    recyclerView.setAdapter(new AdapterParah_and_surah_Reader(this, DBx,new DB(this, chk_if_suparah_or_surah,DBx).getAll(),chk_if_suparah_or_surah,REcent));
+//    recyclerView.setAdapter(new AdapterParah_and_surah_Reader(this, DBx,new DB(this, chk_parrah_or_surahnumber,DBx).getAll(), chk_parrah_or_surahnumber,REcent));
+  if (Integer.parseInt(chk_parrah_or_surahnumber)<=15) {
+      recyclerView.setAdapter(new AdapterParah_and_surah_Reader(this, DBx, new SURAH1TO15(this).Data(chk_parrah_or_surahnumber), chk_parrah_or_surahnumber, REcent));
+  }else if (Integer.parseInt(chk_parrah_or_surahnumber)>15 && Integer.parseInt(chk_parrah_or_surahnumber)<=30) {
+      recyclerView.setAdapter(new AdapterParah_and_surah_Reader(this, DBx, new SURAH16TO30(this).Data(chk_parrah_or_surahnumber), chk_parrah_or_surahnumber, REcent));
 
-    Log.v("hassan","Parameters read auto: "+" try   :"+"1");
+  }else if (Integer.parseInt(chk_parrah_or_surahnumber)>30 && Integer.parseInt(chk_parrah_or_surahnumber)<=60) {
+      recyclerView.setAdapter(new AdapterParah_and_surah_Reader(this, DBx, new SURAH31TO60(this).Data(chk_parrah_or_surahnumber), chk_parrah_or_surahnumber, REcent));
+
+  }else if (Integer.parseInt(chk_parrah_or_surahnumber)>60 && Integer.parseInt(chk_parrah_or_surahnumber)<=114) {
+      recyclerView.setAdapter(new AdapterParah_and_surah_Reader(this, DBx, new SURAH61TO114(this).Data(chk_parrah_or_surahnumber), chk_parrah_or_surahnumber, REcent));
+
+  }
+
+      Log.v("hassan","Parameters read auto: "+" try   :"+"1");
 }catch (Exception e){
-    recyclerView.setAdapter(new AdapterParah_and_surah_Reader(this, DBx,new DB(this, DBx,chk_if_suparah_or_surah).getAll(),chk_if_suparah_or_surah,REcent));
+    recyclerView.setAdapter(new AdapterParah_and_surah_Reader(this, DBx,new DB(this, DBx, chk_parrah_or_surahnumber).getAll(), chk_parrah_or_surahnumber,REcent));
 
     Log.v("hassan","Parameters read auto: "+" try   :"+"2");
 }
@@ -118,7 +134,7 @@ try {
             public void onClick(View v)
             {
                 bgx.setVisibility(View.GONE);
-                getSharedPreferences(chk_if_suparah_or_surah,MODE_PRIVATE).edit().clear().apply();
+                getSharedPreferences(chk_parrah_or_surahnumber,MODE_PRIVATE).edit().clear().apply();
             }
         });
     }

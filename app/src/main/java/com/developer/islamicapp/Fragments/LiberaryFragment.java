@@ -32,6 +32,7 @@ import com.bumptech.glide.load.engine.GlideException;
 import com.bumptech.glide.request.RequestListener;
 import com.bumptech.glide.request.target.Target;
 import com.developer.islamicapp.Adapter.SliderAdapter;
+import com.developer.islamicapp.Adapter.Slideronline;
 import com.developer.islamicapp.Model.Constants;
 import com.developer.islamicapp.Model.StoryModel;
 import com.developer.islamicapp.Network.NetworkState;
@@ -47,6 +48,7 @@ import com.smarteist.autoimageslider.SliderAnimations;
 
 import java.io.File;
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.Objects;
 
 import static android.content.Context.MODE_PRIVATE;
@@ -65,6 +67,9 @@ public class LiberaryFragment extends Fragment implements View.OnClickListener {
     private static final String ARG_PARAM1 = "param1";
     private static final String ARG_PARAM2 = "param2";
     long enqueID;
+    DatabaseReference  databaseReferenceIMG;
+
+    ArrayList<String> image_uri_array=new ArrayList<>();
     DownloadManager downloadManager;
     String file_name;
     File[] files;
@@ -81,8 +86,7 @@ TextView book1,book2,book3,book4,book5,book4b,book5b,book6,book6b,book7b,book8b,
     // TODO: Rename and change types of parameters
     private String mParam1;
     private String mParam2;
-    private com.smarteist.autoimageslider.SliderView slider;
-    ImageView slider2;
+    private com.smarteist.autoimageslider.SliderView slider,slider2;
     public LiberaryFragment() {
         // Required empty public constructor
     }
@@ -200,43 +204,43 @@ TextView book1,book2,book3,book4,book5,book4b,book5b,book6,book6b,book7b,book8b,
                 getContext(),getdata()));
         slider.setIndicatorAnimation(IndicatorAnimations.THIN_WORM);
         slider.setSliderTransformAnimation(SliderAnimations.SIMPLETRANSFORMATION);
-        slider.setScrollTimeInSec(3); //set scroll delay in seconds :
-        slider.startAutoCycle();
+//        slider.setScrollTimeInSec(3); //set scroll delay in seconds :
+//        slider.startAutoCycle();
+
+        slider.setCurrentPagePosition(getdata().size());
 
 
+//     DatabaseReference databaseReference=FirebaseDatabase.getInstance().getReference().child("Image");
+//     databaseReference.addValueEventListener(new ValueEventListener() {
+//         @Override
+//         public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
+//
+//             if (dataSnapshot.hasChildren())
+//             {
+////                 String uri=dataSnapshot.child("uri").getValue().toString();
+//
+//                 Glide.with(getContext()).load(uri).addListener(new RequestListener<Drawable>() {
+//                     @Override
+//                     public boolean onLoadFailed(@Nullable GlideException e, Object model, Target<Drawable> target, boolean isFirstResource) {
+//
+//                         return false;
+//                     }
+//
+//                     @Override
+//                     public boolean onResourceReady(Drawable resource, Object model, Target<Drawable> target, DataSource dataSource, boolean isFirstResource) {
+//                         return false;
+//                     }
+//                 })
+//                         .into(slider2);
 
-     DatabaseReference databaseReference=FirebaseDatabase.getInstance().getReference().child("Image");
-     databaseReference.addValueEventListener(new ValueEventListener() {
-         @Override
-         public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
-
-             if (dataSnapshot.hasChildren())
-             {
-                 String uri=dataSnapshot.child("uri").getValue().toString();
-
-                 Glide.with(getContext()).load(uri).addListener(new RequestListener<Drawable>() {
-                     @Override
-                     public boolean onLoadFailed(@Nullable GlideException e, Object model, Target<Drawable> target, boolean isFirstResource) {
-
-                         return false;
-                     }
-
-                     @Override
-                     public boolean onResourceReady(Drawable resource, Object model, Target<Drawable> target, DataSource dataSource, boolean isFirstResource) {
-                         return false;
-                     }
-                 })
-                         .into(slider2);
-
-             }
-         }
-
-         @Override
-         public void onCancelled(@NonNull DatabaseError databaseError) {
-
-         }
-     });
-
+//             }
+//         }
+//
+//         @Override
+//         public void onCancelled(@NonNull DatabaseError databaseError) {
+//
+//         }
+//     });
 
 
 
@@ -347,19 +351,21 @@ TextView book1,book2,book3,book4,book5,book4b,book5b,book6,book6b,book7b,book8b,
         fldrData.add(R.drawable.image_97);
         fldrData.add(R.drawable.image_98);
         fldrData.add(R.drawable.image_99);
-return  fldrData;
-    }
+        Collections.reverse(fldrData);
 
-    private  ArrayList<Integer>  getdata2() {
-
-        ArrayList<Integer> fldrData=new ArrayList<>();
-        fldrData.add(R.drawable.quranicinfo);
-        fldrData.add(R.drawable.quranicon);
-        fldrData.add(R.drawable.logo_main);
-        fldrData.add(R.drawable.kalma_logo);
-        fldrData.add(R.drawable.kalmachannellogo);
         return  fldrData;
     }
+
+//    private  ArrayList<Integer>  getdata2() {
+//
+//        ArrayList<Integer> fldrData=new ArrayList<>();
+//        fldrData.add(R.drawable.quranicinfo);
+//        fldrData.add(R.drawable.quranicon);
+//        fldrData.add(R.drawable.logo_main);
+//        fldrData.add(R.drawable.kalma_logo);
+//        fldrData.add(R.drawable.kalmachannellogo);
+//        return  fldrData;
+//    }
 
     @Override
     public void onClick(View v) {
@@ -845,5 +851,72 @@ private void setbool_name(String chk,String book_name){
 }
 
 
+    public void Database_images()
+    {
+
+
+        databaseReferenceIMG= FirebaseDatabase.getInstance().getReference()
+                .child("Image");
+        databaseReferenceIMG.addValueEventListener(new ValueEventListener() {
+            @Override
+            public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
+                for (DataSnapshot dsp:dataSnapshot.getChildren()){
+                    if (dsp.hasChildren()) {
+                        try {
+                            String uri_image = dsp.child("uri").getValue().toString();
+                            if (!TextUtils.isEmpty(uri_image)) {
+                                image_uri_array.add(uri_image);
+
+                                Log.v("tesst_images", uri_image+"");
+                            }
+                        } catch (Exception e) {
+                        }
+
+
+                    }
+
+                    Log.v("tesst_images",image_uri_array.size()+"");
+                    Collections.reverse(image_uri_array);
+
+
+                    slider2.setSliderAdapter(new Slideronline(image_uri_array));
+                    slider2.setIndicatorAnimation(IndicatorAnimations.THIN_WORM);
+                    slider2.setSliderTransformAnimation(SliderAnimations.SIMPLETRANSFORMATION);
+                    slider2.setCurrentPagePosition(image_uri_array.size());
+//        slider2.setScrollTimeInSec(3); //set scroll delay in seconds :
+//        slider2.startAutoCycle();
+
+
+
+
+
+
+
+
+
+
+
+
+
+                }
+
+            }
+
+            @Override
+            public void onCancelled(@NonNull DatabaseError databaseError) {
+
+            }
+        });
+
+
+
+
+    }
+
+    @Override
+    public void onResume() {
+        super.onResume();
+        Database_images();
+    }
 
 }

@@ -15,6 +15,7 @@ import android.os.CountDownTimer;
 import android.os.Environment;
 import android.os.Handler;
 import android.text.TextUtils;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -49,6 +50,7 @@ import java.time.LocalTime;
 import java.time.ZoneId;
 import java.time.format.DateTimeFormatter;
 import java.time.format.FormatStyle;
+import java.util.ArrayList;
 import java.util.Date;
 import java.util.HashMap;
 import java.util.Locale;
@@ -64,6 +66,8 @@ public class HomeFragment extends Fragment implements View.OnClickListener {
             eventoftheday_text,
             islamicdate_text,admin_calander,counter;
 
+     DatabaseReference databaseReference,databaseReferenceIMG;
+     ArrayList<String> image_uri_array=new ArrayList<>();
     long enqueID;
     DownloadManager downloadManager;
     private  View view;
@@ -282,7 +286,7 @@ public class HomeFragment extends Fragment implements View.OnClickListener {
     public void Database_admin()
     {
 
-        final DatabaseReference databaseReference= FirebaseDatabase.getInstance().getReference()
+         databaseReference= FirebaseDatabase.getInstance().getReference()
                 .child("Admin_DATA");
         databaseReference.addValueEventListener(new ValueEventListener() {
             @Override

@@ -67,7 +67,7 @@ onCreate(db);
         for (int i=0; i<data.size(); i++){
             item=data.get(i);
             values.put("Arabic", item.Arabic);
-            values.put("item", item.itemnumber);
+            values.put("item", item.ENG);
             values.put("Urdu", item.Urdu);
 
 

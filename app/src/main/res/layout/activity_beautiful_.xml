@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
+<RelativeLayout
 
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -10,6 +10,7 @@
     android:orientation="vertical"
     android:background="@drawable/bg1"
     tools:context=".Activities.Beautiful_Activity">
+
 
     <ImageView
         android:layout_width="35dp"
@@ -23,16 +24,12 @@
         android:id="@+id/back"/>
 
 
-
-
     <androidx.recyclerview.widget.RecyclerView
         android:layout_width="match_parent"
+        android:layout_below="@+id/back"
         android:layout_height="match_parent"
 
         android:id="@+id/recycle"
-        android:paddingVertical="110dp"
-        android:paddingHorizontal="55dp"
-        android:background="@drawable/fram_surah"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="3dp"
         />
-</LinearLayout>
+</RelativeLayout>

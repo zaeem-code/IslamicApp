@@ -16,36 +16,47 @@
         android:visibility="visible"
         android:layout_alignParentTop="true"
 
-
         android:id="@+id/slider"
         android:layout_width="match_parent"
         android:layout_height="300dp"
         app:sliderAnimationDuration="500"
-        app:sliderAutoCycleDirection="right"
-        app:sliderAutoCycleEnabled="false"
+        app:sliderAutoCycleEnabled="true"
         app:sliderIndicatorAnimationDuration="500"
         app:sliderIndicatorGravity="center_horizontal|bottom"
         app:sliderIndicatorMargin="0dp"
         app:sliderIndicatorOrientation="horizontal"
         app:sliderIndicatorPadding="3dp"
+
         app:sliderIndicatorRadius="1dp"
         app:sliderIndicatorSelectedColor="@color/gold2"
         app:sliderIndicatorUnselectedColor="@android:color/transparent"
-        app:sliderScrollTimeInSec="0"
-        app:sliderStartAutoCycle="false" />
+        app:sliderScrollTimeInSec="500"
+
+        app:sliderAutoCycleDirection="left"
+        app:sliderStartAutoCycle="true" />
 
 
 
-    <ImageView
-        android:visibility="visible"
-        android:layout_below="@+id/slider"
-        android:layout_marginTop="20dp"
-        android:id="@+id/slider2"
-        android:layout_width="match_parent"
-        android:layout_height="300dp"
+        <com.smarteist.autoimageslider.SliderView
 
-
-        />
+            android:visibility="visible" android:layout_below="@+id/slider"
+            android:id="@+id/slider2"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            app:sliderAnimationDuration="500"
+            app:sliderAutoCycleDirection="left"
+            app:sliderAutoCycleEnabled="true"
+            android:layout_marginTop="1dp"
+            app:sliderIndicatorAnimationDuration="500"
+            app:sliderIndicatorGravity="center_horizontal|bottom"
+            app:sliderIndicatorMargin="0dp"
+            app:sliderIndicatorOrientation="horizontal"
+            app:sliderIndicatorPadding="3dp"
+            app:sliderIndicatorRadius="1dp"
+            app:sliderIndicatorSelectedColor="@color/gold2"
+            app:sliderIndicatorUnselectedColor="@android:color/transparent"
+            app:sliderScrollTimeInSec="500"
+            app:sliderStartAutoCycle="true" />
     
     
     <RelativeLayout

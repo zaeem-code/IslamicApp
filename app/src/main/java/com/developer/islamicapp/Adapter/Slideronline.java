@@ -6,43 +6,44 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 
+import com.bumptech.glide.Glide;
 import com.developer.islamicapp.R;
 import com.smarteist.autoimageslider.SliderViewAdapter;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class SliderAdapter extends
-        SliderViewAdapter<SliderAdapter.SliderAdapterVH> {
+public class Slideronline extends SliderViewAdapter<Slideronline.SliderAdapterVH> {
 
-    private ArrayList<Integer> fldrItems ;
+    private ArrayList<String> online_url;
+    public Slideronline(ArrayList<String> image_uri_array) {
 
-    public SliderAdapter(Context context, ArrayList<Integer> fldrItems)
-    {
-        this.fldrItems = fldrItems;
+        this.online_url = image_uri_array;
     }
 
 
 
 
     @Override
-    public SliderAdapterVH onCreateViewHolder(ViewGroup parent) {
+    public Slideronline.SliderAdapterVH onCreateViewHolder(ViewGroup parent) {
         View inflate = LayoutInflater.from(parent.getContext()).inflate(R.layout.slider_item, null);
-        return new SliderAdapterVH(inflate);
+        return new Slideronline.SliderAdapterVH(inflate);
     }
 
     @Override
-    public void onBindViewHolder(final SliderAdapterVH viewHolder, int position)
-    {
-
-
-        viewHolder.slider_item_img.setImageResource(fldrItems.get(position));
+    public void onBindViewHolder(SliderAdapterVH viewHolder, int position) {
+        Glide.with(viewHolder.itemView)
+                .load(online_url.get(position))
+                .fitCenter()
+                .into(viewHolder.slider_item_img);
     }
+
+
 
     @Override
     public int getCount() {
         //slider view count could be dynamic size
-        return fldrItems.size();
+        return online_url.size();
     }
 
     static class SliderAdapterVH extends SliderViewAdapter.ViewHolder {
