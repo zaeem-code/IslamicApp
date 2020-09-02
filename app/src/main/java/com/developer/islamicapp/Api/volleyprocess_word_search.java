@@ -74,8 +74,8 @@ for (int i=0; i<jsonArray.length(); i++){
     ));
   //  Quran_words_search item =data.get(i);
     Log.v("hassan",finl_response+"" );
-
 }
+
 if (data!=null){
  //   Toast.makeText(context, "fill", Toast.LENGTH_SHORT).show();
 
@@ -90,6 +90,12 @@ if (data!=null){
 
                 }catch (Exception e){
 
+                    data.add(new Quran_words_search("Sorry \n Server is currently down","Please try again latter",
+                            "NA", "NA"
+
+                    ));
+
+                    search_result.data(data,"0");
                     Log.v("hassan",e.toString());
                 }
 
