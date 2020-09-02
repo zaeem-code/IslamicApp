@@ -1,5 +1,6 @@
 package com.developer.islamicapp.Adapter;
 
+import android.app.AlertDialog;
 import android.app.Dialog;
 import android.app.DownloadManager;
 import android.app.ProgressDialog;
@@ -23,6 +24,7 @@ import android.view.LayoutInflater;
 import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.WindowManager;
 import android.webkit.MimeTypeMap;
 import android.webkit.URLUtil;
 import android.widget.ImageView;
@@ -58,11 +60,10 @@ public class AdapterParah_and_surah_Reader extends RecyclerView.Adapter<AdapterP
 String apndArabi,apndurdu;
     String chk;
     View view;
-    Dialog dialog;
     File audio;
     String vid;
     String numb,pre_pos;
-
+     Dialog dialog;
     ProgressBar progressBar;
     long enqueID;
     DownloadManager downloadManager;
@@ -204,7 +205,11 @@ String apndArabi,apndurdu;
 context.getSharedPreferences(numb,MODE_PRIVATE).edit().putInt("Recent",position).apply();
 
 
-                            if (numb.equals("1")) {
+                            if (numb.equals("1"))
+
+
+                            {
+
                                 if (position + 1 == 8) {
 
                                     vid = "audioUrl_" + 1 + ".mp3";
@@ -212,12 +217,16 @@ context.getSharedPreferences(numb,MODE_PRIVATE).edit().putInt("Recent",position)
                                 } else{
                                     vid = "audioUrl_" + (position + 2) + ".mp3";
                             }
+
+
+
+
                                 audio = new File( Environment.getExternalStorageDirectory()
                                         .getAbsolutePath()+"/Download/"+vid);
-
                                 editor.putString("pre_pos1", String.valueOf(position+1));
                                 editor.apply();
 
+                                Toast.makeText(context, ""+holder.getAdapterPosition(), Toast.LENGTH_SHORT).show();
 
                             }
                             else if (numb.equals("2"))
@@ -500,15 +509,10 @@ context.getSharedPreferences(numb,MODE_PRIVATE).edit().putInt("Recent",position)
                             }
 
 
-
-
-
-
-
-                             dialog = new Dialog(context, R.style.Theme_AppCompat_DayNight_Dialog_Alert);
-                             dialog.setContentView(R.layout.activity_sound2);
-                             dialog.setTitle("Audio...");
-                             dialog.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
+                              dialog = new Dialog(context, R.style.Theme_AppCompat_DayNight_Dialog);
+                              dialog.setContentView(R.layout.activity_sound2);
+                              dialog.setTitle("Audio...");
+                              dialog.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
 
 
                              play = dialog.findViewById(R.id.play);
@@ -517,8 +521,6 @@ context.getSharedPreferences(numb,MODE_PRIVATE).edit().putInt("Recent",position)
                              seekBar = dialog.findViewById(R.id.seek);
 
                              progressBar=dialog.findViewById(R.id.progress);
-
-
 
 
 
@@ -1248,6 +1250,7 @@ try {
         {
             Uri uri = FileProvider.getUriForFile(context,
                     "com.developer.islamicapp.provider",audio);
+
 
             mediaPlayer=MediaPlayer.create(context,uri);
             end.setText(milli_second_to_timer(mediaPlayer.getDuration()));

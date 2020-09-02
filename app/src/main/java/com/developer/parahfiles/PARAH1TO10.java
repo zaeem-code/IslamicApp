@@ -44,10 +44,10 @@ public class PARAH1TO10 {
                 parah_1.add(new data_model_arabicandurdu("اهْدِنَا الصِّرَاطَ الْمُسْتَقِيمَ", "\n" +
                         "ہمیں سیدھا راستہ دکھا", "\n" +
                         "Show us the straight path,"));
-                parah_1.add(new data_model_arabicandurdu("صِرَاطَ الَّذِينَ أَنْعَمْتَ عَلَيْهِمْ", "ان لوگوں کا راستہ جن پر تو نے انعام فرمایا", "\n" +
+                parah_1.add(new data_model_arabicandurdu("صِرَاطَ الَّذِينَ أَنْعَمْتَ عَلَيْهِمْغَيْرِ الْمَغْضُوبِ عَلَيْهِمْ وَلا الضَّالِّينَ", "ان لوگوں کا راستہ جن پر تو نے انعام فرمایاان لوگوں کا نہیں جن پر غضب کیا گیا ہے اور نہ (ہی) گمراہوں کا", "\n" +
                         "The path of those upon whom You have bestowed Your favours,"));
-                parah_1.add(new data_model_arabicandurdu("غَيْرِ الْمَغْضُوبِ عَلَيْهِمْ وَلا الضَّالِّينَ", "\n" +
-                        "ان لوگوں کا نہیں جن پر غضب کیا گیا ہے اور نہ (ہی) گمراہوں کا", "Not of those who have been afflicted with wrath, nor of those who have gone astray."));
+//                parah_1.add(new data_model_arabicandurdu("", "\n" +
+//                        "", "Not of those who have been afflicted with wrath, nor of those who have gone astray."));
 
 
                 // ayat 2
