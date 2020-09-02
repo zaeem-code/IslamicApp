@@ -54,7 +54,7 @@ public class AdapterParah_and_surah_Reader extends RecyclerView.Adapter<AdapterP
     private LayoutInflater mInflater;
     ArrayList<data_model_arabicandurdu> data=new ArrayList<>();
     Context context;
-    String bism="بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ ۞";
+    String bism="بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ ";
 String apndArabi,apndurdu;
     String chk;
     View view;
@@ -136,12 +136,12 @@ String apndArabi,apndurdu;
 //                    apndArabi=apndArabi+"\n"+ item.Arabic.trim()+" ";
 //                    apndurdu=apndurdu+"  "+ item.Urdu.trim();
 
-                        TEMP = TEMP + "\n\n" + item.Arabic.trim() + "\n" + "\n" + item.Urdu.trim();
+                        TEMP = TEMP + "\n\n" + item.Arabic.trim()+"۞"  + "\n" + "\n" + item.Urdu.trim();
 
 
                     } else {
 
-                        TEMP = item.Arabic.trim() + "\n" + "\n" + item.Urdu.trim();
+                        TEMP = item.Arabic.trim()+"۞" + "\n" + "\n" + item.Urdu.trim();
 
 
                     }
@@ -163,7 +163,7 @@ String apndArabi,apndurdu;
             {
 
                 item = data.get(position);
-                holder.textView.setText(item.Arabic);
+                holder.textView.setText(item.Arabic.trim()+"۞");
                 holder.textView_urdu.setText("\n"+" "+item.Urdu);
 
 
@@ -177,7 +177,7 @@ String apndArabi,apndurdu;
 
 
 
-                    if (Recent==position)
+                    if (Recent>0 && Recent==position)
                     {
                         holder.textView.setTextColor(Color.parseColor("#006400"));
                         holder.textView_urdu.setTextColor(Color.parseColor("#006400"));
@@ -202,13 +202,15 @@ String apndArabi,apndurdu;
                         {
                             //
 context.getSharedPreferences(numb,MODE_PRIVATE).edit().putInt("Recent",position).apply();
+
+
                             if (numb.equals("1")) {
                                 if (position + 1 == 8) {
 
                                     vid = "audioUrl_" + 1 + ".mp3";
 
                                 } else{
-                                    vid = "audioUrl_" + (position + 1) + ".mp3";
+                                    vid = "audioUrl_" + (position + 2) + ".mp3";
                             }
                                 audio = new File( Environment.getExternalStorageDirectory()
                                         .getAbsolutePath()+"/Download/"+vid);

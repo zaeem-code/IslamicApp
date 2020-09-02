@@ -99,431 +99,415 @@ public class AdapterParahandSurah_title_list extends RecyclerView.Adapter<Adapte
 
         Log.v("mydbgx", "Parah: "+chk2);
        // Log.v("mydbgx", "sub string in Parah "+Parah.substring(Parah.length()-3).trim());
-String Parah=" fasdlkfnadslfnladksf";
-        switch (chk2)
-        {
-
-
-            case "1":
-                //chk if db mai phly hi sava ha ya ni?
-
-
-                if (! context.getSharedPreferences("DB", Context.MODE_PRIVATE).getString(chk.trim()+"1","null").trim().equals("1")) {
-                    new volleyprocess_quran_fetcher(149, 1,context, chk.trim(),"1","","Parah");
-                }
-                else {
-                  context.  startActivity(new Intent(context, Read_quran_Activity.class).putExtra("DB",chk.trim()).putExtra("Datafetch","1"));
-
-                }
-           //     Log.v("mydbgx", "sub string in Parah "+Parah.substring(0,2).trim() );
-                break;
-
-            case "2": //Parah number 2
-                //chk if db mai phly hi sava ha ya ni?
-                if (! context.getSharedPreferences("DB", Context.MODE_PRIVATE).getString(chk.trim()+"2","null").trim().equals("2")) {
-                    new volleyprocess_quran_fetcher(260, 149,context, chk.trim(),"2","","Parah"); //2nd para 149 to onward steps/Surahnumber
-                }else {
-                    context.  startActivity(new Intent(context, Read_quran_Activity.class).putExtra("DB",chk.trim()).putExtra("Datafetch","2"));
-
-                }
-           //     Log.v("mydbgx", "sub string in Parah "+Parah.substring(0,2).trim() );
-                break;
-
-
-
-
-
-            case "3": //Parah number 2
-                //chk if db mai phly hi sava ha ya ni?
-                if (! context.getSharedPreferences("DB", Context.MODE_PRIVATE).getString(chk.trim()+"3","null").trim().equals("3")) {
-                    new volleyprocess_quran_fetcher(386, 260,context, chk.trim(),"3","","Parah"); //2nd para 149 to onward steps/Surahnumber
-                }else {
-                    context.  startActivity(new Intent(context, Read_quran_Activity.class).putExtra("DB",chk.trim()).putExtra("Datafetch","3"));
-
-                }
-              //  Log.v("mydbgx", "sub string in Parah "+Parah.substring(0,2).trim() );
-                break;
-
-
-
-
-
-
-            case "4": //Parah number 2
-                //chk if db mai phly hi sava ha ya ni?
-                if (! context.getSharedPreferences("DB", Context.MODE_PRIVATE).getString(chk.trim()+"4","null").trim().equals("4")) {
-                    new volleyprocess_quran_fetcher(517, 386,context, chk.trim(),"4","","Parah"); //2nd para 149 to onward steps/Surahnumber
-                }
-                else
-
-                    {
-                        context.  startActivity(new Intent(context, Read_quran_Activity.class).putExtra("DB",chk.trim()).putExtra("Datafetch","4"));
-                    }
-             //   Log.v("mydbgx", "sub string in Parah "+Parah.substring(0,2).trim() );
-                break;
-
-
-            case "5": //Parah number 2
-                //chk if db mai phly hi sava ha ya ni?
-                if (! context.getSharedPreferences("DB", Context.MODE_PRIVATE).getString(chk.trim()+"5","null").trim().equals("5")) {
-                    new volleyprocess_quran_fetcher(641, 517,context, chk.trim(),"5","","Parah"); //2nd para 149 to onward steps/Surahnumber
-                }else {
-                    context.  startActivity(new Intent(context, Read_quran_Activity.class).putExtra("DB",chk.trim()).putExtra("Datafetch","5"));
-
-                }
-          //      Log.v("mydbgx", "sub string in Parah "+Parah.substring(0,2).trim() );
-                break;
-
-            case "6": //Parah number 2
-                //chk if db mai phly hi sava ha ya ni?
-                if (! context.getSharedPreferences("DB", Context.MODE_PRIVATE).getString(chk.trim()+"6","null").trim().equals("6")) {
-                    new volleyprocess_quran_fetcher(751, 641,context, chk.trim(),"6","","Parah"); //2nd para 149 to onward steps/Surahnumber
-                }else {
-                    context.  startActivity(new Intent(context, Read_quran_Activity.class).putExtra("DB",chk.trim()).putExtra("Datafetch","6"));
-
-                }
-                Log.v("mydbgx", "sub string in Parah "+Parah.substring(0,2).trim() );
-                break;
-
-
-
-
-            case "7": //Parah number 2
-                //chk if db mai phly hi sava ha ya ni?
-                if (! context.getSharedPreferences("DB", Context.MODE_PRIVATE).getString(chk.trim()+"7","null").trim().equals("7")) {
-                    new volleyprocess_quran_fetcher(900, 751,context, chk.trim(),"7","","Parah"); //2nd para 149 to onward steps/Surahnumber
-                }else {
-                    context.  startActivity(new Intent(context, Read_quran_Activity.class).putExtra("DB",chk.trim()).putExtra("Datafetch","7"));
-
-                }
-                Log.v("mydbgx", "sub string in Parah "+Parah.substring(0,2).trim() );
-                break;
-
-
-            case "8": //Parah number 2
-                //chk if db mai phly hi sava ha ya ni?
-                if (! context.getSharedPreferences("DB", Context.MODE_PRIVATE).getString(chk.trim()+"8","null").trim().equals("8")) {
-                    new volleyprocess_quran_fetcher(1042, 900,context, chk.trim(),"8","","Parah"); //2nd para 149 to onward steps/Surahnumber
-                }else {
-                    context.  startActivity(new Intent(context, Read_quran_Activity.class).putExtra("DB",chk.trim()).putExtra("Datafetch","8"));
-
-                }
-                Log.v("mydbgx", "sub string in Parah "+Parah.substring(0,2).trim() );
-                break;
-
-
-
-            case "9": //Parah number 2
-                //chk if db mai phly hi sava ha ya ni?
-                if (! context.getSharedPreferences("DB", Context.MODE_PRIVATE).getString(chk.trim()+"9","null").trim().equals("9")) {
-                    new volleyprocess_quran_fetcher(1201, 1042,context, chk.trim(),"9","","Parah"); //2nd para 149 to onward steps/Surahnumber
-                }else {
-                    context.  startActivity(new Intent(context, Read_quran_Activity.class).putExtra("DB",chk.trim()).putExtra("Datafetch","9"));
-
-                }
-                Log.v("mydbgx", "sub string in Parah "+Parah.substring(0,2).trim() );
-                break;
-
-
-
-
-
-            case "10": //Parah number 2
-                //chk if db mai phly hi sava ha ya ni?
-                if (! context.getSharedPreferences("DB", Context.MODE_PRIVATE).getString(chk.trim()+"10","null").trim().equals("10")) {
-                    new volleyprocess_quran_fetcher(1328, 1201,context, chk.trim(),"10","","Parah"); //2nd para 149 to onward steps/Surahnumber
-                }else {
-                    context.  startActivity(new Intent(context, Read_quran_Activity.class).putExtra("DB",chk.trim()).putExtra("Datafetch","10"));
-
-                }
-                Log.v("mydbgx", "sub string in Parah "+Parah.substring(0,2).trim() );
-                break;
-
-
-
-
-            case "11": //Parah number 2
-                //chk if db mai phly hi sava ha ya ni?
-                if (! context.getSharedPreferences("DB", Context.MODE_PRIVATE).getString(chk.trim()+"11","null").trim().equals("11")) {
-                    new volleyprocess_quran_fetcher(1479, 1328,context, chk.trim(),"11","","Parah"); //2nd para 149 to onward steps/Surahnumber
-                }else {
-                    context.  startActivity(new Intent(context, Read_quran_Activity.class).putExtra("DB",chk.trim()).putExtra("Datafetch","11"));
-
-                }
-                Log.v("mydbgx", "sub string in Parah "+Parah.substring(0,2).trim() );
-                break;
-
-
-
-
-
-            case "12": //Parah number 2
-                //chk if db mai phly hi sava ha ya ni?
-                if (! context.getSharedPreferences("DB", Context.MODE_PRIVATE).getString(chk.trim()+"12","null").trim().equals("12")) {
-                    new volleyprocess_quran_fetcher(1649, 1479,context, chk.trim(),"12","","Parah"); //2nd para 149 to onward steps/Surahnumber
-                }else {
-                    context.  startActivity(new Intent(context, Read_quran_Activity.class).putExtra("DB",chk.trim()).putExtra("Datafetch","12"));
-
-                }
-                Log.v("mydbgx", "sub string in Parah "+Parah.substring(0,2).trim() );
-                break;
-
-
-
-            case "13": //Parah number 2
-                //chk if db mai phly hi sava ha ya ni?
-                if (! context.getSharedPreferences("DB", Context.MODE_PRIVATE).getString(chk.trim()+"13","null").trim().equals("13")) {
-                    new volleyprocess_quran_fetcher(1803, 1649,context, chk.trim(),"13","","Parah"); //2nd para 149 to onward steps/Surahnumber
-                }else {
-                    context.  startActivity(new Intent(context, Read_quran_Activity.class).putExtra("DB",chk.trim()).putExtra("Datafetch","13"));
-
-                }
-                Log.v("mydbgx", "sub string in Parah "+Parah.substring(0,2).trim() );
-                break;
-
-
-
-            case "14": //Parah number 2
-                //chk if db mai phly hi sava ha ya ni?
-                if (! context.getSharedPreferences("DB", Context.MODE_PRIVATE).getString(chk.trim()+"14","null").trim().equals("14")) {
-                    new volleyprocess_quran_fetcher(2030, 1803,context, chk.trim(),"14","","Parah"); //2nd para 149 to onward steps/Surahnumber
-                }else {
-                    context.  startActivity(new Intent(context, Read_quran_Activity.class).putExtra("DB",chk.trim()).putExtra("Datafetch","14"));
-
-                }
-                Log.v("mydbgx", "sub string in Parah "+Parah.substring(0,2).trim() );
-                break;
-
-
-            case "15": //Parah number 2
-                //chk if db mai phly hi sava ha ya ni?
-                if (! context.getSharedPreferences("DB", Context.MODE_PRIVATE).getString(chk.trim()+"15","null").trim().equals("15")) {
-                    new volleyprocess_quran_fetcher(2215, 2030,context, chk.trim(),"15","","Parah"); //2nd para 149 to onward steps/Surahnumber
-                }else {
-                    context.  startActivity(new Intent(context, Read_quran_Activity.class).putExtra("DB",chk.trim()).putExtra("Datafetch","15"));
-
-                }
-                Log.v("mydbgx", "sub string in Parah "+Parah.substring(0,2).trim() );
-                break;
-
-
-
-
-            case "16": //Parah number 2
-                //chk if db mai phly hi sava ha ya ni?
-                if (! context.getSharedPreferences("DB", Context.MODE_PRIVATE).getString(chk.trim()+"16","null").trim().equals("16")) {
-                    new volleyprocess_quran_fetcher(2484, 2215,context, chk.trim(),"16","","Parah"); //2nd para 149 to onward steps/Surahnumber
-                }else {
-                    context.  startActivity(new Intent(context, Read_quran_Activity.class).putExtra("DB",chk.trim()).putExtra("Datafetch","16"));
-
-                }
-                Log.v("mydbgx", "sub string in Parah "+Parah.substring(0,2).trim() );
-                break;
-
-
-
-            case "17": //Parah number 2
-                //chk if db mai phly hi sava ha ya ni?
-                if (! context.getSharedPreferences("DB", Context.MODE_PRIVATE).getString(chk.trim()+"17","null").trim().equals("17")) {
-                    new volleyprocess_quran_fetcher(2674, 2484,context, chk.trim(),"17","","Parah"); //2nd para 149 to onward steps/Surahnumber
-                }else {
-                    context.  startActivity(new Intent(context, Read_quran_Activity.class).putExtra("DB",chk.trim()).putExtra("Datafetch","17"));
-
-                }
-                Log.v("mydbgx", "sub string in Parah "+Parah.substring(0,2).trim() );
-                break;
-
-
-
-            case "18": //Parah number 2
-                //chk if db mai phly hi sava ha ya ni?
-                if (! context.getSharedPreferences("DB", Context.MODE_PRIVATE).getString(chk.trim()+"18","null").trim().equals("18")) {
-                    new volleyprocess_quran_fetcher(2876, 2674,context, chk.trim(),"18","","Parah"); //2nd para 149 to onward steps/Surahnumber
-                }else {
-                    context.  startActivity(new Intent(context, Read_quran_Activity.class).putExtra("DB",chk.trim()).putExtra("Datafetch","18"));
-
-                }
-                Log.v("mydbgx", "sub string in Parah "+Parah.substring(0,2).trim() );
-                break;
-
-
-
-            case "19": //Parah number 2
-                //chk if db mai phly hi sava ha ya ni?
-                if (! context.getSharedPreferences("DB", Context.MODE_PRIVATE).getString(chk.trim()+"19","null").trim().equals("19")) {
-                    new volleyprocess_quran_fetcher(3215, 2876,context, chk.trim(),"19","","Parah"); //2nd para 149 to onward steps/Surahnumber
-                }else {
-                    context.  startActivity(new Intent(context, Read_quran_Activity.class).putExtra("DB",chk.trim()).putExtra("Datafetch","19"));
-
-                }
-                Log.v("mydbgx", "sub string in Parah "+Parah.substring(0,2).trim() );
-                break;
-
-
-
-
-            case "20": //Parah number 2
-                //chk if db mai phly hi sava ha ya ni?
-                if (! context.getSharedPreferences("DB", Context.MODE_PRIVATE).getString(chk.trim()+"20","null").trim().equals("20")) {
-                    new volleyprocess_quran_fetcher(3386, 3215,context, chk.trim(),"20","","Parah"); //2nd para 149 to onward steps/Surahnumber
-                }else {
-                    context.  startActivity(new Intent(context, Read_quran_Activity.class).putExtra("DB",chk.trim()).putExtra("Datafetch","20"));
-
-                }
-                Log.v("mydbgx", "sub string in Parah "+Parah.substring(0,2).trim() );
-                break;
-
-
-
-            case "21": //Parah number 2
-                //chk if db mai phly hi sava ha ya ni?
-                if (! context.getSharedPreferences("DB", Context.MODE_PRIVATE).getString(chk.trim()+"21","null").trim().equals("21")) {
-                    new volleyprocess_quran_fetcher(3564, 3386,context, chk.trim(),"21","","Parah"); //2nd para 149 to onward steps/Surahnumber
-                }else {
-                    context.  startActivity(new Intent(context, Read_quran_Activity.class).putExtra("DB",chk.trim()).putExtra("Datafetch","21"));
-
-                }
-                Log.v("mydbgx", "sub string in Parah "+Parah.substring(0,2).trim() );
-                break;
-
-
-
-            case "22": //Parah number 2
-                //chk if db mai phly hi sava ha ya ni?
-                if (! context.getSharedPreferences("DB", Context.MODE_PRIVATE).getString(chk.trim()+"22","null").trim().equals("22")) {
-                    new volleyprocess_quran_fetcher(3733, 3564,context, chk.trim(),"22","","Parah"); //2nd para 149 to onward steps/Surahnumber
-                }else {
-                    context.  startActivity(new Intent(context, Read_quran_Activity.class).putExtra("DB",chk.trim()).putExtra("Datafetch","22"));
-
-                }
-                Log.v("mydbgx", "sub string in Parah "+Parah.substring(0,2).trim() );
-                break;
-
-
-
-            case "23": //Parah number 2
-                //chk if db mai phly hi sava ha ya ni?
-                if (! context.getSharedPreferences("DB", Context.MODE_PRIVATE).getString(chk.trim()+"23","null").trim().equals("23")) {
-                    new volleyprocess_quran_fetcher(4090, 3733,context, chk.trim(),"23","","Parah"); //2nd para 149 to onward steps/Surahnumber
-                }else {
-                    context.  startActivity(new Intent(context, Read_quran_Activity.class).putExtra("DB",chk.trim()).putExtra("Datafetch","23"));
-
-                }
-                Log.v("mydbgx", "sub string in Parah "+Parah.substring(0,2).trim() );
-                break;
-
-
-            case "24": //Parah number 2
-                //chk if db mai phly hi sava ha ya ni?
-                if (! context.getSharedPreferences("DB", Context.MODE_PRIVATE).getString(chk.trim()+"24","null").trim().equals("24")) {
-                    new volleyprocess_quran_fetcher(4265, 4090,context, chk.trim(),"24","","Parah"); //2nd para 149 to onward steps/Surahnumber
-                }else {
-                    context.  startActivity(new Intent(context, Read_quran_Activity.class).putExtra("DB",chk.trim()).putExtra("Datafetch","24"));
-
-                }
-                Log.v("mydbgx", "sub string in Parah "+Parah.substring(0,2).trim() );
-                break;
-
-
-
-            case "25": //Parah number 2
-                //chk if db mai phly hi sava ha ya ni?
-                if (! context.getSharedPreferences("DB", Context.MODE_PRIVATE).getString(chk.trim()+"25","null").trim().equals("25")) {
-                    new volleyprocess_quran_fetcher(4511, 4265,context, chk.trim(),"25","","Parah"); //2nd para 149 to onward steps/Surahnumber
-                }else {
-                    context.  startActivity(new Intent(context, Read_quran_Activity.class).putExtra("DB",chk.trim()).putExtra("Datafetch","25"));
-
-                }
-                Log.v("mydbgx", "sub string in Parah "+Parah.substring(0,2).trim() );
-                break;
-            case "26": //Parah number 2
-                //chk if db mai phly hi sava ha ya ni?
-                if (! context.getSharedPreferences("DB", Context.MODE_PRIVATE).getString(chk.trim()+"26","null").trim().equals("26")) {
-                    new volleyprocess_quran_fetcher(4706, 4511,context, chk.trim(),"26","","Parah"); //2nd para 149 to onward steps/Surahnumber
-                }else {
-                    context.  startActivity(new Intent(context, Read_quran_Activity.class).putExtra("DB",chk.trim()).putExtra("Datafetch","26"));
-
-                }
-                Log.v("mydbgx", "sub string in Parah "+Parah.substring(0,2).trim() );
-                break;
-
-
-
-            case "27": //Parah number 2
-                //chk if db mai phly hi sava ha ya ni?
-                if (! context.getSharedPreferences("DB", Context.MODE_PRIVATE).getString(chk.trim()+"27","null").trim().equals("27")) {
-                    new volleyprocess_quran_fetcher(5105, 4706,context, chk.trim(),"27","",""); //2nd para 149 to onward steps/Surahnumber
-                }else {
-                    context.  startActivity(new Intent(context, Read_quran_Activity.class).putExtra("DB",chk.trim()).putExtra("Datafetch","27"));
-
-                }
-                Log.v("mydbgx", "sub string in Parah "+Parah.substring(0,2).trim() );
-                break;
-
-
-
-            case "28": //Parah number 2
-                //chk if db mai phly hi sava ha ya ni?
-                if (! context.getSharedPreferences("DB", Context.MODE_PRIVATE).getString(chk.trim()+"28","null").trim().equals("28")) {
-                    new volleyprocess_quran_fetcher(5242, 5105,context, chk.trim(),"28","","Parah"); //2nd para 149 to onward steps/Surahnumber
-                }else {
-                    context.  startActivity(new Intent(context, Read_quran_Activity.class).putExtra("DB",chk.trim()).putExtra("Datafetch","28"));
-
-                }
-                Log.v("mydbgx", "sub string in Parah "+Parah.substring(0,2).trim() );
-                break;
-
-
-
-            case "29": //Parah number 2
-                //chk if db mai phly hi sava ha ya ni?
-                if (! context.getSharedPreferences("DB", Context.MODE_PRIVATE).getString(chk.trim()+"29","null").trim().equals("29")) {
-                    new volleyprocess_quran_fetcher(5673, 5242,context, chk.trim(),"29","","Parah"); //2nd para 149 to onward steps/Surahnumber
-                }else {
-                    context.  startActivity(new Intent(context, Read_quran_Activity.class).putExtra("DB",chk.trim()).putExtra("Datafetch","29"));
-
-                }
-                Log.v("mydbgx", "sub string in Parah "+Parah.substring(0,2).trim() );
-                break;
-
-
-
-            case "30": //Parah number 2
-                //chk if db mai phly hi sava ha ya ni?
-                if (! context.getSharedPreferences("DB", Context.MODE_PRIVATE).getString(chk.trim()+"30","null").trim().equals("30")) {
-                    new volleyprocess_quran_fetcher(6237, 5673,context, chk.trim(),"30","","Parah"); //2nd para 149 to onward steps/Surahnumber
-                }else {
-                    context.  startActivity(new Intent(context, Read_quran_Activity.class).putExtra("DB",chk.trim()).putExtra("Datafetch","30"));
-
-                }
+        context.  startActivity(new Intent(context, Read_quran_Activity.class).putExtra("DB",chk.trim()).putExtra("Datafetch",chk2));
+
+//        switch (chk2)
+//        {
+//
+
+//            case "1":
+//                //chk if db mai phly hi sava ha ya ni?
+//
+//
+//                if (! context.getSharedPreferences("DB", Context.MODE_PRIVATE).getString(chk.trim()+"1","null").trim().equals("1")) {
+//                    new volleyprocess_quran_fetcher(149, 1,context, chk.trim(),"1","","Parah");
+//                }
+//                else {
+//                  context.  startActivity(new Intent(context, Read_quran_Activity.class).putExtra("DB",chk.trim()).putExtra("Datafetch","1"));
+//
+//                }
+//           //     Log.v("mydbgx", "sub string in Parah "+Parah.substring(0,2).trim() );
+//                break;
+//
+//            case "2": //Parah number 2
+//                //chk if db mai phly hi sava ha ya ni?
+//                if (! context.getSharedPreferences("DB", Context.MODE_PRIVATE).getString(chk.trim()+"2","null").trim().equals("2")) {
+//                    new volleyprocess_quran_fetcher(260, 149,context, chk.trim(),"2","","Parah"); //2nd para 149 to onward steps/Surahnumber
+//                }else {
+//                    context.  startActivity(new Intent(context, Read_quran_Activity.class).putExtra("DB",chk.trim()).putExtra("Datafetch","2"));
+//
+//                }
+//           //     Log.v("mydbgx", "sub string in Parah "+Parah.substring(0,2).trim() );
+//                break;
+//
+//
+//
+//
+//
+//            case "3": //Parah number 2
+//                //chk if db mai phly hi sava ha ya ni?
+//                if (! context.getSharedPreferences("DB", Context.MODE_PRIVATE).getString(chk.trim()+"3","null").trim().equals("3")) {
+//                    new volleyprocess_quran_fetcher(386, 260,context, chk.trim(),"3","","Parah"); //2nd para 149 to onward steps/Surahnumber
+//                }else {
+//                    context.  startActivity(new Intent(context, Read_quran_Activity.class).putExtra("DB",chk.trim()).putExtra("Datafetch","3"));
+//
+//                }
+//              //  Log.v("mydbgx", "sub string in Parah "+Parah.substring(0,2).trim() );
+//                break;
+//
+//
+//
+//
+//
+//
+//            case "4": //Parah number 2
+//                //chk if db mai phly hi sava ha ya ni?
+//                if (! context.getSharedPreferences("DB", Context.MODE_PRIVATE).getString(chk.trim()+"4","null").trim().equals("4")) {
+//                    new volleyprocess_quran_fetcher(517, 386,context, chk.trim(),"4","","Parah"); //2nd para 149 to onward steps/Surahnumber
+//                }
+//                else
+//
+//                    {
+//                        context.  startActivity(new Intent(context, Read_quran_Activity.class).putExtra("DB",chk.trim()).putExtra("Datafetch","4"));
+//                    }
+//             //   Log.v("mydbgx", "sub string in Parah "+Parah.substring(0,2).trim() );
+//                break;
+//
+//
+//            case "5": //Parah number 2
+//                //chk if db mai phly hi sava ha ya ni?
+//                if (! context.getSharedPreferences("DB", Context.MODE_PRIVATE).getString(chk.trim()+"5","null").trim().equals("5")) {
+//                    new volleyprocess_quran_fetcher(641, 517,context, chk.trim(),"5","","Parah"); //2nd para 149 to onward steps/Surahnumber
+//                }else {
+//                    context.  startActivity(new Intent(context, Read_quran_Activity.class).putExtra("DB",chk.trim()).putExtra("Datafetch","5"));
+//
+//                }
+//          //      Log.v("mydbgx", "sub string in Parah "+Parah.substring(0,2).trim() );
+//                break;
+//
+//            case "6": //Parah number 2
+//                //chk if db mai phly hi sava ha ya ni?
+//                if (! context.getSharedPreferences("DB", Context.MODE_PRIVATE).getString(chk.trim()+"6","null").trim().equals("6")) {
+//                    new volleyprocess_quran_fetcher(751, 641,context, chk.trim(),"6","","Parah"); //2nd para 149 to onward steps/Surahnumber
+//                }else {
+//                    context.  startActivity(new Intent(context, Read_quran_Activity.class).putExtra("DB",chk.trim()).putExtra("Datafetch","6"));
+//
+//                }
 //                Log.v("mydbgx", "sub string in Parah "+Parah.substring(0,2).trim() );
-                break;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        }
+//                break;
+//
+//
+//
+//
+//            case "7": //Parah number 2
+//                //chk if db mai phly hi sava ha ya ni?
+//                if (! context.getSharedPreferences("DB", Context.MODE_PRIVATE).getString(chk.trim()+"7","null").trim().equals("7")) {
+//                    new volleyprocess_quran_fetcher(900, 751,context, chk.trim(),"7","","Parah"); //2nd para 149 to onward steps/Surahnumber
+//                }else {
+//                    context.  startActivity(new Intent(context, Read_quran_Activity.class).putExtra("DB",chk.trim()).putExtra("Datafetch","7"));
+//
+//                }
+//                Log.v("mydbgx", "sub string in Parah "+Parah.substring(0,2).trim() );
+//                break;
+//
+//
+//            case "8": //Parah number 2
+//                //chk if db mai phly hi sava ha ya ni?
+//                if (! context.getSharedPreferences("DB", Context.MODE_PRIVATE).getString(chk.trim()+"8","null").trim().equals("8")) {
+//                    new volleyprocess_quran_fetcher(1042, 900,context, chk.trim(),"8","","Parah"); //2nd para 149 to onward steps/Surahnumber
+//                }else {
+//                    context.  startActivity(new Intent(context, Read_quran_Activity.class).putExtra("DB",chk.trim()).putExtra("Datafetch","8"));
+//
+//                }
+//                Log.v("mydbgx", "sub string in Parah "+Parah.substring(0,2).trim() );
+//                break;
+//
+//
+//
+//            case "9": //Parah number 2
+//                //chk if db mai phly hi sava ha ya ni?
+//                if (! context.getSharedPreferences("DB", Context.MODE_PRIVATE).getString(chk.trim()+"9","null").trim().equals("9")) {
+//                    new volleyprocess_quran_fetcher(1201, 1042,context, chk.trim(),"9","","Parah"); //2nd para 149 to onward steps/Surahnumber
+//                }else {
+//                    context.  startActivity(new Intent(context, Read_quran_Activity.class).putExtra("DB",chk.trim()).putExtra("Datafetch","9"));
+//
+//                }
+//                Log.v("mydbgx", "sub string in Parah "+Parah.substring(0,2).trim() );
+//                break;
+//
+//
+//
+//
+//
+//            case "10": //Parah number 2
+//                //chk if db mai phly hi sava ha ya ni?
+//                if (! context.getSharedPreferences("DB", Context.MODE_PRIVATE).getString(chk.trim()+"10","null").trim().equals("10")) {
+//                    new volleyprocess_quran_fetcher(1328, 1201,context, chk.trim(),"10","","Parah"); //2nd para 149 to onward steps/Surahnumber
+//                }else {
+//                    context.  startActivity(new Intent(context, Read_quran_Activity.class).putExtra("DB",chk.trim()).putExtra("Datafetch","10"));
+//
+//                }
+//                Log.v("mydbgx", "sub string in Parah "+Parah.substring(0,2).trim() );
+//                break;
+//
+//
+//
+//
+//            case "11": //Parah number 2
+//                //chk if db mai phly hi sava ha ya ni?
+//                if (! context.getSharedPreferences("DB", Context.MODE_PRIVATE).getString(chk.trim()+"11","null").trim().equals("11")) {
+//                    new volleyprocess_quran_fetcher(1479, 1328,context, chk.trim(),"11","","Parah"); //2nd para 149 to onward steps/Surahnumber
+//                }else {
+//                    context.  startActivity(new Intent(context, Read_quran_Activity.class).putExtra("DB",chk.trim()).putExtra("Datafetch","11"));
+//
+//                }
+//                Log.v("mydbgx", "sub string in Parah "+Parah.substring(0,2).trim() );
+//                break;
+//
+//
+//
+//
+//
+//            case "12": //Parah number 2
+//                //chk if db mai phly hi sava ha ya ni?
+//                if (! context.getSharedPreferences("DB", Context.MODE_PRIVATE).getString(chk.trim()+"12","null").trim().equals("12")) {
+//                    new volleyprocess_quran_fetcher(1649, 1479,context, chk.trim(),"12","","Parah"); //2nd para 149 to onward steps/Surahnumber
+//                }else {
+//                    context.  startActivity(new Intent(context, Read_quran_Activity.class).putExtra("DB",chk.trim()).putExtra("Datafetch","12"));
+//
+//                }
+//                Log.v("mydbgx", "sub string in Parah "+Parah.substring(0,2).trim() );
+//                break;
+//
+//
+//
+//            case "13": //Parah number 2
+//                //chk if db mai phly hi sava ha ya ni?
+//                if (! context.getSharedPreferences("DB", Context.MODE_PRIVATE).getString(chk.trim()+"13","null").trim().equals("13")) {
+//                    new volleyprocess_quran_fetcher(1803, 1649,context, chk.trim(),"13","","Parah"); //2nd para 149 to onward steps/Surahnumber
+//                }else {
+//                    context.  startActivity(new Intent(context, Read_quran_Activity.class).putExtra("DB",chk.trim()).putExtra("Datafetch","13"));
+//
+//                }
+//                Log.v("mydbgx", "sub string in Parah "+Parah.substring(0,2).trim() );
+//                break;
+//
+//
+//
+//            case "14": //Parah number 2
+//                //chk if db mai phly hi sava ha ya ni?
+//                if (! context.getSharedPreferences("DB", Context.MODE_PRIVATE).getString(chk.trim()+"14","null").trim().equals("14")) {
+//                    new volleyprocess_quran_fetcher(2030, 1803,context, chk.trim(),"14","","Parah"); //2nd para 149 to onward steps/Surahnumber
+//                }else {
+//                    context.  startActivity(new Intent(context, Read_quran_Activity.class).putExtra("DB",chk.trim()).putExtra("Datafetch","14"));
+//
+//                }
+//                Log.v("mydbgx", "sub string in Parah "+Parah.substring(0,2).trim() );
+//                break;
+//
+//
+//            case "15": //Parah number 2
+//                //chk if db mai phly hi sava ha ya ni?
+//                if (! context.getSharedPreferences("DB", Context.MODE_PRIVATE).getString(chk.trim()+"15","null").trim().equals("15")) {
+//                    new volleyprocess_quran_fetcher(2215, 2030,context, chk.trim(),"15","","Parah"); //2nd para 149 to onward steps/Surahnumber
+//                }else {
+//                    context.  startActivity(new Intent(context, Read_quran_Activity.class).putExtra("DB",chk.trim()).putExtra("Datafetch","15"));
+//
+//                }
+//                Log.v("mydbgx", "sub string in Parah "+Parah.substring(0,2).trim() );
+//                break;
+//
+//
+//
+//
+//            case "16": //Parah number 2
+//                //chk if db mai phly hi sava ha ya ni?
+//                if (! context.getSharedPreferences("DB", Context.MODE_PRIVATE).getString(chk.trim()+"16","null").trim().equals("16")) {
+//                    new volleyprocess_quran_fetcher(2484, 2215,context, chk.trim(),"16","","Parah"); //2nd para 149 to onward steps/Surahnumber
+//                }else {
+//                    context.  startActivity(new Intent(context, Read_quran_Activity.class).putExtra("DB",chk.trim()).putExtra("Datafetch","16"));
+//
+//                }
+//                Log.v("mydbgx", "sub string in Parah "+Parah.substring(0,2).trim() );
+//                break;
+//
+//
+//
+//            case "17": //Parah number 2
+//                //chk if db mai phly hi sava ha ya ni?
+//                if (! context.getSharedPreferences("DB", Context.MODE_PRIVATE).getString(chk.trim()+"17","null").trim().equals("17")) {
+//                    new volleyprocess_quran_fetcher(2674, 2484,context, chk.trim(),"17","","Parah"); //2nd para 149 to onward steps/Surahnumber
+//                }else {
+//                    context.  startActivity(new Intent(context, Read_quran_Activity.class).putExtra("DB",chk.trim()).putExtra("Datafetch","17"));
+//
+//                }
+//                Log.v("mydbgx", "sub string in Parah "+Parah.substring(0,2).trim() );
+//                break;
+//
+//
+//
+//            case "18": //Parah number 2
+//                //chk if db mai phly hi sava ha ya ni?
+//                if (! context.getSharedPreferences("DB", Context.MODE_PRIVATE).getString(chk.trim()+"18","null").trim().equals("18")) {
+//                    new volleyprocess_quran_fetcher(2876, 2674,context, chk.trim(),"18","","Parah"); //2nd para 149 to onward steps/Surahnumber
+//                }else {
+//                    context.  startActivity(new Intent(context, Read_quran_Activity.class).putExtra("DB",chk.trim()).putExtra("Datafetch","18"));
+//
+//                }
+//                Log.v("mydbgx", "sub string in Parah "+Parah.substring(0,2).trim() );
+//                break;
+//
+//
+//
+//            case "19": //Parah number 2
+//                //chk if db mai phly hi sava ha ya ni?
+//                if (! context.getSharedPreferences("DB", Context.MODE_PRIVATE).getString(chk.trim()+"19","null").trim().equals("19")) {
+//                    new volleyprocess_quran_fetcher(3215, 2876,context, chk.trim(),"19","","Parah"); //2nd para 149 to onward steps/Surahnumber
+//                }else {
+//                    context.  startActivity(new Intent(context, Read_quran_Activity.class).putExtra("DB",chk.trim()).putExtra("Datafetch","19"));
+//
+//                }
+//                Log.v("mydbgx", "sub string in Parah "+Parah.substring(0,2).trim() );
+//                break;
+//
+//
+//
+//
+//            case "20": //Parah number 2
+//                //chk if db mai phly hi sava ha ya ni?
+//                if (! context.getSharedPreferences("DB", Context.MODE_PRIVATE).getString(chk.trim()+"20","null").trim().equals("20")) {
+//                    new volleyprocess_quran_fetcher(3386, 3215,context, chk.trim(),"20","","Parah"); //2nd para 149 to onward steps/Surahnumber
+//                }else {
+//                    context.  startActivity(new Intent(context, Read_quran_Activity.class).putExtra("DB",chk.trim()).putExtra("Datafetch","20"));
+//
+//                }
+//                Log.v("mydbgx", "sub string in Parah "+Parah.substring(0,2).trim() );
+//                break;
+//
+//
+//
+//            case "21": //Parah number 2
+//                //chk if db mai phly hi sava ha ya ni?
+//                if (! context.getSharedPreferences("DB", Context.MODE_PRIVATE).getString(chk.trim()+"21","null").trim().equals("21")) {
+//                    new volleyprocess_quran_fetcher(3564, 3386,context, chk.trim(),"21","","Parah"); //2nd para 149 to onward steps/Surahnumber
+//                }else {
+//                    context.  startActivity(new Intent(context, Read_quran_Activity.class).putExtra("DB",chk.trim()).putExtra("Datafetch","21"));
+//
+//                }
+//                Log.v("mydbgx", "sub string in Parah "+Parah.substring(0,2).trim() );
+//                break;
+//
+//
+//
+//            case "22": //Parah number 2
+//                //chk if db mai phly hi sava ha ya ni?
+//                if (! context.getSharedPreferences("DB", Context.MODE_PRIVATE).getString(chk.trim()+"22","null").trim().equals("22")) {
+//                    new volleyprocess_quran_fetcher(3733, 3564,context, chk.trim(),"22","","Parah"); //2nd para 149 to onward steps/Surahnumber
+//                }else {
+//                    context.  startActivity(new Intent(context, Read_quran_Activity.class).putExtra("DB",chk.trim()).putExtra("Datafetch","22"));
+//
+//                }
+//                Log.v("mydbgx", "sub string in Parah "+Parah.substring(0,2).trim() );
+//                break;
+//
+//
+//
+//            case "23": //Parah number 2
+//                //chk if db mai phly hi sava ha ya ni?
+//                if (! context.getSharedPreferences("DB", Context.MODE_PRIVATE).getString(chk.trim()+"23","null").trim().equals("23")) {
+//                    new volleyprocess_quran_fetcher(4090, 3733,context, chk.trim(),"23","","Parah"); //2nd para 149 to onward steps/Surahnumber
+//                }else {
+//                    context.  startActivity(new Intent(context, Read_quran_Activity.class).putExtra("DB",chk.trim()).putExtra("Datafetch","23"));
+//
+//                }
+//                Log.v("mydbgx", "sub string in Parah "+Parah.substring(0,2).trim() );
+//                break;
+//
+//
+//            case "24": //Parah number 2
+//                //chk if db mai phly hi sava ha ya ni?
+//                if (! context.getSharedPreferences("DB", Context.MODE_PRIVATE).getString(chk.trim()+"24","null").trim().equals("24")) {
+//                    new volleyprocess_quran_fetcher(4265, 4090,context, chk.trim(),"24","","Parah"); //2nd para 149 to onward steps/Surahnumber
+//                }else {
+//                    context.  startActivity(new Intent(context, Read_quran_Activity.class).putExtra("DB",chk.trim()).putExtra("Datafetch","24"));
+//
+//                }
+//                Log.v("mydbgx", "sub string in Parah "+Parah.substring(0,2).trim() );
+//                break;
+//
+//
+//
+//            case "25": //Parah number 2
+//                //chk if db mai phly hi sava ha ya ni?
+//                if (! context.getSharedPreferences("DB", Context.MODE_PRIVATE).getString(chk.trim()+"25","null").trim().equals("25")) {
+//                    new volleyprocess_quran_fetcher(4511, 4265,context, chk.trim(),"25","","Parah"); //2nd para 149 to onward steps/Surahnumber
+//                }else {
+//                    context.  startActivity(new Intent(context, Read_quran_Activity.class).putExtra("DB",chk.trim()).putExtra("Datafetch","25"));
+//
+//                }
+//                Log.v("mydbgx", "sub string in Parah "+Parah.substring(0,2).trim() );
+//                break;
+//            case "26": //Parah number 2
+//                //chk if db mai phly hi sava ha ya ni?
+//                if (! context.getSharedPreferences("DB", Context.MODE_PRIVATE).getString(chk.trim()+"26","null").trim().equals("26")) {
+//                    new volleyprocess_quran_fetcher(4706, 4511,context, chk.trim(),"26","","Parah"); //2nd para 149 to onward steps/Surahnumber
+//                }else {
+//                    context.  startActivity(new Intent(context, Read_quran_Activity.class).putExtra("DB",chk.trim()).putExtra("Datafetch","26"));
+//
+//                }
+//                Log.v("mydbgx", "sub string in Parah "+Parah.substring(0,2).trim() );
+//                break;
+//
+//
+//
+//            case "27": //Parah number 2
+//                //chk if db mai phly hi sava ha ya ni?
+//                if (! context.getSharedPreferences("DB", Context.MODE_PRIVATE).getString(chk.trim()+"27","null").trim().equals("27")) {
+//                    new volleyprocess_quran_fetcher(5105, 4706,context, chk.trim(),"27","",""); //2nd para 149 to onward steps/Surahnumber
+//                }else {
+//                    context.  startActivity(new Intent(context, Read_quran_Activity.class).putExtra("DB",chk.trim()).putExtra("Datafetch","27"));
+//
+//                }
+//                Log.v("mydbgx", "sub string in Parah "+Parah.substring(0,2).trim() );
+//                break;
+//
+//
+//
+//            case "28": //Parah number 2
+//                //chk if db mai phly hi sava ha ya ni?
+//                if (! context.getSharedPreferences("DB", Context.MODE_PRIVATE).getString(chk.trim()+"28","null").trim().equals("28")) {
+//                    new volleyprocess_quran_fetcher(5242, 5105,context, chk.trim(),"28","","Parah"); //2nd para 149 to onward steps/Surahnumber
+//                }else {
+//                    context.  startActivity(new Intent(context, Read_quran_Activity.class).putExtra("DB",chk.trim()).putExtra("Datafetch","28"));
+//
+//                }
+//                Log.v("mydbgx", "sub string in Parah "+Parah.substring(0,2).trim() );
+//                break;
+//
+//
+//
+//            case "29": //Parah number 2
+//                //chk if db mai phly hi sava ha ya ni?
+//                if (! context.getSharedPreferences("DB", Context.MODE_PRIVATE).getString(chk.trim()+"29","null").trim().equals("29")) {
+//                    new volleyprocess_quran_fetcher(5673, 5242,context, chk.trim(),"29","","Parah"); //2nd para 149 to onward steps/Surahnumber
+//                }else {
+//                    context.  startActivity(new Intent(context, Read_quran_Activity.class).putExtra("DB",chk.trim()).putExtra("Datafetch","29"));
+//
+//                }
+//                Log.v("mydbgx", "sub string in Parah "+Parah.substring(0,2).trim() );
+//                break;
+//
+//
+//
+//            case "30": //Parah number 2
+//                //chk if db mai phly hi sava ha ya ni?
+//                if (! context.getSharedPreferences("DB", Context.MODE_PRIVATE).getString(chk.trim()+"30","null").trim().equals("30")) {
+//                    new volleyprocess_quran_fetcher(6237, 5673,context, chk.trim(),"30","","Parah"); //2nd para 149 to onward steps/Surahnumber
+//                }else {
+//                    context.  startActivity(new Intent(context, Read_quran_Activity.class).putExtra("DB",chk.trim()).putExtra("Datafetch","30"));
+//
+//                }
+////                Log.v("mydbgx", "sub string in Parah "+Parah.substring(0,2).trim() );
+//                break;
+//
+//
+//  }
 
 
     }
 
 
-    private void OnclickSurah(String chk2
-
-    )
+    private void OnclickSurah(String chk2)
     {
 
         context.  startActivity(new Intent(context, Read_quran_Activity.class).putExtra("DB", this.chk.trim()).putExtra("Datafetch",chk2));

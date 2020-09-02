@@ -9,6 +9,10 @@ import android.widget.FrameLayout;
 import android.widget.RelativeLayout;
 import android.widget.Toast;
 import com.developer.islamicapp.Adapter.AdapterParah_and_surah_Reader;
+import com.developer.parahfiles.PARAH11TO17;
+import com.developer.parahfiles.PARAH18TO24;
+import com.developer.parahfiles.PARAH1TO10;
+import com.developer.parahfiles.PARAH25TO30;
 import com.developer.surahfiles.SURAH16TO30;
 import com.developer.surahfiles.SURAH1TO15;
 import com.developer.surahfiles.SURAH31TO60;
@@ -51,53 +55,12 @@ public class Read_quran_Activity extends AppCompatActivity implements View.OnCli
             recyclerView=findViewById(R.id.rec);
             recyclerView.setLayoutManager(linearLayoutManager);
 //where last tme left get it by shp or whaterever
-            if (chk.equals("Surah"))
-
-            {
-//                recyclerView.setAdapter(new AdapterParah_and_surah_Reader(this, DBx,new DB(this, fetchdata,DBx).getAll(),fetchdata,REcent));
-                Toast.makeText(this, "surah"+DBx, Toast.LENGTH_SHORT).show();
-            }
-            else
-                {
-
-                    Toast.makeText(this, "parah--->"+DBx, Toast.LENGTH_SHORT).show();
-                try {
-                    REcent=getSharedPreferences(chk_parrah_or_surahnumber,MODE_PRIVATE).getInt("Recent",0);
-                }catch (Exception e){
-                }
-
-               if (REcent>=0)
-                {
-                    askforRecent(chk_parrah_or_surahnumber, DBx,REcent);
-                }
 
 
-                }
 
             Log.v("hassan","Parameters read auto: "+":"+DBx+":"+ chk_parrah_or_surahnumber);
-try {
-//    recyclerView.setAdapter(new AdapterParah_and_surah_Reader(this, DBx,new DB(this, chk_parrah_or_surahnumber,DBx).getAll(), chk_parrah_or_surahnumber,REcent));
-  if (Integer.parseInt(chk_parrah_or_surahnumber)<=15) {
-      recyclerView.setAdapter(new AdapterParah_and_surah_Reader(this, DBx, new SURAH1TO15(this).Data(chk_parrah_or_surahnumber), chk_parrah_or_surahnumber, REcent));
-  }else if (Integer.parseInt(chk_parrah_or_surahnumber)>15 && Integer.parseInt(chk_parrah_or_surahnumber)<=30) {
-      recyclerView.setAdapter(new AdapterParah_and_surah_Reader(this, DBx, new SURAH16TO30(this).Data(chk_parrah_or_surahnumber), chk_parrah_or_surahnumber, REcent));
 
-  }else if (Integer.parseInt(chk_parrah_or_surahnumber)>30 && Integer.parseInt(chk_parrah_or_surahnumber)<=60) {
-      recyclerView.setAdapter(new AdapterParah_and_surah_Reader(this, DBx, new SURAH31TO60(this).Data(chk_parrah_or_surahnumber), chk_parrah_or_surahnumber, REcent));
-
-  }else if (Integer.parseInt(chk_parrah_or_surahnumber)>60 && Integer.parseInt(chk_parrah_or_surahnumber)<=114) {
-      recyclerView.setAdapter(new AdapterParah_and_surah_Reader(this, DBx, new SURAH61TO114(this).Data(chk_parrah_or_surahnumber), chk_parrah_or_surahnumber, REcent));
-
-  }
-
-      Log.v("hassan","Parameters read auto: "+" try   :"+"1");
-}catch (Exception e){
-    recyclerView.setAdapter(new AdapterParah_and_surah_Reader(this, DBx,new DB(this, DBx, chk_parrah_or_surahnumber).getAll(), chk_parrah_or_surahnumber,REcent));
-
-    Log.v("hassan","Parameters read auto: "+" try   :"+"2");
-}
-//                recyclerView.setAdapter(new AdapterParah_and_surah_Reader(this, DBx,new DB(this, fetchdata,DBx).getAll(),fetchdata,REcent));
-//            new DB(context, dbname,ParahorSurah_check).adddata(data);
+process(DBx);
 
         }
     }
@@ -109,18 +72,25 @@ try {
                 break;
         }
     }
-    private void askforRecent(String fetchdatax, String DBxx, int REcentx){
+    private void askforRecent(  int REcentx){
         bgx.setVisibility(View.VISIBLE);
         findViewById(R.id.yes).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 try {
                     recyclerView.removeAllViewsInLayout();
-                    AdapterParah_and_surah_Reader adp= new AdapterParah_and_surah_Reader
-                            (Read_quran_Activity.this, DBxx,
-                            new DB(getApplicationContext(),fetchdatax, DBxx).getAll(), fetchdatax, REcentx);
-                    recyclerView.setAdapter(adp);
-                    adp.notifyDataSetChanged();
+                    if (Integer.parseInt(chk_parrah_or_surahnumber)<=10) {
+                        recyclerView.setAdapter(new AdapterParah_and_surah_Reader(getApplicationContext(), DBx, new PARAH1TO10().Data(chk_parrah_or_surahnumber), chk_parrah_or_surahnumber, REcent));
+                    } else if (Integer.parseInt(chk_parrah_or_surahnumber)>10 && Integer.parseInt(chk_parrah_or_surahnumber)<=17) {
+                        recyclerView.setAdapter(new AdapterParah_and_surah_Reader(getApplicationContext(), DBx, new PARAH11TO17().Data(chk_parrah_or_surahnumber), chk_parrah_or_surahnumber, REcent));
+
+                    }else if (Integer.parseInt(chk_parrah_or_surahnumber)>17 && Integer.parseInt(chk_parrah_or_surahnumber)<=24) {
+                        recyclerView.setAdapter(new AdapterParah_and_surah_Reader(getApplicationContext(), DBx, new PARAH18TO24().Data(chk_parrah_or_surahnumber), chk_parrah_or_surahnumber, REcent));
+
+                    }else if (Integer.parseInt(chk_parrah_or_surahnumber)>25 && Integer.parseInt(chk_parrah_or_surahnumber)<=30) {
+                        recyclerView.setAdapter(new AdapterParah_and_surah_Reader(getApplicationContext(), DBx, new PARAH25TO30().Data(chk_parrah_or_surahnumber), chk_parrah_or_surahnumber, REcent));
+
+                    }
                     linearLayoutManager.scrollToPosition(REcentx);
                     bgx.setVisibility(View.GONE);
                 }
@@ -137,5 +107,58 @@ try {
                 getSharedPreferences(chk_parrah_or_surahnumber,MODE_PRIVATE).edit().clear().apply();
             }
         });
+    }
+
+    private void process( String chk){
+        switch (chk){
+            case "Surah":
+                if (Integer.parseInt(chk_parrah_or_surahnumber)<=15) {
+                    recyclerView.setAdapter(new AdapterParah_and_surah_Reader(this, DBx, new SURAH1TO15(this).Data(chk_parrah_or_surahnumber), chk_parrah_or_surahnumber, REcent));
+                }else if (Integer.parseInt(chk_parrah_or_surahnumber)>15 && Integer.parseInt(chk_parrah_or_surahnumber)<=30) {
+                    recyclerView.setAdapter(new AdapterParah_and_surah_Reader(this, DBx, new SURAH16TO30(this).Data(chk_parrah_or_surahnumber), chk_parrah_or_surahnumber, REcent));
+
+                }else if (Integer.parseInt(chk_parrah_or_surahnumber)>30 && Integer.parseInt(chk_parrah_or_surahnumber)<=60) {
+                    recyclerView.setAdapter(new AdapterParah_and_surah_Reader(this, DBx, new SURAH31TO60(this).Data(chk_parrah_or_surahnumber), chk_parrah_or_surahnumber, REcent));
+
+                }else if (Integer.parseInt(chk_parrah_or_surahnumber)>60 && Integer.parseInt(chk_parrah_or_surahnumber)<=114) {
+                    recyclerView.setAdapter(new AdapterParah_and_surah_Reader(this, DBx, new SURAH61TO114(this).Data(chk_parrah_or_surahnumber), chk_parrah_or_surahnumber, REcent));
+
+                }
+
+
+                break;
+
+            default:
+                //parah
+                try {
+                    REcent=getSharedPreferences(chk_parrah_or_surahnumber,MODE_PRIVATE).getInt("Recent",0);
+                }catch (Exception e){
+                }
+
+                if (REcent>0)
+                {
+                    askforRecent(REcent);
+                }
+
+                if (Integer.parseInt(chk_parrah_or_surahnumber)<=10) {
+                    recyclerView.setAdapter(new AdapterParah_and_surah_Reader(this, DBx, new PARAH1TO10().Data(chk_parrah_or_surahnumber), chk_parrah_or_surahnumber, REcent));
+                }
+                else if (Integer.parseInt(chk_parrah_or_surahnumber)>10 && Integer.parseInt(chk_parrah_or_surahnumber)<=17) {
+                    recyclerView.setAdapter(new AdapterParah_and_surah_Reader(this, DBx, new PARAH11TO17().Data(chk_parrah_or_surahnumber), chk_parrah_or_surahnumber, REcent));
+
+                }else if (Integer.parseInt(chk_parrah_or_surahnumber)>17 && Integer.parseInt(chk_parrah_or_surahnumber)<=24) {
+                    recyclerView.setAdapter(new AdapterParah_and_surah_Reader(this, DBx, new PARAH18TO24().Data(chk_parrah_or_surahnumber), chk_parrah_or_surahnumber, REcent));
+
+                }else if (Integer.parseInt(chk_parrah_or_surahnumber)>25 && Integer.parseInt(chk_parrah_or_surahnumber)<=30) {
+                    recyclerView.setAdapter(new AdapterParah_and_surah_Reader(this, DBx, new PARAH25TO30().Data(chk_parrah_or_surahnumber), chk_parrah_or_surahnumber, REcent));
+
+                }
+
+                break;
+
+
+
+
+        }
     }
 }
