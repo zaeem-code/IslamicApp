@@ -47,7 +47,7 @@ ArrayList<Quran_words_search> data=new ArrayList<>();
     public void fetch_ressult_of_txt()
     {
 
-      URL = "http://api.alquran.cloud/v1/search/"+word+"/all/ar";
+      URL = "https://api.alquran.cloud/v1/search/"+word+"/all/ar";
 
 
 
@@ -73,18 +73,24 @@ for (int i=0; i<jsonArray.length(); i++){
             finl_response.getJSONObject("surah").getString("number"), finl_response.getJSONObject("surah").getString("name")
     ));
   //  Quran_words_search item =data.get(i);
-   // Log.v("response",item.name+"\n"+item.ayat+"\n"+item.surah+"\n"+item.arabic);
+    Log.v("hassan",finl_response+"" );
 
 }
 if (data!=null){
  //   Toast.makeText(context, "fill", Toast.LENGTH_SHORT).show();
 
     search_result.data(data,jsonObject.getJSONObject("data").getString("count"));
+}else {
+    data.add(new Quran_words_search("No such world found","No such world found",
+           "No such world found", "No such world found"
+    ));
+
+    search_result.data(data,jsonObject.getJSONObject("data").getString("count"));
 }
 
                 }catch (Exception e){
 
-                    Log.v("response",e.toString());
+                    Log.v("hassan",e.toString());
                 }
 
 
@@ -94,7 +100,7 @@ if (data!=null){
             public void onErrorResponse(VolleyError error) {
                 progressDialog.dismiss();
 
-                Log.v("response",error.toString());
+                Log.v("hassan",error.toString());
                 Toast.makeText(context, "internet error\n trying again", Toast.LENGTH_SHORT).show();
                 if (attempt <= 5) {
                     attempt++;
