@@ -441,7 +441,7 @@ private void ssearching(String surah){
     search_by_worrd_btn_SETUP();
 
         totl.setVisibility(View.GONE);
-//        spinner_surahs_select.setVisibility(View.VISIBLE);
+//        spinner_surahs_select.setVisibility(View.VISIBLE); mn
         recyclerView.setVisibility(View.GONE);
     }
 
