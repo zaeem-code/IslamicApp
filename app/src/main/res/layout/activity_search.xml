@@ -20,38 +20,33 @@
 
 
 
-    <RelativeLayout
-        android:layout_width="match_parent"
-        android:layout_height="40dp"
-        android:id="@+id/lyt2"
-        />
 
 
 
 
 
-    <Spinner
-        android:background="@drawable/corner_bn"
-        android:id="@+id/spinner"
-        android:popupBackground="@color/colorText"
-        android:layout_marginRight="20dp"
-        android:layout_width="150dp"
-        android:layout_alignParentRight="true"
-        android:layout_height="40dp"
-        android:layout_marginTop="20dp"
-        android:layout_below="@id/lyt2"
-        android:visibility="invisible"
-        android:layout_marginLeft="20dp"
+<!--    <Spinner-->
+<!--        android:background="@drawable/corner_bn"-->
+<!--        android:id="@+id/spinner_surahs_select"-->
+<!--        android:popupBackground="@color/colorText"-->
+<!--        android:layout_marginRight="20dp"-->
+<!--        android:layout_width="150dp"-->
+<!--        android:layout_alignParentRight="true"-->
+<!--        android:layout_height="40dp"-->
+<!--        android:layout_marginTop="20dp"-->
+<!--        android:layout_below="@id/back"-->
+<!--        android:visibility="gone"-->
+<!--        android:layout_marginLeft="20dp"-->
 
-    />
+<!--    />-->
 
     <Button
         android:layout_width="150dp"
         android:layout_alignParentRight="true"
         android:layout_height="40dp"
-        android:id="@+id/space"
+        android:id="@+id/search_by_surah_btn"
         android:layout_marginTop="20dp"
-        android:layout_below="@id/lyt2"
+        android:layout_below="@id/back"
         android:layout_marginLeft="20dp"
         android:background="@drawable/corner_bn"
         android:textAlignment="center"
@@ -67,16 +62,16 @@
         android:background="@drawable/corner_bn"
         android:text="Search by Word"
         android:textColor="@color/colorText"
-        android:id="@+id/feature"
+        android:id="@+id/search_by_worrd_btn"
         android:layout_marginTop="20dp"
-        android:layout_below="@id/lyt2"
+        android:layout_below="@id/back"
         android:layout_marginLeft="20dp"/>
 
 
 
       <EditText
 android:visibility="gone"
-        android:id="@+id/WordSearch"
+        android:id="@+id/WordSearch_editext"
 
         android:gravity="center"
         android:background="@drawable/corner_bn"
@@ -86,7 +81,7 @@ android:textColorHint="@color/colorText"
         android:textColor="@android:color/background_light"
 
           android:layout_marginTop="50dp"
-          android:layout_below="@+id/feature"
+          android:layout_below="@+id/search_by_worrd_btn"
 
           android:layout_width="match_parent"
         android:layout_height="70dp" />
@@ -98,9 +93,9 @@ android:textColorHint="@color/colorText"
         android:background="@drawable/corner_bn"
         android:text="Search"
         android:textColor="@color/colorText"
-        android:layout_below="@+id/WordSearch"
+        android:layout_below="@+id/WordSearch_editext"
         android:layout_marginTop="20dp"
-        android:id="@+id/searchstart"
+        android:id="@+id/start_search_btn"
 
         android:layout_centerHorizontal="true"
         android:layout_marginLeft="20dp"/>
@@ -109,10 +104,10 @@ android:textColorHint="@color/colorText"
         android:layout_width="match_parent"
         android:layout_height="70dp"
         android:layout_marginHorizontal="5dp"
-        android:id="@+id/l2"
+        android:id="@+id/lyt_containing_search_bybtns_edittext_lyt"
         android:background="@drawable/corner_bn"
         android:layout_marginTop="50dp"
-        android:layout_below="@+id/feature"
+        android:layout_below="@+id/search_by_worrd_btn"
 
         >
         <ImageView
@@ -133,7 +128,7 @@ android:textColorHint="@color/colorText"
             android:backgroundTint="@color/colorText"
             android:textColorHint="@color/colorText"
             android:gravity="center"
-            android:id="@+id/search_ed"
+            android:id="@+id/search_edtv"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_toRightOf="@+id/l"

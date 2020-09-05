@@ -209,14 +209,11 @@ context.getSharedPreferences(numb,MODE_PRIVATE).edit().putInt("Recent",position)
 
 
                             {
+//
 
-                                if (position + 1 == 8) {
+                                    vid = "audioUrl_" + (position+ 1) + ".mp3";
 
-                                    vid = "audioUrl_" + 1 + ".mp3";
 
-                                } else{
-                                    vid = "audioUrl_" + (position + 2) + ".mp3";
-                            }
 
 
 
@@ -226,7 +223,7 @@ context.getSharedPreferences(numb,MODE_PRIVATE).edit().putInt("Recent",position)
                                 editor.putString("pre_pos1", String.valueOf(position+1));
                                 editor.apply();
 
-                                Toast.makeText(context, ""+holder.getAdapterPosition(), Toast.LENGTH_SHORT).show();
+                                Toast.makeText(context, ""+(holder.getAdapterPosition()+1), Toast.LENGTH_SHORT).show();
 
                             }
                             else if (numb.equals("2"))
@@ -253,11 +250,11 @@ context.getSharedPreferences(numb,MODE_PRIVATE).edit().putInt("Recent",position)
 
                             else if (numb.equals("4"))
                             {
-                                vid="audioUrl_"+ (position + 386) +".mp3";
+                                vid="audioUrl_"+ (position + 385) +".mp3";
                                 audio = new File( Environment.getExternalStorageDirectory()
                                         .getAbsolutePath()+"/Download/"+vid);
 
-                                editor.putString("pre_pos1", String.valueOf(position+386));
+                                editor.putString("pre_pos1", String.valueOf(position+385));
                                 editor.apply();
 
                             }
@@ -283,11 +280,11 @@ context.getSharedPreferences(numb,MODE_PRIVATE).edit().putInt("Recent",position)
                             }
                             else if (numb.equals("7"))
                             {
-                                vid="audioUrl_"+ (position + 751) +".mp3";
+                                vid="audioUrl_"+ (position + 752) +".mp3";
                                 audio = new File( Environment.getExternalStorageDirectory()
                                         .getAbsolutePath()+"/Download/"+vid);
 
-                                editor.putString("pre_pos1", String.valueOf(position+751));
+                                editor.putString("pre_pos1", String.valueOf(position+752));
                                 editor.apply();
                             }
                             else if (numb.equals("8"))
@@ -319,11 +316,11 @@ context.getSharedPreferences(numb,MODE_PRIVATE).edit().putInt("Recent",position)
                             }
                             else if (numb.equals("11"))
                             {
-                                vid="audioUrl_"+ (position + 1328) +".mp3";
+                                vid="audioUrl_"+ (position + 1329) +".mp3";
                                 audio = new File( Environment.getExternalStorageDirectory()
                                         .getAbsolutePath()+"/Download/"+vid);
 
-                                editor.putString("pre_pos1", String.valueOf(position+1328));
+                                editor.putString("pre_pos1", String.valueOf(position+1329));
                                 editor.apply();
                             }
                             else if (numb.equals("12"))
@@ -348,11 +345,11 @@ context.getSharedPreferences(numb,MODE_PRIVATE).edit().putInt("Recent",position)
 
                             else if (numb.equals("14"))
                             {
-                                vid="audioUrl_"+ (position + 1803) +".mp3";
+                                vid="audioUrl_"+ (position+1804) +".mp3";
                                 audio = new File( Environment.getExternalStorageDirectory()
                                         .getAbsolutePath()+"/Download/"+vid);
 
-                                editor.putString("pre_pos1", String.valueOf(position+1803));
+                                editor.putString("pre_pos1", String.valueOf(position+1804));
                                 editor.apply();
                             }
 
@@ -405,7 +402,7 @@ context.getSharedPreferences(numb,MODE_PRIVATE).edit().putInt("Recent",position)
                             }
                             else if (numb.equals("20"))
                             {
-                                vid="audioUrl_"+ (position + 3215) +".mp3";
+                                vid="audioUrl_"+ (position + 3219) +".mp3";
                                 audio = new File( Environment.getExternalStorageDirectory()
                                         .getAbsolutePath()+"/Download/"+vid);
 
@@ -415,7 +412,7 @@ context.getSharedPreferences(numb,MODE_PRIVATE).edit().putInt("Recent",position)
 
                             else if (numb.equals("21"))
                             {
-                                vid="audioUrl_"+ (position + 3386) +".mp3";
+                                vid="audioUrl_"+ (position + 3385) +".mp3";
                                 audio = new File( Environment.getExternalStorageDirectory()
                                         .getAbsolutePath()+"/Download/"+vid);
 
@@ -433,7 +430,7 @@ context.getSharedPreferences(numb,MODE_PRIVATE).edit().putInt("Recent",position)
                             }
                             else if (numb.equals("23"))
                             {
-                                vid="audioUrl_"+ (position + 3733) +".mp3";
+                                vid="audioUrl_"+ (position + 3727) +".mp3";
                                 audio = new File( Environment.getExternalStorageDirectory()
                                         .getAbsolutePath()+"/Download/"+vid);
 
@@ -647,7 +644,7 @@ context.getSharedPreferences(numb,MODE_PRIVATE).edit().putInt("Recent",position)
                                              Toast.makeText(context, "downoading start", Toast.LENGTH_SHORT).show();
                                              download_file
                                                      ("https://cdn.islamic.network/quran/audio/64/ar.alafasy/"
-                                                                     + (position + 386)
+                                                                     + (position + 385)
                                                                      +".mp3",
                                                              vid);
 
@@ -685,7 +682,7 @@ context.getSharedPreferences(numb,MODE_PRIVATE).edit().putInt("Recent",position)
                                              Toast.makeText(context, "downoading start", Toast.LENGTH_SHORT).show();
                                              download_file
                                                      ("https://cdn.islamic.network/quran/audio/64/ar.alafasy/"
-                                                                     + (position + 751)
+                                                                     + (position + 752)
                                                                      +".mp3",
                                                              vid);
 
@@ -742,7 +739,7 @@ context.getSharedPreferences(numb,MODE_PRIVATE).edit().putInt("Recent",position)
                                              Toast.makeText(context, "downoading start", Toast.LENGTH_SHORT).show();
                                              download_file
                                                      ("https://cdn.islamic.network/quran/audio/64/ar.alafasy/"
-                                                                     + (position + 1328)
+                                                                     + (position + 1329)
                                                                      +".mp3",
                                                              vid);
 
@@ -782,7 +779,7 @@ context.getSharedPreferences(numb,MODE_PRIVATE).edit().putInt("Recent",position)
                                              Toast.makeText(context, "downoading start", Toast.LENGTH_SHORT).show();
                                              download_file
                                                      ("https://cdn.islamic.network/quran/audio/64/ar.alafasy/"
-                                                                     + (position + 1803)
+                                                                     + (position + 1804)
                                                                      +".mp3",
                                                              vid);
 
@@ -867,7 +864,7 @@ context.getSharedPreferences(numb,MODE_PRIVATE).edit().putInt("Recent",position)
                                              Toast.makeText(context, "downoading start", Toast.LENGTH_SHORT).show();
                                              download_file
                                                      ("https://cdn.islamic.network/quran/audio/64/ar.alafasy/"
-                                                                     + (position + 3215)
+                                                                     + (position + 3219)
                                                                      +".mp3",
                                                              vid);
 
@@ -880,7 +877,7 @@ context.getSharedPreferences(numb,MODE_PRIVATE).edit().putInt("Recent",position)
                                              Toast.makeText(context, "downoading start", Toast.LENGTH_SHORT).show();
                                              download_file
                                                      ("https://cdn.islamic.network/quran/audio/64/ar.alafasy/"
-                                                                     + (position + 3386)
+                                                                     + (position + 3385)
                                                                      +".mp3",
                                                              vid);
 
@@ -904,7 +901,7 @@ context.getSharedPreferences(numb,MODE_PRIVATE).edit().putInt("Recent",position)
                                              Toast.makeText(context, "downoading start", Toast.LENGTH_SHORT).show();
                                              download_file
                                                      ("https://cdn.islamic.network/quran/audio/64/ar.alafasy/"
-                                                                     + (position + 3733)
+                                                                     + (position + 3727)
                                                                      +".mp3",
                                                              vid);
 
@@ -1250,10 +1247,14 @@ try {
         {
             Uri uri = FileProvider.getUriForFile(context,
                     "com.developer.islamicapp.provider",audio);
+try {
+
 
 
             mediaPlayer=MediaPlayer.create(context,uri);
-            end.setText(milli_second_to_timer(mediaPlayer.getDuration()));
+            end.setText(milli_second_to_timer(mediaPlayer.getDuration()));}catch (Exception e){
+
+            }
 
         }
 

@@ -149,7 +149,7 @@ process(DBx);
                 }else if (Integer.parseInt(chk_parrah_or_surahnumber)>17 && Integer.parseInt(chk_parrah_or_surahnumber)<=24) {
                     recyclerView.setAdapter(new AdapterParah_and_surah_Reader(this, DBx, new PARAH18TO24().Data(chk_parrah_or_surahnumber), chk_parrah_or_surahnumber, REcent));
 
-                }else if (Integer.parseInt(chk_parrah_or_surahnumber)>25 && Integer.parseInt(chk_parrah_or_surahnumber)<=30) {
+                }else if (Integer.parseInt(chk_parrah_or_surahnumber)>24 && Integer.parseInt(chk_parrah_or_surahnumber)<=30) {
                     recyclerView.setAdapter(new AdapterParah_and_surah_Reader(this, DBx, new PARAH25TO30().Data(chk_parrah_or_surahnumber), chk_parrah_or_surahnumber, REcent));
 
                 }

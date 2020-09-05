@@ -35,9 +35,9 @@ public class PARAH25TO30 {
 
                 parah_25.add(new data_model_arabicandurdu("أَلَا إِنَّهُمْ فِي مِرْيَةٍ مِّن لِّقَاءِ رَبِّهِمْ أَلَا إِنَّهُ بِكُلِّ شَيْءٍ مُّحِيطٌ", "جان لو کہ وہ لوگ اپنے رب کے حضور پیشی کی نسبت شک میں ہیں، خبردار! وہی (اپنے علم و قدرت سے) ہر چیز کا احاطہ فرمانے والا ہے", "Beware that they are in doubt about the meeting with their Lord. Beware! He is the One Who encompasses everything (with His Knowledge and Power)."));
 
-                parah_25.add(new data_model_arabicandurdu("بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ", "اللہ کے نام سے شروع جو نہایت مہربان ہمیشہ رحم فرمانے والا ہے", "In the Name of Allah, Most Compassionate, Ever-Merciful."));
+//                parah_25.add(new data_model_arabicandurdu("بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ", "اللہ کے نام سے شروع جو نہایت مہربان ہمیشہ رحم فرمانے والا ہے", "In the Name of Allah, Most Compassionate, Ever-Merciful."));
 
-                parah_25.add(new data_model_arabicandurdu("حم", "حا، میم (حقیقی معنی اللہ اور رسول صلی اللہ علیہ وآلہ وسلم ہی بہتر جانتے ہیں)", "Ha-Mim,"));
+                parah_25.add(new data_model_arabicandurdu("بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ" +"\n\n"+"حم"  , "حا، میم (حقیقی معنی اللہ اور رسول صلی اللہ علیہ وآلہ وسلم ہی بہتر جانتے ہیں)", "Ha-Mim,"));
 
                 parah_25.add(new data_model_arabicandurdu("عسق", "عین، سین، قاف (حقیقی معنی اللہ اور رسول صلی اللہ علیہ وآلہ وسلم ہی بہتر جانتے ہیں)", "‘Ayn, Sin, Qaf. (Only Allah and the Messenger [blessings and peace be upon him] know the real meaning.)"));
 
@@ -144,7 +144,7 @@ public class PARAH25TO30 {
                 parah_25.add(new data_model_arabicandurdu("صِرَاطِ اللَّهِ الَّذِي لَهُ مَا فِي السَّمَاوَاتِ وَمَا فِي الْأَرْضِ أَلَا إِلَى اللَّهِ تَصِيرُ الْأُمُورُ", "(یہ صراطِ مستقیم) اسی اللہ ہی کا راستہ ہے جو آسمانوں اور زمین کی ہر چیز کا مالک ہے۔ جان لو! کہ سارے کام اللہ ہی کی طرف لوٹتے ہیں", "(This straight path is) the path of Allah to Whom belongs whatever is in the heavens and whatever is in the earth. Beware! All matters return to Allah alone."));
 
 
-                parah_25.add(new data_model_arabicandurdu("بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ", "اللہ کے نام سے شروع جو نہایت مہربان ہمیشہ رحم فرمانے والا ہے", "In the Name of Allah, Most Compassionate, Ever-Merciful."));
+//                parah_25.add(new data_model_arabicandurdu("بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ", "اللہ کے نام سے شروع جو نہایت مہربان ہمیشہ رحم فرمانے والا ہے", "In the Name of Allah, Most Compassionate, Ever-Merciful."));
 
                 parah_25.add(new data_model_arabicandurdu("حم", "حا، میم (حقیقی معنی اللہ اور رسول صلی اللہ علیہ وآلہ وسلم ہی بہتر جانتے ہیں)", "Ha-Mim. (Only Allah and the Messenger [blessings and peace be upon him] know the real meaning.)"));
 
@@ -324,9 +324,9 @@ public class PARAH25TO30 {
 
                 parah_25.add(new data_model_arabicandurdu("فَاصْفَحْ عَنْهُمْ وَقُلْ سَلَامٌ فَسَوْفَ يَعْلَمُونَ", "سو (میرے محبوب!) آپ اُن سے چہرہ پھیر لیجئے اور (یوں) کہہ دیجئے: (بس ہمارا) سلام، پھر وہ جلد ہی (اپنا حشر) معلوم کر لیں گے", "So, (O My Beloved,) turn your face away from them and say (like this: ‘Alright, our greeting is:) Peace!’ Then soon they will come to know (their end)."));
 
-                parah_25.add(new data_model_arabicandurdu("بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ", "اللہ کے نام سے شروع جو نہایت مہربان ہمیشہ رحم فرمانے والا ہے", "In the Name of Allah, Most Compassionate, Ever-Merciful."));
+//                parah_25.add(new data_model_arabicandurdu("بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ", "اللہ کے نام سے شروع جو نہایت مہربان ہمیشہ رحم فرمانے والا ہے", "In the Name of Allah, Most Compassionate, Ever-Merciful."));
 
-                parah_25.add(new data_model_arabicandurdu("حم", "حا، میم (حقیقی معنی اللہ اور رسول صلی اللہ علیہ وآلہ وسلم ہی بہتر جانتے ہیں)", "Ha-Mim. (Only Allah and the Messenger [blessings and peace be upon him] know the real meaning.)"));
+                parah_25.add(new data_model_arabicandurdu("بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ" +"\n\n"+"حم" , "حا، میم (حقیقی معنی اللہ اور رسول صلی اللہ علیہ وآلہ وسلم ہی بہتر جانتے ہیں)", "Ha-Mim. (Only Allah and the Messenger [blessings and peace be upon him] know the real meaning.)"));
 
                 parah_25.add(new data_model_arabicandurdu("وَالْكِتَابِ الْمُبِينِ", "اس روشن کتاب کی قسم", "By this Light-Giving Book,"));
 
@@ -444,9 +444,9 @@ public class PARAH25TO30 {
 
                 parah_25.add(new data_model_arabicandurdu("فَارْتَقِبْ إِنَّهُم مُّرْتَقِبُونَ", "سو آپ (بھی) انتظار فرمائیں، یقیناً وہ (بھی) انتظار کر رہے ہیں (آپ اُن کا حشر اور ہمارا انتقام دیکھیں گے اور وہ آپ کی شان اور آپ کے تصدّق سے مومنوں پر میرا انعام دیکھیں گے)", "So wait. Certainly, they (too) are waiting. (You will see Our revenge and their evil end, and they will see your glory and My favours to the believers through your mediation.)"));
 
-                parah_25.add(new data_model_arabicandurdu("بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ", "اللہ کے نام سے شروع جو نہایت مہربان ہمیشہ رحم فرمانے والا ہے", "In the Name of Allah, Most Compassionate, Ever-Merciful."));
+//                parah_25.add(new data_model_arabicandurdu("بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ", "اللہ کے نام سے شروع جو نہایت مہربان ہمیشہ رحم فرمانے والا ہے", "In the Name of Allah, Most Compassionate, Ever-Merciful."));
 
-                parah_25.add(new data_model_arabicandurdu("حم", "حا، میم (حقیقی معنی اللہ اور رسول صلی اللہ علیہ وآلہ وسلم ہی بہتر جانتے ہیں)", "Ha-Mim. (Only Allah and the Messenger [blessings and peace be upon him] know the real meaning.)"));
+                parah_25.add(new data_model_arabicandurdu("بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ" +"\n\n"+"حم", "حا، میم (حقیقی معنی اللہ اور رسول صلی اللہ علیہ وآلہ وسلم ہی بہتر جانتے ہیں)", "Ha-Mim. (Only Allah and the Messenger [blessings and peace be upon him] know the real meaning.)"));
 
                 parah_25.add(new data_model_arabicandurdu("تَنْزِيلُ الْكِتَابِ مِنَ اللَّهِ الْعَزِيزِ الْحَكِيمِ", "(اِس) کتاب کا اتارا جانا اللہ کی جانب سے ہے جو بڑی عزّت والا بڑی حکمت والا ہے", "The revelation of (this) Book is from Allah, Almighty, Most Wise."));
 
@@ -524,7 +524,7 @@ public class PARAH25TO30 {
             case "26":
 
 
-                parah_26.add(new data_model_arabicandurdu("بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ", "اللہ کے نام سے شروع جو نہایت مہربان ہمیشہ رحم فرمانے والا ہے", "In the Name of Allah, Most Compassionate, Ever-Merciful."));
+//                parah_26.add(new data_model_arabicandurdu("بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ", "اللہ کے نام سے شروع جو نہایت مہربان ہمیشہ رحم فرمانے والا ہے", "In the Name of Allah, Most Compassionate, Ever-Merciful."));
 
                 parah_26.add(new data_model_arabicandurdu("حم", "حا، میم (حقیقی معنی اللہ اور رسول صلی اللہ علیہ وآلہ وسلم ہی بہتر جانتے ہیں)", "Ha-Mim. (Only Allah and the Messenger [blessings and peace be upon him] know the real meaning.)"));
 
@@ -596,87 +596,11 @@ public class PARAH25TO30 {
 
                 parah_26.add(new data_model_arabicandurdu("فَاصْبِرْ كَمَا صَبَرَ أُوْلُوا الْعَزْمِ مِنَ الرُّسُلِ وَلَا تَسْتَعْجِل لَّهُمْ كَأَنَّهُمْ يَوْمَ يَرَوْنَ مَا يُوعَدُونَ لَمْ يَلْبَثُوا إِلَّا سَاعَةً مِّن نَّهَارٍ بَلَاغٌ فَهَلْ يُهْلَكُ إِلَّا الْقَوْمُ الْفَاسِقُونَ", "(اے حبیب!) پس آپ صبر کئے جائیں جس طرح (دوسرے) عالی ہمّت پیغمبروں نے صبر کیا تھا اور آپ ان (منکروں) کے لئے (طلبِ عذاب میں) جلدی نہ فرمائیں، جس دن وہ اس (عذابِ آخرت) کو دیکھیں گے جس کا ان سے وعدہ کیا جا رہا ہے تو (خیال کریں گے) گویا وہ (دنیا میں) دن کی ایک گھڑی کے سوا ٹھہرے ہی نہیں تھے، (یہ اللہ کی طرف سے) پیغام کا پہنچایا جانا ہے، نافرمان قوم کے سوا دیگر لوگ ہلاک نہیں کئے جائیں گے", "(O Beloved!) So be steadfast as (other) Messengers were with unwavering determination, and do not hasten (to seek the torment) for these (deniers). The Day they will see this (punishment in the Hereafter) which they are being promised, (they will think) as though they did not stay (in the world) for more than an hour. (This is but) the communication of the Message (from Allah). Those other than the disobedient will not be destroyed."));
 
-                parah_26.add(new data_model_arabicandurdu("بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ", "اللہ کے نام سے شروع جو نہایت مہربان ہمیشہ رحم فرمانے والا ہے", "In the Name of Allah, Most Compassionate, Ever-Merciful."));
+//
 
-                parah_26.add(new data_model_arabicandurdu("الَّذِينَ كَفَرُوا وَصَدُّوا عَن سَبِيلِ اللَّهِ أَضَلَّ أَعْمَالَهُمْ", "جن لوگوں نے کفر کیا اور (دوسروں کو) اللہ کی راہ سے روکا (تو) اللہ نے ان کے اعمال (اخروی اجر کے لحاظ سے) برباد کر دیئے", "Those who disbelieve and hinder (others) from the way of Allah, Allah destroys their actions (as for their reward in the Hereafter)."));
+//                parah_26.add(new data_model_arabicandurdu("بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ", "اللہ کے نام سے شروع جو نہایت مہربان ہمیشہ رحم فرمانے والا ہے", "In the Name of Allah, Most Compassionate, Ever-Merciful."));
 
-                parah_26.add(new data_model_arabicandurdu("وَالَّذِينَ آمَنُوا وَعَمِلُوا الصَّالِحَاتِ وَآمَنُوا بِمَا نُزِّلَ عَلَى مُحَمَّدٍ وَهُوَ الْحَقُّ مِن رَّبِّهِمْ كَفَّرَ عَنْهُمْ سَيِّئَاتِهِمْ وَأَصْلَحَ بَالَهُمْ", "اور جو لوگ ایمان لائے اور نیک عمل کرتے رہے اور اس (کتاب) پر ایمان لائے جو محمد (صلی اللہ علیہ وآلہ وسلم) پر نازل کی گئی ہے اور وہی ان کے رب کی جانب سے حق ہے اللہ نے ان کے گناہ ان (کے نامۂ اعمال) سے مٹا دیئے اور ان کا حال سنوار دیا", "And those who embrace faith and do pious works persistently and believe in this (Book) which has been revealed to Muhammad (blessings and peace be upon him), and that is the very truth from their Lord, Allah erases their evil works from their (record of deeds) and refines their states of being."));
-
-                parah_26.add(new data_model_arabicandurdu("ذَلِكَ بِأَنَّ الَّذِينَ كَفَرُوا اتَّبَعُوا الْبَاطِلَ وَأَنَّ الَّذِينَ آمَنُوا اتَّبَعُوا الْحَقَّ مِن رَّبِّهِمْ كَذَلِكَ يَضْرِبُ اللَّهُ لِلنَّاسِ أَمْثَالَهُمْ", "یہ اس لئے کہ جن لوگوں نے کفر کیا وہ باطل کے پیچھے چلے اور جو لوگ ایمان لائے انہوں نے اپنے رب کی طرف سے (اتارے گئے) حق کی پیروی کی، اسی طرح اللہ لوگوں کے لئے ان کے احوال بیان فرماتا ہے", "That is because those who disbelieve follow falsehood, and those who believe follow the truth (sent down) from their Lord. That is how Allah illustrates for people their states of being."));
-
-                parah_26.add(new data_model_arabicandurdu("فَإِذا لَقِيتُمُ الَّذِينَ كَفَرُوا فَضَرْبَ الرِّقَابِ حَتَّى إِذَا أَثْخَنتُمُوهُمْ فَشُدُّوا الْوَثَاقَ فَإِمَّا مَنًّا بَعْدُ وَإِمَّا فِدَاءً حَتَّى تَضَعَ الْحَرْبُ أَوْزَارَهَا ذَلِكَ وَلَوْ يَشَاءُ اللَّهُ لَانتَصَرَ مِنْهُمْ وَلَكِن لِّيَبْلُوَاْ بَعْضَكُم بِبَعْضٍ وَالَّذِينَ قُتِلُوا فِي سَبِيلِ اللَّهِ فَلَن يُضِلَّ أَعْمَالَهُمْ", "پھر جب (میدان جنگ میں) تمہارا مقابلہ (متحارب) کافروں سے ہو تو (دورانِ جنگ) ان کی گردنیں اڑا دو (کیونکہ انہوں نے انسانیت کا قتل عام کیا اور فساد انگیزی کے ذریعے امن برباد کیا)، یہاں تک کہ جب تم انہیں (جنگی معرکہ میں) خوب قتل کر چکو تو (بقیہ قیدیوں کو) مضبوطی سے باندھ لو، پھر اس کے بعد یا تو (انہیں) احسان کرتے ہوئے (بلا معاوضہ چھوڑ دو) یا فدیہ (یعنی معاوضۂ رہائی) لے کر (آزاد کر دو) یہاں تک کہ جنگ (کرنے والی مخالف فوج) اپنے ہتھیار رکھ دے (یعنی صلح و امن کا اعلان کر دے)۔ یہی (حکم) ہے، اور اگر اللہ چاہتا تو ان سے (بغیر جنگ) انتقام لے لیتا مگر (اس نے ایسا نہیں کیا) تاکہ تم میں سے بعض کو بعض کے ذریعے آزمائے، اور جو لوگ اللہ کی راہ میں قتل کر دیئے گئے تو وہ ان کے اعمال کو ہرگز ضائع نہ کرے گا", "So when you are to fight (for the elimination of militancy and terrorism) against the (warring) disbelievers (in the battlefield), strike their necks (whilst fighting because they slaughtered harmless human lives and destroyed peace by their terrorist activities) till, when you have killed a good many of them (in the battle), then tie (the remaining prisoners) tightly. Thereafter, either set (them) free (without ransom) as a favour or (free them) for ransom (i.e., cost of freedom) till the warring (hostile army) lays down its weapons (i.e., announces the truce). That is (the command). And if Allah had willed, He would have avenged Himself on them (without war). But (He did not do so) in order to try some of you by means of others. And as for those who are slain in the way of Allah, He will not at all make their actions fruitless."));
-
-                parah_26.add(new data_model_arabicandurdu("سَيَهْدِيهِمْ وَيُصْلِحُ بَالَهُمْ", "وہ عنقریب انہیں (جنت کی) سیدھی راہ پر ڈال دے گا اور ان کے احوالِ (اُخروی) کو خوب بہتر کر دے گا", "He will soon put them on the straight path (of Paradise), and will greatly enhance their states of being (in the Hereafter)."));
-
-                parah_26.add(new data_model_arabicandurdu("وَيُدْخِلُهُمُ الْجَنَّةَ عَرَّفَهَا لَهُمْ", "اور (بالآخر) انہیں جنت میں داخل فرما دے گا جس کی اس نے (پہلے ہی سے) انہیں خوب پہچان کرا دی ہے", "And He will (ultimately) admit them to Paradise which He has (already) made well known to them."));
-
-                parah_26.add(new data_model_arabicandurdu("يَا أَيُّهَا الَّذِينَ آمَنُوا إِن تَنصُرُوا اللَّهَ يَنصُرْكُمْ وَيُثَبِّتْ أَقْدَامَكُمْ", "اے ایمان والو! اگر تم اللہ (کے دین) کی مدد کرو گے تو وہ تمہاری مدد فرمائے گا اور تمہارے قدموں کو مضبوط رکھے گا", "O believers! If you help (the Din [Religion] of) Allah, He will help you and will make your feet firm."));
-
-                parah_26.add(new data_model_arabicandurdu("وَالَّذِينَ كَفَرُوا فَتَعْسًا لَّهُمْ وَأَضَلَّ أَعْمَالَهُمْ", "اور جنہوں نے کفر کیا تو ان کے لئے ہلاکت ہے اور (اللہ نے) ان کے اعمال برباد کر دیئے", "And those who disbelieve, for them is destruction and (Allah) has ruined their actions."));
-
-                parah_26.add(new data_model_arabicandurdu("ذَلِكَ بِأَنَّهُمْ كَرِهُوا مَا أَنزَلَ اللَّهُ فَأَحْبَطَ أَعْمَالَهُمْ", "یہ اس وجہ سے کہ انہوں نے اس (کتاب) کو ناپسند کیا جو اللہ نے نازل فرمائی تو اس نے ان کے اعمال اکارت کر دیئے", "That is because they hate that (Book) which Allah has sent down so He has made their actions come to nothing."));
-
-                parah_26.add(new data_model_arabicandurdu("أَفَلَمْ يَسِيرُوا فِي الْأَرْضِ فَيَنظُرُوا كَيْفَ كَانَ عَاقِبَةُ الَّذِينَ مِن قَبْلِهِمْ دَمَّرَ اللَّهُ عَلَيْهِمْ وَلِلْكَافِرِينَ أَمْثَالُهَا", "کیا انہوں نے زمین میں سفر و سیاحت نہیں کی کہ وہ دیکھ لیتے کہ ان لوگوں کا انجام کیسا ہوا جو ان سے پہلے تھے۔ اللہ نے ان پر ہلاکت و بربادی ڈال دی۔ اور کافروں کے لئے اسی طرح کی بہت سی ہلاکتیں ہیں", "Have they not travelled and toured in the earth so that they could see the fate of those who passed before them? Allah cast upon them total destruction. There are many such calamities awaiting the disbelievers."));
-
-                parah_26.add(new data_model_arabicandurdu("ذَلِكَ بِأَنَّ اللَّهَ مَوْلَى الَّذِينَ آمَنُوا وَأَنَّ الْكَافِرِينَ لَا مَوْلَى لَهُمْ", "یہ اس وجہ سے ہے کہ اللہ ان لوگوں کا ولی و مددگار ہے جو ایمان لائے ہیں اور بیشک کافروں کے لئے کوئی ولی و مددگار نہیں ہے", "That is because Allah is the Protector and Helper of those who believe, and for sure the disbelievers do not have any protector and helper."));
-
-                parah_26.add(new data_model_arabicandurdu("إِنَّ اللَّهَ يُدْخِلُ الَّذِينَ آمَنُوا وَعَمِلُوا الصَّالِحَاتِ جَنَّاتٍ تَجْرِي مِن تَحْتِهَا الْأَنْهَارُ وَالَّذِينَ كَفَرُوا يَتَمَتَّعُونَ وَيَأْكُلُونَ كَمَا تَأْكُلُ الْأَنْعَامُ وَالنَّارُ مَثْوًى لَّهُمْ", "بیشک اللہ ان لوگوں کو جو ایمان لائے اور نیک اعمال کرتے رہے بہشتوں میں داخل فرمائے گا جن کے نیچے نہریں جاری ہوں گی، اور جن لوگوں نے کفر کیا اور (دنیوی) فائدے اٹھا رہے ہیں اور (اس طرح) کھا رہے ہیں جیسے چوپائے (جانور) کھاتے ہیں سو دوزخ ہی ان کا ٹھکانا ہے", "Surely, those who believe and do pious works, Allah will admit them to Gardens with streams flowing under them, and those who disbelieve and are enjoying (worldly) gains and eat as cattle (animals) do, so Hell alone will be their abode."));
-
-                parah_26.add(new data_model_arabicandurdu("وَكَأَيِّن مِّن قَرْيَةٍ هِيَ أَشَدُّ قُوَّةً مِّن قَرْيَتِكَ الَّتِي أَخْرَجَتْكَ أَهْلَكْنَاهُمْ فَلَا نَاصِرَ لَهُمْ", "اور (اے حبیب!) کتنی ہی بستیاں تھیں جن کے باشندے (وسائل و اقتدار میں) آپ کے اس شہر (مکّہ کے باشندوں) سے زیادہ طاقتور تھے جس (کے مقتدر وڈیروں) نے آپ کو (بصورتِ ہجرت) نکال دیا ہے، ہم نے انہیں (بھی) ہلاک کر ڈالا پھر ان کا کوئی مددگار نہ ہوا (جو انہیں بچا سکتا)", "And, (O Beloved,) how many a town have We destroyed whose citizens wielded greater power (i.e., resources and authority) than (the residents of) your city (Mecca) whose (powerful chiefs) have driven you out (by emigration)! We have destroyed them as well, and no one came to their help (who could save them)."));
-
-                parah_26.add(new data_model_arabicandurdu("أَفَمَن كَانَ عَلَى بَيِّنَةٍ مِّن رَّبِّهِ كَمَن زُيِّنَ لَهُ سُوءُ عَمَلِهِ وَاتَّبَعُوا أَهْوَاءَهُمْ", "سو کیا وہ شخص جو اپنے رب کی طرف سے واضح دلیل پر (قائم) ہو ان لوگوں کی مثل ہو سکتا ہے جن کے برے اعمال ان کے لئے آراستہ کر کے دکھائے گئے ہیں اور وہ اپنی نفسانی خواہشات کے پیچھے چل رہے ہوں", "Is someone who is (firm) on the clear proof from his Lord like those whose evil actions are shown to them as fair and who follow the desires of their (ill-commanding) selves?"));
-
-                parah_26.add(new data_model_arabicandurdu("مَثَلُ الْجَنَّةِ الَّتِي وُعِدَ الْمُتَّقُونَ فِيهَا أَنْهَارٌ مِّن مَّاءٍ غَيْرِ آسِنٍ وَأَنْهَارٌ مِن لَّبَنٍ لَّمْ يَتَغَيَّرْ طَعْمُهُ وَأَنْهَارٌ مِّنْ خَمْرٍ لَّذَّةٍ لِّلشَّارِبِينَ وَأَنْهَارٌ مِّنْ عَسَلٍ مُّصَفًّى وَلَهُمْ فِيهَا مِن كُلِّ الثَّمَرَاتِ وَمَغْفِرَةٌ مِّن رَّبِّهِمْ كَمَنْ هُوَ خَالِدٌ فِي النَّارِ وَسُقُوا مَاءً حَمِيمًا فَقَطَّعَ أَمْعَاءَهُمْ", "جس جنّت کا پرہیزگاروں سے وعدہ کیا گیا ہے اس کی صفت یہ ہے کہ اس میں (ایسے) پانی کی نہریں ہوں گی جس میں کبھی (بو یا رنگت کا) تغیّر نہ آئے گا، اور (اس میں ایسے) دودھ کی نہریں ہوں گی جس کا ذائقہ اور مزہ کبھی نہ بدلے گا، اور (ایسے) شرابِ (طہور) کی نہریں ہوں گی جو پینے والوں کے لئے سراسر لذّت ہے، اور خوب صاف کئے ہوئے شہد کی نہریں ہوں گی، اور ان کے لئے اس میں ہر قسم کے پھل ہوں گے اور ان کے رب کی جانب سے (ہر طرح کی) بخشائش ہوگی، (کیا یہ پرہیزگار) ان لوگوں کی طرح ہو سکتا ہے جو ہمیشہ دوزخ میں رہنے والے ہیں اور جنہیں کھولتا ہوا پانی پلایا جائے گا تو وہ ان کی آنتوں کو کاٹ کر ٹکڑے ٹکڑے کر دے گا", "A feature of the Paradise which is promised to the Godfearing is that therein are streams of (such) water as will never putrefy (in smell or colour), and (in it) will be streams of milk whose taste and flavour will never change, and streams of (such a pure) wine that is an absolute delight for all who drink it and streams of purified honey; and (in it) will be fruits of every kind (for them) and forgiveness (of every sort) from their Lord. Can this (pious man) be like those who are permanent residents of Hell and who will be given scalding water to drink which will cut their gut into pieces?"));
-
-                parah_26.add(new data_model_arabicandurdu("وَمِنْهُم مَّن يَسْتَمِعُ إِلَيْكَ حَتَّى إِذَا خَرَجُوا مِنْ عِندِكَ قَالُوا لِلَّذِينَ أُوتُوا الْعِلْمَ مَاذَا قَالَ آنِفًا أُوْلَئِكَ الَّذِينَ طَبَعَ اللَّهُ عَلَى قُلُوبِهِمْ وَاتَّبَعُوا أَهْوَاءَهُمْ", "اور ان میں سے بعض وہ لوگ بھی ہیں جو آپ کی طرف (دل اور دھیان لگائے بغیر) صرف کان لگائے سنتے رہتے ہیں یہاں تک کہ جب وہ آپ کے پاس سے نکل کر (باہر) جاتے ہیں تو ان لوگوں سے پوچھتے ہیں جنہیں علمِ (نافع) عطا کیا گیا ہے کہ ابھی انہوں نے (یعنی رسول اللہ صلی اللہ علیہ وآلہ وسلم نے) کیا فرمایا تھا؟ یہی وہ لوگ ہیں جن کے دلوں پر اللہ نے مہر لگا دی ہے اور وہ اپنی خواہشات کی پیروی کر رہے ہیں", "And amongst them are those who give ears to you (without their heads and hearts in it) till, when they leave your presence and go (out), they ask those who have been given (profitable) knowledge: ‘What is it that he (the Messenger [blessings and peace be upon him]) said just now?’ It is they whose hearts Allah has sealed up and they are following their lusts."));
-
-                parah_26.add(new data_model_arabicandurdu("وَالَّذِينَ اهْتَدَوْا زَادَهُمْ هُدًى وَآتَاهُمْ تَقْوَاهُمْ", "اور جن لوگوں نے ہدایت پا لی ہے، اللہ ان کی ہدایت کو اور زیادہ فرما دیتا ہے اور انہیں ان کے مقامِ تقوٰی سے سرفراز فرماتا ہے", "And as for those who have taken guidance, Allah increases their guidance and honours them with their station of Godwariness."));
-
-                parah_26.add(new data_model_arabicandurdu("فَهَلْ يَنظُرُونَ إِلَّا السَّاعَةَ أَن تَأْتِيَهُم بَغْتَةً فَقَدْ جَاءَ أَشْرَاطُهَا فَأَنَّى لَهُمْ إِذَا جَاءَتْهُمْ ذِكْرَاهُمْ", "تو اب یہ (منکر) لوگ صرف قیامت ہی کا انتظار کر رہے ہیں کہ وہ ان پر اچانک آپہنچے؟ سو واقعی اس کی نشانیاں (قریب) آپہنچی ہیں، پھر انہیں ان کی نصیحت کہاں (مفید) ہوگی جب (خود) قیامت (ہی) آپہنچے گے", "So are they (the deniers) now just waiting for the Last Hour to come upon them all of a sudden? Its signs have no doubt drawn (near). But what (good) will their admonition do to them when the Last Hour (itself) approaches?"));
-
-                parah_26.add(new data_model_arabicandurdu("فَاعْلَمْ أَنَّهُ لَا إِلَهَ إِلَّا اللَّهُ وَاسْتَغْفِرْ لِذَنبِكَ وَلِلْمُؤْمِنِينَ وَالْمُؤْمِنَاتِ وَاللَّهُ يَعْلَمُ مُتَقَلَّبَكُمْ وَمَثْوَاكُمْ", "پس جان لیجیے کہ اللہ کے سوا کوئی معبود نہیں اور آپ (اظہارِ عبودیت اور تعلیمِ امت کی خاطر اللہ سے) معافی مانگتے رہا کریں کہ کہیں آپ سے (اپنی شان اقدس اور خصوصی عظمت و رِفعت کے تناظر میں) خلافِ اَولیٰ فعل صادر نہ ہو جائے* اور مومن مردوں اور مومن عورتوں کے لیے بھی طلبِ مغفرت (یعنی ان کی شفاعت) فرماتے رہا کریں (یہی ان کا سامان بخشش ہے)، اور (اے لوگو!) اللہ (دنیا میں) تمہارے چلنے پھرنے کے ٹھکانے اور (آخرت میں) تمہارے ٹھہرنے کی منزلیں (سب) جانتا ہے", "Know then that there is no God except Allah and (to offer worship and to educate the Umma [Community]) always ask forgiveness (from Allah) lest (in the perspective of your glory, majesty and exaltation peculiar to you alone) an action unworthy of your incomparable station may transpire.* And also seek forgiveness (i.e., intercede) for the believing men and women (for that is all they may have in balance for forgiveness). And, (O people,) Allah knows (all about) the places where you move about (in the world) and your mansions of repose (in the Hereafter)."));
-
-                parah_26.add(new data_model_arabicandurdu("وَيَقُولُ الَّذِينَ آمَنُوا لَوْلَا نُزِّلَتْ سُورَةٌ فَإِذَا أُنزِلَتْ سُورَةٌ مُّحْكَمَةٌ وَذُكِرَ فِيهَا الْقِتَالُ رَأَيْتَ الَّذِينَ فِي قُلُوبِهِم مَّرَضٌ يَنظُرُونَ إِلَيْكَ نَظَرَ الْمَغْشِيِّ عَلَيْهِ مِنَ الْمَوْتِ فَأَوْلَى لَهُمْ", "اور ایمان والے کہتے ہیں کہ (اپنے دفاع میں جنگ کی اِجازت سے متعلق) کوئی سورت کیوں نہیں اتاری جاتی؟ پھر جب کوئی واضح سورت نازل کی جاتی ہے اور اس میں (دفاعی) جنگ کا (صریحاً) ذکر کیا جاتا ہے تو آپ ایسے لوگوں کو جن کے دلوں میں (نفاق کی) بیماری ہے (اور وہ آپ کی اور مسلمانوں کی سلامتی نہیں چاہتے) ملاحظہ فرماتے ہیں کہ وہ آپ کی طرف (اس طرح) دیکھتے ہیں جیسے وہ شخص دیکھتا ہے جس پر موت کی غشی طاری ہو رہی ہو۔ سو ان کے لیے خرابی ہے", "And the believers say why a Sura (Chapter) is not revealed (about the permission to fight in defence). But when a clear Sura is revealed and (defensive) fighting for the cause of Allah is (plainly) mentioned in it, you see those who have the disease (of hypocrisy) in their hearts (and who do not want your and the believers’ safety) looking at you like someone who is fainting to death. So, for them is disaster."));
-
-                parah_26.add(new data_model_arabicandurdu("طَاعَةٌ وَقَوْلٌ مَّعْرُوفٌ فَإِذَا عَزَمَ الْأَمْرُ فَلَوْ صَدَقُوا اللَّهَ لَكَانَ خَيْرًا لَّهُمْ", "فرمانبرداری اور اچھی گفتگو (ان کے حق میں بہتر) ہے، پھر جب حکمِ جہاد قطعی (اور پختہ) ہو گیا تو اگر وہ اللہ سے (اپنی اطاعت اور وفاداری میں) سچے رہتے تو ان کے لئے بہتر ہوتا", "(Best for them would be) obedience and good words. So when the command of fighting (for self-protection and self-defence) was definite (and firm), then if they had been true to Allah (in obedience and dedication), that would have been better for them."));
-
-                parah_26.add(new data_model_arabicandurdu("فَهَلْ عَسَيْتُمْ إِن تَوَلَّيْتُمْ أَن تُفْسِدُوا فِي الْأَرْضِ وَتُقَطِّعُوا أَرْحَامَكُمْ", "پس (اے منافقو!) تم سے توقع یہی ہے کہ اگر تم (قتال سے گریز کر کے بچ نکلو اور) حکومت حاصل کر لو تو تم زمین میں فساد ہی برپا کرو گے اور اپنے (ان) قرابتی رشتوں کو توڑ ڈالو گے (جن کے بارے میں اللہ اور اس کے رسول صلی اللہ علیہ وآلہ وسلم نے مواصلت اور مُودّت کا حکم دیا ہے)", "So, (O hypocrites,) what is expected of you is that if you (escape fighting by dodging and) attain to power, you will spread only mischief in the land and break your ties of kinship (which Allah and His Messenger [blessings and peace be upon him] have commanded to strengthen with affection and care)."));
-
-                parah_26.add(new data_model_arabicandurdu("أُوْلَئِكَ الَّذِينَ لَعَنَهُمُ اللَّهُ فَأَصَمَّهُمْ وَأَعْمَى أَبْصَارَهُمْ", "یہی وہ لوگ ہیں جن پر اللہ نے لعنت کی ہے اور ان (کے کانوں) کو بہرا کر دیا ہے اور ان کی آنکھوں کو اندھا کر دیا ہے", "It is they whom Allah has cursed and made deaf (their ears) and blinded their eyes."));
-
-                parah_26.add(new data_model_arabicandurdu("أَفَلَا يَتَدَبَّرُونَ الْقُرْآنَ أَمْ عَلَى قُلُوبٍ أَقْفَالُهَا", "کیا یہ لوگ قرآن میں غور نہیں کرتے یا ان کے دلوں پر تالے (لگے ہوئے) ہیں", "Do they not think over the Qur’an, or are their hearts locked?"));
-
-                parah_26.add(new data_model_arabicandurdu("إِنَّ الَّذِينَ ارْتَدُّوا عَلَى أَدْبَارِهِم مِّن بَعْدِ مَا تَبَيَّنَ لَهُمُ الْهُدَى الشَّيْطَانُ سَوَّلَ لَهُمْ وَأَمْلَى لَهُمْ", "بیشک جو لوگ پیٹھ پھیر کر پیچھے (کفر کی طرف) لوٹ گئے اس کے بعد کہ ان پر ہدایت واضح ہو چکی تھی شیطان نے انہیں (کفر کی طرف واپس پلٹنا دھوکہ دہی سے) اچھا کر کے دکھایا، اور انہیں (دنیا میں) طویل زندگی کی امید دلائی", "Surely, those who turned back (to disbelief) after the guidance had become clear to them, Satan (by fraud) made (turning back to disbelief) look good to them and gave them false hope of living long (in the world)."));
-
-                parah_26.add(new data_model_arabicandurdu("ذَلِكَ بِأَنَّهُمْ قَالُوا لِلَّذِينَ كَرِهُوا مَا نَزَّلَ اللَّهُ سَنُطِيعُكُمْ فِي بَعْضِ الْأَمْرِ وَاللَّهُ يَعْلَمُ إِسْرَارَهُمْ", "یہ اس لئے کہ انہوں نے ان لوگوں سے کہا جو اللہ کی نازل کردہ کتاب کو ناپسند کرتے تھے کہ ہم بعض امور میں تمہاری پیروی کریں گے، اور اللہ ان کے خفیہ مشورہ کرنے کو خوب جانتا ہے", "That is because they said to those who dislike the Book revealed by Allah: ‘We shall obey you in certain matters.’ And Allah knows best their secret consultations."));
-
-                parah_26.add(new data_model_arabicandurdu("فَكَيْفَ إِذَا تَوَفَّتْهُمْ الْمَلَائِكَةُ يَضْرِبُونَ وُجُوهَهُمْ وَأَدْبَارَهُمْ", "پھر (اس وقت ان کا حشر) کیسا ہوگا جب فرشتے ان کی جان (اس حال میں) نکالیں گے کہ ان کے چہروں اور ان کی پیٹھوں پر ضربیں لگاتے ہوں گے", "Then what will be (their plight at the time) when the angels will snatch out their souls (this way) that they will be striking their faces and their backs?"));
-
-                parah_26.add(new data_model_arabicandurdu("ذَلِكَ بِأَنَّهُمُ اتَّبَعُوا مَا أَسْخَطَ اللَّهَ وَكَرِهُوا رِضْوَانَهُ فَأَحْبَطَ أَعْمَالَهُمْ", "یہ اس وجہ سے ہے کہ انہوں نے اُس (رَوِش) کی پیروی کی جو اللہ کو ناراض کرتی ہے اور انہوں نے اس کی رضا کو ناپسند کیا تو اس نے ان کے (جملہ) اعمال اکارت کر دیئے", "That is because they followed that (path) which displeases Allah and disliked His good pleasure; so He made (all) their actions null and void."));
-
-                parah_26.add(new data_model_arabicandurdu("أَمْ حَسِبَ الَّذِينَ فِي قُلُوبِهِم مَّرَضٌ أَن لَّن يُخْرِجَ اللَّهُ أَضْغَانَهُمْ", "کیا وہ لوگ جن کے دلوں میں (نفاق کی) بیماری ہے یہ گمان کرتے ہیں کہ اللہ ان کے کینوں اور عداوتوں کو ہرگز ظاہر نہ فرمائے گا", "Do those who have the disease (of hypocrisy) in their hearts think that Allah will never make known their malice and hostilities?"));
-
-                parah_26.add(new data_model_arabicandurdu("وَلَوْ نَشَاءُ لَأَرَيْنَاكَهُمْ فَلَعَرَفْتَهُم بِسِيمَاهُمْ وَلَتَعْرِفَنَّهُمْ فِي لَحْنِ الْقَوْلِ وَاللَّهُ يَعْلَمُ أَعْمَالَكُمْ", "اور اگر ہم چاہیں تو آپ کو بلاشبہ وہ (منافق) لوگ (اس طرح) دکھا دیں کہ آپ انہیں ان کے چہروں کی علامت سے ہی پہچان لیں، اور (اسی طرح) یقیناً آپ ان کے اندازِ کلام سے بھی انہیں پہچان لیں گے، اور اللہ تمہارے سب اعمال کو (خوب) جانتا ہے", "And if We will, We can surely show these (hypocrites) to you (in such a manner) that you may recognize them by their facial expressions and (likewise) you may recognize them by their conversation style and Allah knows (best) all your actions."));
-
-                parah_26.add(new data_model_arabicandurdu("وَلَنَبْلُوَنَّكُمْ حَتَّى نَعْلَمَ الْمُجَاهِدِينَ مِنكُمْ وَالصَّابِرِينَ وَنَبْلُوَاْ أَخْبَارَكُمْ", "اور ہم ضرور تمہاری آزمائش کریں گے یہاں تک کہ تم میں سے (ثابت قدمی کے ساتھ) جہاد کرنے والوں اور صبر کرنے والوں کو (بھی) ظاہر کر دیں اور تمہاری (منافقانہ بزدلی کی مخفی) خبریں (بھی) ظاہر کر دیں", "And We shall certainly try you till We bring to light those of you who strive hard and fight (firm-footed) and who observe patience and expose your (secret) news (of hypocritical cowardice) as well."));
-
-                parah_26.add(new data_model_arabicandurdu("إِنَّ الَّذِينَ كَفَرُوا وَصَدُّوا عَن سَبِيلِ اللَّهِ وَشَاقُّوا الرَّسُولَ مِن بَعْدِ مَا تَبَيَّنَ لَهُمُ الهُدَى لَن يَضُرُّوا اللَّهَ شَيْئًا وَسَيُحْبِطُ أَعْمَالَهُمْ", "بیشک جن لوگوں نے کفر کیا اور (لوگوں کو) اللہ کی راہ سے روکا اور رسول (صلی اللہ علیہ وآلہ وسلم) کی مخالفت (اور ان سے جدائی کی راہ اختیار) کی اس کے بعد کہ ان پر ہدایت (یعنی عظمتِ رسول صلی اللہ علیہ وآلہ وسلم کی معرفت) واضح ہو چکی تھی وہ اللہ کا ہرگز کچھ نقصان نہیں کر سکیں گے (یعنی رسول صلی اللہ علیہ وآلہ وسلم کی قدر و منزلت کو گھٹا نہیں سکیں گے)،٭ اور اللہ ان کے (سارے) اعمال کو (مخالفتِ رسول صلی اللہ علیہ وآلہ وسلم کے باعث) نیست و نابود کر دے گا", "Indeed, those who disbelieved and hindered (the people) from the way of Allah and opposed the Messenger (blessings and peace be upon him), (and chose the path of breaking away from him,) after the guidance (i.e., the gnosis of the veneration of the Holy Messenger [blessings and peace be upon him]) had become clear to them, they would not be able to harm Allah anyway (i.e., would not be able to decrease the incomparable superiority and pre-eminence of the Messenger* [blessings and peace be upon him]). Allah will wreck (all) their works (due to their opposition to the Holy Messenger [blessings and peace be upon him])."));
-
-                parah_26.add(new data_model_arabicandurdu("يَا أَيُّهَا الَّذِينَ آمَنُوا أَطِيعُوا اللَّهَ وَأَطِيعُوا الرَّسُولَ وَلَا تُبْطِلُوا أَعْمَالَكُمْ", "اے ایمان والو! تم اللہ کی اطاعت کیا کرو اور رسول (صلی اللہ علیہ وآلہ وسلم) کی اطاعت کیا کرو اور اپنے اعمال برباد مت کرو", "O believers! Obey Allah and obey the Messenger (blessings and peace be upon him) and do not ruin your works."));
-
-                parah_26.add(new data_model_arabicandurdu("إِنَّ الَّذِينَ كَفَرُوا وَصَدُّوا عَن سَبِيلِ اللَّهِ ثُمَّ مَاتُوا وَهُمْ كُفَّارٌ فَلَن يَغْفِرَ اللَّهُ لَهُمْ", "بیشک جن لوگوں نے کفر کیا اور (لوگوں کو) اللہ کی راہ سے روکا پھر اس حال میں مر گئے کہ وہ کافر تھے تو اللہ انہیں کبھی نہ بخشے گا", "Indeed, those who disbelieved and hindered (the people) from the way of Allah and then died as disbelievers, Allah will never forgive them."));
-
-                parah_26.add(new data_model_arabicandurdu("فَلَا تَهِنُوا وَتَدْعُوا إِلَى السَّلْمِ وَأَنتُمُ الْأَعْلَوْنَ وَاللَّهُ مَعَكُمْ وَلَن يَتِرَكُمْ أَعْمَالَكُمْ", "(اے مومنو!) پس تم ہمت نہ ہارو اور ان (متحارب کافروں) سے صلح کی درخواست نہ کرو (کہیں تمہاری کمزوری ظاہر نہ ہو)، اور تم ہی غالب رہو گے، اور اللہ تمہارے ساتھ ہے اور وہ تمہارے اعمال (کا ثواب) ہرگز کم نہ کرے گا", "(O believers!) Do not lose heart and do not ask (the warring disbelievers) for peace (lest it should suggest your weakness). And it is you who will have the upper hand. And Allah is with you, and He will never reduce (the reward of) your actions."));
-
-                parah_26.add(new data_model_arabicandurdu("إِنَّمَا الْحَيَاةُ الدُّنْيَا لَعِبٌ وَلَهْوٌ وَإِن تُؤْمِنُوا وَتَتَّقُوا يُؤْتِكُمْ أُجُورَكُمْ وَلَا يَسْأَلْكُمْ أَمْوَالَكُمْ", "بس دنیا کی زندگی تو محض کھیل اور تماشا ہے، اور اگر تم ایمان لے آؤ اور تقوٰی اختیار کرو تو وہ تمہیں تمہارے (اعمال پر کامل) ثواب عطا فرمائے گا اور تم سے تمہارے مال طلب نہیں کرے گا", "Doubtlessly, the life of the world is nothing but merely a sport and pastime. And if you believe and adopt Godwariness, He will pay you the recompense (of your deeds in full), and will not require of you your wealth."));
-
-                parah_26.add(new data_model_arabicandurdu("إِن يَسْأَلْكُمُوهَا فَيُحْفِكُمْ تَبْخَلُوا وَيُخْرِجْ أَضْغَانَكُمْ", "اگر وہ تم سے اس مال کو طلب کر لے پھر تمہیں طلب میں تنگی دے تو تمہیں (دل میں) تنگی محسوس ہوگی (اور) تم بخل کرو گے اور (اس طرح) وہ تمہارے (دنیا پرستی کے باعث باطنی) زنگ ظاہر کر دے گا", "If He asks you for this wealth and puts you under scarcity for that, then you will feel constrained (at heart and) become miserly. And in this way, He will expose your (inner) rust (which results from worldly pursuits)."));
-
-                parah_26.add(new data_model_arabicandurdu("هَاأَنتُمْ هَؤُلَاءِ تُدْعَوْنَ لِتُنفِقُوا فِي سَبِيلِ اللَّهِ فَمِنكُم مَّن يَبْخَلُ وَمَن يَبْخَلْ فَإِنَّمَا يَبْخَلُ عَن نَّفْسِهِ وَاللَّهُ الْغَنِيُّ وَأَنتُمُ الْفُقَرَاءُ وَإِن تَتَوَلَّوْا يَسْتَبْدِلْ قَوْمًا غَيْرَكُمْ ثُمَّ لَا يَكُونُوا أَمْثَالَكُمْ", "یاد رکھو! تم وہ لوگ ہو جنہیں اللہ کی راہ میں خرچ کرنے کے لئے بلایا جاتا ہے تو تم میں سے بعض ایسے بھی ہیں جو بُخل کرتے ہیں، اور جو کوئی بھی بُخل کرتا ہے وہ محض اپنی جان ہی سے بخل کرتا ہے، اور اللہ بے نیاز ہے اور تم (سب) محتاج ہو، اور اگر تم (حکمِ الٰہی سے) رُوگردانی کرو گے تو وہ تمہاری جگہ بدل کر دوسری قوم کو لے آئے گا پھر وہ تمہارے جیسے نہ ہوں گے", "Remember! You are those who are called to spend in the way of Allah. Then there are some of you who act miserly. And whoever acts miserly does it only against himself. And Allah is Independent and you (all) are dependent. And if you turn away from the command of Allah, He will replace you with another people who will not be like you."));
-
-                parah_26.add(new data_model_arabicandurdu("بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ", "اللہ کے نام سے شروع جو نہایت مہربان ہمیشہ رحم فرمانے والا ہے", "In the Name of Allah, Most Compassionate, Ever-Merciful."));
-
-                parah_26.add(new data_model_arabicandurdu("الَّذِينَ كَفَرُوا وَصَدُّوا عَن سَبِيلِ اللَّهِ أَضَلَّ أَعْمَالَهُمْ", "جن لوگوں نے کفر کیا اور (دوسروں کو) اللہ کی راہ سے روکا (تو) اللہ نے ان کے اعمال (اخروی اجر کے لحاظ سے) برباد کر دیئے", "Those who disbelieve and hinder (others) from the way of Allah, Allah destroys their actions (as for their reward in the Hereafter)."));
+                parah_26.add(new data_model_arabicandurdu("بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ" +"\n\n"+"الَّذِينَ كَفَرُوا وَصَدُّوا عَن سَبِيلِ اللَّهِ أَضَلَّ أَعْمَالَهُمْ", "جن لوگوں نے کفر کیا اور (دوسروں کو) اللہ کی راہ سے روکا (تو) اللہ نے ان کے اعمال (اخروی اجر کے لحاظ سے) برباد کر دیئے", "Those who disbelieve and hinder (others) from the way of Allah, Allah destroys their actions (as for their reward in the Hereafter)."));
 
                 parah_26.add(new data_model_arabicandurdu("وَالَّذِينَ آمَنُوا وَعَمِلُوا الصَّالِحَاتِ وَآمَنُوا بِمَا نُزِّلَ عَلَى مُحَمَّدٍ وَهُوَ الْحَقُّ مِن رَّبِّهِمْ كَفَّرَ عَنْهُمْ سَيِّئَاتِهِمْ وَأَصْلَحَ بَالَهُمْ", "اور جو لوگ ایمان لائے اور نیک عمل کرتے رہے اور اس (کتاب) پر ایمان لائے جو محمد (صلی اللہ علیہ وآلہ وسلم) پر نازل کی گئی ہے اور وہی ان کے رب کی جانب سے حق ہے اللہ نے ان کے گناہ ان (کے نامۂ اعمال) سے مٹا دیئے اور ان کا حال سنوار دیا", "And those who embrace faith and do pious works persistently and believe in this (Book) which has been revealed to Muhammad (blessings and peace be upon him), and that is the very truth from their Lord, Allah erases their evil works from their (record of deeds) and refines their states of being."));
 
@@ -752,9 +676,9 @@ public class PARAH25TO30 {
 
                 parah_26.add(new data_model_arabicandurdu("هَاأَنتُمْ هَؤُلَاءِ تُدْعَوْنَ لِتُنفِقُوا فِي سَبِيلِ اللَّهِ فَمِنكُم مَّن يَبْخَلُ وَمَن يَبْخَلْ فَإِنَّمَا يَبْخَلُ عَن نَّفْسِهِ وَاللَّهُ الْغَنِيُّ وَأَنتُمُ الْفُقَرَاءُ وَإِن تَتَوَلَّوْا يَسْتَبْدِلْ قَوْمًا غَيْرَكُمْ ثُمَّ لَا يَكُونُوا أَمْثَالَكُمْ", "یاد رکھو! تم وہ لوگ ہو جنہیں اللہ کی راہ میں خرچ کرنے کے لئے بلایا جاتا ہے تو تم میں سے بعض ایسے بھی ہیں جو بُخل کرتے ہیں، اور جو کوئی بھی بُخل کرتا ہے وہ محض اپنی جان ہی سے بخل کرتا ہے، اور اللہ بے نیاز ہے اور تم (سب) محتاج ہو، اور اگر تم (حکمِ الٰہی سے) رُوگردانی کرو گے تو وہ تمہاری جگہ بدل کر دوسری قوم کو لے آئے گا پھر وہ تمہارے جیسے نہ ہوں گے", "Remember! You are those who are called to spend in the way of Allah. Then there are some of you who act miserly. And whoever acts miserly does it only against himself. And Allah is Independent and you (all) are dependent. And if you turn away from the command of Allah, He will replace you with another people who will not be like you."));
 
-                parah_26.add(new data_model_arabicandurdu("بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ", "اللہ کے نام سے شروع جو نہایت مہربان ہمیشہ رحم فرمانے والا ہے", "In the Name of Allah, Most Compassionate, Ever-Merciful."));
+//                parah_26.add(new data_model_arabicandurdu("بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ", "اللہ کے نام سے شروع جو نہایت مہربان ہمیشہ رحم فرمانے والا ہے", "In the Name of Allah, Most Compassionate, Ever-Merciful."));
 
-                parah_26.add(new data_model_arabicandurdu("إِنَّا فَتَحْنَا لَكَ فَتْحًا مُّبِينًا", "(اے حبیبِ مکرم!) بیشک ہم نے آپ کے لئے (اسلام کی) روشن فتح (اور غلبہ) کا فیصلہ فرما دیا (اس لئے کہ آپ کی عظیم جدّ و جہد کامیابی کے ساتھ مکمل ہوجائے)", "(O Esteemed Beloved!) Surely, We decreed for you a clear victory (and the dominance of Islam so that your great struggle might be completed with success),"));
+                parah_26.add(new data_model_arabicandurdu("بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ" +"\n\n"+"إِنَّا فَتَحْنَا لَكَ فَتْحًا مُّبِينًا" , "(اے حبیبِ مکرم!) بیشک ہم نے آپ کے لئے (اسلام کی) روشن فتح (اور غلبہ) کا فیصلہ فرما دیا (اس لئے کہ آپ کی عظیم جدّ و جہد کامیابی کے ساتھ مکمل ہوجائے)", "(O Esteemed Beloved!) Surely, We decreed for you a clear victory (and the dominance of Islam so that your great struggle might be completed with success),"));
 
                 parah_26.add(new data_model_arabicandurdu("لِّيَغْفِرَ لَكَ اللَّهُ مَا تَقَدَّمَ مِن ذَنبِكَ وَمَا تَأَخَّرَ وَيُتِمَّ نِعْمَتَهُ عَلَيْكَ وَيَهْدِيَكَ صِرَاطًا مُّسْتَقِيمًا", "تاکہ آپ کی خاطر اللہ آپ کی امت (کے اُن تمام اَفراد) کی اگلی پچھلی خطائیں معاف فرما دے٭ (جنہوں نے آپ کے حکم پر جہاد کیے اور قربانیاں دیں) اور (یوں اسلام کی فتح اور امت کی بخشش کی صورت میں) آپ پر اپنی نعمت (ظاہراً و باطناً) پوری فرما دے اور آپ (کے واسطے سے آپ کی امت) کو سیدھے راستہ پر ثابت قدم رکھے", "So that Allah forgives, for your sake, all the earlier and later sins (of all those people) of your Umma ([Community]* who struggled, fought and sacrificed by your command), and (this way) may complete His blessing on you (outwardly and inwardly) in the form of Islam’s victory and forgiveness for your Umma (Community), and may keep (your Umma) firm-footed on the straight path (through your mediation),"));
 
@@ -813,9 +737,9 @@ public class PARAH25TO30 {
                 parah_26.add(new data_model_arabicandurdu("مُّحَمَّدٌ رَّسُولُ اللَّهِ وَالَّذِينَ مَعَهُ أَشِدَّاءُ عَلَى الْكُفَّارِ رُحَمَاءُ بَيْنَهُمْ تَرَاهُمْ رُكَّعًا سُجَّدًا يَبْتَغُونَ فَضْلًا مِّنَ اللَّهِ وَرِضْوَانًا سِيمَاهُمْ فِي وُجُوهِهِم مِّنْ أَثَرِ السُّجُودِ ذَلِكَ مَثَلُهُمْ فِي التَّوْرَاةِ وَمَثَلُهُمْ فِي الْإِنجِيلِ كَزَرْعٍ أَخْرَجَ شَطْأَهُ فَآزَرَهُ فَاسْتَغْلَظَ فَاسْتَوَى عَلَى سُوقِهِ يُعْجِبُ الزُّرَّاعَ لِيَغِيظَ بِهِمُ الْكُفَّارَ وَعَدَ اللَّهُ الَّذِينَ آمَنُوا وَعَمِلُوا الصَّالِحَاتِ مِنْهُم مَّغْفِرَةً وَأَجْرًا عَظِيمًا", "محمد (صلی اللہ علیہ وآلہ وسلم) اللہ کے رسول ہیں، اور جو لوگ آپ (صلی اللہ علیہ وآلہ وسلم) کی معیت اور سنگت میں ہیں (وہ) کافروں پر بہت سخت اور زور آور ہیں آپس میں بہت نرم دل اور شفیق ہیں۔ آپ انہیں کثرت سے رکوع کرتے ہوئے، سجود کرتے ہوئے دیکھتے ہیں وہ (صرف) اللہ کے فضل اور اس کی رضا کے طلب گار ہیں۔ اُن کی نشانی اُن کے چہروں پر سجدوں کا اثر ہے (جو بصورتِ نور نمایاں ہے)۔ ان کے یہ اوصاف تورات میں (بھی مذکور) ہیں اور ان کے (یہی) اوصاف انجیل میں (بھی مرقوم) ہیں۔ وہ (صحابہ ہمارے محبوبِ مکرّم کی) کھیتی کی طرح ہیں جس نے (سب سے پہلے) اپنی باریک سی کونپل نکالی، پھر اسے طاقتور اور مضبوط کیا، پھر وہ موٹی اور دبیز ہوگئی، پھر اپنے تنے پر سیدھی کھڑی ہوگئی (اور جب سرسبز و شاداب ہو کر لہلہائی تو) کاشتکاروں کو کیا ہی اچھی لگنے لگی (اللہ نے اپنے حبیب صلی اللہ علیہ وآلہ وسلم کے صحابہ رضی اللہ عنھم کو اسی طرح ایمان کے تناور درخت بنایا ہے) تاکہ اِن کے ذریعے وہ (محمد رسول اللہ صلی اللہ علیہ وآلہ وسلم سے جلنے والے) کافروں کے دل جلائے، اللہ نے ان لوگوں سے جو ایمان لائے اور نیک اعمال کرتے رہے مغفرت اور اجرِ عظیم کا وعدہ فرمایا ہے", "Muhammad (blessings and peace be upon him) is the Messenger of Allah. And those with him are hard and tough against the disbelievers but kind-hearted and merciful amongst themselves. You see them excessively bowing and prostrating themselves. They simply seek Allah’s grace and pleasure. Their mark is an impression of prostrations on their faces (prominent on the foreheads as light). These traits of theirs are (mentioned) in the Torah and the (same) qualities are also (described) in the Injil (the Gospel). These (Companions) are like a cultivated crop (of Our Esteemed Beloved) which (first of all) brought forth its thin shoot, then made it powerful and strong, and then it thickened and stood straight on its stalk. (And when it flourished, bloomed and danced,) it delighted and charmed the cultivators. (Allah has, likewise, made the Companions of His Beloved strong, grown up trees of faith,) so that by means of them He would inflame the hearts of the disbelievers (that burn in the jealousy of the Holy Prophet Muhammad [blessings and peace be upon him]). Those who believe and do pious works, Allah has promised them forgiveness and an immense reward."));
 
 
-                parah_26.add(new data_model_arabicandurdu("بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ", "اللہ کے نام سے شروع جو نہایت مہربان ہمیشہ رحم فرمانے والا ہے", "In the Name of Allah, Most Compassionate, Ever-Merciful."));
+//                parah_26.add(new data_model_arabicandurdu("بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ", "اللہ کے نام سے شروع جو نہایت مہربان ہمیشہ رحم فرمانے والا ہے", "In the Name of Allah, Most Compassionate, Ever-Merciful."));
 
-                parah_26.add(new data_model_arabicandurdu("يَا أَيُّهَا الَّذِينَ آمَنُوا لَا تُقَدِّمُوا بَيْنَ يَدَيِ اللَّهِ وَرَسُولِهِ وَاتَّقُوا اللَّهَ إِنَّ اللَّهَ سَمِيعٌ عَلِيمٌ", "اے ایمان والو! (کسی بھی معاملے میں) اللہ اور اس کے رسول (صلی اللہ علیہ وآلہ وسلم) سے آگے نہ بڑھا کرو اور اللہ سے ڈرتے رہو (کہ کہیں رسول صلی اللہ علیہ وآلہ وسلم کی بے ادبی نہ ہوجائے)، بیشک اللہ (سب کچھ) سننے والا خوب جاننے والا ہے", "O believers! Do not step ahead of Allah and His Messenger ([blessings and peace be upon him] in any matter) and keep fearing Allah (lest some discourtesy should occur displeasing the Messenger [blessings and peace be upon him]). Surely, Allah is All-Hearing, All-Knowing."));
+                parah_26.add(new data_model_arabicandurdu("بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ" +"\n\n"+"يَا أَيُّهَا الَّذِينَ آمَنُوا لَا تُقَدِّمُوا بَيْنَ يَدَيِ اللَّهِ وَرَسُولِهِ وَاتَّقُوا اللَّهَ إِنَّ اللَّهَ سَمِيعٌ عَلِيمٌ" , "اے ایمان والو! (کسی بھی معاملے میں) اللہ اور اس کے رسول (صلی اللہ علیہ وآلہ وسلم) سے آگے نہ بڑھا کرو اور اللہ سے ڈرتے رہو (کہ کہیں رسول صلی اللہ علیہ وآلہ وسلم کی بے ادبی نہ ہوجائے)، بیشک اللہ (سب کچھ) سننے والا خوب جاننے والا ہے", "O believers! Do not step ahead of Allah and His Messenger ([blessings and peace be upon him] in any matter) and keep fearing Allah (lest some discourtesy should occur displeasing the Messenger [blessings and peace be upon him]). Surely, Allah is All-Hearing, All-Knowing."));
 
                 parah_26.add(new data_model_arabicandurdu("يَا أَيُّهَا الَّذِينَ آمَنُوا لَا تَرْفَعُوا أَصْوَاتَكُمْ فَوْقَ صَوْتِ النَّبِيِّ وَلَا تَجْهَرُوا لَهُ بِالْقَوْلِ كَجَهْرِ بَعْضِكُمْ لِبَعْضٍ أَن تَحْبَطَ أَعْمَالُكُمْ وَأَنتُمْ لَا تَشْعُرُونَ", "اے ایمان والو! تم اپنی آوازوں کو نبیِ مکرّم (صلی اللہ علیہ وآلہ وسلم) کی آواز سے بلند مت کیا کرو اور اُن کے ساتھ اِس طرح بلند آواز سے بات (بھی) نہ کیا کرو جیسے تم ایک دوسرے سے بلند آواز کے ساتھ کرتے ہو (ایسا نہ ہو) کہ تمہارے سارے اعمال ہی (ایمان سمیت) غارت ہو جائیں اور تمہیں (ایمان اور اعمال کے برباد ہوجانے کا) شعور تک بھی نہ ہو", "O believers! Do not raise your voices above the voice of the Prophet (blessings and peace be upon him), and (also) do not speak to him so loud as you are loud when you speak to one another (lest) all your actions should come to nothing (including your faith), and you are not even aware (that your faith and all pious works have been wrecked)."));
 
@@ -851,9 +775,9 @@ public class PARAH25TO30 {
 
                 parah_26.add(new data_model_arabicandurdu("إِنَّ اللَّهَ يَعْلَمُ غَيْبَ السَّمَاوَاتِ وَالْأَرْضِ وَاللَّهُ بَصِيرٌ بِمَا تَعْمَلُونَ", "بیشک اللہ آسمانوں اور زمین کے سب غیب جانتا ہے، اور اللہ جو عمل بھی تم کرتے ہو اسے خوب دیکھنے والا ہے", "Surely, Allah knows all the unseen of the heavens and the earth, and Allah monitors best whatever you do."));
 
-                parah_26.add(new data_model_arabicandurdu("بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ", "اللہ کے نام سے شروع جو نہایت مہربان ہمیشہ رحم فرمانے والا ہے", "In the Name of Allah, Most Compassionate, Ever-Merciful."));
+//                parah_26.add(new data_model_arabicandurdu("بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ", "اللہ کے نام سے شروع جو نہایت مہربان ہمیشہ رحم فرمانے والا ہے", "In the Name of Allah, Most Compassionate, Ever-Merciful."));
 
-                parah_26.add(new data_model_arabicandurdu("ق وَالْقُرْآنِ الْمَجِيدِ", "ق (حقیقی معنی اللہ اور رسول صلی اللہ علیہ وآلہ وسلم ہی بہتر جانتے ہیں)، قسم ہے قرآنِ مجید کی", "Qaf. (Only Allah and the Messenger [blessings and peace be upon him] know the real meaning.) By the Glorious Qur’an,"));
+                parah_26.add(new data_model_arabicandurdu("بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ" +"\n\n"+"ق وَالْقُرْآنِ الْمَجِيدِ" , "ق (حقیقی معنی اللہ اور رسول صلی اللہ علیہ وآلہ وسلم ہی بہتر جانتے ہیں)، قسم ہے قرآنِ مجید کی", "Qaf. (Only Allah and the Messenger [blessings and peace be upon him] know the real meaning.) By the Glorious Qur’an,"));
 
                 parah_26.add(new data_model_arabicandurdu("بَلْ عَجِبُوا أَن جَاءَهُمْ مُنذِرٌ مِّنْهُمْ فَقَالَ الْكَافِرُونَ هَذَا شَيْءٌ عَجِيبٌ", "بلکہ اُن لوگوں نے تعجب کیا کہ اُن کے پاس اُنہی میں سے ایک ڈر سنانے والا آگیا ہے، سو کافر کہتے ہیں: یہ عجیب بات ہے", "But they wondered that a Warner had come to them from amongst themselves. So the disbelievers say: ‘This is strange!"));
 
@@ -944,9 +868,9 @@ public class PARAH25TO30 {
                 parah_26.add(new data_model_arabicandurdu("نَحْنُ أَعْلَمُ بِمَا يَقُولُونَ وَمَا أَنتَ عَلَيْهِم بِجَبَّارٍ فَذَكِّرْ بِالْقُرْآنِ مَن يَخَافُ وَعِيدِ", "ہم خوب جانتے ہیں جو کچھ وہ کہتے ہیں اور آپ اُن پر جبر کرنے والے نہیں ہیں، پس قرآن کے ذریعے اس شخص کو نصیحت فرمائیے جو میرے وعدۂ عذاب سے ڈرتا ہے", "We know best what they say, and you are not the one to coerce them. So advise by means of the Qur’an anyone who fears My threat of punishment."));
 
 
-                parah_26.add(new data_model_arabicandurdu("بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ", "اللہ کے نام سے شروع جو نہایت مہربان ہمیشہ رحم فرمانے والا ہے", "In the Name of Allah, Most Compassionate, Ever-Merciful."));
+//                parah_26.add(new data_model_arabicandurdu("بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ", "اللہ کے نام سے شروع جو نہایت مہربان ہمیشہ رحم فرمانے والا ہے", "In the Name of Allah, Most Compassionate, Ever-Merciful."));
 
-                parah_26.add(new data_model_arabicandurdu("وَالذَّارِيَاتِ ذَرْوًا", "اُڑا کر بکھیر دینے والی ہواؤں کی قَسم", "By the winds that blow and scatter,"));
+                parah_26.add(new data_model_arabicandurdu("بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ" +"\n\n"+"وَالذَّارِيَاتِ ذَرْوًا" , "اُڑا کر بکھیر دینے والی ہواؤں کی قَسم", "By the winds that blow and scatter,"));
 
                 parah_26.add(new data_model_arabicandurdu("فَالْحَامِلَاتِ وِقْرًا", "اور (پانی کا) بارِ گراں اٹھانے والی بدلیوں کی قَسم", "And by the clouds that carry a heavy load (of water),"));
 
@@ -1071,9 +995,9 @@ public class PARAH25TO30 {
 
                 parah_27.add(new data_model_arabicandurdu("فَوَيْلٌ لِّلَّذِينَ كَفَرُوا مِن يَوْمِهِمُ الَّذِي يُوعَدُونَ", "سو کافروں کے لئے اُن کے اُس دِن میں بڑی تباہی ہے جس کا اُن سے وعدہ کیا جا رہا ہے", "So a terrible destruction awaits the disbelievers on that Day of theirs which they have been promised."));
 
-                parah_27.add(new data_model_arabicandurdu("بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ", "اللہ کے نام سے شروع جو نہایت مہربان ہمیشہ رحم فرمانے والا ہے", "In the Name of Allah, Most Compassionate, Ever-Merciful."));
+//                parah_27.add(new data_model_arabicandurdu("بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ", "اللہ کے نام سے شروع جو نہایت مہربان ہمیشہ رحم فرمانے والا ہے", "In the Name of Allah, Most Compassionate, Ever-Merciful."));
 
-                parah_27.add(new data_model_arabicandurdu("وَالطُّورِ", "(کوہِ) طُور کی قَسم", "By (the Mountain) Tur,"));
+                parah_27.add(new data_model_arabicandurdu("بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ" +"\n\n"+"وَالطُّورِ" , "(کوہِ) طُور کی قَسم", "By (the Mountain) Tur,"));
 
                 parah_27.add(new data_model_arabicandurdu("وَكِتَابٍ مَّسْطُورٍ", "اور لکھی ہوئی کتاب کی قَسم", "And by the Book inscribed,"));
 
@@ -1171,9 +1095,9 @@ public class PARAH25TO30 {
 
                 parah_27.add(new data_model_arabicandurdu("وَمِنَ اللَّيْلِ فَسَبِّحْهُ وَإِدْبَارَ النُّجُومِ", "اور رات کے اوقات میں بھی اس کی تسبیح کیجئے اور (پچھلی رات بھی) جب ستارے چھپتے ہیں", "And also glorify Him during the hours of the night and (in later part of it) when the stars fade out."));
 
-                parah_27.add(new data_model_arabicandurdu("بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ", "اللہ کے نام سے شروع جو نہایت مہربان ہمیشہ رحم فرمانے والا ہے", "In the Name of Allah, Most Compassionate, Ever-Merciful."));
+//                parah_27.add(new data_model_arabicandurdu("بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ", "اللہ کے نام سے شروع جو نہایت مہربان ہمیشہ رحم فرمانے والا ہے", "In the Name of Allah, Most Compassionate, Ever-Merciful."));
 
-                parah_27.add(new data_model_arabicandurdu("وَالنَّجْمِ إِذَا هَوَى", "قَسم ہے روشن ستارے (محمد صلی اللہ علیہ وآلہ وسلم) کی جب وہ (چشمِ زدن میں شبِ معراج اوپر جا کر) نیچے اترے", "By (Muhammad [blessings and peace be upon him]), the bright star when (he ascended during the Ascension Night in the twinkling of an eye and) descended."));
+                parah_27.add(new data_model_arabicandurdu("بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ" +"\n\n"+"وَالنَّجْمِ إِذَا هَوَى" , "قَسم ہے روشن ستارے (محمد صلی اللہ علیہ وآلہ وسلم) کی جب وہ (چشمِ زدن میں شبِ معراج اوپر جا کر) نیچے اترے", "By (Muhammad [blessings and peace be upon him]), the bright star when (he ascended during the Ascension Night in the twinkling of an eye and) descended."));
 
                 parah_27.add(new data_model_arabicandurdu("مَا ضَلَّ صَاحِبُكُمْ وَمَا غَوَى", "تمہیں (اپنی) صحبت سے نوازنے والے (رسول صلی اللہ علیہ وآلہ وسلم جنہوں نے تمہیں اپنا صحابی بنایا) نہ (کبھی) راہ بھولے اور نہ (کبھی) راہ سے بھٹکے", "He who bestowed on you his companionship (i.e., the Messenger, who made you his companions,) has never lost his way, nor has he (ever) strayed from the right path."));
 
@@ -1297,9 +1221,9 @@ public class PARAH25TO30 {
 
                 parah_27.add(new data_model_arabicandurdu("فَاسْجُدُوا لِلَّهِ وَاعْبُدُوا", "سو اللہ کے لئے سجدہ کرو اور (اُس کی) عبادت کرو", "So prostrate yourselves before Allah and worship (Him)."));
 
-                parah_27.add(new data_model_arabicandurdu("بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ", "اللہ کے نام سے شروع جو نہایت مہربان ہمیشہ رحم فرمانے والا ہے", "In the Name of Allah, Most Compassionate, Ever-Merciful."));
+//                parah_27.add(new data_model_arabicandurdu("بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ", "اللہ کے نام سے شروع جو نہایت مہربان ہمیشہ رحم فرمانے والا ہے", "In the Name of Allah, Most Compassionate, Ever-Merciful."));
 
-                parah_27.add(new data_model_arabicandurdu("اقْتَرَبَتِ السَّاعَةُ وَانشَقَّ الْقَمَرُ", "قیامت قریب آپہنچی اور چاند دو ٹکڑے ہوگیا", "The Last Hour has drawn near and the moon has split into two."));
+                parah_27.add(new data_model_arabicandurdu("بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ" +"\n\n"+"اقْتَرَبَتِ السَّاعَةُ وَانشَقَّ الْقَمَرُ", "قیامت قریب آپہنچی اور چاند دو ٹکڑے ہوگیا", "The Last Hour has drawn near and the moon has split into two."));
 
                 parah_27.add(new data_model_arabicandurdu("وَإِن يَرَوْا آيَةً يُعْرِضُوا وَيَقُولُوا سِحْرٌ مُّسْتَمِرٌّ", "اور اگر وہ (کفّار) کوئی نشانی (یعنی معجزہ) دیکھتے ہیں تو مُنہ پھیر لیتے ہیں اور کہتے ہیں کہ (یہ تو) ہمیشہ سے چلا آنے والا طاقتور جادو ہے", "And if they (the disbelievers) see a sign (a miracle), they turn their faces away and say: ‘This is the powerful magic ever running down through ages.’"));
 
@@ -1409,9 +1333,9 @@ public class PARAH25TO30 {
 
                 parah_27.add(new data_model_arabicandurdu("فِي مَقْعَدِ صِدْقٍ عِندَ مَلِيكٍ مُّقْتَدِرٍ", "پاکیزہ مجالس میں (حقیقی) اقتدار کے مالک بادشاہ کی خاص قربت میں (بیٹھے) ہوں گے", "And will (be seated) in special nearness to the Sovereign Lord of (true) power during holy sessions."));
 
-                parah_27.add(new data_model_arabicandurdu("بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ", "اللہ کے نام سے شروع جو نہایت مہربان ہمیشہ رحم فرمانے والا ہے", "In the Name of Allah, Most Compassionate, Ever-Merciful."));
+//                parah_27.add(new data_model_arabicandurdu("بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ", "اللہ کے نام سے شروع جو نہایت مہربان ہمیشہ رحم فرمانے والا ہے", "In the Name of Allah, Most Compassionate, Ever-Merciful."));
 
-                parah_27.add(new data_model_arabicandurdu("الرَّحْمَنُ", "(وہ) رحمان ہی ہے", "The Most Compassionate (is He),"));
+                parah_27.add(new data_model_arabicandurdu("بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ" +"\n\n"+"الرَّحْمَنُ" , "(وہ) رحمان ہی ہے", "The Most Compassionate (is He),"));
 
                 parah_27.add(new data_model_arabicandurdu("عَلَّمَ الْقُرْآنَ", "جس نے (خود رسولِ عربی ﷺ کو یا ان کے ذریعے اِنسان کو) قرآن سکھایا٭", "Who (Himself) taught the Qur’an (to the Arab Messenger [blessings and peace be upon him] or the humans through him).*"));
 
@@ -1567,9 +1491,9 @@ public class PARAH25TO30 {
 
                 parah_27.add(new data_model_arabicandurdu("تَبَارَكَ اسْمُ رَبِّكَ ذِي الْجَلَالِ وَالْإِكْرَامِ", "آپ کے رب کا نام بڑی برکت والا ہے، جو صاحبِ عظمت و جلال اور صاحبِ اِنعام و اِکرام ہے", "Most Blessed is the Name of your Lord, the Master of glory and splendour and the Master of bounty and honour."));
 
-                parah_27.add(new data_model_arabicandurdu("بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ", "اللہ کے نام سے شروع جو نہایت مہربان ہمیشہ رحم فرمانے والا ہے", "In the Name of Allah, Most Compassionate, Ever-Merciful."));
+//                parah_27.add(new data_model_arabicandurdu("بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ", "اللہ کے نام سے شروع جو نہایت مہربان ہمیشہ رحم فرمانے والا ہے", "In the Name of Allah, Most Compassionate, Ever-Merciful."));
 
-                parah_27.add(new data_model_arabicandurdu("إِذَا وَقَعَتِ الْوَاقِعَةُ", "جب واقع ہونے والی (قیامت) واقع ہو جائے گی", "When what is to occur (the Hour of Resurrection) will occur,"));
+                parah_27.add(new data_model_arabicandurdu("بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ" +"\n\n"+"إِذَا وَقَعَتِ الْوَاقِعَةُ", "جب واقع ہونے والی (قیامت) واقع ہو جائے گی", "When what is to occur (the Hour of Resurrection) will occur,"));
 
                 parah_27.add(new data_model_arabicandurdu("لَيْسَ لِوَقْعَتِهَا كَاذِبَةٌ", "اُس کے واقع ہونے میں کوئی جھوٹ نہیں ہے", "There is no falsehood in its occurrence."));
 
@@ -1761,9 +1685,9 @@ public class PARAH25TO30 {
 
                 parah_27.add(new data_model_arabicandurdu("فَسَبِّحْ بِاسْمِ رَبِّكَ الْعَظِيمِ", "سو آپ اپنے ربِّ عظیم کے نام کی تسبیح کیا کریں", "So always glorify the Name of your Lord, Most Magnificent."));
 
-                parah_27.add(new data_model_arabicandurdu("بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ", "اللہ کے نام سے شروع جو نہایت مہربان ہمیشہ رحم فرمانے والا ہے", "In the Name of Allah, Most Compassionate, Ever-Merciful."));
+//                parah_27.add(new data_model_arabicandurdu("بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ", "اللہ کے نام سے شروع جو نہایت مہربان ہمیشہ رحم فرمانے والا ہے", "In the Name of Allah, Most Compassionate, Ever-Merciful."));
 
-                parah_27.add(new data_model_arabicandurdu("سَبَّحَ لِلَّهِ مَا فِي السَّمَاوَاتِ وَالْأَرْضِ وَهُوَ الْعَزِيزُ الْحَكِيمُ", "اللہ ہی کی تسبیح کرتے ہیں جو بھی آسمانوں اور زمین میں ہیں، اور وہی بڑی عزت والا بڑی حکمت والا ہے", "All those who are in the heavens and the earth glorify Allah alone, and only He is the Lord of Honour, Most Wise."));
+                parah_27.add(new data_model_arabicandurdu("بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ" +"\n\n"+"سَبَّحَ لِلَّهِ مَا فِي السَّمَاوَاتِ وَالْأَرْضِ وَهُوَ الْعَزِيزُ الْحَكِيمُ" , "اللہ ہی کی تسبیح کرتے ہیں جو بھی آسمانوں اور زمین میں ہیں، اور وہی بڑی عزت والا بڑی حکمت والا ہے", "All those who are in the heavens and the earth glorify Allah alone, and only He is the Lord of Honour, Most Wise."));
 
                 parah_27.add(new data_model_arabicandurdu("لَهُ مُلْكُ السَّمَاوَاتِ وَالْأَرْضِ يُحْيِي وَيُمِيتُ وَهُوَ عَلَى كُلِّ شَيْءٍ قَدِيرٌ", "اسی کے لئے آسمانوں اور زمین کی بادشاہت ہے، وہی جِلاتا اور مارتا ہے، اور وہ ہر چیز پر بڑا قادر ہے", "His is the kingdom of the heavens and the earth. He is the One Who gives life and causes death, and He wields Absolute Power over everything."));
 
@@ -1826,7 +1750,7 @@ public class PARAH25TO30 {
             case "28":
 
 
-                parah_28.add(new data_model_arabicandurdu("بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ", "اللہ کے نام سے شروع جو نہایت مہربان ہمیشہ رحم فرمانے والا ہے", "In the Name of Allah, Most Compassionate, Ever-Merciful."));
+//                parah_28.add(new data_model_arabicandurdu("بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ", "اللہ کے نام سے شروع جو نہایت مہربان ہمیشہ رحم فرمانے والا ہے", "In the Name of Allah, Most Compassionate, Ever-Merciful."));
 
                 parah_28.add(new data_model_arabicandurdu("قَدْ سَمِعَ اللَّهُ قَوْلَ الَّتِي تُجَادِلُكَ فِي زَوْجِهَا وَتَشْتَكِي إِلَى اللَّهِ وَاللَّهُ يَسْمَعُ تَحَاوُرَكُمَا إِنَّ اللَّهَ سَمِيعٌ بَصِيرٌ", "بیشک اللہ نے اس عورت کی بات سن لی ہے جو آپ سے اپنے شوہر کے بارے میں تکرار کر رہی تھی اور اللہ سے فریاد کر رہی تھی، اور اللہ آپ دونوں کے باہمی سوال و جواب سن رہا تھا، بیشک اللہ خوب سننے والا خوب دیکھنے والا ہے", "Indeed, Allah has heard the words of the woman who was arguing with you about her husband and was pleading with Allah. And Allah was hearing the mutual questions and answers of both of you. Surely, Allah is All-Hearing, All-Seeing."));
 
@@ -1872,9 +1796,9 @@ public class PARAH25TO30 {
 
                 parah_28.add(new data_model_arabicandurdu("لَا تَجِدُ قَوْمًا يُؤْمِنُونَ بِاللَّهِ وَالْيَوْمِ الْآخِرِ يُوَادُّونَ مَنْ حَادَّ اللَّهَ وَرَسُولَهُ وَلَوْ كَانُوا آبَاءَهُمْ أَوْ أَبْنَاءَهُمْ أَوْ إِخْوَانَهُمْ أَوْ عَشِيرَتَهُمْ أُوْلَئِكَ كَتَبَ فِي قُلُوبِهِمُ الْإِيْمَانَ وَأَيَّدَهُم بِرُوحٍ مِّنْهُ وَيُدْخِلُهُمْ جَنَّاتٍ تَجْرِي مِن تَحْتِهَا الْأَنْهَارُ خَالِدِينَ فِيهَا رَضِيَ اللَّهُ عَنْهُمْ وَرَضُوا عَنْهُ أُوْلَئِكَ حِزْبُ اللَّهِ أَلَا إِنَّ حِزْبَ اللَّهِ هُمُ الْمُفْلِحُونَ", "آپ اُن لوگوں کو جو اللہ پر اور یومِ آخرت پر ایمان رکھتے ہیں کبھی اس شخص سے دوستی کرتے ہوئے نہ پائیں گے جو اللہ اور اُس کے رسول (صلی اللہ علیہ وآلہ وسلم) سے دشمنی رکھتا ہے خواہ وہ اُن کے باپ (اور دادا) ہوں یا بیٹے (اور پوتے) ہوں یا اُن کے بھائی ہوں یا اُن کے قریبی رشتہ دار ہوں۔ یہی وہ لوگ ہیں جن کے دلوں میں اُس (اللہ) نے ایمان ثبت فرما دیا ہے اور انہیں اپنی روح (یعنی فیضِ خاص) سے تقویت بخشی ہے، اور انہیں (ایسی) جنتوں میں داخل فرمائے گا جن کے نیچے سے نہریں بہہ رہی ہیں، وہ اُن میں ہمیشہ رہنے والے ہیں، اللہ اُن سے راضی ہو گیا ہے اور وہ اللہ سے راضی ہو گئے ہیں، یہی اللہ (والوں) کی جماعت ہے، یاد رکھو! بیشک اللہ (والوں) کی جماعت ہی مراد پانے والی ہے", "You will never find those who believe in Allah and the Day of Rising making friends with anyone who is hostile to Allah and His Messenger (blessings and peace be upon him), even though they are their fathers (and forefathers), or their sons (and grandsons), or their brothers, or their near relatives. It is they in whose hearts Allah has inscribed faith and has strengthened them with His spirit (i.e., special spiritual benefit). And He will admit them to the Gardens with streams flowing under them. They will live in them forever. Allah is pleased with them and they are pleased with Allah. It is they who are the party of (the devotees of) Allah. Remember! It is the party of (the devotees of) Allah that attain to the goal."));
 
-                parah_28.add(new data_model_arabicandurdu("بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ", "اللہ کے نام سے شروع جو نہایت مہربان ہمیشہ رحم فرمانے والا ہے", "In the Name of Allah, Most Compassionate, Ever-Merciful."));
+//                parah_28.add(new data_model_arabicandurdu("بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ", "اللہ کے نام سے شروع جو نہایت مہربان ہمیشہ رحم فرمانے والا ہے", "In the Name of Allah, Most Compassionate, Ever-Merciful."));
 
-                parah_28.add(new data_model_arabicandurdu("سَبَّحَ لِلَّهِ مَا فِي السَّمَاوَاتِ وَمَا فِي الْأَرْضِ وَهُوَ الْعَزِيزُ الْحَكِيمُ", "جو کچھ آسمانوں میں ہے اور جو کچھ زمین میں ہے (سب) اللہ کی تسبیح کرتے ہیں، اور وہی غالب ہے حکمت والا ہے", "Whatever is in the heavens and whatever is in the earth (all) glorify Allah and He alone is Almighty, Most Wise."));
+                parah_28.add(new data_model_arabicandurdu("بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ" +"\n\n"+"سَبَّحَ لِلَّهِ مَا فِي السَّمَاوَاتِ وَمَا فِي الْأَرْضِ وَهُوَ الْعَزِيزُ الْحَكِيمُ" , "جو کچھ آسمانوں میں ہے اور جو کچھ زمین میں ہے (سب) اللہ کی تسبیح کرتے ہیں، اور وہی غالب ہے حکمت والا ہے", "Whatever is in the heavens and whatever is in the earth (all) glorify Allah and He alone is Almighty, Most Wise."));
 
                 parah_28.add(new data_model_arabicandurdu("هُوَ الَّذِي أَخْرَجَ الَّذِينَ كَفَرُوا مِنْ أَهْلِ الْكِتَابِ مِن دِيَارِهِمْ لِأَوَّلِ الْحَشْرِ مَا ظَنَنتُمْ أَن يَخْرُجُوا وَظَنُّوا أَنَّهُم مَّانِعَتُهُمْ حُصُونُهُم مِّنَ اللَّهِ فَأَتَاهُمُ اللَّهُ مِنْ حَيْثُ لَمْ يَحْتَسِبُوا وَقَذَفَ فِي قُلُوبِهِمُ الرُّعْبَ يُخْرِبُونَ بُيُوتَهُم بِأَيْدِيهِمْ وَأَيْدِي الْمُؤْمِنِينَ فَاعْتَبِرُوا يَا أُولِي الْأَبْصَارِ", "وہی ہے جس نے اُن کافر کتابیوں کو (یعنی بنو نضیر کو) پہلی جلاوطنی میں گھروں سے (جمع کر کے مدینہ سے شام کی طرف) نکال دیا۔ تمہیں یہ گمان (بھی) نہ تھا کہ وہ نکل جائیں گے اور انہیں یہ گمان تھا کہ اُن کے مضبوط قلعے انہیں اللہ (کی گرفت) سے بچا لیں گے پھر اللہ (کے عذاب) نے اُن کو وہاں سے آلیا جہاں سے وہ گمان (بھی) نہ کرسکتے تھے اور اس (اللہ) نے اُن کے دلوں میں رعب و دبدبہ ڈال دیا وہ اپنے گھروں کو اپنے ہاتھوں اور اہلِ ایمان کے ہاتھوں ویران کر رہے تھے۔ پس اے دیدۂ بینا والو! (اس سے) عبرت حاصل کرو", "He is the One Who collected the disbelievers from amongst the People of the Book (i.e., the tribe of Banu Nadir) from their houses and banished them the first time (from Medina towards Syria). You did not (even) think that they would go away, and they thought that their strong fortresses would save them from (the seizure of) Allah. Then (the torment of) Allah came upon them from where they could not (even) imagine. And He (Allah) cast terror into their hearts, (and thus) they ruined their houses with their own hands and the believers’ hands. So, learn a lesson (from it), O people of vision!"));
 
@@ -1922,9 +1846,9 @@ public class PARAH25TO30 {
 
                 parah_28.add(new data_model_arabicandurdu("هُوَ اللَّهُ الْخَالِقُ الْبَارِئُ الْمُصَوِّرُ لَهُ الْأَسْمَاءُ الْحُسْنَى يُسَبِّحُ لَهُ مَا فِي السَّمَاوَاتِ وَالْأَرْضِ وَهُوَ الْعَزِيزُ الْحَكِيمُ", "وہی اللہ ہے جو پیدا فرمانے والا ہے، عدم سے وجود میں لانے والا (یعنی ایجاد فرمانے والا) ہے، صورت عطا فرمانے والا ہے۔ (الغرض) سب اچھے نام اسی کے ہیں، اس کے لئے وہ (سب) چیزیں تسبیح کرتی ہیں جو آسمانوں اور زمین میں ہیں، اور وہ بڑی عزت والا ہے بڑی حکمت والا ہے", "Allah is He Who is the Creator, the One Who brings into existence from nothingness (i.e., the Inventor), the Bestower of Form; (in short) all Beautiful Names belong to Him alone. All that is in the heavens and the earth glorifies Him, the Lord of Honour, the Most Wise."));
 
-                parah_28.add(new data_model_arabicandurdu("بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ", "اللہ کے نام سے شروع جو نہایت مہربان ہمیشہ رحم فرمانے والا ہے", "In the Name of Allah, Most Compassionate, Ever-Merciful."));
+//                parah_28.add(new data_model_arabicandurdu("بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ", "اللہ کے نام سے شروع جو نہایت مہربان ہمیشہ رحم فرمانے والا ہے", "In the Name of Allah, Most Compassionate, Ever-Merciful."));
 
-                parah_28.add(new data_model_arabicandurdu("يَا أَيُّهَا الَّذِينَ آمَنُوا لَا تَتَّخِذُوا عَدُوِّي وَعَدُوَّكُمْ أَوْلِيَاءَ تُلْقُونَ إِلَيْهِم بِالْمَوَدَّةِ وَقَدْ كَفَرُوا بِمَا جَاءَكُم مِّنَ الْحَقِّ يُخْرِجُونَ الرَّسُولَ وَإِيَّاكُمْ أَن تُؤْمِنُوا بِاللَّهِ رَبِّكُمْ إِن كُنتُمْ خَرَجْتُمْ جِهَادًا فِي سَبِيلِي وَابْتِغَاءَ مَرْضَاتِي تُسِرُّونَ إِلَيْهِم بِالْمَوَدَّةِ وَأَنَا أَعْلَمُ بِمَا أَخْفَيْتُمْ وَمَا أَعْلَنتُمْ وَمَن يَفْعَلْهُ مِنكُمْ فَقَدْ ضَلَّ سَوَاءَ السَّبِيلِ", "اے ایمان والو! تم میرے اور اپنے دشمنوں کو دوست نہ بناؤ تم (اپنے) دوستی کے باعث اُن تک خبریں پہنچاتے ہو حالانکہ وہ اس حق کے ہی مُنکر ہیں جو تمہارے پاس آیا ہے، وہ رسول (صلی اللہ علیہ وآلہ وسلم) کو اور تم کو اس وجہ سے (تمہارے وطن سے) نکالتے ہیں کہ تم اللہ پر جو تمہارا پروردگار ہے، ایمان لے آئے ہو۔ اگر تم میری راہ میں جہاد کرنے اور میری رضا تلاش کرنے کے لئے نکلے ہو (تو پھر اُن سے دوستی نہ رکھو) تم اُن کی طرف دوستی کے خفیہ پیغام بھیجتے ہو حالانکہ میں خوب جانتا ہوں جو کچھ تم چھپاتے ہو اور جو کچھ تم آشکار کرتے ہو، اور جو شخص بھی تم میں سے یہ (حرکت) کرے سو وہ سیدھی راہ سے بھٹک گیا ہے", "O believers! Do not make friends with My enemies and your enemies. You communicate to them information because of (your) friendship, whereas they just deny the very truth that has come to you. They drive out the Messenger (blessings and peace be upon him) and you (from your land) because you believe in Allah, your Sustainer. If you have set out to fight in My way and seek My pleasure (then do not have friendship with them). You send them secret messages of friendship whilst I know best what you hide and what you make known. And whoever of you does this (misdeed) has deviated from the straight path."));
+                parah_28.add(new data_model_arabicandurdu("بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ" +"\n\n"+"يَا أَيُّهَا الَّذِينَ آمَنُوا لَا تَتَّخِذُوا عَدُوِّي وَعَدُوَّكُمْ أَوْلِيَاءَ تُلْقُونَ إِلَيْهِم بِالْمَوَدَّةِ وَقَدْ كَفَرُوا بِمَا جَاءَكُم مِّنَ الْحَقِّ يُخْرِجُونَ الرَّسُولَ وَإِيَّاكُمْ أَن تُؤْمِنُوا بِاللَّهِ رَبِّكُمْ إِن كُنتُمْ خَرَجْتُمْ جِهَادًا فِي سَبِيلِي وَابْتِغَاءَ مَرْضَاتِي تُسِرُّونَ إِلَيْهِم بِالْمَوَدَّةِ وَأَنَا أَعْلَمُ بِمَا أَخْفَيْتُمْ وَمَا أَعْلَنتُمْ وَمَن يَفْعَلْهُ مِنكُمْ فَقَدْ ضَلَّ سَوَاءَ السَّبِيلِ" , "اے ایمان والو! تم میرے اور اپنے دشمنوں کو دوست نہ بناؤ تم (اپنے) دوستی کے باعث اُن تک خبریں پہنچاتے ہو حالانکہ وہ اس حق کے ہی مُنکر ہیں جو تمہارے پاس آیا ہے، وہ رسول (صلی اللہ علیہ وآلہ وسلم) کو اور تم کو اس وجہ سے (تمہارے وطن سے) نکالتے ہیں کہ تم اللہ پر جو تمہارا پروردگار ہے، ایمان لے آئے ہو۔ اگر تم میری راہ میں جہاد کرنے اور میری رضا تلاش کرنے کے لئے نکلے ہو (تو پھر اُن سے دوستی نہ رکھو) تم اُن کی طرف دوستی کے خفیہ پیغام بھیجتے ہو حالانکہ میں خوب جانتا ہوں جو کچھ تم چھپاتے ہو اور جو کچھ تم آشکار کرتے ہو، اور جو شخص بھی تم میں سے یہ (حرکت) کرے سو وہ سیدھی راہ سے بھٹک گیا ہے", "O believers! Do not make friends with My enemies and your enemies. You communicate to them information because of (your) friendship, whereas they just deny the very truth that has come to you. They drive out the Messenger (blessings and peace be upon him) and you (from your land) because you believe in Allah, your Sustainer. If you have set out to fight in My way and seek My pleasure (then do not have friendship with them). You send them secret messages of friendship whilst I know best what you hide and what you make known. And whoever of you does this (misdeed) has deviated from the straight path."));
 
                 parah_28.add(new data_model_arabicandurdu("إِن يَثْقَفُوكُمْ يَكُونُوا لَكُمْ أَعْدَاءً وَيَبْسُطُوا إِلَيْكُمْ أَيْدِيَهُمْ وَأَلْسِنَتَهُم بِالسُّوءِ وَوَدُّوا لَوْ تَكْفُرُونَ", "اگر وہ تم پر قدرت پا لیں تو (دیکھنا) وہ تمہارے (کھلے) دشمن ہوں گے اور وہ اپنے ہاتھ اور اپنی زبانیں تمہاری طرف برائی کے ساتھ دراز کریں گے اور آرزو مند ہوں گے کہ تم (کسی طرح) کافر ہوجاؤ", "Should they get the better of you, then (you will see that) they will be your open enemies. And they will extend their hands and tongues to you with evil design and will have the earnest desire that you disbelieve (somehow)."));
 
@@ -1950,9 +1874,9 @@ public class PARAH25TO30 {
 
                 parah_28.add(new data_model_arabicandurdu("يَا أَيُّهَا الَّذِينَ آمَنُوا لَا تَتَوَلَّوْا قَوْمًا غَضِبَ اللَّهُ عَلَيْهِمْ قَدْ يَئِسُوا مِنَ الْآخِرَةِ كَمَا يَئِسَ الْكُفَّارُ مِنْ أَصْحَابِ الْقُبُورِ", "اے ایمان والو! ایسے لوگوں سے دوستی مت رکھو جن پر اللہ غضبناک ہوا ہے بیشک وہ آخرت سے (اس طرح) مایوس ہو چکے ہیں جیسے کفار اہلِ قبور سے مایوس ہیں", "O believers! Do not make friends with those on whom Allah has sent His wrath. Surely, they have despaired of the Hereafter as the disbelievers have despaired of those in graves."));
 
-                parah_28.add(new data_model_arabicandurdu("بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ", "اللہ کے نام سے شروع جو نہایت مہربان ہمیشہ رحم فرمانے والا ہے", "In the Name of Allah, Most Compassionate, Ever-Merciful."));
+//                parah_28.add(new data_model_arabicandurdu("بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ", "اللہ کے نام سے شروع جو نہایت مہربان ہمیشہ رحم فرمانے والا ہے", "In the Name of Allah, Most Compassionate, Ever-Merciful."));
 
-                parah_28.add(new data_model_arabicandurdu("سَبَّحَ لِلَّهِ مَا فِي السَّمَاوَاتِ وَمَا فِي الْأَرْضِ وَهُوَ الْعَزِيزُ الْحَكِيمُ", "جو کچھ آسمانوں میں ہے اور جو کچھ زمین میں ہے (سب) اللہ کی تسبیح کرتے ہیں، اور وہ بڑی عزت و غلبہ والا بڑی حکمت والا ہے", "Whatever is in the heavens and whatever is in the earth (all) glorify Allah. And He is the Lord of Honour and Dominance, Most Wise."));
+                parah_28.add(new data_model_arabicandurdu("بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ" +"\n\n"+"سَبَّحَ لِلَّهِ مَا فِي السَّمَاوَاتِ وَمَا فِي الْأَرْضِ وَهُوَ الْعَزِيزُ الْحَكِيمُ" , "جو کچھ آسمانوں میں ہے اور جو کچھ زمین میں ہے (سب) اللہ کی تسبیح کرتے ہیں، اور وہ بڑی عزت و غلبہ والا بڑی حکمت والا ہے", "Whatever is in the heavens and whatever is in the earth (all) glorify Allah. And He is the Lord of Honour and Dominance, Most Wise."));
 
                 parah_28.add(new data_model_arabicandurdu("يَا أَيُّهَا الَّذِينَ آَمَنُوا لِمَ تَقُولُونَ مَا لَا تَفْعَلُونَ", "اے ایمان والو! تم وہ باتیں کیوں کہتے ہو جو تم کرتے نہیں ہو", "O believers! Why do you say what you do not do?"));
 
@@ -1980,9 +1904,9 @@ public class PARAH25TO30 {
 
                 parah_28.add(new data_model_arabicandurdu("يَا أَيُّهَا الَّذِينَ آَمَنُوا كُونُوا أَنصَارَ اللَّهِ كَمَا قَالَ عِيسَى ابْنُ مَرْيَمَ لِلْحَوَارِيِّيْنَ مَنْ أَنصَارِي إِلَى اللَّهِ قَالَ الْحَوَارِيُّونَ نَحْنُ أَنصَارُ اللَّهِ فَآمَنَت طَّائِفَةٌ مِّن بَنِي إِسْرَائِيلَ وَكَفَرَت طَّائِفَةٌ فَأَيَّدْنَا الَّذِينَ آمَنُوا عَلَى عَدُوِّهِمْ فَأَصْبَحُوا ظَاهِرِينَ", "اے ایمان والو! تم اللہ کے مددگار بن جاؤ جیسا کہ عیسٰی ابن مریم (علیہما السلام) نے (اپنے) حواریوں سے کہا تھا: اللہ کی (راہ کی) طرف میرے مددگار کون ہیں؟ حواریوں نے کہا: ہم اللہ کے مددگار ہیں۔ پس بنی اسرائیل کا ایک گروہ ایمان لے آیا اور دوسرا گروہ کافر ہوگیا، سو ہم نے اُن لوگوں کی جو ایمان لے آئے تھے اُن کے دشمنوں پر مدد فرمائی پس وہ غالب ہوگئے", "O believers! Be helpers of Allah as ‘Isa, the son of Maryam (Jesus, the son of Mary) said to (his) disciples: ‘Who are my helpers towards (the path of) Allah?’ The disciples said: ‘We are Allah’s helpers.’ So a party of the Children of Israel believed and a party disbelieved. So We helped the believers against their enemies and they gained the upper hand."));
 
-                parah_28.add(new data_model_arabicandurdu("بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ", "اللہ کے نام سے شروع جو نہایت مہربان ہمیشہ رحم فرمانے والا ہے", "In the Name of Allah, Most Compassionate, Ever-Merciful."));
+//                parah_28.add(new data_model_arabicandurdu("بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ", "اللہ کے نام سے شروع جو نہایت مہربان ہمیشہ رحم فرمانے والا ہے", "In the Name of Allah, Most Compassionate, Ever-Merciful."));
 
-                parah_28.add(new data_model_arabicandurdu("يُسَبِّحُ لِلَّهِ مَا فِي السَّمَاوَاتِ وَمَا فِي الْأَرْضِ الْمَلِكِ الْقُدُّوسِ الْعَزِيزِ الْحَكِيمِ", "(ہر چیز) جو آسمانوں میں ہے اور جو زمین میں ہے اللہ کی تسبیح کرتی ہے (جو حقیقی) بادشاہ ہے، (ہر نقص و عیب سے) پاک ہے، عزت و غلبہ والا ہے بڑی حکمت والا ہے", "(Everything) in the heavens and in the earth glorifies Allah, (the Real) King, the Most Pure (of all shortcomings and imperfections), the Lord of Honour, the Almighty, the Most Wise."));
+                parah_28.add(new data_model_arabicandurdu("بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ" +"\n\n"+"يُسَبِّحُ لِلَّهِ مَا فِي السَّمَاوَاتِ وَمَا فِي الْأَرْضِ الْمَلِكِ الْقُدُّوسِ الْعَزِيزِ الْحَكِيمِ" , "(ہر چیز) جو آسمانوں میں ہے اور جو زمین میں ہے اللہ کی تسبیح کرتی ہے (جو حقیقی) بادشاہ ہے، (ہر نقص و عیب سے) پاک ہے، عزت و غلبہ والا ہے بڑی حکمت والا ہے", "(Everything) in the heavens and in the earth glorifies Allah, (the Real) King, the Most Pure (of all shortcomings and imperfections), the Lord of Honour, the Almighty, the Most Wise."));
 
                 parah_28.add(new data_model_arabicandurdu("هُوَ الَّذِي بَعَثَ فِي الْأُمِّيِّينَ رَسُولًا مِّنْهُمْ يَتْلُواْ عَلَيْهِمْ آيَاتِهِ وَيُزَكِّيهِمْ وَيُعَلِّمُهُمُ الْكِتَابَ وَالْحِكْمَةَ وَإِن كَانُوا مِن قَبْلُ لَفِي ضَلَالٍ مُّبِينٍ", "وہی ہے جس نے اَن پڑھ لوگوں میں انہی میں سے ایک (با عظمت) رسول (صلی اللہ علیہ وآلہ وسلم) کو بھیجا وہ اُن پر اُس کی آیتیں پڑھ کر سناتے ہیں اور اُن (کے ظاہر و باطن) کو پاک کرتے ہیں اور انہیں کتاب و حکمت کی تعلیم دیتے ہیں، بیشک وہ لوگ اِن (کے تشریف لانے) سے پہلے کھلی گمراہی میں تھے", "He is the One Who sent a (Glorious) Messenger (blessings and peace be upon him) amongst the illiterate people from amongst themselves who recites to them His Revelations and cleanses and purifies them (outwardly and inwardly) and teaches them the Book and wisdom. Indeed, they were in open error before (his most welcome arrival)."));
 
@@ -2004,9 +1928,9 @@ public class PARAH25TO30 {
 
                 parah_28.add(new data_model_arabicandurdu("وَإِذَا رَأَوْا تِجَارَةً أَوْ لَهْوًا انفَضُّوا إِلَيْهَا وَتَرَكُوكَ قَائِمًا قُلْ مَا عِندَ اللَّهِ خَيْرٌ مِّنَ اللَّهْوِ وَمِنَ التِّجَارَةِ وَاللَّهُ خَيْرُ الرَّازِقِينَ", "اور جب انہوں نے کوئی تجارت یا کھیل تماشا دیکھا تو (اپنی حاجت مندی اور معاشی تنگی کے باعث) اس کی طرف بھاگ کھڑے ہوئے اور آپ کو (خطبہ میں) کھڑے چھوڑ گئے، فرما دیجئے: جو کچھ اللہ کے پاس ہے وہ کھیل سے اور تجارت سے بہتر ہے، اور اللہ سب سے بہتر رزق دینے والا ہے", "And when they found some business or entertainment opportunity, they rushed towards that (due to their neediness and financial constraint) and left you standing (during the sermon). Say: ‘Whatever is with Allah is better than sport and business. And Allah is the Best of sustainers.’"));
 
-                parah_28.add(new data_model_arabicandurdu("بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ", "اللہ کے نام سے شروع جو نہایت مہربان ہمیشہ رحم فرمانے والا ہے", "In the Name of Allah, Most Compassionate, Ever-Merciful."));
+//                parah_28.add(new data_model_arabicandurdu("بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ"+"\n\n"+"بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ", "اللہ کے نام سے شروع جو نہایت مہربان ہمیشہ رحم فرمانے والا ہے", "In the Name of Allah, Most Compassionate, Ever-Merciful."));
 
-                parah_28.add(new data_model_arabicandurdu("إِذَا جَاءَكَ الْمُنَافِقُونَ قَالُوا نَشْهَدُ إِنَّكَ لَرَسُولُ اللَّهِ وَاللَّهُ يَعْلَمُ إِنَّكَ لَرَسُولُهُ وَاللَّهُ يَشْهَدُ إِنَّ الْمُنَافِقِينَ لَكَاذِبُونَ", "(اے حبیبِ مکرّم!) جب منافق آپ کے پاس آتے ہیں تو کہتے ہیں: ہم گواہی دیتے ہیں کہ آپ یقیناً اللہ کے رسول ہیں، اور اللہ جانتا ہے کہ یقیناً آپ اُس کے رسول ہیں، اور اللہ گواہی دیتا ہے کہ یقیناً منافق لوگ جھوٹے ہیں", "(O Esteemed Beloved!) When the hypocrites come to you, they say: ‘We bear witness that you are certainly the Messenger of Allah.’ And Allah knows that surely you are His Messenger (blessings and peace be upon him). But Allah bears witness that undoubtedly the hypocrites are liars."));
+                parah_28.add(new data_model_arabicandurdu("بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ" +"\n\n"+"إِذَا جَاءَكَ الْمُنَافِقُونَ قَالُوا نَشْهَدُ إِنَّكَ لَرَسُولُ اللَّهِ وَاللَّهُ يَعْلَمُ إِنَّكَ لَرَسُولُهُ وَاللَّهُ يَشْهَدُ إِنَّ الْمُنَافِقِينَ لَكَاذِبُونَ" , "(اے حبیبِ مکرّم!) جب منافق آپ کے پاس آتے ہیں تو کہتے ہیں: ہم گواہی دیتے ہیں کہ آپ یقیناً اللہ کے رسول ہیں، اور اللہ جانتا ہے کہ یقیناً آپ اُس کے رسول ہیں، اور اللہ گواہی دیتا ہے کہ یقیناً منافق لوگ جھوٹے ہیں", "(O Esteemed Beloved!) When the hypocrites come to you, they say: ‘We bear witness that you are certainly the Messenger of Allah.’ And Allah knows that surely you are His Messenger (blessings and peace be upon him). But Allah bears witness that undoubtedly the hypocrites are liars."));
 
                 parah_28.add(new data_model_arabicandurdu("اتَّخَذُوا أَيْمَانَهُمْ جُنَّةً فَصَدُّوا عَن سَبِيلِ اللَّهِ إِنَّهُمْ سَاءَ مَا كَانُوا يَعْمَلُونَ", "انہوں نے اپنی قَسموں کو ڈھال بنا رکھا ہے پھر یہ (لوگوں کو) اللہ کی راہ سے روکتے ہیں، بیشک وہ بہت ہی برا (کام) ہے جو یہ لوگ کر رہے ہیں", "They have made their oaths a shield. Then they hinder (the people) from the path of Allah. Surely, that is an extremely evil (work) which they are doing."));
 
@@ -2028,9 +1952,9 @@ public class PARAH25TO30 {
 
                 parah_28.add(new data_model_arabicandurdu("وَلَن يُؤَخِّرَ اللَّهُ نَفْسًا إِذَا جَاءَ أَجَلُهَا وَاللَّهُ خَبِيرٌ بِمَا تَعْمَلُونَ", "اور اللہ ہرگز کسی شخص کو مہلت نہیں دیتا جب اس کی موت کا وقت آجاتا ہے، اور اللہ اُن کاموں سے خوب آگاہ ہے جو تم کرتے ہو", "And Allah never grants respite to anyone when his hour of death approaches. And Allah is Well Aware of the actions that you do."));
 
-                parah_28.add(new data_model_arabicandurdu("بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ", "اللہ کے نام سے شروع جو نہایت مہربان ہمیشہ رحم فرمانے والا ہے", "In the Name of Allah, Most Compassionate, Ever-Merciful."));
+//                parah_28.add(new data_model_arabicandurdu("بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ", "اللہ کے نام سے شروع جو نہایت مہربان ہمیشہ رحم فرمانے والا ہے", "In the Name of Allah, Most Compassionate, Ever-Merciful."));
 
-                parah_28.add(new data_model_arabicandurdu("يُسَبِّحُ لِلَّهِ مَا فِي السَّمَاوَاتِ وَمَا فِي الْأَرْضِ لَهُ الْمُلْكُ وَلَهُ الْحَمْدُ وَهُوَ عَلَى كُلِّ شَيْءٍ قَدِيرٌ", "ہر وہ چیز جو آسمانوں میں ہے اور زمین میں ہے اللہ کی تسبیح کرتی ہے۔ اسی کی ساری بادشاہت ہے اور اسی کے لئے ساری تعریف ہے اور وہ ہر چیز پر بڑا قادر ہے", "Everything in the heavens and in the earth glorifies Allah. His is the entire kingdom and His is all the praise. And He is All-Powerful over everything."));
+                parah_28.add(new data_model_arabicandurdu("بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ" +"\n\n"+"يُسَبِّحُ لِلَّهِ مَا فِي السَّمَاوَاتِ وَمَا فِي الْأَرْضِ لَهُ الْمُلْكُ وَلَهُ الْحَمْدُ وَهُوَ عَلَى كُلِّ شَيْءٍ قَدِيرٌ","ہر وہ چیز جو آسمانوں میں ہے اور زمین میں ہے اللہ کی تسبیح کرتی ہے۔ اسی کی ساری بادشاہت ہے اور اسی کے لئے ساری تعریف ہے اور وہ ہر چیز پر بڑا قادر ہے", "Everything in the heavens and in the earth glorifies Allah. His is the entire kingdom and His is all the praise. And He is All-Powerful over everything."));
 
                 parah_28.add(new data_model_arabicandurdu("هُوَ الَّذِي خَلَقَكُمْ فَمِنكُمْ كَافِرٌ وَمِنكُم مُّؤْمِنٌ وَاللَّهُ بِمَا تَعْمَلُونَ بَصِيرٌ", "وہی ہے جس نے تمہیں پیدا کیا، پس تم میں سے (کوئی) کافر ہو گیا، اور تم میں سے (کوئی) مومن ہوگیا، اور اللہ اُن کاموں کو جو تم کرتے ہو خوب دیکھنے والا ہے", "He is the One Who created you. Then (someone) of you became a disbeliever and (the other one) of you became a believer, and Allah sees best the actions that you do."));
 
@@ -2066,9 +1990,9 @@ public class PARAH25TO30 {
 
                 parah_28.add(new data_model_arabicandurdu("عَالِمُ الْغَيْبِ وَالشَّهَادَةِ الْعَزِيزُ الْحَكِيمُ", "ہر نہاں اور عیاں کو جاننے والا ہے، بڑے غلبہ و عزت والا بڑی حکمت والا ہے", "The Knower of the unseen and the seen, the Lord of Honour and Almighty and Most Wise."));
 
-                parah_28.add(new data_model_arabicandurdu("بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ", "اللہ کے نام سے شروع جو نہایت مہربان ہمیشہ رحم فرمانے والا ہے", "In the Name of Allah, Most Compassionate, Ever-Merciful."));
+//                parah_28.add(new data_model_arabicandurdu("بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ", "اللہ کے نام سے شروع جو نہایت مہربان ہمیشہ رحم فرمانے والا ہے", "In the Name of Allah, Most Compassionate, Ever-Merciful."));
 
-                parah_28.add(new data_model_arabicandurdu("يَا أَيُّهَا النَّبِيُّ إِذَا طَلَّقْتُمُ النِّسَاءَ فَطَلِّقُوهُنَّ لِعِدَّتِهِنَّ وَأَحْصُوا الْعِدَّةَ وَاتَّقُوا اللَّهَ رَبَّكُمْ لَا تُخْرِجُوهُنَّ مِن بُيُوتِهِنَّ وَلَا يَخْرُجْنَ إِلَّا أَن يَأْتِينَ بِفَاحِشَةٍ مُّبَيِّنَةٍ وَتِلْكَ حُدُودُ اللَّهِ وَمَن يَتَعَدَّ حُدُودَ اللَّهِ فَقَدْ ظَلَمَ نَفْسَهُ لَا تَدْرِي لَعَلَّ اللَّهَ يُحْدِثُ بَعْدَ ذَلِكَ أَمْرًا", "اے نبی! (مسلمانوں سے فرما دیں:) جب تم عورتوں کو طلاق دینا چاہو تو اُن کے طُہر کے زمانہ میں انہیں طلاق دو اور عِدّت کو شمار کرو، اور اللہ سے ڈرتے رہو جو تمہارا رب ہے، اور انہیں اُن کے گھروں سے باہر مت نکالو اور نہ وہ خود باہر نکلیں سوائے اس کے کہ وہ کھلی بے حیائی کر بیٹھیں، اور یہ اللہ کی (مقررّہ) حدیں ہیں، اور جو شخص اللہ کی حدود سے تجاوز کرے تو بیشک اُس نے اپنی جان پر ظلم کیا ہے، (اے شخص!) تو نہیں جانتا شاید اللہ اِس کے (طلاق دینے کے) بعد (رجوع کی) کوئی نئی صورت پیدا فرما دے", "O Prophet! (Say to the Muslims:) ‘When you seek to divorce your women, divorce them during their period of purity and count their prescribed period. And keep fearing Allah, Who is your Lord. And do not drive them out of their homes, nor should they leave unless they commit open indecency. And these are Allah’s (fixed) limits. And whoever transgresses Allah’s limits has surely wronged his own soul. (O man,) you do not know that Allah may perhaps develop a new situation (to turn you back to her after divorce)."));
+                parah_28.add(new data_model_arabicandurdu("بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ" +"\n\n"+"يَا أَيُّهَا النَّبِيُّ إِذَا طَلَّقْتُمُ النِّسَاءَ فَطَلِّقُوهُنَّ لِعِدَّتِهِنَّ وَأَحْصُوا الْعِدَّةَ وَاتَّقُوا اللَّهَ رَبَّكُمْ لَا تُخْرِجُوهُنَّ مِن بُيُوتِهِنَّ وَلَا يَخْرُجْنَ إِلَّا أَن يَأْتِينَ بِفَاحِشَةٍ مُّبَيِّنَةٍ وَتِلْكَ حُدُودُ اللَّهِ وَمَن يَتَعَدَّ حُدُودَ اللَّهِ فَقَدْ ظَلَمَ نَفْسَهُ لَا تَدْرِي لَعَلَّ اللَّهَ يُحْدِثُ بَعْدَ ذَلِكَ أَمْرًا" , "اے نبی! (مسلمانوں سے فرما دیں:) جب تم عورتوں کو طلاق دینا چاہو تو اُن کے طُہر کے زمانہ میں انہیں طلاق دو اور عِدّت کو شمار کرو، اور اللہ سے ڈرتے رہو جو تمہارا رب ہے، اور انہیں اُن کے گھروں سے باہر مت نکالو اور نہ وہ خود باہر نکلیں سوائے اس کے کہ وہ کھلی بے حیائی کر بیٹھیں، اور یہ اللہ کی (مقررّہ) حدیں ہیں، اور جو شخص اللہ کی حدود سے تجاوز کرے تو بیشک اُس نے اپنی جان پر ظلم کیا ہے، (اے شخص!) تو نہیں جانتا شاید اللہ اِس کے (طلاق دینے کے) بعد (رجوع کی) کوئی نئی صورت پیدا فرما دے", "O Prophet! (Say to the Muslims:) ‘When you seek to divorce your women, divorce them during their period of purity and count their prescribed period. And keep fearing Allah, Who is your Lord. And do not drive them out of their homes, nor should they leave unless they commit open indecency. And these are Allah’s (fixed) limits. And whoever transgresses Allah’s limits has surely wronged his own soul. (O man,) you do not know that Allah may perhaps develop a new situation (to turn you back to her after divorce)."));
 
                 parah_28.add(new data_model_arabicandurdu("فَإِذَا بَلَغْنَ أَجَلَهُنَّ فَأَمْسِكُوهُنَّ بِمَعْرُوفٍ أَوْ فَارِقُوهُنَّ بِمَعْرُوفٍ وَأَشْهِدُوا ذَوَيْ عَدْلٍ مِّنكُمْ وَأَقِيمُوا الشَّهَادَةَ لِلَّهِ ذَلِكُمْ يُوعَظُ بِهِ مَن كَانَ يُؤْمِنُ بِاللَّهِ وَالْيَوْمِ الْآخِرِ وَمَن يَتَّقِ اللَّهَ يَجْعَل لَّهُ مَخْرَجًا", "پھر جب وہ اپنی مقررہ میعاد (کے ختم ہونے) کے قریب پہنچ جائیں تو انہیں بھلائی کے ساتھ (اپنی زوجیت میں) روک لو یا انہیں بھلائی کے ساتھ جدا کردو۔ اور اپنوں میں سے دو عادل مَردوں کو گواہ بنا لو اور گواہی اللہ کے لئے قائم کیا کرو، اِن (باتوں) سے اسی شخص کو نصیحت کی جاتی ہے جو اللہ اور یومِ آخرت پر ایمان رکھتا ہے، اور جو اللہ سے ڈرتا ہے وہ اس کے لئے (دنیا و آخرت کے رنج و غم سے) نکلنے کی راہ پیدا فرما دیتا ہے", "Then when they reach closer to (the end of) their appointed term, retain them with kindness or separate from them with kindness. And take two just persons from amongst you as witnesses and establish testimony for the sake of Allah. This is advice for him alone who believes in Allah and the Last Day. And whoever fears Allah, He makes a way out for him (from pain and grief of this world and the Hereafter),"));
 
@@ -2092,9 +2016,9 @@ public class PARAH25TO30 {
 
                 parah_28.add(new data_model_arabicandurdu("اللَّهُ الَّذِي خَلَقَ سَبْعَ سَمَاوَاتٍ وَمِنَ الْأَرْضِ مِثْلَهُنَّ يَتَنَزَّلُ الْأَمْرُ بَيْنَهُنَّ لِتَعْلَمُوا أَنَّ اللَّهَ عَلَى كُلِّ شَيْءٍ قَدِيرٌ وَأَنَّ اللَّهَ قَدْ أَحَاطَ بِكُلِّ شَيْءٍ عِلْمًا", "اللہ (ہی) ہے جس نے سات آسمان پیدا فرمائے اور زمین (کی تشکیل) میں بھی انہی کی مِثل (تہ بہ تہ سات طبقات بنائے)، ان کے درمیان (نظامِ قدرت کی تدبیر کا) امر اترتا رہتا ہے تاکہ تم جان لو کہ اللہ ہر چیز پر بڑا قادر ہے، اور یہ کہ اللہ نے ہر چیز کا اپنے علم سے احاطہ فرما رکھا ہے (یعنی آنے والے زمانوں میں جب سائنسی اکتشافات کامل ہوں گے تو تمہیں اللہ کی قدرت اور علمِ محیط کی عظمت کا اندازہ ہو جائے گا کہ کس طرح اُس نے صدیوں قبل ان حقائق کو تمہارے لئے بیان فرما رکھا ہے)", "Allah (alone) has created seven heavens and (brought about seven strata layer upon layer also whilst creating) the earth like them. And the command (i.e., phenomenon of coordination in the system of nature) continues to operate amongst them so that you may know that Allah has absolute power over everything, and that Allah has encompassed everything with His Knowledge (i.e., when scientific explorations will culminate, you will then perceive the glory of Allah’s power and His All-Encompassing knowledge as to how He has described the realities of His creation centuries before)."));
 
-                parah_28.add(new data_model_arabicandurdu("بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ", "اللہ کے نام سے شروع جو نہایت مہربان ہمیشہ رحم فرمانے والا ہے", "In the Name of Allah, Most Compassionate, Ever-Merciful."));
+//                parah_28.add(new data_model_arabicandurdu("بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ", "اللہ کے نام سے شروع جو نہایت مہربان ہمیشہ رحم فرمانے والا ہے", "In the Name of Allah, Most Compassionate, Ever-Merciful."));
 
-                parah_28.add(new data_model_arabicandurdu("يَا أَيُّهَا النَّبِيُّ لِمَ تُحَرِّمُ مَا أَحَلَّ اللَّهُ لَكَ تَبْتَغِي مَرْضَاتَ أَزْوَاجِكَ وَاللَّهُ غَفُورٌ رَّحِيمٌ", "اے نبیِ (مکرّم!) آپ خود کو اس چیز (یعنی شہد کے نوش کرنے) سے کیوں منع فرماتے ہیں جسے اللہ نے آپ کے لیے حلال فرما رکھا ہے؟ آپ اپنی اَزواج کی (کس قدر) دلجوئی فرماتے ہیں! اور اللہ بڑا بخشنے والا نہایت مہربان ہے", "O (Esteemed) Prophet! Why do you forbid yourself (taking honey) which Allah has made lawful for you? (How well) you seek to please your wives! And Allah is Most Forgiving, Ever-Merciful."));
+                parah_28.add(new data_model_arabicandurdu("بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ" +"\n\n"+"يَا أَيُّهَا النَّبِيُّ لِمَ تُحَرِّمُ مَا أَحَلَّ اللَّهُ لَكَ تَبْتَغِي مَرْضَاتَ أَزْوَاجِكَ وَاللَّهُ غَفُورٌ رَّحِيمٌ", "اے نبیِ (مکرّم!) آپ خود کو اس چیز (یعنی شہد کے نوش کرنے) سے کیوں منع فرماتے ہیں جسے اللہ نے آپ کے لیے حلال فرما رکھا ہے؟ آپ اپنی اَزواج کی (کس قدر) دلجوئی فرماتے ہیں! اور اللہ بڑا بخشنے والا نہایت مہربان ہے", "O (Esteemed) Prophet! Why do you forbid yourself (taking honey) which Allah has made lawful for you? (How well) you seek to please your wives! And Allah is Most Forgiving, Ever-Merciful."));
 
                 parah_28.add(new data_model_arabicandurdu("قَدْ فَرَضَ اللَّهُ لَكُمْ تَحِلَّةَ أَيْمَانِكُمْ وَاللَّهُ مَوْلَاكُمْ وَهُوَ الْعَلِيمُ الْحَكِيمُ", "(اے مومنو!) بیشک اللہ نے تمہارے لئے تمہاری قَسموں کا (کفارہ دے کر) کھول ڈالنا مقرر فرما دیا ہے۔ اور اللہ تمہارا مددگار و کارساز ہے، اور وہ خوب جاننے والا بڑی حکمت والا ہے", "(O believers!) Indeed, Allah has prescribed for you how to dissolve your oaths (by atonement). And Allah is your Helper and Protector. And He is All-Knowing, Most Wise."));
 
@@ -2123,7 +2047,7 @@ public class PARAH25TO30 {
             case "29":
 
 
-                parah_29.add(new data_model_arabicandurdu("بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ", "اللہ کے نام سے شروع جو نہایت مہربان ہمیشہ رحم فرمانے والا ہے", "In the Name of Allah, Most Compassionate, Ever-Merciful."));
+//                parah_29.add(new data_model_arabicandurdu("بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ", "اللہ کے نام سے شروع جو نہایت مہربان ہمیشہ رحم فرمانے والا ہے", "In the Name of Allah, Most Compassionate, Ever-Merciful."));
 
                 parah_29.add(new data_model_arabicandurdu("تَبَارَكَ الَّذِي بِيَدِهِ الْمُلْكُ وَهُوَ عَلَى كُلِّ شَيْءٍ قَدِيرٌ", "وہ ذات نہایت بابرکت ہے جس کے دستِ (قدرت) میں (تمام جہانوں کی) سلطنت ہے، اور وہ ہر چیز پر پوری طرح قادر ہے", "Blessed is He in Whose (Mighty) Hand is the kingdom (of all the worlds). And He enjoys perfect command over everything;"));
 
@@ -2185,9 +2109,9 @@ public class PARAH25TO30 {
 
                 parah_29.add(new data_model_arabicandurdu("قُلْ أَرَأَيْتُمْ إِنْ أَصْبَحَ مَاؤُكُمْ غَوْرًا فَمَن يَأْتِيكُم بِمَاءٍ مَّعِينٍ", "فرما دیجئے: اگر تمہارا پانی زمین میں بہت نیچے اتر جائے (یعنی خشک ہو جائے) تو کون ہے جو تمہیں (زمین پر) بہتا ہوا پانی لا دے", "Say: ‘If your water sinks far deep into the earth (i.e., dries up), then who will bring you flowing water (on earth)?’"));
 
-                parah_29.add(new data_model_arabicandurdu("بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ", "اللہ کے نام سے شروع جو نہایت مہربان ہمیشہ رحم فرمانے والا ہے", "In the Name of Allah, Most Compassionate, Ever-Merciful."));
+//                parah_29.add(new data_model_arabicandurdu("بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ", "اللہ کے نام سے شروع جو نہایت مہربان ہمیشہ رحم فرمانے والا ہے", "In the Name of Allah, Most Compassionate, Ever-Merciful."));
 
-                parah_29.add(new data_model_arabicandurdu("ن وَالْقَلَمِ وَمَا يَسْطُرُونَ", "نون (حقیقی معنی اللہ اور رسول صلی اللہ علیہ وآلہ وسلم ہی بہتر جانتے ہیں)، قلم کی قَسم اور اُس (مضمون) کی قَسم جو (فرشتے) لکھتے ہیں", "Nun. (Only Allah and the Messenger [blessings and peace be upon him] know the real meaning.) By the pen and by that (subject) which (the angels) write down!"));
+                parah_29.add(new data_model_arabicandurdu("بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ" +"\n\n"+"ن وَالْقَلَمِ وَمَا يَسْطُرُونَ" , "نون (حقیقی معنی اللہ اور رسول صلی اللہ علیہ وآلہ وسلم ہی بہتر جانتے ہیں)، قلم کی قَسم اور اُس (مضمون) کی قَسم جو (فرشتے) لکھتے ہیں", "Nun. (Only Allah and the Messenger [blessings and peace be upon him] know the real meaning.) By the pen and by that (subject) which (the angels) write down!"));
 
                 parah_29.add(new data_model_arabicandurdu("مَا أَنتَ بِنِعْمَةِ رَبِّكَ بِمَجْنُونٍ", "(اے حبیبِ مکرّم!) آپ اپنے رب کے فضل سے (ہرگز) دیوانے نہیں ہیں", "(O Esteemed Beloved!) By the Grace of your Lord, you are not (at all) insane."));
 
@@ -2292,9 +2216,9 @@ public class PARAH25TO30 {
                 parah_29.add(new data_model_arabicandurdu("وَمَا هُوَ إِلَّا ذِكْرٌ لِّلْعَالَمِينَ", "اور وہ (قرآن) تو سارے جہانوں کے لئے نصیحت ہے", "And it (the Qur’an) is direction and guidance for all the worlds."));
 
 
-                parah_29.add(new data_model_arabicandurdu("بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ", "اللہ کے نام سے شروع جو نہایت مہربان ہمیشہ رحم فرمانے والا ہے", "In the Name of Allah, Most Compassionate, Ever-Merciful."));
+//                parah_29.add(new data_model_arabicandurdu("بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ", "اللہ کے نام سے شروع جو نہایت مہربان ہمیشہ رحم فرمانے والا ہے", "In the Name of Allah, Most Compassionate, Ever-Merciful."));
 
-                parah_29.add(new data_model_arabicandurdu("الْحَاقَّةُ", "یقیناً واقع ہونے والی گھڑی", "The surely Inevitable Hour!"));
+                parah_29.add(new data_model_arabicandurdu("بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ" +"\n\n"+"الْحَاقَّةُ", "یقیناً واقع ہونے والی گھڑی", "The surely Inevitable Hour!"));
 
                 parah_29.add(new data_model_arabicandurdu("مَا الْحَاقَّةُ", "کیا چیز ہے یقیناً واقع ہونے والی گھڑی", "What is the surely Inevitable Hour?"));
 
@@ -2399,9 +2323,9 @@ public class PARAH25TO30 {
                 parah_29.add(new data_model_arabicandurdu("فَسَبِّحْ بِاسْمِ رَبِّكَ الْعَظِيمِ", "سو (اے حبیبِ مکرّم!) آپ اپنے عظمت والے رب کے نام کی تسبیح کرتے رہیں", "So, (O Esteemed Beloved,) glorify your Lord, Most Magnificent, with persistence."));
 
 
-                parah_29.add(new data_model_arabicandurdu("بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ", "اللہ کے نام سے شروع جو نہایت مہربان ہمیشہ رحم فرمانے والا ہے", "In the Name of Allah, Most Compassionate, Ever-Merciful."));
+//                parah_29.add(new data_model_arabicandurdu("بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ", "اللہ کے نام سے شروع جو نہایت مہربان ہمیشہ رحم فرمانے والا ہے", "In the Name of Allah, Most Compassionate, Ever-Merciful."));
 
-                parah_29.add(new data_model_arabicandurdu("سَأَلَ سَائِلٌ بِعَذَابٍ وَاقِعٍ", "ایک سائل نے ایسا عذاب طلب کیا جو واقع ہونے والا ہے", "A questioner asked for the torment which is sure to come about,"));
+                parah_29.add(new data_model_arabicandurdu("بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ" +"\n\n"+"سَأَلَ سَائِلٌ بِعَذَابٍ وَاقِعٍ" , "ایک سائل نے ایسا عذاب طلب کیا جو واقع ہونے والا ہے", "A questioner asked for the torment which is sure to come about,"));
 
                 parah_29.add(new data_model_arabicandurdu("لِّلْكَافِرينَ لَيْسَ لَهُ دَافِعٌ", "کافروں کے لئے جسے کوئی دفع کرنے والا نہیں", "Upon the disbelievers, which no one can repel."));
 
@@ -2490,9 +2414,9 @@ public class PARAH25TO30 {
                 parah_29.add(new data_model_arabicandurdu("خَاشِعَةً أَبْصَارُهُمْ تَرْهَقُهُمْ ذِلَّةٌ ذَلِكَ الْيَوْمُ الَّذِي كَانُوا يُوعَدُونَ", "(ان کا) حال یہ ہو گا کہ ان کی آنکھیں (شرم اور خوف سے) جھک رہی ہوں گی، ذِلت ان پر چھا رہی ہوگی، یہی ہے وہ دن جس کا ان سے وعدہ کیا جاتا تھا", "(Their plight) will be that their eyes will be cast down (with shame and fear) and disgrace enveloping them. It is this Day which they were promised."));
 
 
-                parah_29.add(new data_model_arabicandurdu("بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ", "اللہ کے نام سے شروع جو نہایت مہربان ہمیشہ رحم فرمانے والا ہے", "In the Name of Allah, Most Compassionate, Ever-Merciful."));
+//                parah_29.add(new data_model_arabicandurdu("بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ", "اللہ کے نام سے شروع جو نہایت مہربان ہمیشہ رحم فرمانے والا ہے", "In the Name of Allah, Most Compassionate, Ever-Merciful."));
 
-                parah_29.add(new data_model_arabicandurdu("إِنَّا أَرْسَلْنَا نُوحًا إِلَى قَوْمِهِ أَنْ أَنذِرْ قَوْمَكَ مِن قَبْلِ أَن يَأْتِيَهُمْ عَذَابٌ أَلِيمٌ", "بے شک ہم نے نوح (علیہ السلام) کو ان کی قوم کی طرف بھیجا کہ آپ اپنی قوم کو ڈرائیں قبل اس کے کہ اُنہیں دردناک عذاب آپہنچے", "Surely, We sent Nuh (Noah) to his people: ‘Warn your people before a painful torment comes upon them.’"));
+                parah_29.add(new data_model_arabicandurdu("بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ" +"\n\n"+"إِنَّا أَرْسَلْنَا نُوحًا إِلَى قَوْمِهِ أَنْ أَنذِرْ قَوْمَكَ مِن قَبْلِ أَن يَأْتِيَهُمْ عَذَابٌ أَلِيمٌ" , "بے شک ہم نے نوح (علیہ السلام) کو ان کی قوم کی طرف بھیجا کہ آپ اپنی قوم کو ڈرائیں قبل اس کے کہ اُنہیں دردناک عذاب آپہنچے", "Surely, We sent Nuh (Noah) to his people: ‘Warn your people before a painful torment comes upon them.’"));
 
                 parah_29.add(new data_model_arabicandurdu("قَالَ يَا قَوْمِ إِنِّي لَكُمْ نَذِيرٌ مُّبِينٌ", "اُنہوں نے کہا: اے میری قوم! بے شک میں تمہیں واضح ڈر سنانے والا ہوں", "He said: ‘O my people! Indeed, I am a clear Warner to you,"));
 
@@ -2549,9 +2473,9 @@ public class PARAH25TO30 {
                 parah_29.add(new data_model_arabicandurdu("رَبِّ اغْفِرْ لِي وَلِوَالِدَيَّ وَلِمَن دَخَلَ بَيْتِيَ مُؤْمِنًا وَلِلْمُؤْمِنِينَ وَالْمُؤْمِنَاتِ وَلَا تَزِدِ الظَّالِمِينَ إِلَّا تَبَارًا", "اے میرے رب! مجھے بخش دے اور میرے والدین کو اور ہر اس شخص کو جو مومن ہو کر میرے گھر میں داخل ہوا اور (جملہ) مومن مردوں کو اور مومن عورتوں کو، اور ظالموں کے لئے سوائے ہلاکت کے کچھ (بھی) زیادہ نہ فرما", "O my Lord! Forgive me and my parents and everyone who enters my home as a believer and (all) the believing men and the believing women, and do not increase anything for the wrongdoers except destruction.’"));
 
 
-                parah_29.add(new data_model_arabicandurdu("بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ", "اللہ کے نام سے شروع جو نہایت مہربان ہمیشہ رحم فرمانے والا ہے", "In the Name of Allah, Most Compassionate, Ever-Merciful."));
+//                parah_29.add(new data_model_arabicandurdu("بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ", "اللہ کے نام سے شروع جو نہایت مہربان ہمیشہ رحم فرمانے والا ہے", "In the Name of Allah, Most Compassionate, Ever-Merciful."));
 
-                parah_29.add(new data_model_arabicandurdu("قُلْ أُوحِيَ إِلَيَّ أَنَّهُ اسْتَمَعَ نَفَرٌ مِّنَ الْجِنِّ فَقَالُوا إِنَّا سَمِعْنَا قُرْآنًا عَجَبًا", "آپ فرما دیں: میری طرف وحی کی گئی ہے کہ جنات کی ایک جماعت نے (میری تلاوت کو) غور سے سنا، تو (جا کر اپنی قوم سے) کہنے لگے: بیشک ہم نے ایک عجیب قرآن سنا ہے", "Say: ‘It has been revealed to me that a party of the jinn listened to (my recitation) carefully and then (went back to their people and) said: Surely, we have heard a wonderful Qur’an."));
+                parah_29.add(new data_model_arabicandurdu("بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ" +"\n\n"+"قُلْ أُوحِيَ إِلَيَّ أَنَّهُ اسْتَمَعَ نَفَرٌ مِّنَ الْجِنِّ فَقَالُوا إِنَّا سَمِعْنَا قُرْآنًا عَجَبًا" , "آپ فرما دیں: میری طرف وحی کی گئی ہے کہ جنات کی ایک جماعت نے (میری تلاوت کو) غور سے سنا، تو (جا کر اپنی قوم سے) کہنے لگے: بیشک ہم نے ایک عجیب قرآن سنا ہے", "Say: ‘It has been revealed to me that a party of the jinn listened to (my recitation) carefully and then (went back to their people and) said: Surely, we have heard a wonderful Qur’an."));
 
                 parah_29.add(new data_model_arabicandurdu("يَهْدِي إِلَى الرُّشْدِ فَآمَنَّا بِهِ وَلَن نُّشْرِكَ بِرَبِّنَا أَحَدًا", "جو ہدایت کی راہ دکھاتا ہے، سو ہم اس پر ایمان لے آئے ہیں، اور اپنے رب کے ساتھ کسی کو ہرگز شریک نہیں ٹھہرائیں گے", "It shows the path of guidance. So we have believed in it and will never set up any partner with our Lord."));
 
@@ -2608,9 +2532,9 @@ public class PARAH25TO30 {
                 parah_29.add(new data_model_arabicandurdu("لِّيَعْلَمَ أَن قَدْ أَبْلَغُوا رِسَالَاتِ رَبِّهِمْ وَأَحَاطَ بِمَا لَدَيْهِمْ وَأَحْصَى كُلَّ شَيْءٍ عَدَدًا", "تاکہ اللہ (اس بات کو) ظاہر فرما دے کہ بے شک ان (رسولوں) نے اپنے رب کے پیغامات پہنچا دئیے، اور (اَحکاماتِ اِلٰہیہ اور علومِ غیبیہ میں سے) جو کچھ ان کے پاس ہے اللہ نے (پہلے ہی سے) اُس کا اِحاطہ فرما رکھا ہے، اور اُس نے ہر چیز کی گنتی شمار کر رکھی ہے", "So that Allah may bring to light that surely they (the Messengers) have communicated the messages of their Lord, and Allah has (already) encompassed what they have (of Allah’s injunctions and the knowledge of the unseen) and He has kept count of everything."));
 
 
-                parah_29.add(new data_model_arabicandurdu("بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ", "اللہ کے نام سے شروع جو نہایت مہربان ہمیشہ رحم فرمانے والا ہے", "In the Name of Allah, Most Compassionate, Ever-Merciful."));
+//                parah_29.add(new data_model_arabicandurdu("بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ", "اللہ کے نام سے شروع جو نہایت مہربان ہمیشہ رحم فرمانے والا ہے", "In the Name of Allah, Most Compassionate, Ever-Merciful."));
 
-                parah_29.add(new data_model_arabicandurdu("يَا أَيُّهَا الْمُزَّمِّلُ", "اے کملی کی جھرمٹ والے (حبیب!)", "O mantled (Beloved!)"));
+                parah_29.add(new data_model_arabicandurdu("بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ" +"\n\n"+"يَا أَيُّهَا الْمُزَّمِّلُ" , "اے کملی کی جھرمٹ والے (حبیب!)", "O mantled (Beloved!)"));
 
                 parah_29.add(new data_model_arabicandurdu("قُمِ اللَّيْلَ إِلَّا قَلِيلًا", "آپ رات کو (نماز میں) قیام فرمایا کریں مگر تھوڑی دیر (کے لئے)", "Rise and stand (in Prayer) at night but (for) a short while,"));
 
@@ -2651,9 +2575,9 @@ public class PARAH25TO30 {
                 parah_29.add(new data_model_arabicandurdu("إِنَّ رَبَّكَ يَعْلَمُ أَنَّكَ تَقُومُ أَدْنَى مِن ثُلُثَيِ اللَّيْلِ وَنِصْفَهُ وَثُلُثَهُ وَطَائِفَةٌ مِّنَ الَّذِينَ مَعَكَ وَاللَّهُ يُقَدِّرُ اللَّيْلَ وَالنَّهَارَ عَلِمَ أَن لَّن تُحْصُوهُ فَتَابَ عَلَيْكُمْ فَاقْرَؤُوا مَا تَيَسَّرَ مِنَ الْقُرْآنِ عَلِمَ أَن سَيَكُونُ مِنكُم مَّرْضَى وَآخَرُونَ يَضْرِبُونَ فِي الْأَرْضِ يَبْتَغُونَ مِن فَضْلِ اللَّهِ وَآخَرُونَ يُقَاتِلُونَ فِي سَبِيلِ اللَّهِ فَاقْرَؤُوا مَا تَيَسَّرَ مِنْهُ وَأَقِيمُوا الصَّلَاةَ وَآتُوا الزَّكَاةَ وَأَقْرِضُوا اللَّهَ قَرْضًا حَسَنًا وَمَا تُقَدِّمُوا لِأَنفُسِكُم مِّنْ خَيْرٍ تَجِدُوهُ عِندَ اللَّهِ هُوَ خَيْرًا وَأَعْظَمَ أَجْرًا وَاسْتَغْفِرُوا اللَّهَ إِنَّ اللَّهَ غَفُورٌ رَّحِيمٌ", "بے شک آپ کا رب جانتا ہے کہ آپ (کبھی) دو تہائی شب کے قریب اور (کبھی) نصف شب اور (کبھی) ایک تہائی شب (نماز میں) قیام کرتے ہیں، اور اُن لوگوں کی ایک جماعت (بھی) جو آپ کے ساتھ ہیں (قیام میں شریک ہوتی ہے)، اور اللہ ہی رات اور دن (کے گھٹنے اور بڑھنے) کا صحیح اندازہ رکھتا ہے، وہ جانتا ہے کہ تم ہرگز اُس کے اِحاطہ کی طاقت نہیں رکھتے، سو اُس نے تم پر (مشقت میں تخفیف کر کے) معافی دے دی، پس جتنا آسانی سے ہو سکے قرآن پڑھ لیا کرو، وہ جانتا ہے کہ تم میں سے (بعض لوگ) بیمار ہوں گے اور (بعض) دوسرے لوگ زمین میں سفر کریں گے تاکہ اللہ کا فضل تلاش کریں اور (بعض) دیگر اللہ کی راہ میں جنگ کریں گے، سو جتنا آسانی سے ہو سکے اُتنا (ہی) پڑھ لیا کرو، اور نماز قائم رکھو اور زکوٰۃ دیتے رہو اور اللہ کو قرضِ حسن دیا کرو، اور جو بھلائی تم اپنے لئے آگے بھیجو گے اُسے اللہ کے حضور بہتر اور اَجر میں بزرگ تر پا لوگے، اور اللہ سے بخشش طلب کرتے رہو، اللہ بہت بخشنے والا بے حد رحم فرمانے والا ہے", "Surely, your Lord knows that you stand (for prayer sometimes) about two-thirds of the night and (sometimes) half the night and (sometimes) a third of the night, and (also) a party of those who are with you (join in standing up for Prayer). And Allah is the One Who keeps the true measure (of increasing or decreasing) the night and the day. He knows that you just do not have the power to encompass it so He granted you forgiveness (by reducing the toil). So recite the Qur’an as much as is easy for you. He knows that (some of) you will be ill and (some) others will be travelling in the land to look for Allah’s bounty and (still some) others will be fighting in the way of Allah. So recite as much as is easy for you. And establish Prayer and pay Zakat (the Alms-due) and lend Allah a goodly loan. And whatever good you will send forward for yourselves, you will find it in the presence of Allah much better and in reward still greater. And keep seeking forgiveness from Allah. Allah is Most Forgiving, Ever-Merciful."));
 
 
-                parah_29.add(new data_model_arabicandurdu("بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ", "اللہ کے نام سے شروع جو نہایت مہربان ہمیشہ رحم فرمانے والا ہے", "In the Name of Allah, Most Compassionate, Ever-Merciful."));
+//                parah_29.add(new data_model_arabicandurdu("بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ", "اللہ کے نام سے شروع جو نہایت مہربان ہمیشہ رحم فرمانے والا ہے", "In the Name of Allah, Most Compassionate, Ever-Merciful."));
 
-                parah_29.add(new data_model_arabicandurdu("يَا أَيُّهَا الْمُدَّثِّرُ", "اے چادر اوڑھنے والے (حبیب!)", "O enwrapped (Beloved!)"));
+                parah_29.add(new data_model_arabicandurdu("بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ" +"\n\n"+"يَا أَيُّهَا الْمُدَّثِّرُ"  , "اے چادر اوڑھنے والے (حبیب!)", "O enwrapped (Beloved!)"));
 
                 parah_29.add(new data_model_arabicandurdu("قُمْ فَأَنذِرْ", "اُٹھیں اور (لوگوں کو اللہ کا) ڈر سنائیں", "Rise and give warning (to the people)."));
 
@@ -2765,9 +2689,9 @@ public class PARAH25TO30 {
 
                 parah_29.add(new data_model_arabicandurdu("وَمَا يَذْكُرُونَ إِلَّا أَن يَشَاءُ اللَّهُ هُوَ أَهْلُ التَّقْوَى وَأَهْلُ الْمَغْفِرَةِ", "اور یہ لوگ (اِسے) یاد نہیں رکھیں گے مگر جب اللہ چاہے گا، وُہی تقوٰی (و پرہیزگاری) کا مستحق ہے اور مغفرت کا مالک ہے", "And they will not remember (it) unless Allah so wills. He is the One to Whom fear (and righteousness) is due, and He alone is the Lord of forgiveness."));
 
-                parah_29.add(new data_model_arabicandurdu("بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ", "اللہ کے نام سے شروع جو نہایت مہربان ہمیشہ رحم فرمانے والا ہے", "In the Name of Allah, Most Compassionate, Ever-Merciful."));
+//                parah_29.add(new data_model_arabicandurdu("بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ", "اللہ کے نام سے شروع جو نہایت مہربان ہمیشہ رحم فرمانے والا ہے", "In the Name of Allah, Most Compassionate, Ever-Merciful."));
 
-                parah_29.add(new data_model_arabicandurdu("لَا أُقْسِمُ بِيَوْمِ الْقِيَامَةِ", "میں قسم کھاتا ہوں روزِ قیامت کی", "I swear by the Day of Resurrection."));
+                parah_29.add(new data_model_arabicandurdu("بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ" +"\n\n"+"لَا أُقْسِمُ بِيَوْمِ الْقِيَامَةِ" , "میں قسم کھاتا ہوں روزِ قیامت کی", "I swear by the Day of Resurrection."));
 
                 parah_29.add(new data_model_arabicandurdu("وَلَا أُقْسِمُ بِالنَّفْسِ اللَّوَّامَةِ", "اور میں قسم کھاتا ہوں (برائیوں پر) ملامت کرنے والے نفس کی", "And I swear by the blaming self, reproaching (itself for evil deeds)."));
 
@@ -2848,9 +2772,9 @@ public class PARAH25TO30 {
                 parah_29.add(new data_model_arabicandurdu("أَلَيْسَ ذَلِكَ بِقَادِرٍ عَلَى أَن يُحْيِيَ الْمَوْتَى", "تو کیا وہ اس بات پر قادر نہیں کہ مُردوں کو پھر سے زندہ کر دے", "Then has He not the power to give life to the dead again?"));
 
 
-                parah_29.add(new data_model_arabicandurdu("بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ", "اللہ کے نام سے شروع جو نہایت مہربان ہمیشہ رحم فرمانے والا ہے", "In the Name of Allah, Most Compassionate, Ever-Merciful."));
+//                parah_29.add(new data_model_arabicandurdu("بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ", "اللہ کے نام سے شروع جو نہایت مہربان ہمیشہ رحم فرمانے والا ہے", "In the Name of Allah, Most Compassionate, Ever-Merciful."));
 
-                parah_29.add(new data_model_arabicandurdu("هَلْ أَتَى عَلَى الْإِنسَانِ حِينٌ مِّنَ الدَّهْرِ لَمْ يَكُن شَيْئًا مَّذْكُورًا", "بے شک انسان پر زمانے کا ایک ایسا وقت بھی گزر چکا ہے کہ وہ کوئی قابلِ ذِکر چیز ہی نہ تھا", "Surely, there has passed over man a period of time when he was not a thing worth mentioning."));
+                parah_29.add(new data_model_arabicandurdu("بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ" +"\n\n"+"هَلْ أَتَى عَلَى الْإِنسَانِ حِينٌ مِّنَ الدَّهْرِ لَمْ يَكُن شَيْئًا مَّذْكُورًا" , "بے شک انسان پر زمانے کا ایک ایسا وقت بھی گزر چکا ہے کہ وہ کوئی قابلِ ذِکر چیز ہی نہ تھا", "Surely, there has passed over man a period of time when he was not a thing worth mentioning."));
 
                 parah_29.add(new data_model_arabicandurdu("إِنَّا خَلَقْنَا الْإِنسَانَ مِن نُّطْفَةٍ أَمْشَاجٍ نَّبْتَلِيهِ فَجَعَلْنَاهُ سَمِيعًا بَصِيرًا", "بے شک ہم نے انسان کو مخلوط نطفہ سے پیدا فرمایا جسے ہم (تولّد تک ایک مرحلہ سے دوسرے مرحلہ کی طرف) پلٹتے اور جانچتے رہتے ہیں، پس ہم نے اسے (ترتیب سے) سننے والا (پھر) دیکھنے والا بنایا ہے", "Surely, We created man from a fertilized ovum that We keep turning and examining (from one stage to the next till birth). So We have made him (in the order of) hearing (then) seeing."));
 
@@ -2912,9 +2836,9 @@ public class PARAH25TO30 {
 
                 parah_29.add(new data_model_arabicandurdu("يُدْخِلُ مَن يَشَاءُ فِي رَحْمَتِهِ وَالظَّالِمِينَ أَعَدَّ لَهُمْ عَذَابًا أَلِيمًا", "وہ جسے چاہتا ہے اپنی رحمت (کے دائرے) میں داخل فرما لیتا ہے، اور ظالموں کے لئے اس نے دردناک عذاب تیار کر رکھا ہے", "He admits whom He wills to (the circle of) His mercy, and He has prepared a grievous torment for the wrongdoers."));
 
-                parah_29.add(new data_model_arabicandurdu("بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ", "اللہ کے نام سے شروع جو نہایت مہربان ہمیشہ رحم فرمانے والا ہے", "In the Name of Allah, Most Compassionate, Ever-Merciful."));
+//                parah_29.add(new data_model_arabicandurdu("بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ", "اللہ کے نام سے شروع جو نہایت مہربان ہمیشہ رحم فرمانے والا ہے", "In the Name of Allah, Most Compassionate, Ever-Merciful."));
 
-                parah_29.add(new data_model_arabicandurdu("وَالْمُرْسَلَاتِ عُرْفًا", "نرم و خوش گوار ہواؤں کی قَسم جو پے در پے چلتی ہیں", "By the soft blowing, pleasant breezes which blow in succession,"));
+                parah_29.add(new data_model_arabicandurdu("بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ" +"\n\n"+"وَالْمُرْسَلَاتِ عُرْفًا" , "نرم و خوش گوار ہواؤں کی قَسم جو پے در پے چلتی ہیں", "By the soft blowing, pleasant breezes which blow in succession,"));
 
                 parah_29.add(new data_model_arabicandurdu("فَالْعَاصِفَاتِ عَصْفًا", "پھر تند و تیز ہواؤں کی قَسم جو شدید جھونکوں سے چلتی ہیں", "Then by the violent winds which blow with fierce gusts,"));
 
@@ -3016,1295 +2940,1219 @@ public class PARAH25TO30 {
 
                 return parah_29;
             case "30":
-                parah_30.add(new data_model_arabicandurdu("بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ", "اللہ کے نام سے شروع جو نہایت مہربان ہمیشہ رحم فرمانے والا ہے", "In the Name of Allah, Most Compassionate, Ever-Merciful."));
 
-                parah_30.add(new data_model_arabicandurdu("عَمَّ يَتَسَاءَلُونَ", "یہ لوگ آپس میں کس (چیز) سے متعلق سوال کرتے ہیں", "What is (it) they are questioning about one another?"));
 
-                parah_30.add(new data_model_arabicandurdu("عَنِ النَّبَإِ الْعَظِيمِ", "(کیا) اس عظیم خبر سے متعلق (پوچھ گچھ کر رہے ہیں)", "(Are they asking) of the Great News,"));
 
-                parah_30.add(new data_model_arabicandurdu("الَّذِي هُمْ فِيهِ مُخْتَلِفُونَ", "جس کے بارے میں وہ اختلاف کرتے ہیں", "About which they differ?"));
+//                        parah_30.add(new data_model_arabicandurdu("بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ","اللہ کے نام سے شروع جو نہایت مہربان ہمیشہ رحم فرمانے والا ہے","In the Name of Allah, Most Compassionate, Ever-Merciful."));
 
-                parah_30.add(new data_model_arabicandurdu("كَلَّا سَيَعْلَمُونَ", "ہرگز (وہ خبر لائقِ انکار) نہیں! وہ عنقریب (اس حقیقت کو) جان جائیں گے", "(That News is) not at all (deniable). They will soon know (that reality)."));
+                        parah_30.add(new data_model_arabicandurdu("عَمَّ يَتَسَاءَلُونَ","یہ لوگ آپس میں کس (چیز) سے متعلق سوال کرتے ہیں","What is (it) they are questioning about one another?"));
 
-                parah_30.add(new data_model_arabicandurdu("ثُمَّ كَلَّا سَيَعْلَمُونَ", "(ہم) پھر (کہتے ہیں: اختلاف و انکار) ہرگز (درست) نہیں! وہ عنقریب جان جائیں گے", "(We) once more (assert: Dissent and denial are) in no way (right). They will come to know soon."));
+                        parah_30.add(new data_model_arabicandurdu("عَنِ النَّبَإِ الْعَظِيمِ","(کیا) اس عظیم خبر سے متعلق (پوچھ گچھ کر رہے ہیں)","(Are they asking) of the Great News,"));
 
-                parah_30.add(new data_model_arabicandurdu("أَلَمْ نَجْعَلِ الْأَرْضَ مِهَادًا", "کیا ہم نے زمین کو (زندگی کے) قیام اور کسب و عمل کی جگہ نہیں بنایا", "Have We not made the earth a place to stay for (life) and to earn living and deeds?"));
+                        parah_30.add(new data_model_arabicandurdu("الَّذِي هُمْ فِيهِ مُخْتَلِفُونَ","جس کے بارے میں وہ اختلاف کرتے ہیں","About which they differ?"));
 
-                parah_30.add(new data_model_arabicandurdu("وَالْجِبَالَ أَوْتَادًا", "اور (کیا) پہاڑوں کو (اس میں) ابھار کر کھڑا (نہیں) کیا", "And (have We not) erected mountains raised (out of it)?"));
+                        parah_30.add(new data_model_arabicandurdu("كَلَّا سَيَعْلَمُونَ","ہرگز (وہ خبر لائقِ انکار) نہیں! وہ عنقریب (اس حقیقت کو) جان جائیں گے","(That News is) not at all (deniable). They will soon know (that reality)."));
 
-                parah_30.add(new data_model_arabicandurdu("وَخَلَقْنَاكُمْ أَزْوَاجًا", "اور (غور کرو) ہم نے تمہیں (فروغِ نسل کے لئے) جوڑا جوڑا پیدا فرمایا (ہے)", "And (ponder:) We (have) created you in pairs (for reproduction)."));
+                        parah_30.add(new data_model_arabicandurdu("ثُمَّ كَلَّا سَيَعْلَمُونَ","(ہم) پھر (کہتے ہیں: اختلاف و انکار) ہرگز (درست) نہیں! وہ عنقریب جان جائیں گے","(We) once more (assert: Dissent and denial are) in no way (right). They will come to know soon."));
 
-                parah_30.add(new data_model_arabicandurdu("وَجَعَلْنَا نَوْمَكُمْ سُبَاتًا", "اور ہم نے تمہاری نیند کو (جسمانی) راحت (کا سبب) بنایا (ہے)", "And We (have) made your sleep (a means of bodily) rest,"));
+                        parah_30.add(new data_model_arabicandurdu("أَلَمْ نَجْعَلِ الْأَرْضَ مِهَادًا","کیا ہم نے زمین کو (زندگی کے) قیام اور کسب و عمل کی جگہ نہیں بنایا","Have We not made the earth a place to stay for (life) and to earn living and deeds?"));
 
-                parah_30.add(new data_model_arabicandurdu("وَجَعَلْنَا اللَّيْلَ لِبَاسًا", "اور ہم نے رات کو (اس کی تاریکی کے باعث) پردہ پوش بنایا (ہے)", "And We (have) made the night a covering (by virtue of its darkness)."));
+                        parah_30.add(new data_model_arabicandurdu("وَالْجِبَالَ أَوْتَادًا","اور (کیا) پہاڑوں کو (اس میں) ابھار کر کھڑا (نہیں) کیا","And (have We not) erected mountains raised (out of it)?"));
 
-                parah_30.add(new data_model_arabicandurdu("وَجَعَلْنَا النَّهَارَ مَعَاشًا", "اور ہم نے دن کو (کسبِ) معاش (کا وقت) بنایا (ہے)", "And We (have) made the day (a time) for (earning) livelihood."));
+                        parah_30.add(new data_model_arabicandurdu("وَخَلَقْنَاكُمْ أَزْوَاجًا","اور (غور کرو) ہم نے تمہیں (فروغِ نسل کے لئے) جوڑا جوڑا پیدا فرمایا (ہے)","And (ponder:) We (have) created you in pairs (for reproduction)."));
 
-                parah_30.add(new data_model_arabicandurdu("وَبَنَيْنَا فَوْقَكُمْ سَبْعًا شِدَادًا", "اور (اب خلائی کائنات میں بھی غور کرو) ہم نے تمہارے اوپر سات مضبوط (طبقات) بنائے", "And (now study the spatial universe as well). We built above you seven strong (firmaments)."));
+                        parah_30.add(new data_model_arabicandurdu("وَجَعَلْنَا نَوْمَكُمْ سُبَاتًا","اور ہم نے تمہاری نیند کو (جسمانی) راحت (کا سبب) بنایا (ہے)","And We (have) made your sleep (a means of bodily) rest,"));
 
-                parah_30.add(new data_model_arabicandurdu("وَجَعَلْنَا سِرَاجًا وَهَّاجًا", "اور ہم نے (سورج کو) روشنی اور حرارت کا (زبردست) منبع بنایا", "And We made (the sun a massive) fountainhead of light and heat."));
+                        parah_30.add(new data_model_arabicandurdu("وَجَعَلْنَا اللَّيْلَ لِبَاسًا","اور ہم نے رات کو (اس کی تاریکی کے باعث) پردہ پوش بنایا (ہے)","And We (have) made the night a covering (by virtue of its darkness)."));
 
-                parah_30.add(new data_model_arabicandurdu("وَأَنزَلْنَا مِنَ الْمُعْصِرَاتِ مَاءً ثَجَّاجًا", "اور ہم نے بھرے بادلوں سے موسلادھار پانی برسایا", "And We poured water in torrents from rain-laden clouds,"));
+                        parah_30.add(new data_model_arabicandurdu("وَجَعَلْنَا النَّهَارَ مَعَاشًا","اور ہم نے دن کو (کسبِ) معاش (کا وقت) بنایا (ہے)","And We (have) made the day (a time) for (earning) livelihood."));
 
-                parah_30.add(new data_model_arabicandurdu("لِّنُخْرِجَ بِهِ حَبًّا وَنَبَاتًا", "تاکہ ہم اس (بارش) کے ذریعے (زمین سے) اناج اور سبزہ نکالیں", "So that by means of this (downpour), We bring forth (from the earth) grain and vegetation,"));
+                        parah_30.add(new data_model_arabicandurdu("وَبَنَيْنَا فَوْقَكُمْ سَبْعًا شِدَادًا","اور (اب خلائی کائنات میں بھی غور کرو) ہم نے تمہارے اوپر سات مضبوط (طبقات) بنائے","And (now study the spatial universe as well). We built above you seven strong (firmaments)."));
 
-                parah_30.add(new data_model_arabicandurdu("وَجَنَّاتٍ أَلْفَافًا", "اور گھنے گھنے باغات (اگائیں)", "And (grow) thick gardens."));
+                        parah_30.add(new data_model_arabicandurdu("وَجَعَلْنَا سِرَاجًا وَهَّاجًا","اور ہم نے (سورج کو) روشنی اور حرارت کا (زبردست) منبع بنایا","And We made (the sun a massive) fountainhead of light and heat."));
 
-                parah_30.add(new data_model_arabicandurdu("إِنَّ يَوْمَ الْفَصْلِ كَانَ مِيقَاتًا", "(ہماری قدرت کی ان نشانیوں کو دیکھ کر جان لو کہ) بیشک فیصلہ کا دن (قیامت بھی) ایک مقررہ وقت ہے", "(Observing these signs of Our Might, know that) the Day of Judgment (i.e., Resurrection too) is certainly a fixed time."));
+                        parah_30.add(new data_model_arabicandurdu("وَأَنزَلْنَا مِنَ الْمُعْصِرَاتِ مَاءً ثَجَّاجًا","اور ہم نے بھرے بادلوں سے موسلادھار پانی برسایا","And We poured water in torrents from rain-laden clouds,"));
 
-                parah_30.add(new data_model_arabicandurdu("يَوْمَ يُنفَخُ فِي الصُّورِ فَتَأْتُونَ أَفْوَاجًا", "جس دن صور پھونکا جائے گا تو تم گروہ در گروہ (اللہ کے حضور) چلے آؤ گے", "The Day when the Trumpet will be blown, you will flock (in the holy presence of Allah) in droves."));
+                        parah_30.add(new data_model_arabicandurdu("لِّنُخْرِجَ بِهِ حَبًّا وَنَبَاتًا","تاکہ ہم اس (بارش) کے ذریعے (زمین سے) اناج اور سبزہ نکالیں","So that by means of this (downpour), We bring forth (from the earth) grain and vegetation,"));
 
-                parah_30.add(new data_model_arabicandurdu("وَفُتِحَتِ السَّمَاءُ فَكَانَتْ أَبْوَابًا", "اور آسمان (کے طبقات) پھاڑ دیئے جائیں گے تو (پھٹنے کے باعث گویا) وہ دروازے ہی دروازے ہو جائیں گے", "And the (layers of) heaven will be torn, and (owing to the rip) they will become (as if) all doors."));
+                        parah_30.add(new data_model_arabicandurdu("وَجَنَّاتٍ أَلْفَافًا","اور گھنے گھنے باغات (اگائیں)","And (grow) thick gardens."));
 
-                parah_30.add(new data_model_arabicandurdu("وَسُيِّرَتِ الْجِبَالُ فَكَانَتْ سَرَابًا", "اور پہاڑ (غبار بنا کر فضا میں) اڑا دیئے جائیں گے، سو وہ سراب (کی طرح کالعدم) ہو جائیں گے", "And the mountains (after being reduced to dust) will be blown off (into the atmosphere); so they will be (eliminated like) a mirage."));
+                        parah_30.add(new data_model_arabicandurdu("إِنَّ يَوْمَ الْفَصْلِ كَانَ مِيقَاتًا","(ہماری قدرت کی ان نشانیوں کو دیکھ کر جان لو کہ) بیشک فیصلہ کا دن (قیامت بھی) ایک مقررہ وقت ہے","(Observing these signs of Our Might, know that) the Day of Judgment (i.e., Resurrection too) is certainly a fixed time."));
 
-                parah_30.add(new data_model_arabicandurdu("إِنَّ جَهَنَّمَ كَانَتْ مِرْصَادًا", "بیشک دوزخ ایک گھات ہے", "Surely, Hell is a place of ambush."));
+                        parah_30.add(new data_model_arabicandurdu("يَوْمَ يُنفَخُ فِي الصُّورِ فَتَأْتُونَ أَفْوَاجًا","جس دن صور پھونکا جائے گا تو تم گروہ در گروہ (اللہ کے حضور) چلے آؤ گے","The Day when the Trumpet will be blown, you will flock (in the holy presence of Allah) in droves."));
 
-                parah_30.add(new data_model_arabicandurdu("لِّلْطَّاغِينَ مَآبًا", "(وہ) سرکشوں کا ٹھکانا ہے", "(That) is the abode of rebels."));
+                        parah_30.add(new data_model_arabicandurdu("وَفُتِحَتِ السَّمَاءُ فَكَانَتْ أَبْوَابًا","اور آسمان (کے طبقات) پھاڑ دیئے جائیں گے تو (پھٹنے کے باعث گویا) وہ دروازے ہی دروازے ہو جائیں گے","And the (layers of) heaven will be torn, and (owing to the rip) they will become (as if) all doors."));
 
-                parah_30.add(new data_model_arabicandurdu("لاَّبِثِينَ فِيهَا أَحْقَابًا", "وہ ختم نہ ہونے والی پے در پے مدتیں اسی میں پڑے رہیں گے", "They will abide there for recurrent, infinite periods."));
+                        parah_30.add(new data_model_arabicandurdu("وَسُيِّرَتِ الْجِبَالُ فَكَانَتْ سَرَابًا","اور پہاڑ (غبار بنا کر فضا میں) اڑا دیئے جائیں گے، سو وہ سراب (کی طرح کالعدم) ہو جائیں گے","And the mountains (after being reduced to dust) will be blown off (into the atmosphere); so they will be (eliminated like) a mirage."));
 
-                parah_30.add(new data_model_arabicandurdu("لَّا يَذُوقُونَ فِيهَا بَرْدًا وَلَا شَرَابًا", "نہ وہ اس میں (کسی قسم کی) ٹھنڈک کا مزہ چکھیں گے اور نہ کسی پینے کی چیز کا", "They will taste in it neither coolness (of any sort) nor any drink,"));
+                        parah_30.add(new data_model_arabicandurdu("إِنَّ جَهَنَّمَ كَانَتْ مِرْصَادًا","بیشک دوزخ ایک گھات ہے","Surely, Hell is a place of ambush."));
 
-                parah_30.add(new data_model_arabicandurdu("إِلَّا حَمِيمًا وَغَسَّاقًا", "سوائے کھولتے ہوئے گرم پانی اور (دوزخیوں کے زخموں سے) بہتی ہوئی پیپ کے", "Except boiling water and suppurated fluid oozing (from the wounds of the inmates of Hell),"));
+                        parah_30.add(new data_model_arabicandurdu("لِّلْطَّاغِينَ مَآبًا","(وہ) سرکشوں کا ٹھکانا ہے","(That) is the abode of rebels."));
 
-                parah_30.add(new data_model_arabicandurdu("جَزَاءً وِفَاقًا", "(یہی ان کی سرکشی کے) موافق بدلہ ہے", "A compensation commensurate with (their revolt),"));
+                        parah_30.add(new data_model_arabicandurdu("لاَّبِثِينَ فِيهَا أَحْقَابًا","وہ ختم نہ ہونے والی پے در پے مدتیں اسی میں پڑے رہیں گے","They will abide there for recurrent, infinite periods."));
 
-                parah_30.add(new data_model_arabicandurdu("إِنَّهُمْ كَانُوا لَا يَرْجُونَ حِسَابًا", "اس لئے کہ وہ قطعًا حسابِ (آخرت) کا خوف نہیں رکھتے تھے", "For they had no fear of Reckoning (on the Last Day) in the least."));
+                        parah_30.add(new data_model_arabicandurdu("لَّا يَذُوقُونَ فِيهَا بَرْدًا وَلَا شَرَابًا","نہ وہ اس میں (کسی قسم کی) ٹھنڈک کا مزہ چکھیں گے اور نہ کسی پینے کی چیز کا","They will taste in it neither coolness (of any sort) nor any drink,"));
 
-                parah_30.add(new data_model_arabicandurdu("وَكَذَّبُوا بِآيَاتِنَا كِذَّابًا", "اور وہ ہماری آیتوں کو خوب جھٹلایا کرتے تھے", "And they used to utterly deny Our signs."));
+                        parah_30.add(new data_model_arabicandurdu("إِلَّا حَمِيمًا وَغَسَّاقًا","سوائے کھولتے ہوئے گرم پانی اور (دوزخیوں کے زخموں سے) بہتی ہوئی پیپ کے","Except boiling water and suppurated fluid oozing (from the wounds of the inmates of Hell),"));
 
-                parah_30.add(new data_model_arabicandurdu("وَكُلَّ شَيْءٍ أَحْصَيْنَاهُ كِتَابًا", "اور ہم نے ہر (چھوٹی بڑی) چیز کو لکھ کر محفوظ کر رکھا ہے", "And We have preserved everything (major or minor) in writing."));
+                        parah_30.add(new data_model_arabicandurdu("جَزَاءً وِفَاقًا","(یہی ان کی سرکشی کے) موافق بدلہ ہے","A compensation commensurate with (their revolt),"));
 
-                parah_30.add(new data_model_arabicandurdu("فَذُوقُوا فَلَن نَّزِيدَكُمْ إِلَّا عَذَابًا", "(اے منکرو!) اب تم (اپنے کئے کا) مزہ چکھو (تم دنیا میں کفر و سرکشی میں بڑھتے گئے) اب ہم تم پر عذاب ہی کو بڑھاتے جائیں گے", "(O disbelievers, you excelled in rebellion and disbelief in the world.) Now taste the outcome (of your actions). We shall keep increasing but the torment upon you."));
+                        parah_30.add(new data_model_arabicandurdu("إِنَّهُمْ كَانُوا لَا يَرْجُونَ حِسَابًا","اس لئے کہ وہ قطعًا حسابِ (آخرت) کا خوف نہیں رکھتے تھے","For they had no fear of Reckoning (on the Last Day) in the least."));
 
-                parah_30.add(new data_model_arabicandurdu("إِنَّ لِلْمُتَّقِينَ مَفَازًا", "بیشک پرہیزگاروں کے لئے کامیابی ہے", "Surely, the Godfearing will triumph."));
+                        parah_30.add(new data_model_arabicandurdu("وَكَذَّبُوا بِآيَاتِنَا كِذَّابًا","اور وہ ہماری آیتوں کو خوب جھٹلایا کرتے تھے","And they used to utterly deny Our signs."));
 
-                parah_30.add(new data_model_arabicandurdu("حَدَائِقَ وَأَعْنَابًا", "(ان کے لئے) باغات اور انگور (ہوں گے)", "(For them) there will be gardens and grapes,"));
+                        parah_30.add(new data_model_arabicandurdu("وَكُلَّ شَيْءٍ أَحْصَيْنَاهُ كِتَابًا","اور ہم نے ہر (چھوٹی بڑی) چیز کو لکھ کر محفوظ کر رکھا ہے","And We have preserved everything (major or minor) in writing."));
 
-                parah_30.add(new data_model_arabicandurdu("وَكَوَاعِبَ أَتْرَابًا", "اور جواں سال ہم عمر دوشیزائیں (ہوں گی)", "And well-matched young maidens,"));
+                        parah_30.add(new data_model_arabicandurdu("فَذُوقُوا فَلَن نَّزِيدَكُمْ إِلَّا عَذَابًا","(اے منکرو!) اب تم (اپنے کئے کا) مزہ چکھو (تم دنیا میں کفر و سرکشی میں بڑھتے گئے) اب ہم تم پر عذاب ہی کو بڑھاتے جائیں گے","(O disbelievers, you excelled in rebellion and disbelief in the world.) Now taste the outcome (of your actions). We shall keep increasing but the torment upon you."));
 
-                parah_30.add(new data_model_arabicandurdu("وَكَأْسًا دِهَاقًا", "اور (شرابِ طہور کے) چھلکتے ہوئے جام (ہوں گے)", "And overflowing cups (of holy beverage)."));
+                        parah_30.add(new data_model_arabicandurdu("إِنَّ لِلْمُتَّقِينَ مَفَازًا","بیشک پرہیزگاروں کے لئے کامیابی ہے","Surely, the Godfearing will triumph."));
 
-                parah_30.add(new data_model_arabicandurdu("لَّا يَسْمَعُونَ فِيهَا لَغْوًا وَلَا كِذَّابًا", "وہاں یہ (لوگ) نہ کوئی بے ہودہ بات سنیں گے اور نہ (ایک دوسرے کو) جھٹلانا (ہوگا)", "There, these (people) will neither hear any foolish talk nor belie (one another)."));
+                        parah_30.add(new data_model_arabicandurdu("حَدَائِقَ وَأَعْنَابًا","(ان کے لئے) باغات اور انگور (ہوں گے)","(For them) there will be gardens and grapes,"));
 
-                parah_30.add(new data_model_arabicandurdu("جَزَاءً مِّن رَّبِّكَ عَطَاءً حِسَابًا", "یہ آپ کے رب کی طرف سے صلہ ہے جو (اعمال کے حساب سے) کافی (بڑی) عطا ہے", "From your Lord this is the reward which is an (amply) sufficient bestowal (in proportion to your works)."));
+                        parah_30.add(new data_model_arabicandurdu("وَكَوَاعِبَ أَتْرَابًا","اور جواں سال ہم عمر دوشیزائیں (ہوں گی)","And well-matched young maidens,"));
 
-                parah_30.add(new data_model_arabicandurdu("رَّبِّ السَّمَاوَاتِ وَالْأَرْضِ وَمَا بَيْنَهُمَا الرحْمَنِ لَا يَمْلِكُونَ مِنْهُ خِطَابًا", "(وہ) آسمانوں اور زمین کا اور جو کچھ ان دونوں کے درمیان ہے (سب) کا پروردگار ہے، بڑی ہی رحمت والا ہے (مگر روزِ قیامت اس کے رعب و جلال کا عالم یہ ہوگا کہ) اس سے بات کرنے کا (مخلوقات میں سے) کسی کو (بھی) یارا نہ ہوگا", "He is the Lord of (all) the heavens and the earth and whatever is between them, the Most Kind. (But on the Last Day, the effect and impact of His mighty power and most high authority will be such that) none (from His creation) will dare converse with Him."));
+                        parah_30.add(new data_model_arabicandurdu("وَكَأْسًا دِهَاقًا","اور (شرابِ طہور کے) چھلکتے ہوئے جام (ہوں گے)","And overflowing cups (of holy beverage)."));
 
-                parah_30.add(new data_model_arabicandurdu("يَوْمَ يَقُومُ الرُّوحُ وَالْمَلَائِكَةُ صَفًّا لَّا يَتَكَلَّمُونَ إِلَّا مَنْ أَذِنَ لَهُ الرحْمَنُ وَقَالَ صَوَابًا", "جس دن جبرائیل (روح الامین) اور (تمام) فرشتے صف بستہ کھڑے ہوں گے، کوئی لب کشائی نہ کر سکے گا، سوائے اس شخص کے جسے خدائے رحمان نے اِذنِ (شفاعت) دے رکھا تھا اور اس نے (زندگی میں تعلیماتِ اسلام کے مطابق) بات بھی درست کہی تھی", "That Day Gabriel (the Spirit of peace and security) and (all) angels will stand in ranks, none able to speak except he whom the Most Kind (Lord) would already have awarded sanction (to intercede) and who also said the right thing (in keeping with the teachings of Islam, during his life of the world)."));
+                        parah_30.add(new data_model_arabicandurdu("لَّا يَسْمَعُونَ فِيهَا لَغْوًا وَلَا كِذَّابًا","وہاں یہ (لوگ) نہ کوئی بے ہودہ بات سنیں گے اور نہ (ایک دوسرے کو) جھٹلانا (ہوگا)","There, these (people) will neither hear any foolish talk nor belie (one another)."));
 
-                parah_30.add(new data_model_arabicandurdu("ذَلِكَ الْيَوْمُ الْحَقُّ فَمَن شَاءَ اتَّخَذَ إِلَى رَبِّهِ مَآبًا", "یہ روزِ حق ہے، پس جو شخص چاہے اپنے رب کے حضور (رحمت و قربت کا) ٹھکانا بنا لے", "This is the Day of truth. So, whoever longs may obtain an abode (of mercy and nearness) in the presence of his Lord."));
+                        parah_30.add(new data_model_arabicandurdu("جَزَاءً مِّن رَّبِّكَ عَطَاءً حِسَابًا","یہ آپ کے رب کی طرف سے صلہ ہے جو (اعمال کے حساب سے) کافی (بڑی) عطا ہے","From your Lord this is the reward which is an (amply) sufficient bestowal (in proportion to your works)."));
 
-                parah_30.add(new data_model_arabicandurdu("إِنَّا أَنذَرْنَاكُمْ عَذَابًا قَرِيبًا يَوْمَ يَنظُرُ الْمَرْءُ مَا قَدَّمَتْ يَدَاهُ وَيَقُولُ الْكَافِرُ يَا لَيْتَنِي كُنتُ تُرَابًا", "بلا شبہ ہم نے تمہیں عنقریب آنے والے عذاب سے ڈرا دیا ہے، اس دن ہر آدمی ان (اعمال) کو جو اس نے آگے بھیجے ہیں دیکھ لے گا، اور (ہر) کافر کہے گا: اے کاش! میں مٹی ہوتا (اور اس عذاب سے بچ جاتا)", "We have, indeed, warned you of the impending torment. On that Day, everyone will see whatever (acts) he has sent ahead and (every) disbeliever will say: ‘Would that I were dust (and escaped this punishment)!’"));
+                        parah_30.add(new data_model_arabicandurdu("رَّبِّ السَّمَاوَاتِ وَالْأَرْضِ وَمَا بَيْنَهُمَا الرحْمَنِ لَا يَمْلِكُونَ مِنْهُ خِطَابًا","(وہ) آسمانوں اور زمین کا اور جو کچھ ان دونوں کے درمیان ہے (سب) کا پروردگار ہے، بڑی ہی رحمت والا ہے (مگر روزِ قیامت اس کے رعب و جلال کا عالم یہ ہوگا کہ) اس سے بات کرنے کا (مخلوقات میں سے) کسی کو (بھی) یارا نہ ہوگا","He is the Lord of (all) the heavens and the earth and whatever is between them, the Most Kind. (But on the Last Day, the effect and impact of His mighty power and most high authority will be such that) none (from His creation) will dare converse with Him."));
 
-                parah_30.add(new data_model_arabicandurdu("بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ", "اللہ کے نام سے شروع جو نہایت مہربان ہمیشہ رحم فرمانے والا ہے", "In the Name of Allah, Most Compassionate, Ever-Merciful."));
+                        parah_30.add(new data_model_arabicandurdu("يَوْمَ يَقُومُ الرُّوحُ وَالْمَلَائِكَةُ صَفًّا لَّا يَتَكَلَّمُونَ إِلَّا مَنْ أَذِنَ لَهُ الرحْمَنُ وَقَالَ صَوَابًا","جس دن جبرائیل (روح الامین) اور (تمام) فرشتے صف بستہ کھڑے ہوں گے، کوئی لب کشائی نہ کر سکے گا، سوائے اس شخص کے جسے خدائے رحمان نے اِذنِ (شفاعت) دے رکھا تھا اور اس نے (زندگی میں تعلیماتِ اسلام کے مطابق) بات بھی درست کہی تھی","That Day Gabriel (the Spirit of peace and security) and (all) angels will stand in ranks, none able to speak except he whom the Most Kind (Lord) would already have awarded sanction (to intercede) and who also said the right thing (in keeping with the teachings of Islam, during his life of the world)."));
 
-                parah_30.add(new data_model_arabicandurdu("عَمَّ يَتَسَاءَلُونَ", "یہ لوگ آپس میں کس (چیز) سے متعلق سوال کرتے ہیں", "What is (it) they are questioning about one another?"));
+                        parah_30.add(new data_model_arabicandurdu("ذَلِكَ الْيَوْمُ الْحَقُّ فَمَن شَاءَ اتَّخَذَ إِلَى رَبِّهِ مَآبًا","یہ روزِ حق ہے، پس جو شخص چاہے اپنے رب کے حضور (رحمت و قربت کا) ٹھکانا بنا لے","This is the Day of truth. So, whoever longs may obtain an abode (of mercy and nearness) in the presence of his Lord."));
 
-                parah_30.add(new data_model_arabicandurdu("عَنِ النَّبَإِ الْعَظِيمِ", "(کیا) اس عظیم خبر سے متعلق (پوچھ گچھ کر رہے ہیں)", "(Are they asking) of the Great News,"));
+                        parah_30.add(new data_model_arabicandurdu("إِنَّا أَنذَرْنَاكُمْ عَذَابًا قَرِيبًا يَوْمَ يَنظُرُ الْمَرْءُ مَا قَدَّمَتْ يَدَاهُ وَيَقُولُ الْكَافِرُ يَا لَيْتَنِي كُنتُ تُرَابًا","بلا شبہ ہم نے تمہیں عنقریب آنے والے عذاب سے ڈرا دیا ہے، اس دن ہر آدمی ان (اعمال) کو جو اس نے آگے بھیجے ہیں دیکھ لے گا، اور (ہر) کافر کہے گا: اے کاش! میں مٹی ہوتا (اور اس عذاب سے بچ جاتا)","We have, indeed, warned you of the impending torment. On that Day, everyone will see whatever (acts) he has sent ahead and (every) disbeliever will say: ‘Would that I were dust (and escaped this punishment)!’"));
 
-                parah_30.add(new data_model_arabicandurdu("الَّذِي هُمْ فِيهِ مُخْتَلِفُونَ", "جس کے بارے میں وہ اختلاف کرتے ہیں", "About which they differ?"));
 
-                parah_30.add(new data_model_arabicandurdu("كَلَّا سَيَعْلَمُونَ", "ہرگز (وہ خبر لائقِ انکار) نہیں! وہ عنقریب (اس حقیقت کو) جان جائیں گے", "(That News is) not at all (deniable). They will soon know (that reality)."));
 
-                parah_30.add(new data_model_arabicandurdu("ثُمَّ كَلَّا سَيَعْلَمُونَ", "(ہم) پھر (کہتے ہیں: اختلاف و انکار) ہرگز (درست) نہیں! وہ عنقریب جان جائیں گے", "(We) once more (assert: Dissent and denial are) in no way (right). They will come to know soon."));
+//                        parah_30.add(new data_model_arabicandurdu("بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ","اللہ کے نام سے شروع جو نہایت مہربان ہمیشہ رحم فرمانے والا ہے","In the Name of Allah, Most Compassionate, Ever-Merciful."));
 
-                parah_30.add(new data_model_arabicandurdu("أَلَمْ نَجْعَلِ الْأَرْضَ مِهَادًا", "کیا ہم نے زمین کو (زندگی کے) قیام اور کسب و عمل کی جگہ نہیں بنایا", "Have We not made the earth a place to stay for (life) and to earn living and deeds?"));
+                        parah_30.add(new data_model_arabicandurdu("بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ"+"\n\n"+"وَالنَّازِعَاتِ غَرْقًا","ان (فرشتوں) کی قَسم جو (کافروں کی جان ان کے جسموں کے ایک ایک انگ میں سے) نہایت سختی سے کھینچ لاتے ہیں۔<br> (یا:- توانائی کی ان لہروں کی قَسم جو مادہ کے اندر گھس کر کیمیائی جوڑوں کو سختی سے توڑ پھوڑ دیتی ہیں)","By (the angels) who violently snatch out (the souls of the disbelievers from each tendon and ligament of their body), Or By the waves of energy that pierce into matter and break up the chemical bonds fiercely,"));
 
-                parah_30.add(new data_model_arabicandurdu("وَالْجِبَالَ أَوْتَادًا", "اور (کیا) پہاڑوں کو (اس میں) ابھار کر کھڑا (نہیں) کیا", "And (have We not) erected mountains raised (out of it)?"));
+                        parah_30.add(new data_model_arabicandurdu("وَالنَّاشِطَاتِ نَشْطًا","اور ان (فرشتوں) کی قَسم جو (مومنوں کی جان کے) بند نہایت نرمی سے کھول دیتے ہیں۔<br> (یا:- توانائی کی ان لہروں کی قَسم جو مادہ کے اندر سے کیمیائی جوڑوں کو نہایت نرمی اور آرام سے توڑ دیتی ہیں)","And by (the angels) who unweave sinews (of the believers’ organisms) gently and peacefully, Or By the waves of energy that disintegrate gently and peacefully the chemical bonds within matter,"));
 
-                parah_30.add(new data_model_arabicandurdu("وَخَلَقْنَاكُمْ أَزْوَاجًا", "اور (غور کرو) ہم نے تمہیں (فروغِ نسل کے لئے) جوڑا جوڑا پیدا فرمایا (ہے)", "And (ponder:) We (have) created you in pairs (for reproduction)."));
+                        parah_30.add(new data_model_arabicandurdu("وَالسَّابِحَاتِ سَبْحًا","اور ان (فرشتوں) کی قَسم جو (زمین و آسمان کے درمیان) تیزی سے تیرتے پھرتے ہیں۔<br> (یا:- توانائی کی ان لہروں کی قَسم جو آسمانی خلا و فضا میں بلا روک ٹوک چلتی پھرتی ہیں)","And by (the angels) who swiftly glide (between the heavens and the earth), Or By the waves of energy that move around freely in space and atmosphere,"));
 
-                parah_30.add(new data_model_arabicandurdu("وَجَعَلْنَا نَوْمَكُمْ سُبَاتًا", "اور ہم نے تمہاری نیند کو (جسمانی) راحت (کا سبب) بنایا (ہے)", "And We (have) made your sleep (a means of bodily) rest,"));
+                        parah_30.add(new data_model_arabicandurdu("فَالسَّابِقَاتِ سَبْقًا","پھر ان (فرشتوں) کی قَسم جو لپک کر (دوسروں سے) آگے بڑھ جاتے ہیں۔<br> (یا:- پھر توانائی کی ان لہروں کی قَسم جو رفتار، طاقت اور جاذبیت کے لحاظ سے دوسری لہروں پر سبقت لے جاتی ہیں)","Then by (the angels) who with burst of speed sprint past others, Or By the waves of energy that surpass other waves in speed, force and assimilation,"));
 
-                parah_30.add(new data_model_arabicandurdu("وَجَعَلْنَا اللَّيْلَ لِبَاسًا", "اور ہم نے رات کو (اس کی تاریکی کے باعث) پردہ پوش بنایا (ہے)", "And We (have) made the night a covering (by virtue of its darkness)."));
+                        parah_30.add(new data_model_arabicandurdu("فَالْمُدَبِّرَاتِ أَمْرًا","پھر ان (فرشتوں) کی قَسم جو مختلف اُمور کی تدبیر کرتے ہیں۔<br> (یا:- پھر توانائی کی ان لہروں کی قَسم جو باہمی تعامل سے کائناتی نظام کی بقا کے لئے توازن و تدبیر قائم رکھتی ہیں)","Then by (the angels) who manage different affairs well, Or By the waves of energy that, through mutual dynamism and coordination, maintain equilibrium and keep the balance of the management going for the survival of the system of the universe,"));
 
-                parah_30.add(new data_model_arabicandurdu("وَجَعَلْنَا النَّهَارَ مَعَاشًا", "اور ہم نے دن کو (کسبِ) معاش (کا وقت) بنایا (ہے)", "And We (have) made the day (a time) for (earning) livelihood."));
+                        parah_30.add(new data_model_arabicandurdu("يَوْمَ تَرْجُفُ الرَّاجِفَةُ","(جب انہیں اس نظامِ کائنات کے درہم برہم کردینے کا حکم ہوگا تو) اس دن (کائنات کی) ہر متحرک چیز شدید حرکت میں آجائے گی","(When they will be commanded to devastate the system of the universe) that Day, everything in motion (in the universe) will tremor into violent convulsion,"));
 
-                parah_30.add(new data_model_arabicandurdu("وَبَنَيْنَا فَوْقَكُمْ سَبْعًا شِدَادًا", "اور (اب خلائی کائنات میں بھی غور کرو) ہم نے تمہارے اوپر سات مضبوط (طبقات) بنائے", "And (now study the spatial universe as well). We built above you seven strong (firmaments)."));
+                        parah_30.add(new data_model_arabicandurdu("تَتْبَعُهَا الرَّادِفَةُ","پیچھے آنے والا ایک اور زلزلہ اس کے پیچھے آئے گا","Chased by a succeeding convulsion."));
 
-                parah_30.add(new data_model_arabicandurdu("وَجَعَلْنَا سِرَاجًا وَهَّاجًا", "اور ہم نے (سورج کو) روشنی اور حرارت کا (زبردست) منبع بنایا", "And We made (the sun a massive) fountainhead of light and heat."));
+                        parah_30.add(new data_model_arabicandurdu("قُلُوبٌ يَوْمَئِذٍ وَاجِفَةٌ","اس دن (لوگوں کے) دل خوف و اضطراب سے دھڑکتے ہوں گے","That Day, hearts (of the people) will pound with agony and terror."));
 
-                parah_30.add(new data_model_arabicandurdu("وَأَنزَلْنَا مِنَ الْمُعْصِرَاتِ مَاءً ثَجَّاجًا", "اور ہم نے بھرے بادلوں سے موسلادھار پانی برسایا", "And We poured water in torrents from rain-laden clouds,"));
+                        parah_30.add(new data_model_arabicandurdu("أَبْصَارُهَا خَاشِعَةٌ","ان کی آنکھیں (خوف و ہیبت سے) جھکی ہوں گی","Their eyes will be downcast (with dread and horror)."));
 
-                parah_30.add(new data_model_arabicandurdu("لِّنُخْرِجَ بِهِ حَبًّا وَنَبَاتًا", "تاکہ ہم اس (بارش) کے ذریعے (زمین سے) اناج اور سبزہ نکالیں", "So that by means of this (downpour), We bring forth (from the earth) grain and vegetation,"));
+                        parah_30.add(new data_model_arabicandurdu("يَقُولُونَ أَئِنَّا لَمَرْدُودُونَ فِي الْحَافِرَةِ","(کفّار) کہتے ہیں: کیا ہم پہلی زندگی کی طرف پلٹائے جائیں گے","The disbelievers say: ‘Shall we be reverted to the former life?"));
 
-                parah_30.add(new data_model_arabicandurdu("وَجَنَّاتٍ أَلْفَافًا", "اور گھنے گھنے باغات (اگائیں)", "And (grow) thick gardens."));
+                        parah_30.add(new data_model_arabicandurdu("أَئِذَا كُنَّا عِظَامًا نَّخِرَةً","کیا جب ہم بوسیدہ (کھوکھلی) ہڈیاں ہو جائیں گے (تب بھی زندہ کیے جائیں گے)","(Shall we be given life even) when we shall have become rotten (hollow) bones?’"));
 
-                parah_30.add(new data_model_arabicandurdu("إِنَّ يَوْمَ الْفَصْلِ كَانَ مِيقَاتًا", "(ہماری قدرت کی ان نشانیوں کو دیکھ کر جان لو کہ) بیشک فیصلہ کا دن (قیامت بھی) ایک مقررہ وقت ہے", "(Observing these signs of Our Might, know that) the Day of Judgment (i.e., Resurrection too) is certainly a fixed time."));
+                        parah_30.add(new data_model_arabicandurdu("قَالُوا تِلْكَ إِذًا كَرَّةٌ خَاسِرَةٌ","وہ کہتے ہیں: یہ (لوٹنا) تو اس وقت بڑے خسارے کا لوٹنا ہوگا","They say: ‘This (return) would then be a losing return.’"));
 
-                parah_30.add(new data_model_arabicandurdu("يَوْمَ يُنفَخُ فِي الصُّورِ فَتَأْتُونَ أَفْوَاجًا", "جس دن صور پھونکا جائے گا تو تم گروہ در گروہ (اللہ کے حضور) چلے آؤ گے", "The Day when the Trumpet will be blown, you will flock (in the holy presence of Allah) in droves."));
+                        parah_30.add(new data_model_arabicandurdu("فَإِنَّمَا هِيَ زَجْرَةٌ وَاحِدَةٌ","پھر تو یہ ایک ہی بار شدید ہیبت ناک آواز کے ساتھ (کائنات کے تمام اَجرام کا) پھٹ جانا ہوگا","Then it will be rending (of all heavenly bodies) asunder with single extremely horrible explosion."));
 
-                parah_30.add(new data_model_arabicandurdu("وَفُتِحَتِ السَّمَاءُ فَكَانَتْ أَبْوَابًا", "اور آسمان (کے طبقات) پھاڑ دیئے جائیں گے تو (پھٹنے کے باعث گویا) وہ دروازے ہی دروازے ہو جائیں گے", "And the (layers of) heaven will be torn, and (owing to the rip) they will become (as if) all doors."));
+                        parah_30.add(new data_model_arabicandurdu("فَإِذَا هُم بِالسَّاهِرَةِ","پھر وہ (سب لوگ) یکایک کھلے میدانِ (حشر) میں آموجود ہوں گے","Then they (all) will forgather suddenly in the open expanse (for assembly)."));
 
-                parah_30.add(new data_model_arabicandurdu("وَسُيِّرَتِ الْجِبَالُ فَكَانَتْ سَرَابًا", "اور پہاڑ (غبار بنا کر فضا میں) اڑا دیئے جائیں گے، سو وہ سراب (کی طرح کالعدم) ہو جائیں گے", "And the mountains (after being reduced to dust) will be blown off (into the atmosphere); so they will be (eliminated like) a mirage."));
+                        parah_30.add(new data_model_arabicandurdu("هَلْ أتَاكَ حَدِيثُ مُوسَى","کیا آپ کے پاس موسٰی (علیہ السلام) کی خبر پہنچی ہے","Has the account of Musa (Moses) reached you?"));
 
-                parah_30.add(new data_model_arabicandurdu("إِنَّ جَهَنَّمَ كَانَتْ مِرْصَادًا", "بیشک دوزخ ایک گھات ہے", "Surely, Hell is a place of ambush."));
+                        parah_30.add(new data_model_arabicandurdu("إِذْ نَادَاهُ رَبُّهُ بِالْوَادِ الْمُقَدَّسِ طُوًى","جب ان کے رب نے طوٰی کی مقدّس وادی میں انہیں پکارا تھا","When His Lord called out to him in the sacred valley of Tuwa,"));
 
-                parah_30.add(new data_model_arabicandurdu("لِّلْطَّاغِينَ مَآبًا", "(وہ) سرکشوں کا ٹھکانا ہے", "(That) is the abode of rebels."));
+                        parah_30.add(new data_model_arabicandurdu("اذْهَبْ إِلَى فِرْعَوْنَ إِنَّهُ طَغَى","(اور حکم دیا تھا کہ) فرعون کے پاس جاؤ وہ سرکش ہو گیا ہے","(And commanded:) ‘Go to Pharaoh. He has transgressed all bounds.’"));
 
-                parah_30.add(new data_model_arabicandurdu("لاَّبِثِينَ فِيهَا أَحْقَابًا", "وہ ختم نہ ہونے والی پے در پے مدتیں اسی میں پڑے رہیں گے", "They will abide there for recurrent, infinite periods."));
+                        parah_30.add(new data_model_arabicandurdu("فَقُلْ هَل لَّكَ إِلَى أَن تَزَكَّى","پھر (اس سے) کہو: کیا تیری خواہش ہے کہ تو پاک ہو جائے","Then say (to him): ‘Do you wish that you should be purified?"));
 
-                parah_30.add(new data_model_arabicandurdu("لَّا يَذُوقُونَ فِيهَا بَرْدًا وَلَا شَرَابًا", "نہ وہ اس میں (کسی قسم کی) ٹھنڈک کا مزہ چکھیں گے اور نہ کسی پینے کی چیز کا", "They will taste in it neither coolness (of any sort) nor any drink,"));
+                        parah_30.add(new data_model_arabicandurdu("وَأَهْدِيَكَ إِلَى رَبِّكَ فَتَخْشَى","اور (کیا تو چاہتا ہے کہ) میں تیرے رب کی طرف تیری رہنمائی کروں تاکہ تو (اس سے) ڈرنے لگے","And (do you desire that) I guide you to your Lord so that you may fear (Him)?’"));
 
-                parah_30.add(new data_model_arabicandurdu("إِلَّا حَمِيمًا وَغَسَّاقًا", "سوائے کھولتے ہوئے گرم پانی اور (دوزخیوں کے زخموں سے) بہتی ہوئی پیپ کے", "Except boiling water and suppurated fluid oozing (from the wounds of the inmates of Hell),"));
+                        parah_30.add(new data_model_arabicandurdu("فَأَرَاهُ الْآيَةَ الْكُبْرَى","پھر موسٰی (علیہ السلام) نے اسے بڑی نشانی دکھائی","Then Musa (Moses) showed him the great sign."));
 
-                parah_30.add(new data_model_arabicandurdu("جَزَاءً وِفَاقًا", "(یہی ان کی سرکشی کے) موافق بدلہ ہے", "A compensation commensurate with (their revolt),"));
+                        parah_30.add(new data_model_arabicandurdu("فَكَذَّبَ وَعَصَى","تو اس نے جھٹلا دیا اور نافرمانی کی","But he denied it and disobeyed."));
 
-                parah_30.add(new data_model_arabicandurdu("إِنَّهُمْ كَانُوا لَا يَرْجُونَ حِسَابًا", "اس لئے کہ وہ قطعًا حسابِ (آخرت) کا خوف نہیں رکھتے تھے", "For they had no fear of Reckoning (on the Last Day) in the least."));
+                        parah_30.add(new data_model_arabicandurdu("ثُمَّ أَدْبَرَ يَسْعَى","پھر وہ (حق سے) رُوگرداں ہو کر (موسٰی علیہ السلام کی مخالفت میں) سعی و کاوش کرنے لگا","Then, turning away (from the truth), he launched struggle (in rivalry against Musa [Moses])."));
 
-                parah_30.add(new data_model_arabicandurdu("وَكَذَّبُوا بِآيَاتِنَا كِذَّابًا", "اور وہ ہماری آیتوں کو خوب جھٹلایا کرتے تھے", "And they used to utterly deny Our signs."));
+                        parah_30.add(new data_model_arabicandurdu("فَحَشَرَ فَنَادَى","پھر اس نے (لوگوں کو) جمع کیا اور پکارنے لگا","So he gathered (people) and started calling out,"));
 
-                parah_30.add(new data_model_arabicandurdu("وَكُلَّ شَيْءٍ أَحْصَيْنَاهُ كِتَابًا", "اور ہم نے ہر (چھوٹی بڑی) چیز کو لکھ کر محفوظ کر رکھا ہے", "And We have preserved everything (major or minor) in writing."));
+                        parah_30.add(new data_model_arabicandurdu("فَقَالَ أَنَا رَبُّكُمُ الْأَعْلَى","پھر اس نے کہا: میں تمہارا سب سے بلند و بالا رب ہوں","And said: ‘I am your lord, most high.’"));
 
-                parah_30.add(new data_model_arabicandurdu("فَذُوقُوا فَلَن نَّزِيدَكُمْ إِلَّا عَذَابًا", "(اے منکرو!) اب تم (اپنے کئے کا) مزہ چکھو (تم دنیا میں کفر و سرکشی میں بڑھتے گئے) اب ہم تم پر عذاب ہی کو بڑھاتے جائیں گے", "(O disbelievers, you excelled in rebellion and disbelief in the world.) Now taste the outcome (of your actions). We shall keep increasing but the torment upon you."));
+                        parah_30.add(new data_model_arabicandurdu("فَأَخَذَهُ اللَّهُ نَكَالَ الْآخِرَةِ وَالْأُولَى","تو اللہ نے اسے آخرت اور دنیا کی (دوہری) سزا میں پکڑ لیا","Then Allah seized him in (dual) punishment of this world and the Hereafter."));
 
-                parah_30.add(new data_model_arabicandurdu("إِنَّ لِلْمُتَّقِينَ مَفَازًا", "بیشک پرہیزگاروں کے لئے کامیابی ہے", "Surely, the Godfearing will triumph."));
+                        parah_30.add(new data_model_arabicandurdu("إِنَّ فِي ذَلِكَ لَعِبْرَةً لِّمَن يَخْشَى","بیشک اس (واقعہ) میں اس شخص کے لئے بڑی عبرت ہے جو (اللہ سے) ڈرتا ہے","Surely, in this (incident) there is a great lesson of warning for him who fears (Allah)."));
 
-                parah_30.add(new data_model_arabicandurdu("حَدَائِقَ وَأَعْنَابًا", "(ان کے لئے) باغات اور انگور (ہوں گے)", "(For them) there will be gardens and grapes,"));
+                        parah_30.add(new data_model_arabicandurdu("أَأَنتُمْ أَشَدُّ خَلْقًا أَمِ السَّمَاءُ بَنَاهَا","کیا تمہارا پیدا کرنا زیادہ مشکل ہے یا (پوری) سماوی کائنات کا، جسے اس نے بنایا","Is it you who are harder to create, or (the entire) galactic universe that He has built?"));
 
-                parah_30.add(new data_model_arabicandurdu("وَكَوَاعِبَ أَتْرَابًا", "اور جواں سال ہم عمر دوشیزائیں (ہوں گی)", "And well-matched young maidens,"));
+                        parah_30.add(new data_model_arabicandurdu("رَفَعَ سَمْكَهَا فَسَوَّاهَا","اس نے آسمان کے تمام کرّوں (ستاروں) کو (فضائے بسیط میں پیدا کر کے) بلند کیا، پھر ان (کی ترکیب و تشکیل اور افعال و حرکات) میں اعتدال، توازن اور استحکام پیدا کر دیا","He raised high all the heavenly spheres (planets, after creating them in the infinite cosmos), then moderated, equipoised and stabilized (their composition, construction, functions and movements)."));
 
-                parah_30.add(new data_model_arabicandurdu("وَكَأْسًا دِهَاقًا", "اور (شرابِ طہور کے) چھلکتے ہوئے جام (ہوں گے)", "And overflowing cups (of holy beverage)."));
+                        parah_30.add(new data_model_arabicandurdu("وَأَغْطَشَ لَيْلَهَا وَأَخْرَجَ ضُحَاهَا","اور اُسی نے آسمانی خلا کی رات کو (یعنی سارے خلائی ماحول کو مثلِ شب) تاریک بنایا، اور (اِس خلا سے) ان (ستاروں) کی روشنی (پیدا کر کے) نکالی","And He is the One Who blackened the night of heavenly space (i.e., darkened the entire spatial environment like a murky night) and emitted (after creating) the light of these (planets from this space)."));
 
-                parah_30.add(new data_model_arabicandurdu("لَّا يَسْمَعُونَ فِيهَا لَغْوًا وَلَا كِذَّابًا", "وہاں یہ (لوگ) نہ کوئی بے ہودہ بات سنیں گے اور نہ (ایک دوسرے کو) جھٹلانا (ہوگا)", "There, these (people) will neither hear any foolish talk nor belie (one another)."));
+                        parah_30.add(new data_model_arabicandurdu("وَالْأَرْضَ بَعْدَ ذَلِكَ دَحَاهَا","اور اُسی نے زمین کو اِس (ستارے: سورج کے وجود میں آجانے) کے بعد (اِس سے) الگ کر کے زور سے پھینک دیا (اور اِسے قابلِ رہائش بنانے کے لئے بچھا دیا)","And He is the One Who, later, (after the creation of the planet sun) separated (from it) the earth, flung it with centrifugal force (and spread its expanse to make it inhabitable)."));
 
-                parah_30.add(new data_model_arabicandurdu("جَزَاءً مِّن رَّبِّكَ عَطَاءً حِسَابًا", "یہ آپ کے رب کی طرف سے صلہ ہے جو (اعمال کے حساب سے) کافی (بڑی) عطا ہے", "From your Lord this is the reward which is an (amply) sufficient bestowal (in proportion to your works)."));
+                        parah_30.add(new data_model_arabicandurdu("أَخْرَجَ مِنْهَا مَاءَهَا وَمَرْعَاهَا","اسی نے زمین میں سے اس کا پانی (الگ) نکال لیا اور (بقیہ خشک قطعات میں) اس کی نباتات نکالیں","He is the One Who drew water from the earth (separately), and brought forth its vegetable kingdom (from the rest of the dry regions)."));
 
-                parah_30.add(new data_model_arabicandurdu("رَّبِّ السَّمَاوَاتِ وَالْأَرْضِ وَمَا بَيْنَهُمَا الرحْمَنِ لَا يَمْلِكُونَ مِنْهُ خِطَابًا", "(وہ) آسمانوں اور زمین کا اور جو کچھ ان دونوں کے درمیان ہے (سب) کا پروردگار ہے، بڑی ہی رحمت والا ہے (مگر روزِ قیامت اس کے رعب و جلال کا عالم یہ ہوگا کہ) اس سے بات کرنے کا (مخلوقات میں سے) کسی کو (بھی) یارا نہ ہوگا", "He is the Lord of (all) the heavens and the earth and whatever is between them, the Most Kind. (But on the Last Day, the effect and impact of His mighty power and most high authority will be such that) none (from His creation) will dare converse with Him."));
+                        parah_30.add(new data_model_arabicandurdu("وَالْجِبَالَ أَرْسَاهَا","اور اسی نے (بعض مادوں کو باہم ملا کر) زمین سے محکم پہاڑوں کو ابھار دیا","And He is the One Who (putting together different elements) raised from the earth firmly fixed mountains."));
 
-                parah_30.add(new data_model_arabicandurdu("يَوْمَ يَقُومُ الرُّوحُ وَالْمَلَائِكَةُ صَفًّا لَّا يَتَكَلَّمُونَ إِلَّا مَنْ أَذِنَ لَهُ الرحْمَنُ وَقَالَ صَوَابًا", "جس دن جبرائیل (روح الامین) اور (تمام) فرشتے صف بستہ کھڑے ہوں گے، کوئی لب کشائی نہ کر سکے گا، سوائے اس شخص کے جسے خدائے رحمان نے اِذنِ (شفاعت) دے رکھا تھا اور اس نے (زندگی میں تعلیماتِ اسلام کے مطابق) بات بھی درست کہی تھی", "That Day Gabriel (the Spirit of peace and security) and (all) angels will stand in ranks, none able to speak except he whom the Most Kind (Lord) would already have awarded sanction (to intercede) and who also said the right thing (in keeping with the teachings of Islam, during his life of the world)."));
+                        parah_30.add(new data_model_arabicandurdu("مَتَاعًا لَّكُمْ وَلِأَنْعَامِكُمْ","(یہ سب کچھ) تمہارے اور تمہارے چوپایوں کے فائدہ کے لئے (کیا)","(He did all this) for the benefit of you and your livestock."));
 
-                parah_30.add(new data_model_arabicandurdu("ذَلِكَ الْيَوْمُ الْحَقُّ فَمَن شَاءَ اتَّخَذَ إِلَى رَبِّهِ مَآبًا", "یہ روزِ حق ہے، پس جو شخص چاہے اپنے رب کے حضور (رحمت و قربت کا) ٹھکانا بنا لے", "This is the Day of truth. So, whoever longs may obtain an abode (of mercy and nearness) in the presence of his Lord."));
+                        parah_30.add(new data_model_arabicandurdu("فَإِذَا جَاءَتِ الطَّامَّةُ الْكُبْرَى","پھر اس وقت (کائنات کے) بڑھتے بڑھتے (اس کی انتہا پر) ہر چیز پر غالب آجانے والی بہت سخت آفتِ (قیامت) آئے گی","Then, whilst (the universe) attains (to its acme through evolution), there will befall the great all-encompassing calamity (the Hour of Resurrection)."));
 
-                parah_30.add(new data_model_arabicandurdu("إِنَّا أَنذَرْنَاكُمْ عَذَابًا قَرِيبًا يَوْمَ يَنظُرُ الْمَرْءُ مَا قَدَّمَتْ يَدَاهُ وَيَقُولُ الْكَافِرُ يَا لَيْتَنِي كُنتُ تُرَابًا", "بلا شبہ ہم نے تمہیں عنقریب آنے والے عذاب سے ڈرا دیا ہے، اس دن ہر آدمی ان (اعمال) کو جو اس نے آگے بھیجے ہیں دیکھ لے گا، اور (ہر) کافر کہے گا: اے کاش! میں مٹی ہوتا (اور اس عذاب سے بچ جاتا)", "We have, indeed, warned you of the impending torment. On that Day, everyone will see whatever (acts) he has sent ahead and (every) disbeliever will say: ‘Would that I were dust (and escaped this punishment)!’"));
+                        parah_30.add(new data_model_arabicandurdu("يَوْمَ يَتَذَكَّرُ الْإِنسَانُ مَا سَعَى","اُس دن انسان اپنی (ہر) کوشش و عمل کو یاد کرے گا","That Day man will retrospect his (every) effort and action."));
 
+                        parah_30.add(new data_model_arabicandurdu("وَبُرِّزَتِ الْجَحِيمُ لِمَن يَرَى","اور ہر دیکھنے والے کے لئے دوزخ ظاہر کر دی جائے گی","And Hell will be made manifest to everyone who can see."));
 
-                parah_30.add(new data_model_arabicandurdu("بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ", "اللہ کے نام سے شروع جو نہایت مہربان ہمیشہ رحم فرمانے والا ہے", "In the Name of Allah, Most Compassionate, Ever-Merciful."));
+                        parah_30.add(new data_model_arabicandurdu("فَأَمَّا مَن طَغَى","پھر جس شخص نے سرکشی کی ہوگی","Then he who transgressed the limits,"));
 
-                parah_30.add(new data_model_arabicandurdu("وَالنَّازِعَاتِ غَرْقًا", "ان (فرشتوں) کی قَسم جو (کافروں کی جان ان کے جسموں کے ایک ایک انگ میں سے) نہایت سختی سے کھینچ لاتے ہیں۔<br> (یا:- توانائی کی ان لہروں کی قَسم جو مادہ کے اندر گھس کر کیمیائی جوڑوں کو سختی سے توڑ پھوڑ دیتی ہیں)", "By (the angels) who violently snatch out (the souls of the disbelievers from each tendon and ligament of their body), Or By the waves of energy that pierce into matter and break up the chemical bonds fiercely,"));
+                        parah_30.add(new data_model_arabicandurdu("وَآثَرَ الْحَيَاةَ الدُّنْيَا","اور دنیاوی زندگی کو (آخرت پر) ترجیح دی ہوگی","And preferred the life of the world (to the Hereafter),"));
 
-                parah_30.add(new data_model_arabicandurdu("وَالنَّاشِطَاتِ نَشْطًا", "اور ان (فرشتوں) کی قَسم جو (مومنوں کی جان کے) بند نہایت نرمی سے کھول دیتے ہیں۔<br> (یا:- توانائی کی ان لہروں کی قَسم جو مادہ کے اندر سے کیمیائی جوڑوں کو نہایت نرمی اور آرام سے توڑ دیتی ہیں)", "And by (the angels) who unweave sinews (of the believers’ organisms) gently and peacefully, Or By the waves of energy that disintegrate gently and peacefully the chemical bonds within matter,"));
+                        parah_30.add(new data_model_arabicandurdu("فَإِنَّ الْجَحِيمَ هِيَ الْمَأْوَى","تو بیشک دوزخ ہی (اُس کا) ٹھکانا ہوگا","Hell will truly be (his) abode."));
 
-                parah_30.add(new data_model_arabicandurdu("وَالسَّابِحَاتِ سَبْحًا", "اور ان (فرشتوں) کی قَسم جو (زمین و آسمان کے درمیان) تیزی سے تیرتے پھرتے ہیں۔<br> (یا:- توانائی کی ان لہروں کی قَسم جو آسمانی خلا و فضا میں بلا روک ٹوک چلتی پھرتی ہیں)", "And by (the angels) who swiftly glide (between the heavens and the earth), Or By the waves of energy that move around freely in space and atmosphere,"));
+                        parah_30.add(new data_model_arabicandurdu("وَأَمَّا مَنْ خَافَ مَقَامَ رَبِّهِ وَنَهَى النَّفْسَ عَنِ الْهَوَى","اور جو شخص اپنے رب کے حضور کھڑا ہونے سے ڈرتا رہا اور اُس نے (اپنے) نفس کو (بری) خواہشات و شہوات سے باز رکھا","But as for him who feared standing in the presence of his Lord and forbade (his ill-commanding) self its appetites and lusts,"));
 
-                parah_30.add(new data_model_arabicandurdu("فَالسَّابِقَاتِ سَبْقًا", "پھر ان (فرشتوں) کی قَسم جو لپک کر (دوسروں سے) آگے بڑھ جاتے ہیں۔<br> (یا:- پھر توانائی کی ان لہروں کی قَسم جو رفتار، طاقت اور جاذبیت کے لحاظ سے دوسری لہروں پر سبقت لے جاتی ہیں)", "Then by (the angels) who with burst of speed sprint past others, Or By the waves of energy that surpass other waves in speed, force and assimilation,"));
+                        parah_30.add(new data_model_arabicandurdu("فَإِنَّ الْجَنَّةَ هِيَ الْمَأْوَى","تو بیشک جنت ہی (اُس کا) ٹھکانا ہوگا","Paradise will surely be (his) abode."));
 
-                parah_30.add(new data_model_arabicandurdu("فَالْمُدَبِّرَاتِ أَمْرًا", "پھر ان (فرشتوں) کی قَسم جو مختلف اُمور کی تدبیر کرتے ہیں۔<br> (یا:- پھر توانائی کی ان لہروں کی قَسم جو باہمی تعامل سے کائناتی نظام کی بقا کے لئے توازن و تدبیر قائم رکھتی ہیں)", "Then by (the angels) who manage different affairs well, Or By the waves of energy that, through mutual dynamism and coordination, maintain equilibrium and keep the balance of the management going for the survival of the system of the universe,"));
+                        parah_30.add(new data_model_arabicandurdu("يَسْأَلُونَكَ عَنِ السَّاعَةِ أَيَّانَ مُرْسَاهَا","(کفّار) آپ سے قیامت کے بارے میں پوچھتے ہیں کہ اس کا وقوع کب ہوگا","(The disbelievers) ask you about the Hour of Rising: ‘When will it come to pass?’"));
 
-                parah_30.add(new data_model_arabicandurdu("يَوْمَ تَرْجُفُ الرَّاجِفَةُ", "(جب انہیں اس نظامِ کائنات کے درہم برہم کردینے کا حکم ہوگا تو) اس دن (کائنات کی) ہر متحرک چیز شدید حرکت میں آجائے گی", "(When they will be commanded to devastate the system of the universe) that Day, everything in motion (in the universe) will tremor into violent convulsion,"));
+                        parah_30.add(new data_model_arabicandurdu("فِيمَ أَنتَ مِن ذِكْرَاهَا","تو آپ کو اس کے (وقت کے) ذکر سے کیا غرض","What should be your concern in talking about (its appointed time)?"));
 
-                parah_30.add(new data_model_arabicandurdu("تَتْبَعُهَا الرَّادِفَةُ", "پیچھے آنے والا ایک اور زلزلہ اس کے پیچھے آئے گا", "Chased by a succeeding convulsion."));
+                        parah_30.add(new data_model_arabicandurdu("إِلَى رَبِّكَ مُنتَهَاهَا","اس کی انتہا تو آپ کے رب تک ہے (یعنی ابتداء کی طرح انتہاء میں بھی صرف وحدت رہ جائے گی)","Its ultimate limit is up to your Lord (i.e., as in the beginning, only Oneness will survive in the end as well)."));
 
-                parah_30.add(new data_model_arabicandurdu("قُلُوبٌ يَوْمَئِذٍ وَاجِفَةٌ", "اس دن (لوگوں کے) دل خوف و اضطراب سے دھڑکتے ہوں گے", "That Day, hearts (of the people) will pound with agony and terror."));
+                        parah_30.add(new data_model_arabicandurdu("إِنَّمَا أَنتَ مُنذِرُ مَن يَخْشَاهَا","آپ تو محض اس شخص کو ڈر سنانے والے ہیں جو اس سے خائف ہے","You are but a Warner to him who fears it."));
 
-                parah_30.add(new data_model_arabicandurdu("أَبْصَارُهَا خَاشِعَةٌ", "ان کی آنکھیں (خوف و ہیبت سے) جھکی ہوں گی", "Their eyes will be downcast (with dread and horror)."));
+                        parah_30.add(new data_model_arabicandurdu("كَأَنَّهُمْ يَوْمَ يَرَوْنَهَا لَمْ يَلْبَثُوا إِلَّا عَشِيَّةً أَوْ ضُحَاهَا","گویا وہ جس دن اسے دیکھ لیں گے تو (یہ خیال کریں گے کہ) وہ (دنیا میں) ایک شام یا اس کی صبح کے سوا ٹھہرے ہی نہ تھے","So the Day when they will see it, they (will feel as if they) did not tarry (in the world) but for one evening or one morning."));
 
-                parah_30.add(new data_model_arabicandurdu("يَقُولُونَ أَئِنَّا لَمَرْدُودُونَ فِي الْحَافِرَةِ", "(کفّار) کہتے ہیں: کیا ہم پہلی زندگی کی طرف پلٹائے جائیں گے", "The disbelievers say: ‘Shall we be reverted to the former life?"));
 
-                parah_30.add(new data_model_arabicandurdu("أَئِذَا كُنَّا عِظَامًا نَّخِرَةً", "کیا جب ہم بوسیدہ (کھوکھلی) ہڈیاں ہو جائیں گے (تب بھی زندہ کیے جائیں گے)", "(Shall we be given life even) when we shall have become rotten (hollow) bones?’"));
+//                        parah_30.add(new data_model_arabicandurdu("بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ","اللہ کے نام سے شروع جو نہایت مہربان ہمیشہ رحم فرمانے والا ہے","In the Name of Allah, Most Compassionate, Ever-Merciful."));
 
-                parah_30.add(new data_model_arabicandurdu("قَالُوا تِلْكَ إِذًا كَرَّةٌ خَاسِرَةٌ", "وہ کہتے ہیں: یہ (لوٹنا) تو اس وقت بڑے خسارے کا لوٹنا ہوگا", "They say: ‘This (return) would then be a losing return.’"));
+                        parah_30.add(new data_model_arabicandurdu("بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ"+"\n\n"+"عَبَسَ وَتَوَلَّى","ان کے چہرۂ (اقدس) پر ناگواری آئی اور رخِ (انور) موڑ لیا","A feeling of uneasiness came upon his (holy) face, and he turned aside his (radiant) face,"));
 
-                parah_30.add(new data_model_arabicandurdu("فَإِنَّمَا هِيَ زَجْرَةٌ وَاحِدَةٌ", "پھر تو یہ ایک ہی بار شدید ہیبت ناک آواز کے ساتھ (کائنات کے تمام اَجرام کا) پھٹ جانا ہوگا", "Then it will be rending (of all heavenly bodies) asunder with single extremely horrible explosion."));
+                        parah_30.add(new data_model_arabicandurdu("أَن جَاءَهُ الْأَعْمَى","اس وجہ سے کہ ان کے پاس ایک نابینا آیا (جس نے آپ کی بات کو ٹوکا)","Because a blind man approached him (who interrupted his discourse)."));
 
-                parah_30.add(new data_model_arabicandurdu("فَإِذَا هُم بِالسَّاهِرَةِ", "پھر وہ (سب لوگ) یکایک کھلے میدانِ (حشر) میں آموجود ہوں گے", "Then they (all) will forgather suddenly in the open expanse (for assembly)."));
+                        parah_30.add(new data_model_arabicandurdu("وَمَا يُدْرِيكَ لَعَلَّهُ يَزَّكَّى","اور آپ کو کیا خبر شاید وہ (آپ کی توجہ سے مزید) پاک ہو جاتا","And what do you know? Perhaps he would be purified (further owing to your attending to him),"));
 
-                parah_30.add(new data_model_arabicandurdu("هَلْ أتَاكَ حَدِيثُ مُوسَى", "کیا آپ کے پاس موسٰی (علیہ السلام) کی خبر پہنچی ہے", "Has the account of Musa (Moses) reached you?"));
+                        parah_30.add(new data_model_arabicandurdu("أَوْ يَذَّكَّرُ فَتَنفَعَهُ الذِّكْرَى","یا (آپ کی) نصیحت قبول کرتا تو نصیحت اس کو (اور) فائدہ دیتی","Or would accept (your) advice which would provide him benefit (more and more)."));
 
-                parah_30.add(new data_model_arabicandurdu("إِذْ نَادَاهُ رَبُّهُ بِالْوَادِ الْمُقَدَّسِ طُوًى", "جب ان کے رب نے طوٰی کی مقدّس وادی میں انہیں پکارا تھا", "When His Lord called out to him in the sacred valley of Tuwa,"));
+                        parah_30.add(new data_model_arabicandurdu("أَمَّا مَنِ اسْتَغْنَى","لیکن جو شخص (دین سے) بے پروا ہے","But the one who disregards (the Din [Religion)],"));
 
-                parah_30.add(new data_model_arabicandurdu("اذْهَبْ إِلَى فِرْعَوْنَ إِنَّهُ طَغَى", "(اور حکم دیا تھا کہ) فرعون کے پاس جاؤ وہ سرکش ہو گیا ہے", "(And commanded:) ‘Go to Pharaoh. He has transgressed all bounds.’"));
+                        parah_30.add(new data_model_arabicandurdu("فَأَنتَ لَهُ تَصَدَّى","تو آپ اس کے (قبولِ اسلام کے) لیے زیادہ اہتمام فرماتے ہیں","You administer greater care (for his acceptance of Islam),"));
 
-                parah_30.add(new data_model_arabicandurdu("فَقُلْ هَل لَّكَ إِلَى أَن تَزَكَّى", "پھر (اس سے) کہو: کیا تیری خواہش ہے کہ تو پاک ہو جائے", "Then say (to him): ‘Do you wish that you should be purified?"));
+                        parah_30.add(new data_model_arabicandurdu("وَمَا عَلَيْكَ أَلَّا يَزَّكَّى","حالانکہ آپ پر کوئی ذمہ داری (کا بوجھ) نہیں اگرچہ وہ پاکیزگی (ایمان) اختیار نہ بھی کرے","Whereas there is no (burden of) responsibility on you, even if he does not adopt purification (i.e., faith)."));
 
-                parah_30.add(new data_model_arabicandurdu("وَأَهْدِيَكَ إِلَى رَبِّكَ فَتَخْشَى", "اور (کیا تو چاہتا ہے کہ) میں تیرے رب کی طرف تیری رہنمائی کروں تاکہ تو (اس سے) ڈرنے لگے", "And (do you desire that) I guide you to your Lord so that you may fear (Him)?’"));
+                        parah_30.add(new data_model_arabicandurdu("وَأَمَّا مَن جَاءَكَ يَسْعَى","اور وہ جو آپ کے پا س (خود طلبِ خیر کی) کوشش کرتا ہوا آیا","And as for him who has (himself) come to you exerting (in pursuit of piousness),"));
 
-                parah_30.add(new data_model_arabicandurdu("فَأَرَاهُ الْآيَةَ الْكُبْرَى", "پھر موسٰی (علیہ السلام) نے اسے بڑی نشانی دکھائی", "Then Musa (Moses) showed him the great sign."));
+                        parah_30.add(new data_model_arabicandurdu("وَهُوَ يَخْشَى","اور وہ (اپنے رب سے) ڈرتا بھی ہے","And he fears (his Lord) as well,"));
 
-                parah_30.add(new data_model_arabicandurdu("فَكَذَّبَ وَعَصَى", "تو اس نے جھٹلا دیا اور نافرمانی کی", "But he denied it and disobeyed."));
+                        parah_30.add(new data_model_arabicandurdu("فَأَنتَ عَنْهُ تَلَهَّى","تو آپ اُس سے بے توجہی فرما رہے ہیں","But you are not focusing your attention on him."));
 
-                parah_30.add(new data_model_arabicandurdu("ثُمَّ أَدْبَرَ يَسْعَى", "پھر وہ (حق سے) رُوگرداں ہو کر (موسٰی علیہ السلام کی مخالفت میں) سعی و کاوش کرنے لگا", "Then, turning away (from the truth), he launched struggle (in rivalry against Musa [Moses])."));
+                        parah_30.add(new data_model_arabicandurdu("كَلَّا إِنَّهَا تَذْكِرَةٌ","(اے حبیبِ مکرّم!) یوں نہیں بیشک یہ (آیاتِ قرآنی) تو نصیحت ہیں","(O My Esteemed Beloved!) Not so indeed! These (Verses of the Holy Qur’an) are but advice."));
 
-                parah_30.add(new data_model_arabicandurdu("فَحَشَرَ فَنَادَى", "پھر اس نے (لوگوں کو) جمع کیا اور پکارنے لگا", "So he gathered (people) and started calling out,"));
+                        parah_30.add(new data_model_arabicandurdu("فَمَن شَاءَ ذَكَرَهُ","جو شخص چاہے اسے قبول (و اَزبر) کر لے","The one who seeks may accept it (and learn by heart)."));
 
-                parah_30.add(new data_model_arabicandurdu("فَقَالَ أَنَا رَبُّكُمُ الْأَعْلَى", "پھر اس نے کہا: میں تمہارا سب سے بلند و بالا رب ہوں", "And said: ‘I am your lord, most high.’"));
+                        parah_30.add(new data_model_arabicandurdu("فِي صُحُفٍ مُّكَرَّمَةٍ","(یہ) معزّز و مکرّم اوراق میں (لکھی ہوئی) ہیں","(They are inscribed) on venerable and revered pages,"));
 
-                parah_30.add(new data_model_arabicandurdu("فَأَخَذَهُ اللَّهُ نَكَالَ الْآخِرَةِ وَالْأُولَى", "تو اللہ نے اسے آخرت اور دنیا کی (دوہری) سزا میں پکڑ لیا", "Then Allah seized him in (dual) punishment of this world and the Hereafter."));
+                        parah_30.add(new data_model_arabicandurdu("مَّرْفُوعَةٍ مُّطَهَّرَةٍ","جو نہایت بلند مرتبہ (اور) پاکیزہ ہیں","Which are exalted (and) purified,"));
 
-                parah_30.add(new data_model_arabicandurdu("إِنَّ فِي ذَلِكَ لَعِبْرَةً لِّمَن يَخْشَى", "بیشک اس (واقعہ) میں اس شخص کے لئے بڑی عبرت ہے جو (اللہ سے) ڈرتا ہے", "Surely, in this (incident) there is a great lesson of warning for him who fears (Allah)."));
+                        parah_30.add(new data_model_arabicandurdu("بِأَيْدِي سَفَرَةٍ","ایسے سفیروں (اور کاتبوں) کے ہاتھوں سے (آگے پہنچی) ہیں","(Have come forth) by the hands of emissaries (and scribes),"));
 
-                parah_30.add(new data_model_arabicandurdu("أَأَنتُمْ أَشَدُّ خَلْقًا أَمِ السَّمَاءُ بَنَاهَا", "کیا تمہارا پیدا کرنا زیادہ مشکل ہے یا (پوری) سماوی کائنات کا، جسے اس نے بنایا", "Is it you who are harder to create, or (the entire) galactic universe that He has built?"));
+                        parah_30.add(new data_model_arabicandurdu("كِرَامٍ بَرَرَةٍ","جو بڑے صاحبانِ کرامت (اور) پیکرانِ طاعت ہیں","Who are possessors of eminence (and) embodiments of obedience."));
 
-                parah_30.add(new data_model_arabicandurdu("رَفَعَ سَمْكَهَا فَسَوَّاهَا", "اس نے آسمان کے تمام کرّوں (ستاروں) کو (فضائے بسیط میں پیدا کر کے) بلند کیا، پھر ان (کی ترکیب و تشکیل اور افعال و حرکات) میں اعتدال، توازن اور استحکام پیدا کر دیا", "He raised high all the heavenly spheres (planets, after creating them in the infinite cosmos), then moderated, equipoised and stabilized (their composition, construction, functions and movements)."));
+                        parah_30.add(new data_model_arabicandurdu("قُتِلَ الْإِنسَانُ مَا أَكْفَرَهُ","ہلاک ہو (وہ بد بخت منکر) انسان کیسا نا شکرا ہے (جو اتنی عظیم نعمت پا کر بھی اس کی قدر نہیں کرتا)","Be cursed (the disbelieving) man! How ungrateful he is!"));
 
-                parah_30.add(new data_model_arabicandurdu("وَأَغْطَشَ لَيْلَهَا وَأَخْرَجَ ضُحَاهَا", "اور اُسی نے آسمانی خلا کی رات کو (یعنی سارے خلائی ماحول کو مثلِ شب) تاریک بنایا، اور (اِس خلا سے) ان (ستاروں) کی روشنی (پیدا کر کے) نکالی", "And He is the One Who blackened the night of heavenly space (i.e., darkened the entire spatial environment like a murky night) and emitted (after creating) the light of these (planets from this space)."));
+                        parah_30.add(new data_model_arabicandurdu("مِنْ أَيِّ شَيْءٍ خَلَقَهُ","اللہ نے اسے کس چیز سے پیدا فرمایا ہے","From what stuff has Allah created him?"));
 
-                parah_30.add(new data_model_arabicandurdu("وَالْأَرْضَ بَعْدَ ذَلِكَ دَحَاهَا", "اور اُسی نے زمین کو اِس (ستارے: سورج کے وجود میں آجانے) کے بعد (اِس سے) الگ کر کے زور سے پھینک دیا (اور اِسے قابلِ رہائش بنانے کے لئے بچھا دیا)", "And He is the One Who, later, (after the creation of the planet sun) separated (from it) the earth, flung it with centrifugal force (and spread its expanse to make it inhabitable)."));
+                        parah_30.add(new data_model_arabicandurdu("مِن نُّطْفَةٍ خَلَقَهُ فَقَدَّرَهُ","نطفہ میں سے اس کو پیدا فرمایا، پھر ساتھ ہی اس کا (خواص و جنس کے لحاظ سے) تعین فرما دیا","He created him from a sperm drop, then determined his measure along with that (regarding genes and sex),"));
 
-                parah_30.add(new data_model_arabicandurdu("أَخْرَجَ مِنْهَا مَاءَهَا وَمَرْعَاهَا", "اسی نے زمین میں سے اس کا پانی (الگ) نکال لیا اور (بقیہ خشک قطعات میں) اس کی نباتات نکالیں", "He is the One Who drew water from the earth (separately), and brought forth its vegetable kingdom (from the rest of the dry regions)."));
+                        parah_30.add(new data_model_arabicandurdu("ثُمَّ السَّبِيلَ يَسَّرَهُ","پھر (تشکیل، ارتقاء اور تکمیل کے بعد بطنِ مادر سے نکلنے کی) راہ اس کے لئے آسان فرما دی","Then (after structuring, developing and completing it) eased for him the passage (of delivery from the mother’s womb),"));
 
-                parah_30.add(new data_model_arabicandurdu("وَالْجِبَالَ أَرْسَاهَا", "اور اسی نے (بعض مادوں کو باہم ملا کر) زمین سے محکم پہاڑوں کو ابھار دیا", "And He is the One Who (putting together different elements) raised from the earth firmly fixed mountains."));
+                        parah_30.add(new data_model_arabicandurdu("ثُمَّ أَمَاتَهُ فَأَقْبَرَهُ","پھر اسے موت دی، پھر اسے قبر میں (دفن) کر دیا","Then caused him to die and (buried him) in a grave."));
 
-                parah_30.add(new data_model_arabicandurdu("مَتَاعًا لَّكُمْ وَلِأَنْعَامِكُمْ", "(یہ سب کچھ) تمہارے اور تمہارے چوپایوں کے فائدہ کے لئے (کیا)", "(He did all this) for the benefit of you and your livestock."));
+                        parah_30.add(new data_model_arabicandurdu("ثُمَّ إِذَا شَاءَ أَنشَرَهُ","پھر جب وہ چاہے گا اسے (دوبارہ زندہ کر کے) کھڑا کرے گا","Then whenever He wills, He will raise them up (alive again)."));
 
-                parah_30.add(new data_model_arabicandurdu("فَإِذَا جَاءَتِ الطَّامَّةُ الْكُبْرَى", "پھر اس وقت (کائنات کے) بڑھتے بڑھتے (اس کی انتہا پر) ہر چیز پر غالب آجانے والی بہت سخت آفتِ (قیامت) آئے گی", "Then, whilst (the universe) attains (to its acme through evolution), there will befall the great all-encompassing calamity (the Hour of Resurrection)."));
+                        parah_30.add(new data_model_arabicandurdu("كَلَّا لَمَّا يَقْضِ مَا أَمَرَهُ","یقیناً اس (نافرمان انسان) نے وہ (حق) پورا نہ کیا جس کا اسے (اللہ نے) حکم دیا تھا","Indeed, he (the disobedient man) did not fulfil that (obligatory due) which (Allah) had commanded him."));
 
-                parah_30.add(new data_model_arabicandurdu("يَوْمَ يَتَذَكَّرُ الْإِنسَانُ مَا سَعَى", "اُس دن انسان اپنی (ہر) کوشش و عمل کو یاد کرے گا", "That Day man will retrospect his (every) effort and action."));
+                        parah_30.add(new data_model_arabicandurdu("فَلْيَنظُرِ الْإِنسَانُ إِلَى طَعَامِهِ","پس انسان کو چاہیے کہ اپنی غذا کی طرف دیکھے (اور غور کرے)","So man should look at his food (and ponder)."));
 
-                parah_30.add(new data_model_arabicandurdu("وَبُرِّزَتِ الْجَحِيمُ لِمَن يَرَى", "اور ہر دیکھنے والے کے لئے دوزخ ظاہر کر دی جائے گی", "And Hell will be made manifest to everyone who can see."));
+                        parah_30.add(new data_model_arabicandurdu("أَنَّا صَبَبْنَا الْمَاءَ صَبًّا","بیشک ہم نے خوب زور سے پانی برسایا","Indeed, We pour down water in torrents."));
 
-                parah_30.add(new data_model_arabicandurdu("فَأَمَّا مَن طَغَى", "پھر جس شخص نے سرکشی کی ہوگی", "Then he who transgressed the limits,"));
+                        parah_30.add(new data_model_arabicandurdu("ثُمَّ شَقَقْنَا الْأَرْضَ شَقًّا","پھر ہم نے زمین کو پھاڑ کر چیر ڈالا","Then We split the earth and tear it asunder."));
 
-                parah_30.add(new data_model_arabicandurdu("وَآثَرَ الْحَيَاةَ الدُّنْيَا", "اور دنیاوی زندگی کو (آخرت پر) ترجیح دی ہوگی", "And preferred the life of the world (to the Hereafter),"));
+                        parah_30.add(new data_model_arabicandurdu("فَأَنبَتْنَا فِيهَا حَبًّا","پھر ہم نے اس میں اناج اگایا","We then grow from it grain,"));
 
-                parah_30.add(new data_model_arabicandurdu("فَإِنَّ الْجَحِيمَ هِيَ الْمَأْوَى", "تو بیشک دوزخ ہی (اُس کا) ٹھکانا ہوگا", "Hell will truly be (his) abode."));
+                        parah_30.add(new data_model_arabicandurdu("وَعِنَبًا وَقَضْبًا","اور انگور اور ترکاری","And grapes and vegetables,"));
 
-                parah_30.add(new data_model_arabicandurdu("وَأَمَّا مَنْ خَافَ مَقَامَ رَبِّهِ وَنَهَى النَّفْسَ عَنِ الْهَوَى", "اور جو شخص اپنے رب کے حضور کھڑا ہونے سے ڈرتا رہا اور اُس نے (اپنے) نفس کو (بری) خواہشات و شہوات سے باز رکھا", "But as for him who feared standing in the presence of his Lord and forbade (his ill-commanding) self its appetites and lusts,"));
+                        parah_30.add(new data_model_arabicandurdu("وَزَيْتُونًا وَنَخْلًا","اور زیتون اور کھجور","And the olive and the date palm,"));
 
-                parah_30.add(new data_model_arabicandurdu("فَإِنَّ الْجَنَّةَ هِيَ الْمَأْوَى", "تو بیشک جنت ہی (اُس کا) ٹھکانا ہوگا", "Paradise will surely be (his) abode."));
+                        parah_30.add(new data_model_arabicandurdu("وَحَدَائِقَ غُلْبًا","اور گھنے گھنے باغات","And thickly planted dense gardens,"));
 
-                parah_30.add(new data_model_arabicandurdu("يَسْأَلُونَكَ عَنِ السَّاعَةِ أَيَّانَ مُرْسَاهَا", "(کفّار) آپ سے قیامت کے بارے میں پوچھتے ہیں کہ اس کا وقوع کب ہوگا", "(The disbelievers) ask you about the Hour of Rising: ‘When will it come to pass?’"));
+                        parah_30.add(new data_model_arabicandurdu("وَفَاكِهَةً وَأَبًّا","اور (طرح طرح کے) پھل میوے اور (جانوروں کا) چارہ","And (a variety of) fruits and (animals’) fodder,"));
 
-                parah_30.add(new data_model_arabicandurdu("فِيمَ أَنتَ مِن ذِكْرَاهَا", "تو آپ کو اس کے (وقت کے) ذکر سے کیا غرض", "What should be your concern in talking about (its appointed time)?"));
+                        parah_30.add(new data_model_arabicandurdu("مَّتَاعًا لَّكُمْ وَلِأَنْعَامِكُمْ","خود تمہارے اور تمہارے مویشیوں کے لئے متاعِ (زیست)","As provision both for you and your livestock (to live on)."));
 
-                parah_30.add(new data_model_arabicandurdu("إِلَى رَبِّكَ مُنتَهَاهَا", "اس کی انتہا تو آپ کے رب تک ہے (یعنی ابتداء کی طرح انتہاء میں بھی صرف وحدت رہ جائے گی)", "Its ultimate limit is up to your Lord (i.e., as in the beginning, only Oneness will survive in the end as well)."));
+                        parah_30.add(new data_model_arabicandurdu("فَإِذَا جَاءَتِ الصَّاخَّةُ","پھر جب کان پھاڑ دینے والی آواز آئے گی","So, when the Deafening Blast comes,"));
 
-                parah_30.add(new data_model_arabicandurdu("إِنَّمَا أَنتَ مُنذِرُ مَن يَخْشَاهَا", "آپ تو محض اس شخص کو ڈر سنانے والے ہیں جو اس سے خائف ہے", "You are but a Warner to him who fears it."));
+                        parah_30.add(new data_model_arabicandurdu("يَوْمَ يَفِرُّ الْمَرْءُ مِنْ أَخِيهِ","اُس دن آدمی اپنے بھائی سے بھاگے گا","On that Day man will flee from his brother,"));
 
-                parah_30.add(new data_model_arabicandurdu("كَأَنَّهُمْ يَوْمَ يَرَوْنَهَا لَمْ يَلْبَثُوا إِلَّا عَشِيَّةً أَوْ ضُحَاهَا", "گویا وہ جس دن اسے دیکھ لیں گے تو (یہ خیال کریں گے کہ) وہ (دنیا میں) ایک شام یا اس کی صبح کے سوا ٹھہرے ہی نہ تھے", "So the Day when they will see it, they (will feel as if they) did not tarry (in the world) but for one evening or one morning."));
+                        parah_30.add(new data_model_arabicandurdu("وَأُمِّهِ وَأَبِيهِ","اور اپنی ماں اور اپنے باپ سے (بھی)","And from his mother and his father (too),"));
 
+                        parah_30.add(new data_model_arabicandurdu("وَصَاحِبَتِهِ وَبَنِيهِ","اور اپنی بیوی اور اپنی اولاد سے (بھی)","And (even) from his wife and his children."));
 
-                parah_30.add(new data_model_arabicandurdu("بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ", "اللہ کے نام سے شروع جو نہایت مہربان ہمیشہ رحم فرمانے والا ہے", "In the Name of Allah, Most Compassionate, Ever-Merciful."));
+                        parah_30.add(new data_model_arabicandurdu("لِكُلِّ امْرِئٍ مِّنْهُمْ يَوْمَئِذٍ شَأْنٌ يُغْنِيهِ","اس دن ہر شخص کو ایسی (پریشان کن) حالت لاحق ہوگی جو اسے (ہر دوسرے سے) بے پروا کر دے گی","On that Day every person will be in such a (dismal) state that will make him unconcerned (with everyone else)."));
 
-                parah_30.add(new data_model_arabicandurdu("عَبَسَ وَتَوَلَّى", "ان کے چہرۂ (اقدس) پر ناگواری آئی اور رخِ (انور) موڑ لیا", "A feeling of uneasiness came upon his (holy) face, and he turned aside his (radiant) face,"));
+                        parah_30.add(new data_model_arabicandurdu("وُجُوهٌ يَوْمَئِذٍ مُّسْفِرَةٌ","اسی دن بہت سے چہرے (ایسے بھی ہوں گے جو نور سے) چمک رہے ہوں گے","The same Day many faces will be shining (with light)."));
 
-                parah_30.add(new data_model_arabicandurdu("أَن جَاءَهُ الْأَعْمَى", "اس وجہ سے کہ ان کے پاس ایک نابینا آیا (جس نے آپ کی بات کو ٹوکا)", "Because a blind man approached him (who interrupted his discourse)."));
+                        parah_30.add(new data_model_arabicandurdu("ضَاحِكَةٌ مُّسْتَبْشِرَةٌ","(وہ) مسکراتے ہنستے (اور) خوشیاں مناتے ہوں گے","(They will be) smiling, laughing (and) rejoicing."));
 
-                parah_30.add(new data_model_arabicandurdu("وَمَا يُدْرِيكَ لَعَلَّهُ يَزَّكَّى", "اور آپ کو کیا خبر شاید وہ (آپ کی توجہ سے مزید) پاک ہو جاتا", "And what do you know? Perhaps he would be purified (further owing to your attending to him),"));
+                        parah_30.add(new data_model_arabicandurdu("وَوُجُوهٌ يَوْمَئِذٍ عَلَيْهَا غَبَرَةٌ","اور بہت سے چہرے ایسے ہوں گے جن پر اس دن گرد پڑی ہوگی","And numerous faces there will be covered with dust that Day."));
 
-                parah_30.add(new data_model_arabicandurdu("أَوْ يَذَّكَّرُ فَتَنفَعَهُ الذِّكْرَى", "یا (آپ کی) نصیحت قبول کرتا تو نصیحت اس کو (اور) فائدہ دیتی", "Or would accept (your) advice which would provide him benefit (more and more)."));
+                        parah_30.add(new data_model_arabicandurdu("تَرْهَقُهَا قَتَرَةٌ","(مزید) ان (چہروں) پر سیاہی چھائی ہوگی","These (faces) will be overshadowed with darkness (as well)."));
 
-                parah_30.add(new data_model_arabicandurdu("أَمَّا مَنِ اسْتَغْنَى", "لیکن جو شخص (دین سے) بے پروا ہے", "But the one who disregards (the Din [Religion)],"));
+                        parah_30.add(new data_model_arabicandurdu("أُوْلَئِكَ هُمُ الْكَفَرَةُ الْفَجَرَةُ","یہی لوگ کافر (اور) فاجر (بدکردار) ہوں گے","They are the people who are disbelievers (and) mischief-mongers (i.e., evildoers)."));
 
-                parah_30.add(new data_model_arabicandurdu("فَأَنتَ لَهُ تَصَدَّى", "تو آپ اس کے (قبولِ اسلام کے) لیے زیادہ اہتمام فرماتے ہیں", "You administer greater care (for his acceptance of Islam),"));
+//                        parah_30.add(new data_model_arabicandurdu("بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ","اللہ کے نام سے شروع جو نہایت مہربان ہمیشہ رحم فرمانے والا ہے","In the Name of Allah, Most Compassionate, Ever-Merciful."));
 
-                parah_30.add(new data_model_arabicandurdu("وَمَا عَلَيْكَ أَلَّا يَزَّكَّى", "حالانکہ آپ پر کوئی ذمہ داری (کا بوجھ) نہیں اگرچہ وہ پاکیزگی (ایمان) اختیار نہ بھی کرے", "Whereas there is no (burden of) responsibility on you, even if he does not adopt purification (i.e., faith)."));
+                        parah_30.add(new data_model_arabicandurdu("بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ" +"\n\n"+"إِذَا الشَّمْسُ كُوِّرَتْ" ,"جب سورج لپیٹ کر بے نور کر دیا جائے گا","When the sun will be folded up and extinguished,"));
 
-                parah_30.add(new data_model_arabicandurdu("وَأَمَّا مَن جَاءَكَ يَسْعَى", "اور وہ جو آپ کے پا س (خود طلبِ خیر کی) کوشش کرتا ہوا آیا", "And as for him who has (himself) come to you exerting (in pursuit of piousness),"));
+                        parah_30.add(new data_model_arabicandurdu("وَإِذَا النُّجُومُ انكَدَرَتْ","اور جب ستارے (اپنی کہکشاؤں سے) گر پڑیں گے","And the stars will fall (from their galaxies),"));
 
-                parah_30.add(new data_model_arabicandurdu("وَهُوَ يَخْشَى", "اور وہ (اپنے رب سے) ڈرتا بھی ہے", "And he fears (his Lord) as well,"));
+                        parah_30.add(new data_model_arabicandurdu("وَإِذَا الْجِبَالُ سُيِّرَتْ","اور جب پہاڑ (غبار بنا کر فضا میں) چلا دیئے جائیں گے","And when the mountains, (after having changed into dust,) will be set in motion (into the atmosphere),"));
 
-                parah_30.add(new data_model_arabicandurdu("فَأَنتَ عَنْهُ تَلَهَّى", "تو آپ اُس سے بے توجہی فرما رہے ہیں", "But you are not focusing your attention on him."));
+                        parah_30.add(new data_model_arabicandurdu("وَإِذَا الْعِشَارُ عُطِّلَتْ","اور جب حاملہ اونٹنیاں بے کار چھوٹی پھریں گی (کوئی ان کا خبر گیر نہ ہوگا)","And when the she-camels heavy with young will be left neglected and discarded (i.e., no one will tend them),"));
 
-                parah_30.add(new data_model_arabicandurdu("كَلَّا إِنَّهَا تَذْكِرَةٌ", "(اے حبیبِ مکرّم!) یوں نہیں بیشک یہ (آیاتِ قرآنی) تو نصیحت ہیں", "(O My Esteemed Beloved!) Not so indeed! These (Verses of the Holy Qur’an) are but advice."));
+                        parah_30.add(new data_model_arabicandurdu("وَإِذَا الْوُحُوشُ حُشِرَتْ","اور جب وحشی جانور (خوف کے مارے) جمع کر دیئے جائیں گے","And when (fear-stricken) wild beasts will be herded together,"));
 
-                parah_30.add(new data_model_arabicandurdu("فَمَن شَاءَ ذَكَرَهُ", "جو شخص چاہے اسے قبول (و اَزبر) کر لے", "The one who seeks may accept it (and learn by heart)."));
+                        parah_30.add(new data_model_arabicandurdu("وَإِذَا الْبِحَارُ سُجِّرَتْ","جب سمندر اور دریا (سب) ابھار دیئے جائیں گے","And when (all) oceans and rivers will be made to rise and swell,"));
 
-                parah_30.add(new data_model_arabicandurdu("فِي صُحُفٍ مُّكَرَّمَةٍ", "(یہ) معزّز و مکرّم اوراق میں (لکھی ہوئی) ہیں", "(They are inscribed) on venerable and revered pages,"));
+                        parah_30.add(new data_model_arabicandurdu("وَإِذَا النُّفُوسُ زُوِّجَتْ","اور جب روحیں (بدنوں سے) ملا دی جائیں گی","And when souls will be united (with their bodies),"));
 
-                parah_30.add(new data_model_arabicandurdu("مَّرْفُوعَةٍ مُّطَهَّرَةٍ", "جو نہایت بلند مرتبہ (اور) پاکیزہ ہیں", "Which are exalted (and) purified,"));
+                        parah_30.add(new data_model_arabicandurdu("وَإِذَا الْمَوْؤُودَةُ سُئِلَتْ","اور جب زندہ دفن کی ہوئی لڑکی سے پوچھا جائے گا","And when the infant girl buried alive will be asked,"));
 
-                parah_30.add(new data_model_arabicandurdu("بِأَيْدِي سَفَرَةٍ", "ایسے سفیروں (اور کاتبوں) کے ہاتھوں سے (آگے پہنچی) ہیں", "(Have come forth) by the hands of emissaries (and scribes),"));
+                        parah_30.add(new data_model_arabicandurdu("بِأَيِّ ذَنبٍ قُتِلَتْ","کہ وہ کس گناہ کے باعث قتل کی گئی تھی","For what crime was she slain?"));
 
-                parah_30.add(new data_model_arabicandurdu("كِرَامٍ بَرَرَةٍ", "جو بڑے صاحبانِ کرامت (اور) پیکرانِ طاعت ہیں", "Who are possessors of eminence (and) embodiments of obedience."));
+                        parah_30.add(new data_model_arabicandurdu("وَإِذَا الصُّحُفُ نُشِرَتْ","اور جب اَعمال نامے کھول دیئے جائیں گے","And when the records of deeds will be laid open,"));
 
-                parah_30.add(new data_model_arabicandurdu("قُتِلَ الْإِنسَانُ مَا أَكْفَرَهُ", "ہلاک ہو (وہ بد بخت منکر) انسان کیسا نا شکرا ہے (جو اتنی عظیم نعمت پا کر بھی اس کی قدر نہیں کرتا)", "Be cursed (the disbelieving) man! How ungrateful he is!"));
+                        parah_30.add(new data_model_arabicandurdu("وَإِذَا السَّمَاءُ كُشِطَتْ","اور جب سماوی طبقات کو پھاڑ کر اپنی جگہوں سے ہٹا دیا جائے گا","And when the layers of heaven will be torn asunder and moved away from their places,"));
 
-                parah_30.add(new data_model_arabicandurdu("مِنْ أَيِّ شَيْءٍ خَلَقَهُ", "اللہ نے اسے کس چیز سے پیدا فرمایا ہے", "From what stuff has Allah created him?"));
+                        parah_30.add(new data_model_arabicandurdu("وَإِذَا الْجَحِيمُ سُعِّرَتْ","اور جب دوزخ (کی آگ) بھڑکائی جائے گی","And when (the Fire of) Hell will be burnt ablaze,"));
 
-                parah_30.add(new data_model_arabicandurdu("مِن نُّطْفَةٍ خَلَقَهُ فَقَدَّرَهُ", "نطفہ میں سے اس کو پیدا فرمایا، پھر ساتھ ہی اس کا (خواص و جنس کے لحاظ سے) تعین فرما دیا", "He created him from a sperm drop, then determined his measure along with that (regarding genes and sex),"));
+                        parah_30.add(new data_model_arabicandurdu("وَإِذَا الْجَنَّةُ أُزْلِفَتْ","اور جب جنت قریب کر دی جائے گی","And when Paradise will be brought up close,"));
 
-                parah_30.add(new data_model_arabicandurdu("ثُمَّ السَّبِيلَ يَسَّرَهُ", "پھر (تشکیل، ارتقاء اور تکمیل کے بعد بطنِ مادر سے نکلنے کی) راہ اس کے لئے آسان فرما دی", "Then (after structuring, developing and completing it) eased for him the passage (of delivery from the mother’s womb),"));
+                        parah_30.add(new data_model_arabicandurdu("عَلِمَتْ نَفْسٌ مَّا أَحْضَرَتْ","ہر شخص جان لے گا جو کچھ اس نے حاضر کیا ہے","Everyone will come to know what he has brought forth."));
 
-                parah_30.add(new data_model_arabicandurdu("ثُمَّ أَمَاتَهُ فَأَقْبَرَهُ", "پھر اسے موت دی، پھر اسے قبر میں (دفن) کر دیا", "Then caused him to die and (buried him) in a grave."));
+                        parah_30.add(new data_model_arabicandurdu("فَلَا أُقْسِمُ بِالْخُنَّسِ","تو میں قَسم کھاتا ہوں ان (آسمانی کرّوں) کی جو (ظاہر ہونے کے بعد) پیچھے ہٹ جاتے ہیں","So I swear by (the heavenly spheres) which recede (after appearing),"));
 
-                parah_30.add(new data_model_arabicandurdu("ثُمَّ إِذَا شَاءَ أَنشَرَهُ", "پھر جب وہ چاہے گا اسے (دوبارہ زندہ کر کے) کھڑا کرے گا", "Then whenever He wills, He will raise them up (alive again)."));
+                        parah_30.add(new data_model_arabicandurdu("الْجَوَارِ الْكُنَّسِ","جو بلا روک ٹوک چلتے رہتے ہیں (پھر ظاہر ہو کر) چھپ جاتے ہیں","Which revolve freely, (then) hide (after appearing),"));
 
-                parah_30.add(new data_model_arabicandurdu("كَلَّا لَمَّا يَقْضِ مَا أَمَرَهُ", "یقیناً اس (نافرمان انسان) نے وہ (حق) پورا نہ کیا جس کا اسے (اللہ نے) حکم دیا تھا", "Indeed, he (the disobedient man) did not fulfil that (obligatory due) which (Allah) had commanded him."));
+                        parah_30.add(new data_model_arabicandurdu("وَاللَّيْلِ إِذَا عَسْعَسَ","اور رات کی قَسم جب اس کی تاریکی جانے لگے","And by the night when its darkness tapers off,"));
 
-                parah_30.add(new data_model_arabicandurdu("فَلْيَنظُرِ الْإِنسَانُ إِلَى طَعَامِهِ", "پس انسان کو چاہیے کہ اپنی غذا کی طرف دیکھے (اور غور کرے)", "So man should look at his food (and ponder)."));
+                        parah_30.add(new data_model_arabicandurdu("وَالصُّبْحِ إِذَا تَنَفَّسَ","اور صبح کی قَسم جب اس کی روشنی آنے لگے","And by the morning when its light dawns,"));
 
-                parah_30.add(new data_model_arabicandurdu("أَنَّا صَبَبْنَا الْمَاءَ صَبًّا", "بیشک ہم نے خوب زور سے پانی برسایا", "Indeed, We pour down water in torrents."));
+                        parah_30.add(new data_model_arabicandurdu("إِنَّهُ لَقَوْلُ رَسُولٍ كَرِيْمٍ","بیشک یہ (قرآن) بڑی عزت و بزرگی والے رسول کا (پڑھا ہوا) کلام ہے","Indeed, this (Qur’an) is the Word (communicated) by a glorious and most venerable Messenger (blessings and peace be upon him),"));
 
-                parah_30.add(new data_model_arabicandurdu("ثُمَّ شَقَقْنَا الْأَرْضَ شَقًّا", "پھر ہم نے زمین کو پھاڑ کر چیر ڈالا", "Then We split the earth and tear it asunder."));
+                        parah_30.add(new data_model_arabicandurdu("ذِي قُوَّةٍ عِندَ ذِي الْعَرْشِ مَكِينٍ","جو (دعوتِ حق، تبلیغِ رسالت اور روحانی استعداد میں) قوت و ہمت والے ہیں (اور) مالکِ عرش کے حضور بڑی قدر و منزلت (اور جاہ و عظمت) والے ہیں","Who is mighty and strong (in calling to the truth, preaching the faith in Messengership and spiritual competence, and) is held in extreme reverence and veneration (and splendour and glory) in the presence of the Lord of the Throne,"));
 
-                parah_30.add(new data_model_arabicandurdu("فَأَنبَتْنَا فِيهَا حَبًّا", "پھر ہم نے اس میں اناج اگایا", "We then grow from it grain,"));
+                        parah_30.add(new data_model_arabicandurdu("مُّطَاعٍ ثَمَّ أَمِينٍ","(تمام جہانوں کے لئے) واجب الاطاعت ہیں (کیونکہ ان کی اطاعت ہی اللہ کی اطاعت ہے)، امانت دار ہیں (وحی اور زمین و آسمان کے سب اُلوہی رازوں کے حامل ہیں)","Entitled to obligatory obedience (by all the worlds because obedience to him is obedience to Allah) and faithful to His trust (possesses Revelation and all divine secrets of the heavens and the earth)."));
 
-                parah_30.add(new data_model_arabicandurdu("وَعِنَبًا وَقَضْبًا", "اور انگور اور ترکاری", "And grapes and vegetables,"));
+                        parah_30.add(new data_model_arabicandurdu("وَمَا صَاحِبُكُم بِمَجْنُونٍ","اور (اے لوگو!) یہ تمہیں اپنی صحبت سے نوازنے والے (محمد صلی اللہ علیہ وآلہ وسلم) دیوانے نہیں ہیں (جو فرماتے ہیں وہ حق ہوتا ہے)","And, (O people,) he who blesses you with his (holy) companionship (Muhammad [blessings and peace be upon him]) is not mad. (Whatever he communicates is the truth.)"));
 
-                parah_30.add(new data_model_arabicandurdu("وَزَيْتُونًا وَنَخْلًا", "اور زیتون اور کھجور", "And the olive and the date palm,"));
+                        parah_30.add(new data_model_arabicandurdu("وَلَقَدْ رَآهُ بِالْأُفُقِ الْمُبِينِ","اور بیشک انہوں نے اس (مالکِ عرش کے حُسنِ مطلق) کو (لامکاں کے) روشن کنارے پر دیکھا ہے٭","And he has indeed seen (the absolute beauty of the Lord of the Throne) on the effulgent horizon (of the realm of Divinity).*"));
 
-                parah_30.add(new data_model_arabicandurdu("وَحَدَائِقَ غُلْبًا", "اور گھنے گھنے باغات", "And thickly planted dense gardens,"));
+                        parah_30.add(new data_model_arabicandurdu("وَمَا هُوَ عَلَى الْغَيْبِ بِضَنِينٍ","اور وہ (یعنی نبئ اکرم صلی اللہ علیہ وآلہ وسلم) غیب (کے بتانے) پر بالکل بخیل نہیں ہیں (مالکِ عرش نے ان کے لئے کوئی کمی نہیں چھوڑی)","And he (the glorious Messenger [blessings and peace be upon him]) is not at all miserly in (disclosing) the unseen. (The Lord of the Throne has not left for him any deficiency.)"));
 
-                parah_30.add(new data_model_arabicandurdu("وَفَاكِهَةً وَأَبًّا", "اور (طرح طرح کے) پھل میوے اور (جانوروں کا) چارہ", "And (a variety of) fruits and (animals’) fodder,"));
+                        parah_30.add(new data_model_arabicandurdu("وَمَا هُوَ بِقَوْلِ شَيْطَانٍ رَّجِيمٍ","اور وہ (قرآن) ہرگز کسی شیطان مردود کا کلام نہیں ہے","Nor is that (Qur’an) the utterance of any accursed Satan."));
 
-                parah_30.add(new data_model_arabicandurdu("مَّتَاعًا لَّكُمْ وَلِأَنْعَامِكُمْ", "خود تمہارے اور تمہارے مویشیوں کے لئے متاعِ (زیست)", "As provision both for you and your livestock (to live on)."));
+                        parah_30.add(new data_model_arabicandurdu("فَأَيْنَ تَذْهَبُونَ","پھر (اے بدبختو!) تم (اتنے بڑے خزانے کو چھوڑ کر) کدھر چلے جا رہے ہو","Then, (O you doomed,) where are you going (disregarding such a valuable treasure)?"));
 
-                parah_30.add(new data_model_arabicandurdu("فَإِذَا جَاءَتِ الصَّاخَّةُ", "پھر جب کان پھاڑ دینے والی آواز آئے گی", "So, when the Deafening Blast comes,"));
+                        parah_30.add(new data_model_arabicandurdu("إِنْ هُوَ إِلَّا ذِكْرٌ لِّلْعَالَمِينَ","یہ (قرآن) تو تمام جہانوں کے لئے (صحیفۂ) نصیحت ہے","This (Qur’an) is but admonition (revealed) for all the worlds."));
 
-                parah_30.add(new data_model_arabicandurdu("يَوْمَ يَفِرُّ الْمَرْءُ مِنْ أَخِيهِ", "اُس دن آدمی اپنے بھائی سے بھاگے گا", "On that Day man will flee from his brother,"));
+                        parah_30.add(new data_model_arabicandurdu("لِمَن شَاءَ مِنكُمْ أَن يَسْتَقِيمَ","تم میں سے ہر اس شخص کے لئے (اس چشمہ سے ہدایت میسر آسکتی ہے) جو سیدھی راہ چلنا چاہے","Every one of you who aspires to tread the straight path (can take guidance from this source spring)."));
 
-                parah_30.add(new data_model_arabicandurdu("وَأُمِّهِ وَأَبِيهِ", "اور اپنی ماں اور اپنے باپ سے (بھی)", "And from his mother and his father (too),"));
+                        parah_30.add(new data_model_arabicandurdu("وَمَا تَشَاؤُونَ إِلَّا أَن يَشَاءَ اللَّهُ رَبُّ الْعَالَمِينَ","اور تم وہی کچھ چاہ سکتے ہو جو اللہ چاہے جو تمام جہانوں کا رب ہے","And you can aspire only to what Allah intends, Who is the Sustainer of all the worlds."));
 
-                parah_30.add(new data_model_arabicandurdu("وَصَاحِبَتِهِ وَبَنِيهِ", "اور اپنی بیوی اور اپنی اولاد سے (بھی)", "And (even) from his wife and his children."));
+//                        parah_30.add(new data_model_arabicandurdu("بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ","اللہ کے نام سے شروع جو نہایت مہربان ہمیشہ رحم فرمانے والا ہے","In the Name of Allah, Most Compassionate, Ever-Merciful."));
 
-                parah_30.add(new data_model_arabicandurdu("لِكُلِّ امْرِئٍ مِّنْهُمْ يَوْمَئِذٍ شَأْنٌ يُغْنِيهِ", "اس دن ہر شخص کو ایسی (پریشان کن) حالت لاحق ہوگی جو اسے (ہر دوسرے سے) بے پروا کر دے گی", "On that Day every person will be in such a (dismal) state that will make him unconcerned (with everyone else)."));
+                        parah_30.add(new data_model_arabicandurdu("بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ" +"\n\n"+"إِذَا السَّمَاءُ انفَطَرَتْ" ,"جب (سب) آسمانی کرّے پھٹ جائیں گے","When (all) the heavenly spheres will be split apart,"));
 
-                parah_30.add(new data_model_arabicandurdu("وُجُوهٌ يَوْمَئِذٍ مُّسْفِرَةٌ", "اسی دن بہت سے چہرے (ایسے بھی ہوں گے جو نور سے) چمک رہے ہوں گے", "The same Day many faces will be shining (with light)."));
+                        parah_30.add(new data_model_arabicandurdu("وَإِذَا الْكَوَاكِبُ انتَثَرَتْ","اور جب سیارے بکھر جائیں گے","And when the planets will scatter,"));
 
-                parah_30.add(new data_model_arabicandurdu("ضَاحِكَةٌ مُّسْتَبْشِرَةٌ", "(وہ) مسکراتے ہنستے (اور) خوشیاں مناتے ہوں گے", "(They will be) smiling, laughing (and) rejoicing."));
+                        parah_30.add(new data_model_arabicandurdu("وَإِذَا الْبِحَارُ فُجِّرَتْ","اور جب سمندر (اور دریا) ابھر کر بہہ جائیں گے","And when oceans (and rivers) will flood and overflow,"));
 
-                parah_30.add(new data_model_arabicandurdu("وَوُجُوهٌ يَوْمَئِذٍ عَلَيْهَا غَبَرَةٌ", "اور بہت سے چہرے ایسے ہوں گے جن پر اس دن گرد پڑی ہوگی", "And numerous faces there will be covered with dust that Day."));
+                        parah_30.add(new data_model_arabicandurdu("وَإِذَا الْقُبُورُ بُعْثِرَتْ","اور جب قبریں زیر و زبر کر دی جائیں گی","And when graves will be overturned,"));
 
-                parah_30.add(new data_model_arabicandurdu("تَرْهَقُهَا قَتَرَةٌ", "(مزید) ان (چہروں) پر سیاہی چھائی ہوگی", "These (faces) will be overshadowed with darkness (as well)."));
+                        parah_30.add(new data_model_arabicandurdu("عَلِمَتْ نَفْسٌ مَّا قَدَّمَتْ وَأَخَّرَتْ","تو ہر شخص جان لے گا کہ کیا عمل اس نے آگے بھیجا اور (کیا) پیچھے چھوڑ آیا تھا","Then everyone will come to know what actions he sent forward and what he left behind."));
 
-                parah_30.add(new data_model_arabicandurdu("أُوْلَئِكَ هُمُ الْكَفَرَةُ الْفَجَرَةُ", "یہی لوگ کافر (اور) فاجر (بدکردار) ہوں گے", "They are the people who are disbelievers (and) mischief-mongers (i.e., evildoers)."));
+                        parah_30.add(new data_model_arabicandurdu("يَا أَيُّهَا الْإِنسَانُ مَا غَرَّكَ بِرَبِّكَ الْكَرِيمِ","اے انسان! تجھے کس چیز نے اپنے ربِ کریم کے بارے میں دھوکے میں ڈال دیا","O man! What has deluded you concerning your Gracious Lord,"));
 
-                parah_30.add(new data_model_arabicandurdu("بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ", "اللہ کے نام سے شروع جو نہایت مہربان ہمیشہ رحم فرمانے والا ہے", "In the Name of Allah, Most Compassionate, Ever-Merciful."));
+                        parah_30.add(new data_model_arabicandurdu("الَّذِي خَلَقَكَ فَسَوَّاكَ فَعَدَلَكَ","جس نے (رحم مادر کے اندر ایک نطفہ میں سے) تجھے پیدا کیا، پھر اس نے تجھے (اعضا سازی کے لئے ابتداءً) درست اور سیدھا کیا، پھر وہ تیری ساخت میں متناسب تبدیلی لایا","(The One) Who created you (from a fertiled ovum in the mother’s womb), then, (to structure your limbs at the fetal stage,) He shaped you aright, then brought about proportionate alteration in your constitution?"));
 
-                parah_30.add(new data_model_arabicandurdu("إِذَا الشَّمْسُ كُوِّرَتْ", "جب سورج لپیٹ کر بے نور کر دیا جائے گا", "When the sun will be folded up and extinguished,"));
+                        parah_30.add(new data_model_arabicandurdu("فِي أَيِّ صُورَةٍ مَّا شَاءَ رَكَّبَكَ","جس صورت میں بھی چاہا اس نے تجھے ترکیب دے دیا","He constituted you in whatever form He willed."));
 
-                parah_30.add(new data_model_arabicandurdu("وَإِذَا النُّجُومُ انكَدَرَتْ", "اور جب ستارے (اپنی کہکشاؤں سے) گر پڑیں گے", "And the stars will fall (from their galaxies),"));
+                        parah_30.add(new data_model_arabicandurdu("كَلَّا بَلْ تُكَذِّبُونَ بِالدِّينِ","حقیقت تو یہ ہے (اور) تم اِس کے برعکس روزِ جزا کو جھٹلاتے ہو","That is the truth, (but) on the contrary, you deny the Day of Recompense,"));
 
-                parah_30.add(new data_model_arabicandurdu("وَإِذَا الْجِبَالُ سُيِّرَتْ", "اور جب پہاڑ (غبار بنا کر فضا میں) چلا دیئے جائیں گے", "And when the mountains, (after having changed into dust,) will be set in motion (into the atmosphere),"));
+                        parah_30.add(new data_model_arabicandurdu("وَإِنَّ عَلَيْكُمْ لَحَافِظِينَ","حالانکہ تم پر نگہبان فرشتے مقرر ہیں","Whereas there are guardian angels appointed over you,"));
 
-                parah_30.add(new data_model_arabicandurdu("وَإِذَا الْعِشَارُ عُطِّلَتْ", "اور جب حاملہ اونٹنیاں بے کار چھوٹی پھریں گی (کوئی ان کا خبر گیر نہ ہوگا)", "And when the she-camels heavy with young will be left neglected and discarded (i.e., no one will tend them),"));
+                        parah_30.add(new data_model_arabicandurdu("كِرَامًا كَاتِبِينَ","(جو) بہت معزز ہیں (تمہارے اعمال نامے) لکھنے والے ہیں","(Who are) dignified, the scribes (writing the records of all your deeds)."));
 
-                parah_30.add(new data_model_arabicandurdu("وَإِذَا الْوُحُوشُ حُشِرَتْ", "اور جب وحشی جانور (خوف کے مارے) جمع کر دیئے جائیں گے", "And when (fear-stricken) wild beasts will be herded together,"));
+                        parah_30.add(new data_model_arabicandurdu("يَعْلَمُونَ مَا تَفْعَلُونَ","وہ ان (تمام کاموں) کو جانتے ہیں جو تم کرتے ہو","They know (all) those (actions) which you do."));
 
-                parah_30.add(new data_model_arabicandurdu("وَإِذَا الْبِحَارُ سُجِّرَتْ", "جب سمندر اور دریا (سب) ابھار دیئے جائیں گے", "And when (all) oceans and rivers will be made to rise and swell,"));
+                        parah_30.add(new data_model_arabicandurdu("إِنَّ الْأَبْرَارَ لَفِي نَعِيمٍ","بیشک نیکوکار جنّتِ نعمت میں ہوں گے","Indeed, the truly good will be in the Garden of Bliss."));
 
-                parah_30.add(new data_model_arabicandurdu("وَإِذَا النُّفُوسُ زُوِّجَتْ", "اور جب روحیں (بدنوں سے) ملا دی جائیں گی", "And when souls will be united (with their bodies),"));
+                        parah_30.add(new data_model_arabicandurdu("وَإِنَّ الْفُجَّارَ لَفِي جَحِيمٍ","اور بیشک بدکار دوزخِ (سوزاں) میں ہوں گے","And surely, the evildoers will be in the (Blazing Fire of) Hell."));
 
-                parah_30.add(new data_model_arabicandurdu("وَإِذَا الْمَوْؤُودَةُ سُئِلَتْ", "اور جب زندہ دفن کی ہوئی لڑکی سے پوچھا جائے گا", "And when the infant girl buried alive will be asked,"));
+                        parah_30.add(new data_model_arabicandurdu("يَصْلَوْنَهَا يَوْمَ الدِّينِ","وہ اس میں قیامت کے روز داخل ہوں گے","They will enter it on the Day of Rising,"));
 
-                parah_30.add(new data_model_arabicandurdu("بِأَيِّ ذَنبٍ قُتِلَتْ", "کہ وہ کس گناہ کے باعث قتل کی گئی تھی", "For what crime was she slain?"));
+                        parah_30.add(new data_model_arabicandurdu("وَمَا هُمْ عَنْهَا بِغَائِبِينَ","اور وہ اس (دوزخ) سے (کبھی بھی) غائب نہ ہو سکیں گے","And will never be able to absent themselves from it (Hell)."));
 
-                parah_30.add(new data_model_arabicandurdu("وَإِذَا الصُّحُفُ نُشِرَتْ", "اور جب اَعمال نامے کھول دیئے جائیں گے", "And when the records of deeds will be laid open,"));
+                        parah_30.add(new data_model_arabicandurdu("وَمَا أَدْرَاكَ مَا يَوْمُ الدِّينِ","اور آپ نے کیا سمجھا کہ روزِ جزا کیا ہے","And what have you made out what the Day of Recompense is?"));
 
-                parah_30.add(new data_model_arabicandurdu("وَإِذَا السَّمَاءُ كُشِطَتْ", "اور جب سماوی طبقات کو پھاڑ کر اپنی جگہوں سے ہٹا دیا جائے گا", "And when the layers of heaven will be torn asunder and moved away from their places,"));
+                        parah_30.add(new data_model_arabicandurdu("ثُمَّ مَا أَدْرَاكَ مَا يَوْمُ الدِّينِ","پھر آپ نے کیا جانا کہ روزِ جزا کیا ہے","So what have you learnt about what the Day of Recompense is?"));
 
-                parah_30.add(new data_model_arabicandurdu("وَإِذَا الْجَحِيمُ سُعِّرَتْ", "اور جب دوزخ (کی آگ) بھڑکائی جائے گی", "And when (the Fire of) Hell will be burnt ablaze,"));
+                        parah_30.add(new data_model_arabicandurdu("يَوْمَ لَا تَمْلِكُ نَفْسٌ لِّنَفْسٍ شَيْئًا وَالْأَمْرُ يَوْمَئِذٍ لِّلَّهِ","(یہ) وہ دن ہے جب کوئی شخص کسی کے لئے کسی چیز کا مالک نہ ہوگا، اور حکم فرمائی اس دن اللہ ہی کی ہوگی","It is the Day when no soul will own anything for any other soul, and the command on that Day will be entirely Allah’s."));
 
-                parah_30.add(new data_model_arabicandurdu("وَإِذَا الْجَنَّةُ أُزْلِفَتْ", "اور جب جنت قریب کر دی جائے گی", "And when Paradise will be brought up close,"));
+//                        parah_30.add(new data_model_arabicandurdu("بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ","اللہ کے نام سے شروع جو نہایت مہربان ہمیشہ رحم فرمانے والا ہے","In the Name of Allah, Most Compassionate, Ever-Merciful."));
 
-                parah_30.add(new data_model_arabicandurdu("عَلِمَتْ نَفْسٌ مَّا أَحْضَرَتْ", "ہر شخص جان لے گا جو کچھ اس نے حاضر کیا ہے", "Everyone will come to know what he has brought forth."));
+                        parah_30.add(new data_model_arabicandurdu("بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ" +"\n\n"+"وَيْلٌ لِّلْمُطَفِّفِينَ"  ,"بربادی ہے ناپ تول میں کمی کرنے والوں کے لئے","Woe to those who give less in measure or weight!"));
 
-                parah_30.add(new data_model_arabicandurdu("فَلَا أُقْسِمُ بِالْخُنَّسِ", "تو میں قَسم کھاتا ہوں ان (آسمانی کرّوں) کی جو (ظاہر ہونے کے بعد) پیچھے ہٹ جاتے ہیں", "So I swear by (the heavenly spheres) which recede (after appearing),"));
+                        parah_30.add(new data_model_arabicandurdu("الَّذِينَ إِذَا اكْتَالُواْ عَلَى النَّاسِ يَسْتَوْفُونَ","یہ لوگ جب (دوسرے) لوگوں سے ناپ لیتے ہیں تو (ان سے) پورا لیتے ہیں","When (they) take by measure from others, they take (from them) full."));
 
-                parah_30.add(new data_model_arabicandurdu("الْجَوَارِ الْكُنَّسِ", "جو بلا روک ٹوک چلتے رہتے ہیں (پھر ظاہر ہو کر) چھپ جاتے ہیں", "Which revolve freely, (then) hide (after appearing),"));
+                        parah_30.add(new data_model_arabicandurdu("وَإِذَا كَالُوهُمْ أَو وَّزَنُوهُمْ يُخْسِرُونَ","اور جب انہیں (خود) ناپ کر یا تول کر دیتے ہیں تو گھٹا کر دیتے ہیں","And when they (themselves) give by measure or weigh to others, they give them less."));
 
-                parah_30.add(new data_model_arabicandurdu("وَاللَّيْلِ إِذَا عَسْعَسَ", "اور رات کی قَسم جب اس کی تاریکی جانے لگے", "And by the night when its darkness tapers off,"));
+                        parah_30.add(new data_model_arabicandurdu("أَلَا يَظُنُّ أُولَئِكَ أَنَّهُم مَّبْعُوثُونَ","کیا یہ لوگ اس بات کا یقین نہیں رکھتے کہ وہ (مرنے کے بعد دوبارہ) اٹھائے جائیں گے","Do they not believe that they will be raised up (again after death),"));
 
-                parah_30.add(new data_model_arabicandurdu("وَالصُّبْحِ إِذَا تَنَفَّسَ", "اور صبح کی قَسم جب اس کی روشنی آنے لگے", "And by the morning when its light dawns,"));
+                        parah_30.add(new data_model_arabicandurdu("لِيَوْمٍ عَظِيمٍ","ایک بڑے سخت دن کے لئے","For a Terrible Day,"));
 
-                parah_30.add(new data_model_arabicandurdu("إِنَّهُ لَقَوْلُ رَسُولٍ كَرِيْمٍ", "بیشک یہ (قرآن) بڑی عزت و بزرگی والے رسول کا (پڑھا ہوا) کلام ہے", "Indeed, this (Qur’an) is the Word (communicated) by a glorious and most venerable Messenger (blessings and peace be upon him),"));
+                        parah_30.add(new data_model_arabicandurdu("يَوْمَ يَقُومُ النَّاسُ لِرَبِّ الْعَالَمِينَ","جس دن سب لوگ تمام جہانوں کے رب کے حضور کھڑے ہوں گے","The Day when all mankind will stand before the Lord of all the worlds?"));
 
-                parah_30.add(new data_model_arabicandurdu("ذِي قُوَّةٍ عِندَ ذِي الْعَرْشِ مَكِينٍ", "جو (دعوتِ حق، تبلیغِ رسالت اور روحانی استعداد میں) قوت و ہمت والے ہیں (اور) مالکِ عرش کے حضور بڑی قدر و منزلت (اور جاہ و عظمت) والے ہیں", "Who is mighty and strong (in calling to the truth, preaching the faith in Messengership and spiritual competence, and) is held in extreme reverence and veneration (and splendour and glory) in the presence of the Lord of the Throne,"));
+                        parah_30.add(new data_model_arabicandurdu("كَلَّا إِنَّ كِتَابَ الفُجَّارِ لَفِي سِجِّينٍ","یہ حق ہے کہ بدکرداروں کا نامۂ اعمال سجین (یعنی دیوان خانۂ جہنم) میں ہے","It is true that the record of the evildoers is kept in Sijjin (the ante-chamber of Hell)."));
 
-                parah_30.add(new data_model_arabicandurdu("مُّطَاعٍ ثَمَّ أَمِينٍ", "(تمام جہانوں کے لئے) واجب الاطاعت ہیں (کیونکہ ان کی اطاعت ہی اللہ کی اطاعت ہے)، امانت دار ہیں (وحی اور زمین و آسمان کے سب اُلوہی رازوں کے حامل ہیں)", "Entitled to obligatory obedience (by all the worlds because obedience to him is obedience to Allah) and faithful to His trust (possesses Revelation and all divine secrets of the heavens and the earth)."));
+                        parah_30.add(new data_model_arabicandurdu("وَمَا أَدْرَاكَ مَا سِجِّينٌ","اور آپ نے کیا جانا کہ سجین کیا ہے","And what do you know what Sijjin is?"));
 
-                parah_30.add(new data_model_arabicandurdu("وَمَا صَاحِبُكُم بِمَجْنُونٍ", "اور (اے لوگو!) یہ تمہیں اپنی صحبت سے نوازنے والے (محمد صلی اللہ علیہ وآلہ وسلم) دیوانے نہیں ہیں (جو فرماتے ہیں وہ حق ہوتا ہے)", "And, (O people,) he who blesses you with his (holy) companionship (Muhammad [blessings and peace be upon him]) is not mad. (Whatever he communicates is the truth.)"));
+                        parah_30.add(new data_model_arabicandurdu("كِتَابٌ مَّرْقُومٌ","(یہ قید خانۂ دوزخ میں اس بڑے دیوان کے اندر) لکھی ہوئی (ایک) کتاب ہے (جس میں ہر جہنمی کا نام اور اس کے اعمال درج ہیں)","It is an inscribed book (set down in the large ante-chamber of the prison of Hell, with the names and evil deeds of every inmate of Hell registered in it)."));
 
-                parah_30.add(new data_model_arabicandurdu("وَلَقَدْ رَآهُ بِالْأُفُقِ الْمُبِينِ", "اور بیشک انہوں نے اس (مالکِ عرش کے حُسنِ مطلق) کو (لامکاں کے) روشن کنارے پر دیکھا ہے٭", "And he has indeed seen (the absolute beauty of the Lord of the Throne) on the effulgent horizon (of the realm of Divinity).*"));
+                        parah_30.add(new data_model_arabicandurdu("وَيْلٌ يَوْمَئِذٍ لِّلْمُكَذِّبِينَ","اس دن جھٹلانے والوں کے لئے تباہی ہوگی","Woe to the deniers on that Day,"));
 
-                parah_30.add(new data_model_arabicandurdu("وَمَا هُوَ عَلَى الْغَيْبِ بِضَنِينٍ", "اور وہ (یعنی نبئ اکرم صلی اللہ علیہ وآلہ وسلم) غیب (کے بتانے) پر بالکل بخیل نہیں ہیں (مالکِ عرش نے ان کے لئے کوئی کمی نہیں چھوڑی)", "And he (the glorious Messenger [blessings and peace be upon him]) is not at all miserly in (disclosing) the unseen. (The Lord of the Throne has not left for him any deficiency.)"));
+                        parah_30.add(new data_model_arabicandurdu("الَّذِينَ يُكَذِّبُونَ بِيَوْمِ الدِّينِ","جو لوگ روزِ جزا کو جھٹلاتے ہیں","Those who deny the Day of Recompense!"));
 
-                parah_30.add(new data_model_arabicandurdu("وَمَا هُوَ بِقَوْلِ شَيْطَانٍ رَّجِيمٍ", "اور وہ (قرآن) ہرگز کسی شیطان مردود کا کلام نہیں ہے", "Nor is that (Qur’an) the utterance of any accursed Satan."));
+                        parah_30.add(new data_model_arabicandurdu("وَمَا يُكَذِّبُ بِهِ إِلَّا كُلُّ مُعْتَدٍ أَثِيمٍ","اور اسے کوئی نہیں جھٹلاتا سوائے ہر اس شخص کے جو سرکش و گنہگار ہے","And no one else denies it except every defiant and sinner."));
 
-                parah_30.add(new data_model_arabicandurdu("فَأَيْنَ تَذْهَبُونَ", "پھر (اے بدبختو!) تم (اتنے بڑے خزانے کو چھوڑ کر) کدھر چلے جا رہے ہو", "Then, (O you doomed,) where are you going (disregarding such a valuable treasure)?"));
+                        parah_30.add(new data_model_arabicandurdu("إِذَا تُتْلَى عَلَيْهِ آيَاتُنَا قَالَ أَسَاطِيرُ الْأَوَّلِينَ","جب اس پر ہماری آیتیں پڑھ کر سنائی جاتی ہیں تو کہتا (یا سمجھتا) ہے کہ (یہ تو) اگلے لوگوں کی کہانیاں ہیں","When Our Revelations are read out to him, he says (or thinks) that (they are) tales of the ancients."));
 
-                parah_30.add(new data_model_arabicandurdu("إِنْ هُوَ إِلَّا ذِكْرٌ لِّلْعَالَمِينَ", "یہ (قرآن) تو تمام جہانوں کے لئے (صحیفۂ) نصیحت ہے", "This (Qur’an) is but admonition (revealed) for all the worlds."));
+                        parah_30.add(new data_model_arabicandurdu("كَلَّا بَلْ رَانَ عَلَى قُلُوبِهِم مَّا كَانُوا يَكْسِبُونَ","(ایسا) ہرگز نہیں بلکہ (حقیقت یہ ہے کہ) ان کے دلوں پر ان اَعمالِ (بد) کا زنگ چڑھ گیا ہے جو وہ کمایا کرتے تھے (اس لیے آیتیں ان کے دل پر اثر نہیں کرتیں)","That is not at all (the case); rather (the fact is that the evil deeds) which they earned have rusted their hearts. (The Revelations, therefore, do not move their hearts.)"));
 
-                parah_30.add(new data_model_arabicandurdu("لِمَن شَاءَ مِنكُمْ أَن يَسْتَقِيمَ", "تم میں سے ہر اس شخص کے لئے (اس چشمہ سے ہدایت میسر آسکتی ہے) جو سیدھی راہ چلنا چاہے", "Every one of you who aspires to tread the straight path (can take guidance from this source spring)."));
+                        parah_30.add(new data_model_arabicandurdu("كَلَّا إِنَّهُمْ عَن رَّبِّهِمْ يَوْمَئِذٍ لَّمَحْجُوبُونَ","حق یہ ہے کہ بیشک اس دن انہیں اپنے ر ب کے دیدار سے (محروم کرنے کے لئے) پسِ پردہ کر دیا جائے گا","The truth is that they will be screened off (to deprive them of) the sight of their Lord."));
 
-                parah_30.add(new data_model_arabicandurdu("وَمَا تَشَاؤُونَ إِلَّا أَن يَشَاءَ اللَّهُ رَبُّ الْعَالَمِينَ", "اور تم وہی کچھ چاہ سکتے ہو جو اللہ چاہے جو تمام جہانوں کا رب ہے", "And you can aspire only to what Allah intends, Who is the Sustainer of all the worlds."));
+                        parah_30.add(new data_model_arabicandurdu("ثُمَّ إِنَّهُمْ لَصَالُوا الْجَحِيمِ","پھر وہ دوزخ میں جھونک دیئے جائیں گے","Then they will be cast into Hell."));
 
-                parah_30.add(new data_model_arabicandurdu("بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ", "اللہ کے نام سے شروع جو نہایت مہربان ہمیشہ رحم فرمانے والا ہے", "In the Name of Allah, Most Compassionate, Ever-Merciful."));
+                        parah_30.add(new data_model_arabicandurdu("ثُمَّ يُقَالُ هَذَا الَّذِي كُنتُم بِهِ تُكَذِّبُونَ","پھر ان سے کہا جائے گا: یہ وہ (عذابِ جہنم) ہے جسے تم جھٹلایا کرتے تھے","Then it will be said to them: ‘This is (the punishment of Hell) which you used to belie.’"));
 
-                parah_30.add(new data_model_arabicandurdu("إِذَا السَّمَاءُ انفَطَرَتْ", "جب (سب) آسمانی کرّے پھٹ جائیں گے", "When (all) the heavenly spheres will be split apart,"));
+                        parah_30.add(new data_model_arabicandurdu("كَلَّا إِنَّ كِتَابَ الْأَبْرَارِ لَفِي عِلِّيِّينَ","یہ (بھی) حق ہے کہ بیشک نیکوکاروں کا نوشتہ اعمال علّیّین (یعنی دیوان خانۂ جنت) میں ہے","This is (also) true that the record of the truly pious is for sure maintained in ‘Illiyyin (the ante-chamber of Paradise)."));
 
-                parah_30.add(new data_model_arabicandurdu("وَإِذَا الْكَوَاكِبُ انتَثَرَتْ", "اور جب سیارے بکھر جائیں گے", "And when the planets will scatter,"));
+                        parah_30.add(new data_model_arabicandurdu("وَمَا أَدْرَاكَ مَا عِلِّيُّونَ","اور آپ نے کیا جانا کہ علّیّین کیا ہے","And what do you know what ‘Illiyyin is?"));
 
-                parah_30.add(new data_model_arabicandurdu("وَإِذَا الْبِحَارُ فُجِّرَتْ", "اور جب سمندر (اور دریا) ابھر کر بہہ جائیں گے", "And when oceans (and rivers) will flood and overflow,"));
+                        parah_30.add(new data_model_arabicandurdu("كِتَابٌ مَّرْقُومٌ","(یہ جنت کے اعلیٰ درجہ میں اس بڑے دیوان کے اندر) لکھی ہوئی (ایک) کتاب ہے (جس میں ان جنتیوں کے نام اور اَعمال درج ہیں جنہیں اعلیٰ مقامات دئیے جائیں گے)","It is an inscribed book (set down in the large ante-chamber of a lofty mansion of Paradise with the names and pious deeds of those who will be allocated superior stations in Paradise)."));
 
-                parah_30.add(new data_model_arabicandurdu("وَإِذَا الْقُبُورُ بُعْثِرَتْ", "اور جب قبریں زیر و زبر کر دی جائیں گی", "And when graves will be overturned,"));
+                        parah_30.add(new data_model_arabicandurdu("يَشْهَدُهُ الْمُقَرَّبُونَ","اس جگہ (اللہ کے) مقرب فرشتے حاضر رہتے ہیں","The angels closest (to Allah) remain present here."));
 
-                parah_30.add(new data_model_arabicandurdu("عَلِمَتْ نَفْسٌ مَّا قَدَّمَتْ وَأَخَّرَتْ", "تو ہر شخص جان لے گا کہ کیا عمل اس نے آگے بھیجا اور (کیا) پیچھے چھوڑ آیا تھا", "Then everyone will come to know what actions he sent forward and what he left behind."));
+                        parah_30.add(new data_model_arabicandurdu("إِنَّ الْأَبْرَارَ لَفِي نَعِيمٍ","بیشک نیکوکار (راحت و مسرت سے) نعمتوں والی جنت میں ہوں گے","Indeed, the truly pious, (joyful and glad,) will be in blissful Paradise,"));
 
-                parah_30.add(new data_model_arabicandurdu("يَا أَيُّهَا الْإِنسَانُ مَا غَرَّكَ بِرَبِّكَ الْكَرِيمِ", "اے انسان! تجھے کس چیز نے اپنے ربِ کریم کے بارے میں دھوکے میں ڈال دیا", "O man! What has deluded you concerning your Gracious Lord,"));
+                        parah_30.add(new data_model_arabicandurdu("عَلَى الْأَرَائِكِ يَنظُرُونَ","تختوں پر بیٹھے نظارے کر رہے ہوں گے","Reclining on couches, enjoying the wonderful sights."));
 
-                parah_30.add(new data_model_arabicandurdu("الَّذِي خَلَقَكَ فَسَوَّاكَ فَعَدَلَكَ", "جس نے (رحم مادر کے اندر ایک نطفہ میں سے) تجھے پیدا کیا، پھر اس نے تجھے (اعضا سازی کے لئے ابتداءً) درست اور سیدھا کیا، پھر وہ تیری ساخت میں متناسب تبدیلی لایا", "(The One) Who created you (from a fertiled ovum in the mother’s womb), then, (to structure your limbs at the fetal stage,) He shaped you aright, then brought about proportionate alteration in your constitution?"));
+                        parah_30.add(new data_model_arabicandurdu("تَعْرِفُ فِي وُجُوهِهِمْ نَضْرَةَ النَّعِيمِ","آپ ان کے چہروں سے ہی نعمت و راحت کی رونق اور شگفتگی معلوم کر لیں گے","You will find on their faces the glow and freshness of bliss and delight."));
 
-                parah_30.add(new data_model_arabicandurdu("فِي أَيِّ صُورَةٍ مَّا شَاءَ رَكَّبَكَ", "جس صورت میں بھی چاہا اس نے تجھے ترکیب دے دیا", "He constituted you in whatever form He willed."));
+                        parah_30.add(new data_model_arabicandurdu("يُسْقَوْنَ مِن رَّحِيقٍ مَّخْتُومٍ","انہیں سر بہ مہر بڑی لذیذ شرابِ طہور پلائی جائے گی","They shall be served with securely sealed delicious and holy beverage."));
 
-                parah_30.add(new data_model_arabicandurdu("كَلَّا بَلْ تُكَذِّبُونَ بِالدِّينِ", "حقیقت تو یہ ہے (اور) تم اِس کے برعکس روزِ جزا کو جھٹلاتے ہو", "That is the truth, (but) on the contrary, you deny the Day of Recompense,"));
+                        parah_30.add(new data_model_arabicandurdu("خِتَامُهُ مِسْكٌ وَفِي ذَلِكَ فَلْيَتَنَافَسِ الْمُتَنَافِسُونَ","اس کی مُہر کستوری کی ہوگی، اور (یہی وہ شراب ہے) جس کے حصول میں شائقین کو جلد کوشش کر کے سبقت لینی چاہیے (کوئی شرابِ نعمت کا طالب و شائق ہے، کوئی شرابِ قربت کا اور کوئی شرابِ دیدار کا۔ ہر کسی کو اس کے شوق کے مطابق پلائی جائے گی)","Its seal will be musk. And (it is this beverage which) all aspirants should hastily strive and compete to acquire. (Some seek the drink of bliss whilst others long for the drink of nearness, and still others yearn for the drink of countenance—all will be served according to their respective tastes)."));
 
-                parah_30.add(new data_model_arabicandurdu("وَإِنَّ عَلَيْكُمْ لَحَافِظِينَ", "حالانکہ تم پر نگہبان فرشتے مقرر ہیں", "Whereas there are guardian angels appointed over you,"));
+                        parah_30.add(new data_model_arabicandurdu("وَمِزَاجُهُ مِن تَسْنِيمٍ","اور اس (شراب) میں آبِ تسنیم کی آمیزش ہوگی","And this (beverage of Paradise) will be mixed with the water of Tasnim."));
 
-                parah_30.add(new data_model_arabicandurdu("كِرَامًا كَاتِبِينَ", "(جو) بہت معزز ہیں (تمہارے اعمال نامے) لکھنے والے ہیں", "(Who are) dignified, the scribes (writing the records of all your deeds)."));
+                        parah_30.add(new data_model_arabicandurdu("عَيْنًا يَشْرَبُ بِهَا الْمُقَرَّبُونَ","(یہ تسنیم) ایک چشمہ ہے جہاں سے صرف اہلِ قربت پیتے ہیں","(This Tasnim) is a fountain at which only those drawn close will drink."));
 
-                parah_30.add(new data_model_arabicandurdu("يَعْلَمُونَ مَا تَفْعَلُونَ", "وہ ان (تمام کاموں) کو جانتے ہیں جو تم کرتے ہو", "They know (all) those (actions) which you do."));
+                        parah_30.add(new data_model_arabicandurdu("إِنَّ الَّذِينَ أَجْرَمُوا كَانُواْ مِنَ الَّذِينَ آمَنُوا يَضْحَكُونَ","بیشک مجرم لوگ ایمان والوں کا (دنیا میں) مذاق اڑایا کرتے تھے","Surely (in the worldly life), the evildoers used to ridicule the believers,"));
 
-                parah_30.add(new data_model_arabicandurdu("إِنَّ الْأَبْرَارَ لَفِي نَعِيمٍ", "بیشک نیکوکار جنّتِ نعمت میں ہوں گے", "Indeed, the truly good will be in the Garden of Bliss."));
+                        parah_30.add(new data_model_arabicandurdu("وَإِذَا مَرُّواْ بِهِمْ يَتَغَامَزُونَ","اور جب ان کے پاس سے گزرتے تو آپس میں آنکھوں سے اشارہ بازی کرتے تھے","And winked at one another when they passed by them."));
 
-                parah_30.add(new data_model_arabicandurdu("وَإِنَّ الْفُجَّارَ لَفِي جَحِيمٍ", "اور بیشک بدکار دوزخِ (سوزاں) میں ہوں گے", "And surely, the evildoers will be in the (Blazing Fire of) Hell."));
+                        parah_30.add(new data_model_arabicandurdu("وَإِذَا انقَلَبُواْ إِلَى أَهْلِهِمُ انقَلَبُواْ فَكِهِينَ","اور جب اپنے گھر والوں کی طرف لوٹتے تو (مومنوں کی تنگ دستی اور اپنی خوش حالی کا موازنہ کر کے) اِتراتے اور دل لگی کرتے ہوئے پلٹتے تھے","And when they went back to their families, they used to exult over the believers (by comparing the believers’ destitution and their own affluence) and returned speaking of them with jests."));
 
-                parah_30.add(new data_model_arabicandurdu("يَصْلَوْنَهَا يَوْمَ الدِّينِ", "وہ اس میں قیامت کے روز داخل ہوں گے", "They will enter it on the Day of Rising,"));
+                        parah_30.add(new data_model_arabicandurdu("وَإِذَا رَأَوْهُمْ قَالُوا إِنَّ هَؤُلَاءِ لَضَالُّونَ","اور جب یہ (مغرور لوگ) ان (کمزور حال مومنوں) کو دیکھتے تو کہتے: یقیناً یہ لوگ راہ سے بھٹک گئے ہیں (یعنی یہ دنیا گنوا بیٹھے ہیں اور آخرت تو ہے ہی فقط افسانہ)","And when they (the arrogant people) saw these (the indigent believers), they used to say: ‘They have gone astray,’ (i.e., they have lost the world whilst the Hereafter is nothing but fiction.)"));
 
-                parah_30.add(new data_model_arabicandurdu("وَمَا هُمْ عَنْهَا بِغَائِبِينَ", "اور وہ اس (دوزخ) سے (کبھی بھی) غائب نہ ہو سکیں گے", "And will never be able to absent themselves from it (Hell)."));
+                        parah_30.add(new data_model_arabicandurdu("وَمَا أُرْسِلُوا عَلَيْهِمْ حَافِظِينَ","حالانکہ وہ ان (کے حال) پر نگہبان بنا کر نہیں بھیجے گئے تھے","Yet they had not been sent to watch over their (state of affairs)."));
 
-                parah_30.add(new data_model_arabicandurdu("وَمَا أَدْرَاكَ مَا يَوْمُ الدِّينِ", "اور آپ نے کیا سمجھا کہ روزِ جزا کیا ہے", "And what have you made out what the Day of Recompense is?"));
+                        parah_30.add(new data_model_arabicandurdu("فَالْيَوْمَ الَّذِينَ آمَنُواْ مِنَ الْكُفَّارِ يَضْحَكُونَ","پس آج (دیکھو) اہلِ ایمان کافروں پر ہنس رہے ہیں","So (see) Today the believers are laughing at the disbelievers."));
 
-                parah_30.add(new data_model_arabicandurdu("ثُمَّ مَا أَدْرَاكَ مَا يَوْمُ الدِّينِ", "پھر آپ نے کیا جانا کہ روزِ جزا کیا ہے", "So what have you learnt about what the Day of Recompense is?"));
+                        parah_30.add(new data_model_arabicandurdu("عَلَى الْأَرَائِكِ يَنظُرُونَ","سجے ہوئے تختوں پر بیٹھے (اپنی خوش حالی اور کافروں کی بدحالی کا) نظارہ کر رہے ہیں","Reclining on ornamented couches, they are viewing the sight (comparing their own prosperity and the disbelievers’ impoverishment)."));
 
-                parah_30.add(new data_model_arabicandurdu("يَوْمَ لَا تَمْلِكُ نَفْسٌ لِّنَفْسٍ شَيْئًا وَالْأَمْرُ يَوْمَئِذٍ لِّلَّهِ", "(یہ) وہ دن ہے جب کوئی شخص کسی کے لئے کسی چیز کا مالک نہ ہوگا، اور حکم فرمائی اس دن اللہ ہی کی ہوگی", "It is the Day when no soul will own anything for any other soul, and the command on that Day will be entirely Allah’s."));
+                        parah_30.add(new data_model_arabicandurdu("هَلْ ثُوِّبَ الْكُفَّارُ مَا كَانُوا يَفْعَلُونَ","سو کیا کافروں کو اس (مذاق) کا پورا بدلہ دے دیا گیا جو وہ (مسلمانوں سے) کیا کرتے تھے","So, have the disbelievers been rewarded in full for (the mockery), which they used to inflict upon (the believers)?"));
 
-                parah_30.add(new data_model_arabicandurdu("بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ", "اللہ کے نام سے شروع جو نہایت مہربان ہمیشہ رحم فرمانے والا ہے", "In the Name of Allah, Most Compassionate, Ever-Merciful."));
+//                        parah_30.add(new data_model_arabicandurdu("بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ","اللہ کے نام سے شروع جو نہایت مہربان ہمیشہ رحم فرمانے والا ہے","In the Name of Allah, Most Compassionate, Ever-Merciful."));
 
-                parah_30.add(new data_model_arabicandurdu("وَيْلٌ لِّلْمُطَفِّفِينَ", "بربادی ہے ناپ تول میں کمی کرنے والوں کے لئے", "Woe to those who give less in measure or weight!"));
+                        parah_30.add(new data_model_arabicandurdu("بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ" +"\n\n"+"إِذَا السَّمَاءُ انشَقَّتْ" ,"جب (سب) آسمانی کرّے پھٹ جائیں گے","When (all) the heavenly bodies will split asunder,"));
 
-                parah_30.add(new data_model_arabicandurdu("الَّذِينَ إِذَا اكْتَالُواْ عَلَى النَّاسِ يَسْتَوْفُونَ", "یہ لوگ جب (دوسرے) لوگوں سے ناپ لیتے ہیں تو (ان سے) پورا لیتے ہیں", "When (they) take by measure from others, they take (from them) full."));
+                        parah_30.add(new data_model_arabicandurdu("وَأَذِنَتْ لِرَبِّهَا وَحُقَّتْ","اور اپنے رب کا حکمِ (اِنشقاق) بجا لائیں گے اور (یہی تعمیلِ اَمر) اُس کے لائق ہے","And obey the command of their Lord (with regard to the catastrophic split) and (it is this implementation of the command) that they are bound to do,"));
 
-                parah_30.add(new data_model_arabicandurdu("وَإِذَا كَالُوهُمْ أَو وَّزَنُوهُمْ يُخْسِرُونَ", "اور جب انہیں (خود) ناپ کر یا تول کر دیتے ہیں تو گھٹا کر دیتے ہیں", "And when they (themselves) give by measure or weigh to others, they give them less."));
+                        parah_30.add(new data_model_arabicandurdu("وَإِذَا الْأَرْضُ مُدَّتْ","اور جب زمین (ریزہ ریزہ کر کے) پھیلا دی جائے گی","And when the earth will be flattened out (after it is broken into dust particles),"));
 
-                parah_30.add(new data_model_arabicandurdu("أَلَا يَظُنُّ أُولَئِكَ أَنَّهُم مَّبْعُوثُونَ", "کیا یہ لوگ اس بات کا یقین نہیں رکھتے کہ وہ (مرنے کے بعد دوبارہ) اٹھائے جائیں گے", "Do they not believe that they will be raised up (again after death),"));
+                        parah_30.add(new data_model_arabicandurdu("وَأَلْقَتْ مَا فِيهَا وَتَخَلَّتْ","اور جو کچھ اس کے اندر ہے وہ اسے نکال باہر پھینکے گی اور خالی ہو جائے گی","And it will cast out all that is inside it and become empty,"));
 
-                parah_30.add(new data_model_arabicandurdu("لِيَوْمٍ عَظِيمٍ", "ایک بڑے سخت دن کے لئے", "For a Terrible Day,"));
+                        parah_30.add(new data_model_arabicandurdu("وَأَذِنَتْ لِرَبِّهَا وَحُقَّتْ","اور (وہ بھی) اپنے رب کا حکمِ (اِنشقاق) بجا لائے گی اور (یہی اِطاعت) اُس کے لائق ہے","And (it) will (also) obey the command of its Lord (with regard to the catastrophic split) and (it is this obedience) which it is worthy of."));
 
-                parah_30.add(new data_model_arabicandurdu("يَوْمَ يَقُومُ النَّاسُ لِرَبِّ الْعَالَمِينَ", "جس دن سب لوگ تمام جہانوں کے رب کے حضور کھڑے ہوں گے", "The Day when all mankind will stand before the Lord of all the worlds?"));
+                        parah_30.add(new data_model_arabicandurdu("يَا أَيُّهَا الْإِنسَانُ إِنَّكَ كَادِحٌ إِلَى رَبِّكَ كَدْحًا فَمُلَاقِيهِ","اے انسان! تو اپنے رب تک پہنچنے میں سخت مشقتیں برداشت کرتا ہے بالآخر تجھے اسی سے جا ملنا ہے","O man! You sustain rigours to reach your Lord. Ultimately, you will meet Him."));
 
-                parah_30.add(new data_model_arabicandurdu("كَلَّا إِنَّ كِتَابَ الفُجَّارِ لَفِي سِجِّينٍ", "یہ حق ہے کہ بدکرداروں کا نامۂ اعمال سجین (یعنی دیوان خانۂ جہنم) میں ہے", "It is true that the record of the evildoers is kept in Sijjin (the ante-chamber of Hell)."));
+                        parah_30.add(new data_model_arabicandurdu("فَأَمَّا مَنْ أُوتِيَ كِتَابَهُ بِيَمِينِهِ","پس جس شخص کا نامۂ اعمال اس کے داہنے ہاتھ میں دیا جائے گا","So as for him who will be given his record in his right hand,"));
 
-                parah_30.add(new data_model_arabicandurdu("وَمَا أَدْرَاكَ مَا سِجِّينٌ", "اور آپ نے کیا جانا کہ سجین کیا ہے", "And what do you know what Sijjin is?"));
+                        parah_30.add(new data_model_arabicandurdu("فَسَوْفَ يُحَاسَبُ حِسَابًا يَسِيرًا","تو عنقریب اس سے آسان سا حساب لیا جائے گا","He will soon be given an easy reckoning,"));
 
-                parah_30.add(new data_model_arabicandurdu("كِتَابٌ مَّرْقُومٌ", "(یہ قید خانۂ دوزخ میں اس بڑے دیوان کے اندر) لکھی ہوئی (ایک) کتاب ہے (جس میں ہر جہنمی کا نام اور اس کے اعمال درج ہیں)", "It is an inscribed book (set down in the large ante-chamber of the prison of Hell, with the names and evil deeds of every inmate of Hell registered in it)."));
+                        parah_30.add(new data_model_arabicandurdu("وَيَنقَلِبُ إِلَى أَهْلِهِ مَسْرُورًا","اور وہ اپنے اہلِ خانہ کی طرف مسرور و شاداں پلٹے گا","And will return to his family rejoicing."));
 
-                parah_30.add(new data_model_arabicandurdu("وَيْلٌ يَوْمَئِذٍ لِّلْمُكَذِّبِينَ", "اس دن جھٹلانے والوں کے لئے تباہی ہوگی", "Woe to the deniers on that Day,"));
+                        parah_30.add(new data_model_arabicandurdu("وَأَمَّا مَنْ أُوتِيَ كِتَابَهُ وَرَاءَ ظَهْرِهِ","اور البتہ وہ شخص جس کا نامۂ اعمال اس کی پیٹھ کے پیچھے سے دیا جائے گا","And as for him who will be given his record behind his back,"));
 
-                parah_30.add(new data_model_arabicandurdu("الَّذِينَ يُكَذِّبُونَ بِيَوْمِ الدِّينِ", "جو لوگ روزِ جزا کو جھٹلاتے ہیں", "Those who deny the Day of Recompense!"));
+                        parah_30.add(new data_model_arabicandurdu("فَسَوْفَ يَدْعُواْ ثُبُورًا","تو وہ عنقریب موت کو پکارے گا","He will soon cry out for death."));
 
-                parah_30.add(new data_model_arabicandurdu("وَمَا يُكَذِّبُ بِهِ إِلَّا كُلُّ مُعْتَدٍ أَثِيمٍ", "اور اسے کوئی نہیں جھٹلاتا سوائے ہر اس شخص کے جو سرکش و گنہگار ہے", "And no one else denies it except every defiant and sinner."));
+                        parah_30.add(new data_model_arabicandurdu("وَيَصْلَى سَعِيرًا","اور وہ دوزخ کی بھڑکتی ہوئی آگ میں داخل ہوگا","And he will enter the Blazing Fire of Hell."));
 
-                parah_30.add(new data_model_arabicandurdu("إِذَا تُتْلَى عَلَيْهِ آيَاتُنَا قَالَ أَسَاطِيرُ الْأَوَّلِينَ", "جب اس پر ہماری آیتیں پڑھ کر سنائی جاتی ہیں تو کہتا (یا سمجھتا) ہے کہ (یہ تو) اگلے لوگوں کی کہانیاں ہیں", "When Our Revelations are read out to him, he says (or thinks) that (they are) tales of the ancients."));
+                        parah_30.add(new data_model_arabicandurdu("إِنَّهُ كَانَ فِي أَهْلِهِ مَسْرُورًا","بیشک وہ (دنیا میں) اپنے اہلِ خانہ میں خوش و خرم رہتا تھا","Surely, he lived joyfully with his family (in the world)."));
 
-                parah_30.add(new data_model_arabicandurdu("كَلَّا بَلْ رَانَ عَلَى قُلُوبِهِم مَّا كَانُوا يَكْسِبُونَ", "(ایسا) ہرگز نہیں بلکہ (حقیقت یہ ہے کہ) ان کے دلوں پر ان اَعمالِ (بد) کا زنگ چڑھ گیا ہے جو وہ کمایا کرتے تھے (اس لیے آیتیں ان کے دل پر اثر نہیں کرتیں)", "That is not at all (the case); rather (the fact is that the evil deeds) which they earned have rusted their hearts. (The Revelations, therefore, do not move their hearts.)"));
+                        parah_30.add(new data_model_arabicandurdu("إِنَّهُ ظَنَّ أَن لَّن يَحُورَ","بیشک اس نے یہ گمان کر لیا تھا کہ وہ حساب کے لئے (اللہ کے پاس) ہرگز لوٹ کر نہ جائے گا","No doubt, he thought he would never return (to his Lord) for reckoning."));
 
-                parah_30.add(new data_model_arabicandurdu("كَلَّا إِنَّهُمْ عَن رَّبِّهِمْ يَوْمَئِذٍ لَّمَحْجُوبُونَ", "حق یہ ہے کہ بیشک اس دن انہیں اپنے ر ب کے دیدار سے (محروم کرنے کے لئے) پسِ پردہ کر دیا جائے گا", "The truth is that they will be screened off (to deprive them of) the sight of their Lord."));
+                        parah_30.add(new data_model_arabicandurdu("بَلَى إِنَّ رَبَّهُ كَانَ بِهِ بَصِيرًا","کیوں نہیں! بیشک اس کا رب اس کو خوب دیکھنے والا ہے","Why not! Indeed, his Lord is ever watching him."));
 
-                parah_30.add(new data_model_arabicandurdu("ثُمَّ إِنَّهُمْ لَصَالُوا الْجَحِيمِ", "پھر وہ دوزخ میں جھونک دیئے جائیں گے", "Then they will be cast into Hell."));
+                        parah_30.add(new data_model_arabicandurdu("فَلَا أُقْسِمُ بِالشَّفَقِ","سو مجھے قَسم ہے شفق (یعنی شام کی سرخی یا اس کے بعد کے اُجالے) کی","So I swear by the evening glow (i.e., the twilight or its later glare),"));
 
-                parah_30.add(new data_model_arabicandurdu("ثُمَّ يُقَالُ هَذَا الَّذِي كُنتُم بِهِ تُكَذِّبُونَ", "پھر ان سے کہا جائے گا: یہ وہ (عذابِ جہنم) ہے جسے تم جھٹلایا کرتے تھے", "Then it will be said to them: ‘This is (the punishment of Hell) which you used to belie.’"));
+                        parah_30.add(new data_model_arabicandurdu("وَاللَّيْلِ وَمَا وَسَقَ","اور رات کی اور ان چیزوں کی جنہیں وہ (اپنے دامن میں) سمیٹ لیتی ہے","And by the night and all that it envelops (under its embrace),"));
 
-                parah_30.add(new data_model_arabicandurdu("كَلَّا إِنَّ كِتَابَ الْأَبْرَارِ لَفِي عِلِّيِّينَ", "یہ (بھی) حق ہے کہ بیشک نیکوکاروں کا نوشتہ اعمال علّیّین (یعنی دیوان خانۂ جنت) میں ہے", "This is (also) true that the record of the truly pious is for sure maintained in ‘Illiyyin (the ante-chamber of Paradise)."));
+                        parah_30.add(new data_model_arabicandurdu("وَالْقَمَرِ إِذَا اتَّسَقَ","اور چاند کی جب وہ پورا دکھائی دیتا ہے","And the moon when it appears full,"));
 
-                parah_30.add(new data_model_arabicandurdu("وَمَا أَدْرَاكَ مَا عِلِّيُّونَ", "اور آپ نے کیا جانا کہ علّیّین کیا ہے", "And what do you know what ‘Illiyyin is?"));
+                        parah_30.add(new data_model_arabicandurdu("لَتَرْكَبُنَّ طَبَقًا عَن طَبَقٍ","تم یقیناً طبق در طبق ضرور سواری کرتے ہوئے جاؤ گے","You will assuredly ride along stage by stage."));
 
-                parah_30.add(new data_model_arabicandurdu("كِتَابٌ مَّرْقُومٌ", "(یہ جنت کے اعلیٰ درجہ میں اس بڑے دیوان کے اندر) لکھی ہوئی (ایک) کتاب ہے (جس میں ان جنتیوں کے نام اور اَعمال درج ہیں جنہیں اعلیٰ مقامات دئیے جائیں گے)", "It is an inscribed book (set down in the large ante-chamber of a lofty mansion of Paradise with the names and pious deeds of those who will be allocated superior stations in Paradise)."));
+                        parah_30.add(new data_model_arabicandurdu("فَمَا لَهُمْ لَا يُؤْمِنُونَ","تو انہیں کیا ہو گیا ہے کہ (قرآنی پیشین گوئی کی صداقت دیکھ کر بھی) ایمان نہیں لاتے","So, what is the matter with them that (even after witnessing the truth of the forecast of the Qur’an), they do not believe?"));
 
-                parah_30.add(new data_model_arabicandurdu("يَشْهَدُهُ الْمُقَرَّبُونَ", "اس جگہ (اللہ کے) مقرب فرشتے حاضر رہتے ہیں", "The angels closest (to Allah) remain present here."));
+                        parah_30.add(new data_model_arabicandurdu("وَإِذَا قُرِئَ عَلَيْهِمُ الْقُرْآنُ لَا يَسْجُدُونَ","اور جب ان پر قرآن پڑھا جاتا ہے تو (اللہ کے حضور) سجدہ ریز نہیں ہوتے","And when the Qur’an is recited to them, they do not fall down prostrate (before Allah)?"));
 
-                parah_30.add(new data_model_arabicandurdu("إِنَّ الْأَبْرَارَ لَفِي نَعِيمٍ", "بیشک نیکوکار (راحت و مسرت سے) نعمتوں والی جنت میں ہوں گے", "Indeed, the truly pious, (joyful and glad,) will be in blissful Paradise,"));
+                        parah_30.add(new data_model_arabicandurdu("بَلِ الَّذِينَ كَفَرُواْ يُكَذِّبُونَ","بلکہ کافر لوگ (اسے مزید) جھٹلا رہے ہیں","Instead, the disbelievers (further) deny it."));
 
-                parah_30.add(new data_model_arabicandurdu("عَلَى الْأَرَائِكِ يَنظُرُونَ", "تختوں پر بیٹھے نظارے کر رہے ہوں گے", "Reclining on couches, enjoying the wonderful sights."));
+                        parah_30.add(new data_model_arabicandurdu("وَاللَّهُ أَعْلَمُ بِمَا يُوعُونَ","اور اللہ (کفر و عداوت کے اس سامان کو) خوب جانتا ہے جو وہ جمع کر رہے ہیں","And Allah knows best (the contention and disbelief) which they are piling."));
 
-                parah_30.add(new data_model_arabicandurdu("تَعْرِفُ فِي وُجُوهِهِمْ نَضْرَةَ النَّعِيمِ", "آپ ان کے چہروں سے ہی نعمت و راحت کی رونق اور شگفتگی معلوم کر لیں گے", "You will find on their faces the glow and freshness of bliss and delight."));
+                        parah_30.add(new data_model_arabicandurdu("فَبَشِّرْهُم بِعَذَابٍ أَلِيمٍ","سو آپ انہیں دردناک عذاب کی بشارت دے دیں","So give them the news of a painful punishment."));
 
-                parah_30.add(new data_model_arabicandurdu("يُسْقَوْنَ مِن رَّحِيقٍ مَّخْتُومٍ", "انہیں سر بہ مہر بڑی لذیذ شرابِ طہور پلائی جائے گی", "They shall be served with securely sealed delicious and holy beverage."));
+                        parah_30.add(new data_model_arabicandurdu("إِلَّا الَّذِينَ آمَنُواْ وَعَمِلُواْ الصَّالِحَاتِ لَهُمْ أَجْرٌ غَيْرُ مَمْنُونٍ","مگر جو لوگ ایمان لائے اور نیک عمل کرتے ہیں ان کے لئے غیر منقطع (دائمی) ثواب ہے","But those who believe and do pious deeds, for them is an unending (i.e., everlasting) reward."));
 
-                parah_30.add(new data_model_arabicandurdu("خِتَامُهُ مِسْكٌ وَفِي ذَلِكَ فَلْيَتَنَافَسِ الْمُتَنَافِسُونَ", "اس کی مُہر کستوری کی ہوگی، اور (یہی وہ شراب ہے) جس کے حصول میں شائقین کو جلد کوشش کر کے سبقت لینی چاہیے (کوئی شرابِ نعمت کا طالب و شائق ہے، کوئی شرابِ قربت کا اور کوئی شرابِ دیدار کا۔ ہر کسی کو اس کے شوق کے مطابق پلائی جائے گی)", "Its seal will be musk. And (it is this beverage which) all aspirants should hastily strive and compete to acquire. (Some seek the drink of bliss whilst others long for the drink of nearness, and still others yearn for the drink of countenance—all will be served according to their respective tastes)."));
+//                        parah_30.add(new data_model_arabicandurdu("بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ","اللہ کے نام سے شروع جو نہایت مہربان ہمیشہ رحم فرمانے والا ہے","In the Name of Allah, Most Compassionate, Ever-Merciful."));
 
-                parah_30.add(new data_model_arabicandurdu("وَمِزَاجُهُ مِن تَسْنِيمٍ", "اور اس (شراب) میں آبِ تسنیم کی آمیزش ہوگی", "And this (beverage of Paradise) will be mixed with the water of Tasnim."));
+                        parah_30.add(new data_model_arabicandurdu("بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ" +"\n\n"+"وَالسَّمَاءِ ذَاتِ الْبُرُوجِ"  ,"برجوں (یعنی کہکشاؤں) والے آسمان کی قَسم","By the heaven with its constellations,"));
 
-                parah_30.add(new data_model_arabicandurdu("عَيْنًا يَشْرَبُ بِهَا الْمُقَرَّبُونَ", "(یہ تسنیم) ایک چشمہ ہے جہاں سے صرف اہلِ قربت پیتے ہیں", "(This Tasnim) is a fountain at which only those drawn close will drink."));
+                        parah_30.add(new data_model_arabicandurdu("وَالْيَوْمِ الْمَوْعُودِ","اور اس دن کی قَسم جس کا وعدہ کیا گیا ہے","And by the Promised Day,"));
 
-                parah_30.add(new data_model_arabicandurdu("إِنَّ الَّذِينَ أَجْرَمُوا كَانُواْ مِنَ الَّذِينَ آمَنُوا يَضْحَكُونَ", "بیشک مجرم لوگ ایمان والوں کا (دنیا میں) مذاق اڑایا کرتے تھے", "Surely (in the worldly life), the evildoers used to ridicule the believers,"));
+                        parah_30.add(new data_model_arabicandurdu("وَشَاهِدٍ وَمَشْهُودٍ","جو (اس دن) حاضر ہوگا اس کی قَسم اور جو کچھ حاضر کیا جائے گا اس کی قَسم","And by the One Who will be Present (that Day) and by what will be brought to the presence,"));
 
-                parah_30.add(new data_model_arabicandurdu("وَإِذَا مَرُّواْ بِهِمْ يَتَغَامَزُونَ", "اور جب ان کے پاس سے گزرتے تو آپس میں آنکھوں سے اشارہ بازی کرتے تھے", "And winked at one another when they passed by them."));
+                        parah_30.add(new data_model_arabicandurdu("قُتِلَ أَصْحَابُ الْأُخْدُودِ","خندقوں والے (لوگ) ہلاک کر دیے گئے","(The people) of the trenches were slain,"));
 
-                parah_30.add(new data_model_arabicandurdu("وَإِذَا انقَلَبُواْ إِلَى أَهْلِهِمُ انقَلَبُواْ فَكِهِينَ", "اور جب اپنے گھر والوں کی طرف لوٹتے تو (مومنوں کی تنگ دستی اور اپنی خوش حالی کا موازنہ کر کے) اِتراتے اور دل لگی کرتے ہوئے پلٹتے تھے", "And when they went back to their families, they used to exult over the believers (by comparing the believers’ destitution and their own affluence) and returned speaking of them with jests."));
+                        parah_30.add(new data_model_arabicandurdu("النَّارِ ذَاتِ الْوَقُودِ","(یعنی) اس بھڑکتی آگ (والے) جو بڑے ایندھن سے (جلائی گئی) تھی","(The people of) the fierce fire which was (fed) with abundant fuel,"));
 
-                parah_30.add(new data_model_arabicandurdu("وَإِذَا رَأَوْهُمْ قَالُوا إِنَّ هَؤُلَاءِ لَضَالُّونَ", "اور جب یہ (مغرور لوگ) ان (کمزور حال مومنوں) کو دیکھتے تو کہتے: یقیناً یہ لوگ راہ سے بھٹک گئے ہیں (یعنی یہ دنیا گنوا بیٹھے ہیں اور آخرت تو ہے ہی فقط افسانہ)", "And when they (the arrogant people) saw these (the indigent believers), they used to say: ‘They have gone astray,’ (i.e., they have lost the world whilst the Hereafter is nothing but fiction.)"));
+                        parah_30.add(new data_model_arabicandurdu("إِذْ هُمْ عَلَيْهَا قُعُودٌ","جب وہ اس کے کناروں پر بیٹھے تھے","When they sat beside it,"));
 
-                parah_30.add(new data_model_arabicandurdu("وَمَا أُرْسِلُوا عَلَيْهِمْ حَافِظِينَ", "حالانکہ وہ ان (کے حال) پر نگہبان بنا کر نہیں بھیجے گئے تھے", "Yet they had not been sent to watch over their (state of affairs)."));
+                        parah_30.add(new data_model_arabicandurdu("وَهُمْ عَلَى مَا يَفْعَلُونَ بِالْمُؤْمِنِينَ شُهُودٌ","اور وہ خود گواہ ہیں جو کچھ وہ اہلِ ایمان کے ساتھ کر رہے تھے (یعنی انہیں آگ میں پھینک پھینک کر جلا رہے تھے)","And they are themselves witnesses to all they did to the believers (i.e., casting them into the fire and burning them)."));
 
-                parah_30.add(new data_model_arabicandurdu("فَالْيَوْمَ الَّذِينَ آمَنُواْ مِنَ الْكُفَّارِ يَضْحَكُونَ", "پس آج (دیکھو) اہلِ ایمان کافروں پر ہنس رہے ہیں", "So (see) Today the believers are laughing at the disbelievers."));
+                        parah_30.add(new data_model_arabicandurdu("وَمَا نَقَمُوا مِنْهُمْ إِلَّا أَن يُؤْمِنُوا بِاللَّهِ الْعَزِيزِ الْحَمِيدِ","اور انہیں ان (مومنوں) کی طرف سے اور کچھ (بھی) ناگوار نہ تھا سوائے اس کے کہ وہ اللہ پر ایمان لے آئے تھے جو غالب (اور) لائقِ حمد و ثنا ہے","And nothing (of the believers) was annoying them except that they had believed in Allah the Almighty, All-Praiseworthy,"));
 
-                parah_30.add(new data_model_arabicandurdu("عَلَى الْأَرَائِكِ يَنظُرُونَ", "سجے ہوئے تختوں پر بیٹھے (اپنی خوش حالی اور کافروں کی بدحالی کا) نظارہ کر رہے ہیں", "Reclining on ornamented couches, they are viewing the sight (comparing their own prosperity and the disbelievers’ impoverishment)."));
+                        parah_30.add(new data_model_arabicandurdu("الَّذِي لَهُ مُلْكُ السَّمَاوَاتِ وَالْأَرْضِ وَاللَّهُ عَلَى كُلِّ شَيْءٍ شَهِيدٌ","جس کے لئے آسمانوں اور زمین کی (ساری) بادشاہت ہے، اور اللہ ہر چیز پر گواہ ہے","To Whom the (entire) kingdom of the heavens and the earth belongs and Allah is Witness over everything."));
 
-                parah_30.add(new data_model_arabicandurdu("هَلْ ثُوِّبَ الْكُفَّارُ مَا كَانُوا يَفْعَلُونَ", "سو کیا کافروں کو اس (مذاق) کا پورا بدلہ دے دیا گیا جو وہ (مسلمانوں سے) کیا کرتے تھے", "So, have the disbelievers been rewarded in full for (the mockery), which they used to inflict upon (the believers)?"));
+                        parah_30.add(new data_model_arabicandurdu("إِنَّ الَّذِينَ فَتَنُوا الْمُؤْمِنِينَ وَالْمُؤْمِنَاتِ ثُمَّ لَمْ يَتُوبُوا فَلَهُمْ عَذَابُ جَهَنَّمَ وَلَهُمْ عَذَابُ الْحَرِيقِ","بیشک جن لوگوں نے مومن مردوں اور مومن عورتوں کو اذیت دی پھر توبہ (بھی) نہ کی تو ان کے لئے عذابِ جہنم ہے اور ان کے لئے (بالخصوص) آگ میں جلنے کا عذاب ہے","Indeed, those who persecute the believing men and women and then do not (even) repent, for them is the punishment of Hell, and for them is (especially) the torment of burning in the Fire."));
 
-                parah_30.add(new data_model_arabicandurdu("بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ", "اللہ کے نام سے شروع جو نہایت مہربان ہمیشہ رحم فرمانے والا ہے", "In the Name of Allah, Most Compassionate, Ever-Merciful."));
+                        parah_30.add(new data_model_arabicandurdu("إِنَّ الَّذِينَ آمَنُوا وَعَمِلُوا الصَّالِحَاتِ لَهُمْ جَنَّاتٌ تَجْرِي مِن تَحْتِهَا الْأَنْهَارُ ذَلِكَ الْفَوْزُ الْكَبِيرُ","بیشک جو لوگ ایمان لائے اور نیک عمل کرتے رہے ان کے لئے جنتیں ہیں جن کے نیچے سے نہریں جاری ہیں، یہی بڑی کامیابی ہے","And indeed, those who believe and keep doing pious deeds, for them are Gardens with streams flowing under them. This is the great victory."));
 
-                parah_30.add(new data_model_arabicandurdu("إِذَا السَّمَاءُ انشَقَّتْ", "جب (سب) آسمانی کرّے پھٹ جائیں گے", "When (all) the heavenly bodies will split asunder,"));
+                        parah_30.add(new data_model_arabicandurdu("إِنَّ بَطْشَ رَبِّكَ لَشَدِيدٌ","بیشک آپ کے رب کی پکڑ بہت سخت ہے","Surely, the seizure of your Lord is most severe."));
 
-                parah_30.add(new data_model_arabicandurdu("وَأَذِنَتْ لِرَبِّهَا وَحُقَّتْ", "اور اپنے رب کا حکمِ (اِنشقاق) بجا لائیں گے اور (یہی تعمیلِ اَمر) اُس کے لائق ہے", "And obey the command of their Lord (with regard to the catastrophic split) and (it is this implementation of the command) that they are bound to do,"));
+                        parah_30.add(new data_model_arabicandurdu("إِنَّهُ هُوَ يُبْدِئُ وَيُعِيدُ","بیشک وہی پہلی بار پیدا فرماتا ہے اور وہی دوبارہ پیدا فرمائے گا","Verily, He creates the first time, and He is the One Who will bring to life the second time."));
 
-                parah_30.add(new data_model_arabicandurdu("وَإِذَا الْأَرْضُ مُدَّتْ", "اور جب زمین (ریزہ ریزہ کر کے) پھیلا دی جائے گی", "And when the earth will be flattened out (after it is broken into dust particles),"));
+                        parah_30.add(new data_model_arabicandurdu("وَهُوَ الْغَفُورُ الْوَدُودُ","اور وہ بڑا بخشنے والا بہت محبت فرمانے والا ہے","And He is the Most Forgiving, the Most Loving,"));
 
-                parah_30.add(new data_model_arabicandurdu("وَأَلْقَتْ مَا فِيهَا وَتَخَلَّتْ", "اور جو کچھ اس کے اندر ہے وہ اسے نکال باہر پھینکے گی اور خالی ہو جائے گی", "And it will cast out all that is inside it and become empty,"));
+                        parah_30.add(new data_model_arabicandurdu("ذُو الْعَرْشِ الْمَجِيدُ","مالکِ عرش (یعنی پوری کائنات کے تختِ اقتدار کا مالک) بڑی شان والا ہے","The Lord of the Throne (controlling the whole universe) and the Lord of Honour."));
 
-                parah_30.add(new data_model_arabicandurdu("وَأَذِنَتْ لِرَبِّهَا وَحُقَّتْ", "اور (وہ بھی) اپنے رب کا حکمِ (اِنشقاق) بجا لائے گی اور (یہی اِطاعت) اُس کے لائق ہے", "And (it) will (also) obey the command of its Lord (with regard to the catastrophic split) and (it is this obedience) which it is worthy of."));
+                        parah_30.add(new data_model_arabicandurdu("فَعَّالٌ لِّمَا يُرِيدُ","وہ جو بھی ارادہ فرماتا ہے (اسے) خوب کر دینے والا ہے","He (thoroughly) executes whatever He intends."));
 
-                parah_30.add(new data_model_arabicandurdu("يَا أَيُّهَا الْإِنسَانُ إِنَّكَ كَادِحٌ إِلَى رَبِّكَ كَدْحًا فَمُلَاقِيهِ", "اے انسان! تو اپنے رب تک پہنچنے میں سخت مشقتیں برداشت کرتا ہے بالآخر تجھے اسی سے جا ملنا ہے", "O man! You sustain rigours to reach your Lord. Ultimately, you will meet Him."));
+                        parah_30.add(new data_model_arabicandurdu("هَلْ أَتَاكَ حَدِيثُ الْجُنُودِ","کیا آپ کے پاس لشکروں کی خبر پہنچی ہے","Has the news of the troops reached you?"));
 
-                parah_30.add(new data_model_arabicandurdu("فَأَمَّا مَنْ أُوتِيَ كِتَابَهُ بِيَمِينِهِ", "پس جس شخص کا نامۂ اعمال اس کے داہنے ہاتھ میں دیا جائے گا", "So as for him who will be given his record in his right hand,"));
+                        parah_30.add(new data_model_arabicandurdu("فِرْعَوْنَ وَثَمُودَ","فرعون اور ثمود (کے لشکروں) کے","The troops of Pharaoh and Thamud?"));
 
-                parah_30.add(new data_model_arabicandurdu("فَسَوْفَ يُحَاسَبُ حِسَابًا يَسِيرًا", "تو عنقریب اس سے آسان سا حساب لیا جائے گا", "He will soon be given an easy reckoning,"));
+                        parah_30.add(new data_model_arabicandurdu("بَلِ الَّذِينَ كَفَرُوا فِي تَكْذِيبٍ","بلکہ ایسے کافر (ہمیشہ حق کو) جھٹلانے میں (ہی کوشاں رہتے) ہیں","But such disbelievers (persistently strive to) belie (the truth)."));
 
-                parah_30.add(new data_model_arabicandurdu("وَيَنقَلِبُ إِلَى أَهْلِهِ مَسْرُورًا", "اور وہ اپنے اہلِ خانہ کی طرف مسرور و شاداں پلٹے گا", "And will return to his family rejoicing."));
+                        parah_30.add(new data_model_arabicandurdu("وَاللَّهُ مِن وَرَائِهِم مُّحِيطٌ","اور اللہ اُن کے گرد و پیش سے (انہیں) گھیرے ہوئے ہے","And Allah encompasses (them) from all sides."));
 
-                parah_30.add(new data_model_arabicandurdu("وَأَمَّا مَنْ أُوتِيَ كِتَابَهُ وَرَاءَ ظَهْرِهِ", "اور البتہ وہ شخص جس کا نامۂ اعمال اس کی پیٹھ کے پیچھے سے دیا جائے گا", "And as for him who will be given his record behind his back,"));
+                        parah_30.add(new data_model_arabicandurdu("بَلْ هُوَ قُرْآنٌ مَّجِيدٌ","بلکہ یہ بڑی عظمت والا قرآن ہے","It is indeed the Glorious Qur’an,"));
 
-                parah_30.add(new data_model_arabicandurdu("فَسَوْفَ يَدْعُواْ ثُبُورًا", "تو وہ عنقریب موت کو پکارے گا", "He will soon cry out for death."));
+                        parah_30.add(new data_model_arabicandurdu("فِي لَوْحٍ مَّحْفُوظٍ","(جو) لوحِ محفوظ میں (لکھا ہوا) ہے","(Inscribed) in the very Well-guarded Tablet (al-Lawh al-Mahfuz)."));
 
-                parah_30.add(new data_model_arabicandurdu("وَيَصْلَى سَعِيرًا", "اور وہ دوزخ کی بھڑکتی ہوئی آگ میں داخل ہوگا", "And he will enter the Blazing Fire of Hell."));
+//                        parah_30.add(new data_model_arabicandurdu("بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ","اللہ کے نام سے شروع جو نہایت مہربان ہمیشہ رحم فرمانے والا ہے","In the Name of Allah, Most Compassionate, Ever-Merciful."));
 
-                parah_30.add(new data_model_arabicandurdu("إِنَّهُ كَانَ فِي أَهْلِهِ مَسْرُورًا", "بیشک وہ (دنیا میں) اپنے اہلِ خانہ میں خوش و خرم رہتا تھا", "Surely, he lived joyfully with his family (in the world)."));
+                        parah_30.add(new data_model_arabicandurdu("بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ" +"\n\n"+"وَالسَّمَاءِ وَالطَّارِقِ"  ,"آسمان (کی فضائے بسیط اور خلائے عظیم) کی قَسم اور رات کو (نظر) آنے والے کی قَسم","By the (endless expanse and infinite space of) heaven and the Nightly (discernable) Visitant."));
 
-                parah_30.add(new data_model_arabicandurdu("إِنَّهُ ظَنَّ أَن لَّن يَحُورَ", "بیشک اس نے یہ گمان کر لیا تھا کہ وہ حساب کے لئے (اللہ کے پاس) ہرگز لوٹ کر نہ جائے گا", "No doubt, he thought he would never return (to his Lord) for reckoning."));
+                        parah_30.add(new data_model_arabicandurdu("وَمَا أَدْرَاكَ مَا الطَّارِقُ","اور آپ کو کیا معلوم کہ رات کو (نظر) آنے والا کیا ہے","And what do you know what the Nightly (discernable) Visitant is?"));
 
-                parah_30.add(new data_model_arabicandurdu("بَلَى إِنَّ رَبَّهُ كَانَ بِهِ بَصِيرًا", "کیوں نہیں! بیشک اس کا رب اس کو خوب دیکھنے والا ہے", "Why not! Indeed, his Lord is ever watching him."));
+                        parah_30.add(new data_model_arabicandurdu("النَّجْمُ الثَّاقِبُ","(اس سے مراد) ہر وہ آسمانی کرّہ ہے (خواہ وہ ستارہ ہو یا سیارہ یا اَجرامِ سماوی کا کوئی اور کرّہ) جو چمک کر (فضا کو) روشن کر دیتا ہے٭","(It implies) every heavenly body (be it a star, a planet, or any of the heavenly spheres) which shines and brightens (the space).*"));
 
-                parah_30.add(new data_model_arabicandurdu("فَلَا أُقْسِمُ بِالشَّفَقِ", "سو مجھے قَسم ہے شفق (یعنی شام کی سرخی یا اس کے بعد کے اُجالے) کی", "So I swear by the evening glow (i.e., the twilight or its later glare),"));
+                        parah_30.add(new data_model_arabicandurdu("إِن كُلُّ نَفْسٍ لَّمَّا عَلَيْهَا حَافِظٌ","کوئی شخص ایسا نہیں جس پر ایک نگہبان (مقرر) نہیں ہے","There is no human soul but with a protector (appointed) over it."));
 
-                parah_30.add(new data_model_arabicandurdu("وَاللَّيْلِ وَمَا وَسَقَ", "اور رات کی اور ان چیزوں کی جنہیں وہ (اپنے دامن میں) سمیٹ لیتی ہے", "And by the night and all that it envelops (under its embrace),"));
+                        parah_30.add(new data_model_arabicandurdu("فَلْيَنظُرِ الْإِنسَانُ مِمَّ خُلِقَ","پس انسان کو غور (و تحقیق) کرنا چاہیے کہ وہ کس چیز سے پیدا کیا گیا ہے","So man should ponder (and find out) from what substance he has been created."));
 
-                parah_30.add(new data_model_arabicandurdu("وَالْقَمَرِ إِذَا اتَّسَقَ", "اور چاند کی جب وہ پورا دکھائی دیتا ہے", "And the moon when it appears full,"));
+                        parah_30.add(new data_model_arabicandurdu("خُلِقَ مِن مَّاءٍ دَافِقٍ","وہ قوت سے اچھلنے والے پانی (یعنی قوی اور متحرک مادۂ تولید) میں سے پیدا کیا گیا ہے","He has been created from the ejaculated fluid (i.e., virile and motile sperm)."));
 
-                parah_30.add(new data_model_arabicandurdu("لَتَرْكَبُنَّ طَبَقًا عَن طَبَقٍ", "تم یقیناً طبق در طبق ضرور سواری کرتے ہوئے جاؤ گے", "You will assuredly ride along stage by stage."));
+                        parah_30.add(new data_model_arabicandurdu("يَخْرُجُ مِن بَيْنِ الصُّلْبِ وَالتَّرَائِبِ","جو پیٹھ اور کولہے کی ہڈیوں کے درمیان (پیڑو کے حلقہ میں) سے گزر کر باہر نکلتا ہے","That proceeds from the middle of the sacrum (and pelvic girdle) and is ejected."));
 
-                parah_30.add(new data_model_arabicandurdu("فَمَا لَهُمْ لَا يُؤْمِنُونَ", "تو انہیں کیا ہو گیا ہے کہ (قرآنی پیشین گوئی کی صداقت دیکھ کر بھی) ایمان نہیں لاتے", "So, what is the matter with them that (even after witnessing the truth of the forecast of the Qur’an), they do not believe?"));
+                        parah_30.add(new data_model_arabicandurdu("إِنَّهُ عَلَى رَجْعِهِ لَقَادِرٌ","بیشک وہ اس (زندگی) کو پھر واپس لانے پر بھی قادر ہے","Indeed, He has the power to bring it (life) back,"));
 
-                parah_30.add(new data_model_arabicandurdu("وَإِذَا قُرِئَ عَلَيْهِمُ الْقُرْآنُ لَا يَسْجُدُونَ", "اور جب ان پر قرآن پڑھا جاتا ہے تو (اللہ کے حضور) سجدہ ریز نہیں ہوتے", "And when the Qur’an is recited to them, they do not fall down prostrate (before Allah)?"));
+                        parah_30.add(new data_model_arabicandurdu("يَوْمَ تُبْلَى السَّرَائِرُ","جس دن سب راز ظاہر کر دیے جائیں گے","The Day when all secrets will be disclosed."));
 
-                parah_30.add(new data_model_arabicandurdu("بَلِ الَّذِينَ كَفَرُواْ يُكَذِّبُونَ", "بلکہ کافر لوگ (اسے مزید) جھٹلا رہے ہیں", "Instead, the disbelievers (further) deny it."));
+                        parah_30.add(new data_model_arabicandurdu("فَمَا لَهُ مِن قُوَّةٍ وَلَا نَاصِرٍ","پھر انسان کے پاس نہ (خود) کوئی قوت ہوگی اور نہ کوئی (اس کا) مددگار ہوگا","Then man will have neither any strength (himself) nor any helper."));
 
-                parah_30.add(new data_model_arabicandurdu("وَاللَّهُ أَعْلَمُ بِمَا يُوعُونَ", "اور اللہ (کفر و عداوت کے اس سامان کو) خوب جانتا ہے جو وہ جمع کر رہے ہیں", "And Allah knows best (the contention and disbelief) which they are piling."));
+                        parah_30.add(new data_model_arabicandurdu("وَالسَّمَاءِ ذَاتِ الرَّجْعِ","اس آسمانی کائنات کی قَسم جو پھر اپنی ابتدائی حالت میں پلٹ جانے والی ہے","By the heavenly universe which will regress to its primitive state,"));
 
-                parah_30.add(new data_model_arabicandurdu("فَبَشِّرْهُم بِعَذَابٍ أَلِيمٍ", "سو آپ انہیں دردناک عذاب کی بشارت دے دیں", "So give them the news of a painful punishment."));
+                        parah_30.add(new data_model_arabicandurdu("وَالْأَرْضِ ذَاتِ الصَّدْعِ","اس زمین کی قَسم جو پھٹ (کر ریزہ ریزہ ہو) جانے والی ہے","And by the earth which will split asunder (and change into dust particles),"));
 
-                parah_30.add(new data_model_arabicandurdu("إِلَّا الَّذِينَ آمَنُواْ وَعَمِلُواْ الصَّالِحَاتِ لَهُمْ أَجْرٌ غَيْرُ مَمْنُونٍ", "مگر جو لوگ ایمان لائے اور نیک عمل کرتے ہیں ان کے لئے غیر منقطع (دائمی) ثواب ہے", "But those who believe and do pious deeds, for them is an unending (i.e., everlasting) reward."));
+                        parah_30.add(new data_model_arabicandurdu("إِنَّهُ لَقَوْلٌ فَصْلٌ","بیشک یہ فیصلہ کن (قطعی) فرمان ہے","This is indeed a decisive (i.e., absolute) commandment."));
 
-                parah_30.add(new data_model_arabicandurdu("بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ", "اللہ کے نام سے شروع جو نہایت مہربان ہمیشہ رحم فرمانے والا ہے", "In the Name of Allah, Most Compassionate, Ever-Merciful."));
+                        parah_30.add(new data_model_arabicandurdu("وَمَا هُوَ بِالْهَزْلِ","اور یہ ہنسی کی بات نہیں ہے","And it is no joke!"));
 
-                parah_30.add(new data_model_arabicandurdu("وَالسَّمَاءِ ذَاتِ الْبُرُوجِ", "برجوں (یعنی کہکشاؤں) والے آسمان کی قَسم", "By the heaven with its constellations,"));
+                        parah_30.add(new data_model_arabicandurdu("إِنَّهُمْ يَكِيدُونَ كَيْدًا","بیشک وہ (کافر) پُر فریب تدبیروں میں لگے ہوئے ہیں","Indeed, they (the disbelievers) are hatching plots."));
 
-                parah_30.add(new data_model_arabicandurdu("وَالْيَوْمِ الْمَوْعُودِ", "اور اس دن کی قَسم جس کا وعدہ کیا گیا ہے", "And by the Promised Day,"));
+                        parah_30.add(new data_model_arabicandurdu("وَأَكِيدُ كَيْدًا","اور میں اپنی تدبیر فرما رہا ہوں","And I am designing My own strategy."));
 
-                parah_30.add(new data_model_arabicandurdu("وَشَاهِدٍ وَمَشْهُودٍ", "جو (اس دن) حاضر ہوگا اس کی قَسم اور جو کچھ حاضر کیا جائے گا اس کی قَسم", "And by the One Who will be Present (that Day) and by what will be brought to the presence,"));
+                        parah_30.add(new data_model_arabicandurdu("فَمَهِّلِ الْكَافِرِينَ أَمْهِلْهُمْ رُوَيْدًا","پس آپ کافروں کو (ذرا) مہلت دے دیجئے، (زیادہ نہیں بس) انہیں تھوڑی سی ڈھیل (اور) دے دیجئے","So give the disbelievers a respite (for a while, not much); let them relax a little (more)."));
 
-                parah_30.add(new data_model_arabicandurdu("قُتِلَ أَصْحَابُ الْأُخْدُودِ", "خندقوں والے (لوگ) ہلاک کر دیے گئے", "(The people) of the trenches were slain,"));
+//                        parah_30.add(new data_model_arabicandurdu("بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ","اللہ کے نام سے شروع جو نہایت مہربان ہمیشہ رحم فرمانے والا ہے","In the Name of Allah, Most Compassionate, Ever-Merciful."));
 
-                parah_30.add(new data_model_arabicandurdu("النَّارِ ذَاتِ الْوَقُودِ", "(یعنی) اس بھڑکتی آگ (والے) جو بڑے ایندھن سے (جلائی گئی) تھی", "(The people of) the fierce fire which was (fed) with abundant fuel,"));
+                        parah_30.add(new data_model_arabicandurdu("بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ" +"\n\n"+"سَبِّحِ اسْمَ رَبِّكَ الْأَعْلَى","اپنے رب کے نام کی تسبیح کریں جو سب سے بلند ہے","Glorify the Name of your Lord, the Most High,"));
 
-                parah_30.add(new data_model_arabicandurdu("إِذْ هُمْ عَلَيْهَا قُعُودٌ", "جب وہ اس کے کناروں پر بیٹھے تھے", "When they sat beside it,"));
+                        parah_30.add(new data_model_arabicandurdu("الَّذِي خَلَقَ فَسَوَّى","جس نے (کائنات کی ہر چیز کو) پیدا کیا پھر اسے (جملہ تقاضوں کی تکمیل کے ساتھ) درست توازن دیا","He Who has created (everything in the universe) and then (fulfilling all requisites) equipoised it to its exact proportion,"));
 
-                parah_30.add(new data_model_arabicandurdu("وَهُمْ عَلَى مَا يَفْعَلُونَ بِالْمُؤْمِنِينَ شُهُودٌ", "اور وہ خود گواہ ہیں جو کچھ وہ اہلِ ایمان کے ساتھ کر رہے تھے (یعنی انہیں آگ میں پھینک پھینک کر جلا رہے تھے)", "And they are themselves witnesses to all they did to the believers (i.e., casting them into the fire and burning them)."));
+                        parah_30.add(new data_model_arabicandurdu("وَالَّذِي قَدَّرَ فَهَدَى","اور جس نے (ہر ہر چیز کے لئے) قانون مقرر کیا پھر (اسے اپنے اپنے نظام کے مطابق رہنے اور چلنے کا) راستہ بتایا","And He Who has determined law, and guided (it to its) way (of sustaining and functioning according to its respective system),"));
 
-                parah_30.add(new data_model_arabicandurdu("وَمَا نَقَمُوا مِنْهُمْ إِلَّا أَن يُؤْمِنُوا بِاللَّهِ الْعَزِيزِ الْحَمِيدِ", "اور انہیں ان (مومنوں) کی طرف سے اور کچھ (بھی) ناگوار نہ تھا سوائے اس کے کہ وہ اللہ پر ایمان لے آئے تھے جو غالب (اور) لائقِ حمد و ثنا ہے", "And nothing (of the believers) was annoying them except that they had believed in Allah the Almighty, All-Praiseworthy,"));
+                        parah_30.add(new data_model_arabicandurdu("وَالَّذِي أَخْرَجَ الْمَرْعَى","اور جس نے (زمین سے) چارہ نکالا","And He Who has brought forth green pasture (from the earth),"));
 
-                parah_30.add(new data_model_arabicandurdu("الَّذِي لَهُ مُلْكُ السَّمَاوَاتِ وَالْأَرْضِ وَاللَّهُ عَلَى كُلِّ شَيْءٍ شَهِيدٌ", "جس کے لئے آسمانوں اور زمین کی (ساری) بادشاہت ہے، اور اللہ ہر چیز پر گواہ ہے", "To Whom the (entire) kingdom of the heavens and the earth belongs and Allah is Witness over everything."));
+                        parah_30.add(new data_model_arabicandurdu("فَجَعَلَهُ غُثَاءً أَحْوَى","پھر اسے سیاہی مائل خشک کردیا","And then made it blackened stubble."));
 
-                parah_30.add(new data_model_arabicandurdu("إِنَّ الَّذِينَ فَتَنُوا الْمُؤْمِنِينَ وَالْمُؤْمِنَاتِ ثُمَّ لَمْ يَتُوبُوا فَلَهُمْ عَذَابُ جَهَنَّمَ وَلَهُمْ عَذَابُ الْحَرِيقِ", "بیشک جن لوگوں نے مومن مردوں اور مومن عورتوں کو اذیت دی پھر توبہ (بھی) نہ کی تو ان کے لئے عذابِ جہنم ہے اور ان کے لئے (بالخصوص) آگ میں جلنے کا عذاب ہے", "Indeed, those who persecute the believing men and women and then do not (even) repent, for them is the punishment of Hell, and for them is (especially) the torment of burning in the Fire."));
+                        parah_30.add(new data_model_arabicandurdu("سَنُقْرِئُكَ فَلَا تَنسَى","(اے حبیبِ مکرّم!) ہم آپ کو خود (ایسا) پڑھائیں گے کہ آپ (کبھی) نہیں بھولیں گے","(O Esteemed Beloved!) We shall teach you (in a way) that nothing will you (ever) forget,"));
 
-                parah_30.add(new data_model_arabicandurdu("إِنَّ الَّذِينَ آمَنُوا وَعَمِلُوا الصَّالِحَاتِ لَهُمْ جَنَّاتٌ تَجْرِي مِن تَحْتِهَا الْأَنْهَارُ ذَلِكَ الْفَوْزُ الْكَبِيرُ", "بیشک جو لوگ ایمان لائے اور نیک عمل کرتے رہے ان کے لئے جنتیں ہیں جن کے نیچے سے نہریں جاری ہیں، یہی بڑی کامیابی ہے", "And indeed, those who believe and keep doing pious deeds, for them are Gardens with streams flowing under them. This is the great victory."));
+                        parah_30.add(new data_model_arabicandurdu("إِلَّا مَا شَاءَ اللَّهُ إِنَّهُ يَعْلَمُ الْجَهْرَ وَمَا يَخْفَى","مگر جو اللہ چاہے، بیشک وہ جہر اور خفی (یعنی ظاہر و پوشیدہ اور بلند و آہستہ) سب باتوں کو جانتا ہے","Except what Allah wills. Indeed, He knows all, the manifest as well as the hidden (i.e., open to human perception as well as veiled from it, and the audible and the inaudible)."));
 
-                parah_30.add(new data_model_arabicandurdu("إِنَّ بَطْشَ رَبِّكَ لَشَدِيدٌ", "بیشک آپ کے رب کی پکڑ بہت سخت ہے", "Surely, the seizure of your Lord is most severe."));
+                        parah_30.add(new data_model_arabicandurdu("وَنُيَسِّرُكَ لِلْيُسْرَى","اور ہم آپ کو اس آسان (شریعت پر عمل پیرا ہونے) کے لئے (بھی) سہولت فراہم فرمائیں گے","And We shall (also) facilitate you (to put into practice this) easy (law)."));
 
-                parah_30.add(new data_model_arabicandurdu("إِنَّهُ هُوَ يُبْدِئُ وَيُعِيدُ", "بیشک وہی پہلی بار پیدا فرماتا ہے اور وہی دوبارہ پیدا فرمائے گا", "Verily, He creates the first time, and He is the One Who will bring to life the second time."));
+                        parah_30.add(new data_model_arabicandurdu("فَذَكِّرْ إِن نَّفَعَتِ الذِّكْرَى","پس آپ نصیحت فرماتے رہیے بشرطیکہ نصیحت (سننے والوں کو) فائدہ دے","So keep admonishing, provided admonition benefits (the listeners)."));
 
-                parah_30.add(new data_model_arabicandurdu("وَهُوَ الْغَفُورُ الْوَدُودُ", "اور وہ بڑا بخشنے والا بہت محبت فرمانے والا ہے", "And He is the Most Forgiving, the Most Loving,"));
+                        parah_30.add(new data_model_arabicandurdu("سَيَذَّكَّرُ مَن يَخْشَى","البتہ وہی نصیحت قبول کرے گا جو اللہ سے ڈرتا ہوگا","But only he who fears (Allah) will accept the admonition."));
 
-                parah_30.add(new data_model_arabicandurdu("ذُو الْعَرْشِ الْمَجِيدُ", "مالکِ عرش (یعنی پوری کائنات کے تختِ اقتدار کا مالک) بڑی شان والا ہے", "The Lord of the Throne (controlling the whole universe) and the Lord of Honour."));
+                        parah_30.add(new data_model_arabicandurdu("وَيَتَجَنَّبُهَا الْأَشْقَى","اور بدبخت اس (نصیحت) سے پہلو تہی کرے گا","And the wretched one will avoid and evade it,"));
 
-                parah_30.add(new data_model_arabicandurdu("فَعَّالٌ لِّمَا يُرِيدُ", "وہ جو بھی ارادہ فرماتا ہے (اسے) خوب کر دینے والا ہے", "He (thoroughly) executes whatever He intends."));
+                        parah_30.add(new data_model_arabicandurdu("الَّذِي يَصْلَى النَّارَ الْكُبْرَى","جو (قیامت کے دن) سب سے بڑی آگ میں داخل ہوگا","He who will enter the greatest Fire (on the Day of Judgment)."));
 
-                parah_30.add(new data_model_arabicandurdu("هَلْ أَتَاكَ حَدِيثُ الْجُنُودِ", "کیا آپ کے پاس لشکروں کی خبر پہنچی ہے", "Has the news of the troops reached you?"));
+                        parah_30.add(new data_model_arabicandurdu("ثُمَّ لَا يَمُوتُ فِيهَا وَلَا يَحْيَى","پھر وہ اس میں نہ مرے گا اور نہ جیئے گا","Then he will neither die nor live in it."));
 
-                parah_30.add(new data_model_arabicandurdu("فِرْعَوْنَ وَثَمُودَ", "فرعون اور ثمود (کے لشکروں) کے", "The troops of Pharaoh and Thamud?"));
+                        parah_30.add(new data_model_arabicandurdu("قَدْ أَفْلَحَ مَن تَزَكَّى","بیشک وہی بامراد ہوا جو (نفس کی آفتوں اور گناہ کی آلودگیوں سے) پاک ہوگیا","Indeed, only he who is purified (from the afflictions of his ill-commanding self and pollution of sins) will triumph,"));
 
-                parah_30.add(new data_model_arabicandurdu("بَلِ الَّذِينَ كَفَرُوا فِي تَكْذِيبٍ", "بلکہ ایسے کافر (ہمیشہ حق کو) جھٹلانے میں (ہی کوشاں رہتے) ہیں", "But such disbelievers (persistently strive to) belie (the truth)."));
+                        parah_30.add(new data_model_arabicandurdu("وَذَكَرَ اسْمَ رَبِّهِ فَصَلَّى","اور وہ اپنے رب کے نام کا ذکر کرتا رہا اور (کثرت و پابندی سے) نماز پڑھتا رہا","And the one who remembers the Name of his Lord and offers Prayers (regularly and abundantly)."));
 
-                parah_30.add(new data_model_arabicandurdu("وَاللَّهُ مِن وَرَائِهِم مُّحِيطٌ", "اور اللہ اُن کے گرد و پیش سے (انہیں) گھیرے ہوئے ہے", "And Allah encompasses (them) from all sides."));
+                        parah_30.add(new data_model_arabicandurdu("بَلْ تُؤْثِرُونَ الْحَيَاةَ الدُّنْيَا","بلکہ تم (اللہ کی طرف رجوع کرنے کی بجائے) دنیاوی زندگی (کی لذتوں) کو اختیار کرتے ہو","Yet you go for (the pleasures of) the worldly life (instead of turning towards Allah),"));
 
-                parah_30.add(new data_model_arabicandurdu("بَلْ هُوَ قُرْآنٌ مَّجِيدٌ", "بلکہ یہ بڑی عظمت والا قرآن ہے", "It is indeed the Glorious Qur’an,"));
+                        parah_30.add(new data_model_arabicandurdu("وَالْآخِرَةُ خَيْرٌ وَأَبْقَى","حالانکہ آخرت (کی لذت و راحت) بہتر اور ہمیشہ باقی رہنے والی ہے","Whereas (the comfort and pleasure of) the Hereafter is preferable and everlasting."));
 
-                parah_30.add(new data_model_arabicandurdu("فِي لَوْحٍ مَّحْفُوظٍ", "(جو) لوحِ محفوظ میں (لکھا ہوا) ہے", "(Inscribed) in the very Well-guarded Tablet (al-Lawh al-Mahfuz)."));
+                        parah_30.add(new data_model_arabicandurdu("إِنَّ هَذَا لَفِي الصُّحُفِ الْأُولَى","بیشک یہ (تعلیم) اگلے صحیفوں میں (بھی مذکور) ہے","Indeed, this (enlightenment) is (also contained) in earlier scriptures,"));
 
-                parah_30.add(new data_model_arabicandurdu("بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ", "اللہ کے نام سے شروع جو نہایت مہربان ہمیشہ رحم فرمانے والا ہے", "In the Name of Allah, Most Compassionate, Ever-Merciful."));
+                        parah_30.add(new data_model_arabicandurdu("صُحُفِ إِبْرَاهِيمَ وَمُوسَى","(جو) ابراہیم اور موسٰی (علیہما السلام) کے صحائف ہیں","The scriptures of Ibrahim (Abraham) and Musa (Moses)."));
 
-                parah_30.add(new data_model_arabicandurdu("وَالسَّمَاءِ وَالطَّارِقِ", "آسمان (کی فضائے بسیط اور خلائے عظیم) کی قَسم اور رات کو (نظر) آنے والے کی قَسم", "By the (endless expanse and infinite space of) heaven and the Nightly (discernable) Visitant."));
+//                        parah_30.add(new data_model_arabicandurdu("بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ","اللہ کے نام سے شروع جو نہایت مہربان ہمیشہ رحم فرمانے والا ہے","In the Name of Allah, Most Compassionate, Ever-Merciful."));
 
-                parah_30.add(new data_model_arabicandurdu("وَمَا أَدْرَاكَ مَا الطَّارِقُ", "اور آپ کو کیا معلوم کہ رات کو (نظر) آنے والا کیا ہے", "And what do you know what the Nightly (discernable) Visitant is?"));
+                        parah_30.add(new data_model_arabicandurdu("بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ" +"\n\n"+"هَلْ أَتَاكَ حَدِيثُ الْغَاشِيَةِ" ,"کیا آپ کو (ہر چیز پر) چھا جانے والی قیامت کی خبر پہنچی ہے","Has the news of the Calamity overwhelming (everything) reached you?"));
 
-                parah_30.add(new data_model_arabicandurdu("النَّجْمُ الثَّاقِبُ", "(اس سے مراد) ہر وہ آسمانی کرّہ ہے (خواہ وہ ستارہ ہو یا سیارہ یا اَجرامِ سماوی کا کوئی اور کرّہ) جو چمک کر (فضا کو) روشن کر دیتا ہے٭", "(It implies) every heavenly body (be it a star, a planet, or any of the heavenly spheres) which shines and brightens (the space).*"));
+                        parah_30.add(new data_model_arabicandurdu("وُجُوهٌ يَوْمَئِذٍ خَاشِعَةٌ","اس دن کتنے ہی چہرے ذلیل و خوار ہوں گے","Many faces on that Day will be humiliated and degraded,"));
 
-                parah_30.add(new data_model_arabicandurdu("إِن كُلُّ نَفْسٍ لَّمَّا عَلَيْهَا حَافِظٌ", "کوئی شخص ایسا نہیں جس پر ایک نگہبان (مقرر) نہیں ہے", "There is no human soul but with a protector (appointed) over it."));
+                        parah_30.add(new data_model_arabicandurdu("عَامِلَةٌ نَّاصِبَةٌ","(اللہ کو بھول کر دنیاوی) محنت کرنے والے (چند روزہ عیش و آرام کی خاطر سخت) مشقتیں جھیلنے والے","(Forgetting Allah,) toiling (for worldly gains), sustaining (strenuous) rigours (for a fleeting luxury),"));
 
-                parah_30.add(new data_model_arabicandurdu("فَلْيَنظُرِ الْإِنسَانُ مِمَّ خُلِقَ", "پس انسان کو غور (و تحقیق) کرنا چاہیے کہ وہ کس چیز سے پیدا کیا گیا ہے", "So man should ponder (and find out) from what substance he has been created."));
+                        parah_30.add(new data_model_arabicandurdu("تَصْلَى نَارًا حَامِيَةً","دہکتی ہوئی آگ میں جا گریں گے","Will plunge into the Blazing Fire."));
 
-                parah_30.add(new data_model_arabicandurdu("خُلِقَ مِن مَّاءٍ دَافِقٍ", "وہ قوت سے اچھلنے والے پانی (یعنی قوی اور متحرک مادۂ تولید) میں سے پیدا کیا گیا ہے", "He has been created from the ejaculated fluid (i.e., virile and motile sperm)."));
+                        parah_30.add(new data_model_arabicandurdu("تُسْقَى مِنْ عَيْنٍ آنِيَةٍ","(انہیں) کھولتے ہوئے چشمہ سے (پانی) پلایا جائے گا","(They will be) offered to drink (water) from a boiling spring."));
 
-                parah_30.add(new data_model_arabicandurdu("يَخْرُجُ مِن بَيْنِ الصُّلْبِ وَالتَّرَائِبِ", "جو پیٹھ اور کولہے کی ہڈیوں کے درمیان (پیڑو کے حلقہ میں) سے گزر کر باہر نکلتا ہے", "That proceeds from the middle of the sacrum (and pelvic girdle) and is ejected."));
+                        parah_30.add(new data_model_arabicandurdu("لَّيْسَ لَهُمْ طَعَامٌ إِلَّا مِن ضَرِيعٍ","ان کے لئے خاردار خشک زہریلی جھاڑیوں کے سوا کچھ کھانا نہ ہوگا","They will have no food except thorny and dry venomous herbage."));
 
-                parah_30.add(new data_model_arabicandurdu("إِنَّهُ عَلَى رَجْعِهِ لَقَادِرٌ", "بیشک وہ اس (زندگی) کو پھر واپس لانے پر بھی قادر ہے", "Indeed, He has the power to bring it (life) back,"));
+                        parah_30.add(new data_model_arabicandurdu("لاَّ يُسْمِنُ وَلَا يُغْنِي مِن جُوعٍ","(یہ کھانا) نہ فربہ کرے گا اور نہ بھوک ہی دور کرے گا","(This food) will neither nourish nor gratify hunger."));
 
-                parah_30.add(new data_model_arabicandurdu("يَوْمَ تُبْلَى السَّرَائِرُ", "جس دن سب راز ظاہر کر دیے جائیں گے", "The Day when all secrets will be disclosed."));
+                        parah_30.add(new data_model_arabicandurdu("وُجُوهٌ يَوْمَئِذٍ نَّاعِمَةٌ","(اس کے برعکس) اس دن بہت سے چہرے (حسین) بارونق اور ترو تازہ ہوں گے","(On the contrary) that Day a number of faces will be (pleasing to the eye,) glowing with joy and freshness,"));
 
-                parah_30.add(new data_model_arabicandurdu("فَمَا لَهُ مِن قُوَّةٍ وَلَا نَاصِرٍ", "پھر انسان کے پاس نہ (خود) کوئی قوت ہوگی اور نہ کوئی (اس کا) مددگار ہوگا", "Then man will have neither any strength (himself) nor any helper."));
+                        parah_30.add(new data_model_arabicandurdu("لِّسَعْيِهَا رَاضِيَةٌ","اپنی (نیک) کاوشوں کے باعث خوش و خرم ہوں گے","Delighted and rejoicing over their (righteous) travail,"));
 
-                parah_30.add(new data_model_arabicandurdu("وَالسَّمَاءِ ذَاتِ الرَّجْعِ", "اس آسمانی کائنات کی قَسم جو پھر اپنی ابتدائی حالت میں پلٹ جانے والی ہے", "By the heavenly universe which will regress to its primitive state,"));
+                        parah_30.add(new data_model_arabicandurdu("فِي جَنَّةٍ عَالِيَةٍ","عالی شان جنت میں (قیام پذیر) ہوں گے","(Abiding) in a magnificent Paradise,"));
 
-                parah_30.add(new data_model_arabicandurdu("وَالْأَرْضِ ذَاتِ الصَّدْعِ", "اس زمین کی قَسم جو پھٹ (کر ریزہ ریزہ ہو) جانے والی ہے", "And by the earth which will split asunder (and change into dust particles),"));
+                        parah_30.add(new data_model_arabicandurdu("لَّا تَسْمَعُ فِيهَا لَاغِيَةً","اس میں کوئی لغو بات نہ سنیں گے (جیسے اہلِ باطل ان سے دنیا میں کیا کرتے تھے)","Where they will not hear anything absurd (as the disbelievers used to say to them in the world)."));
 
-                parah_30.add(new data_model_arabicandurdu("إِنَّهُ لَقَوْلٌ فَصْلٌ", "بیشک یہ فیصلہ کن (قطعی) فرمان ہے", "This is indeed a decisive (i.e., absolute) commandment."));
+                        parah_30.add(new data_model_arabicandurdu("فِيهَا عَيْنٌ جَارِيَةٌ","اس میں بہتے ہوئے چشمے ہوں گے","In it there will be flowing springs,"));
 
-                parah_30.add(new data_model_arabicandurdu("وَمَا هُوَ بِالْهَزْلِ", "اور یہ ہنسی کی بات نہیں ہے", "And it is no joke!"));
+                        parah_30.add(new data_model_arabicandurdu("فِيهَا سُرُرٌ مَّرْفُوعَةٌ","اس میں اونچے (بچھے ہوئے) تخت ہوں گے","And raised-up couches (laid),"));
 
-                parah_30.add(new data_model_arabicandurdu("إِنَّهُمْ يَكِيدُونَ كَيْدًا", "بیشک وہ (کافر) پُر فریب تدبیروں میں لگے ہوئے ہیں", "Indeed, they (the disbelievers) are hatching plots."));
+                        parah_30.add(new data_model_arabicandurdu("وَأَكْوَابٌ مَّوْضُوعَةٌ","اور جام (بڑے قرینے سے) رکھے ہوئے ہوں گے","And goblets (decently) set in place,"));
 
-                parah_30.add(new data_model_arabicandurdu("وَأَكِيدُ كَيْدًا", "اور میں اپنی تدبیر فرما رہا ہوں", "And I am designing My own strategy."));
+                        parah_30.add(new data_model_arabicandurdu("وَنَمَارِقُ مَصْفُوفَةٌ","اور غالیچے اور گاؤ تکیے قطار در قطار لگے ہوں گے","And silken cushions orderly lined up,"));
 
-                parah_30.add(new data_model_arabicandurdu("فَمَهِّلِ الْكَافِرِينَ أَمْهِلْهُمْ رُوَيْدًا", "پس آپ کافروں کو (ذرا) مہلت دے دیجئے، (زیادہ نہیں بس) انہیں تھوڑی سی ڈھیل (اور) دے دیجئے", "So give the disbelievers a respite (for a while, not much); let them relax a little (more)."));
+                        parah_30.add(new data_model_arabicandurdu("وَزَرَابِيُّ مَبْثُوثَةٌ","اور نرم و نفیس قالین اور مَسندیں بچھی ہوں گی","And soft and refined carpets and rugs (richly) spread."));
 
-                parah_30.add(new data_model_arabicandurdu("بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ", "اللہ کے نام سے شروع جو نہایت مہربان ہمیشہ رحم فرمانے والا ہے", "In the Name of Allah, Most Compassionate, Ever-Merciful."));
+                        parah_30.add(new data_model_arabicandurdu("أَفَلَا يَنظُرُونَ إِلَى الْإِبِلِ كَيْفَ خُلِقَتْ","(منکرین تعجب کرتے ہیں کہ جنت میں یہ سب کچھ کیسے بن جائے گا! تو) کیا یہ لوگ اونٹ کی طرف نہیں دیکھتے کہ وہ کس طرح (عجیب ساخت پر) بنایا گیا ہے","(The disbelievers wonder how all that would be arranged in Paradise. So) do they not see how the camel has been created (in an unusual form)?"));
 
-                parah_30.add(new data_model_arabicandurdu("سَبِّحِ اسْمَ رَبِّكَ الْأَعْلَى", "اپنے رب کے نام کی تسبیح کریں جو سب سے بلند ہے", "Glorify the Name of your Lord, the Most High,"));
+                        parah_30.add(new data_model_arabicandurdu("وَإِلَى السَّمَاءِ كَيْفَ رُفِعَتْ","اور آسمان کی طرف (نگاہ نہیں کرتے) کہ وہ کیسے (عظیم وسعتوں کے ساتھ) اٹھایا گیا ہے","And (do they not observe) how the heaven is raised so high (with its vast expanse)?"));
 
-                parah_30.add(new data_model_arabicandurdu("الَّذِي خَلَقَ فَسَوَّى", "جس نے (کائنات کی ہر چیز کو) پیدا کیا پھر اسے (جملہ تقاضوں کی تکمیل کے ساتھ) درست توازن دیا", "He Who has created (everything in the universe) and then (fulfilling all requisites) equipoised it to its exact proportion,"));
+                        parah_30.add(new data_model_arabicandurdu("وَإِلَى الْجِبَالِ كَيْفَ نُصِبَتْ","اور پہاڑوں کو (نہیں دیکھتے) کہ وہ کس طرح (زمین سے ابھار کر) کھڑے کئے گئے ہیں","And (do they not see) how the mountains have been created (raised out of the earth)?"));
 
-                parah_30.add(new data_model_arabicandurdu("وَالَّذِي قَدَّرَ فَهَدَى", "اور جس نے (ہر ہر چیز کے لئے) قانون مقرر کیا پھر (اسے اپنے اپنے نظام کے مطابق رہنے اور چلنے کا) راستہ بتایا", "And He Who has determined law, and guided (it to its) way (of sustaining and functioning according to its respective system),"));
+                        parah_30.add(new data_model_arabicandurdu("وَإِلَى الْأَرْضِ كَيْفَ سُطِحَتْ","اور زمین کو (نہیں دیکھتے) کہ وہ کس طرح (گولائی کے باوجود) بچھائی گئی ہے","(Nor do they consider) how the earth has been spread out (besides its round shape)?"));
 
-                parah_30.add(new data_model_arabicandurdu("وَالَّذِي أَخْرَجَ الْمَرْعَى", "اور جس نے (زمین سے) چارہ نکالا", "And He Who has brought forth green pasture (from the earth),"));
+                        parah_30.add(new data_model_arabicandurdu("فَذَكِّرْ إِنَّمَا أَنتَ مُذَكِّرٌ","پس آپ نصیحت فرماتے رہئے، آپ تو نصیحت ہی فرمانے والے ہیں","So, continuously admonish them, for you are but an admonisher,"));
 
-                parah_30.add(new data_model_arabicandurdu("فَجَعَلَهُ غُثَاءً أَحْوَى", "پھر اسے سیاہی مائل خشک کردیا", "And then made it blackened stubble."));
+                        parah_30.add(new data_model_arabicandurdu("لَّسْتَ عَلَيْهِم بِمُصَيْطِرٍ","آپ ان پر جابر و قاہر (کے طور پر) مسلط نہیں ہیں","You are not imposed upon them (as) an oppressor and persecutor."));
 
-                parah_30.add(new data_model_arabicandurdu("سَنُقْرِئُكَ فَلَا تَنسَى", "(اے حبیبِ مکرّم!) ہم آپ کو خود (ایسا) پڑھائیں گے کہ آپ (کبھی) نہیں بھولیں گے", "(O Esteemed Beloved!) We shall teach you (in a way) that nothing will you (ever) forget,"));
+                        parah_30.add(new data_model_arabicandurdu("إِلَّا مَن تَوَلَّى وَكَفَرَ","مگر جو رُوگردانی کرے اور کفر کرے","But anyone who turns away and becomes a disbeliever,"));
 
-                parah_30.add(new data_model_arabicandurdu("إِلَّا مَا شَاءَ اللَّهُ إِنَّهُ يَعْلَمُ الْجَهْرَ وَمَا يَخْفَى", "مگر جو اللہ چاہے، بیشک وہ جہر اور خفی (یعنی ظاہر و پوشیدہ اور بلند و آہستہ) سب باتوں کو جانتا ہے", "Except what Allah wills. Indeed, He knows all, the manifest as well as the hidden (i.e., open to human perception as well as veiled from it, and the audible and the inaudible)."));
+                        parah_30.add(new data_model_arabicandurdu("فَيُعَذِّبُهُ اللَّهُ الْعَذَابَ الْأَكْبَرَ","تو اسے اللہ سب سے بڑا عذاب دے گا","Allah will torment him with the greatest punishment."));
 
-                parah_30.add(new data_model_arabicandurdu("وَنُيَسِّرُكَ لِلْيُسْرَى", "اور ہم آپ کو اس آسان (شریعت پر عمل پیرا ہونے) کے لئے (بھی) سہولت فراہم فرمائیں گے", "And We shall (also) facilitate you (to put into practice this) easy (law)."));
+                        parah_30.add(new data_model_arabicandurdu("إِنَّ إِلَيْنَا إِيَابَهُمْ","بیشک (بالآخر) ہماری ہی طرف ان کا پلٹنا ہے","Indeed, it is to Us that they will return (in the end);"));
 
-                parah_30.add(new data_model_arabicandurdu("فَذَكِّرْ إِن نَّفَعَتِ الذِّكْرَى", "پس آپ نصیحت فرماتے رہیے بشرطیکہ نصیحت (سننے والوں کو) فائدہ دے", "So keep admonishing, provided admonition benefits (the listeners)."));
+                        parah_30.add(new data_model_arabicandurdu("ثُمَّ إِنَّ عَلَيْنَا حِسَابَهُمْ","پھر یقیناً ہمارے ہی ذمہ ان کا حساب (لینا) ہے","Then, surely, it is Our concern to call them to account."));
 
-                parah_30.add(new data_model_arabicandurdu("سَيَذَّكَّرُ مَن يَخْشَى", "البتہ وہی نصیحت قبول کرے گا جو اللہ سے ڈرتا ہوگا", "But only he who fears (Allah) will accept the admonition."));
+//                        parah_30.add(new data_model_arabicandurdu("بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ","اللہ کے نام سے شروع جو نہایت مہربان ہمیشہ رحم فرمانے والا ہے","In the Name of Allah, Most Compassionate, Ever-Merciful."));
 
-                parah_30.add(new data_model_arabicandurdu("وَيَتَجَنَّبُهَا الْأَشْقَى", "اور بدبخت اس (نصیحت) سے پہلو تہی کرے گا", "And the wretched one will avoid and evade it,"));
+                        parah_30.add(new data_model_arabicandurdu("بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ" +"\n\n"+"وَالْفَجْرِ" ,"اس صبح کی قَسم (جس سے ظلمتِ شب چھٹ گئی)٭","By the emerging dawn (that dispels the darkness of night),*"));
 
-                parah_30.add(new data_model_arabicandurdu("الَّذِي يَصْلَى النَّارَ الْكُبْرَى", "جو (قیامت کے دن) سب سے بڑی آگ میں داخل ہوگا", "He who will enter the greatest Fire (on the Day of Judgment)."));
+                        parah_30.add(new data_model_arabicandurdu("وَلَيَالٍ عَشْرٍ","اور دس (مبارک) راتوں کی قَسم٭","And by the ten (blessed) nights,*"));
 
-                parah_30.add(new data_model_arabicandurdu("ثُمَّ لَا يَمُوتُ فِيهَا وَلَا يَحْيَى", "پھر وہ اس میں نہ مرے گا اور نہ جیئے گا", "Then he will neither die nor live in it."));
+                        parah_30.add(new data_model_arabicandurdu("وَالشَّفْعِ وَالْوَتْرِ","اور جفت کی قَسم اور طاق کی قَسم٭","And by the even and the odd,*"));
 
-                parah_30.add(new data_model_arabicandurdu("قَدْ أَفْلَحَ مَن تَزَكَّى", "بیشک وہی بامراد ہوا جو (نفس کی آفتوں اور گناہ کی آلودگیوں سے) پاک ہوگیا", "Indeed, only he who is purified (from the afflictions of his ill-commanding self and pollution of sins) will triumph,"));
+                        parah_30.add(new data_model_arabicandurdu("وَاللَّيْلِ إِذَا يَسْرِ","اور رات کی قسم جب گزر چلے (مراد ہر شب ہے یا بطورِ خاص شبِ مزدلفہ یا شبِ قدر)","And by the night as it departs. (Every night or particularly the night of Muzdalifa or the night of Qadr.)"));
 
-                parah_30.add(new data_model_arabicandurdu("وَذَكَرَ اسْمَ رَبِّهِ فَصَلَّى", "اور وہ اپنے رب کے نام کا ذکر کرتا رہا اور (کثرت و پابندی سے) نماز پڑھتا رہا", "And the one who remembers the Name of his Lord and offers Prayers (regularly and abundantly)."));
+                        parah_30.add(new data_model_arabicandurdu("هَلْ فِي ذَلِكَ قَسَمٌ لِّذِي حِجْرٍ","بیشک ان میں عقل مند کے لئے بڑی قسم ہے","Surely, in that is a mighty oath for the wise."));
 
-                parah_30.add(new data_model_arabicandurdu("بَلْ تُؤْثِرُونَ الْحَيَاةَ الدُّنْيَا", "بلکہ تم (اللہ کی طرف رجوع کرنے کی بجائے) دنیاوی زندگی (کی لذتوں) کو اختیار کرتے ہو", "Yet you go for (the pleasures of) the worldly life (instead of turning towards Allah),"));
+                        parah_30.add(new data_model_arabicandurdu("أَلَمْ تَرَ كَيْفَ فَعَلَ رَبُّكَ بِعَادٍ","کیا آپ نے نہیں دیکھا کہ آپ کے رب نے (قومِ) عاد کے ساتھ کیسا (سلوک) کیا؟","Have you not seen how your Lord treated (the people of ‘Ad)?"));
 
-                parah_30.add(new data_model_arabicandurdu("وَالْآخِرَةُ خَيْرٌ وَأَبْقَى", "حالانکہ آخرت (کی لذت و راحت) بہتر اور ہمیشہ باقی رہنے والی ہے", "Whereas (the comfort and pleasure of) the Hereafter is preferable and everlasting."));
+                        parah_30.add(new data_model_arabicandurdu("إِرَمَ ذَاتِ الْعِمَادِ","(جو اہلِ) اِرم تھے (اور) بڑے بڑے ستونوں (کی طرح دراز قد اور اونچے محلات) والے تھے","(They) were (the people) of Iram (and) were (tall like) lofty columns (possessing towering castles),"));
 
-                parah_30.add(new data_model_arabicandurdu("إِنَّ هَذَا لَفِي الصُّحُفِ الْأُولَى", "بیشک یہ (تعلیم) اگلے صحیفوں میں (بھی مذکور) ہے", "Indeed, this (enlightenment) is (also contained) in earlier scriptures,"));
+                        parah_30.add(new data_model_arabicandurdu("الَّتِي لَمْ يُخْلَقْ مِثْلُهَا فِي الْبِلَادِ","جن کا مثل (دنیا کے) ملکوں میں (کوئی بھی) پیدا نہیں کیا گیا","The like of which has not (at all) been created in the countries (of the world)."));
 
-                parah_30.add(new data_model_arabicandurdu("صُحُفِ إِبْرَاهِيمَ وَمُوسَى", "(جو) ابراہیم اور موسٰی (علیہما السلام) کے صحائف ہیں", "The scriptures of Ibrahim (Abraham) and Musa (Moses)."));
+                        parah_30.add(new data_model_arabicandurdu("وَثَمُودَ الَّذِينَ جَابُوا الصَّخْرَ بِالْوَادِ","اور ثمود (کے ساتھ کیا سلوک ہوا) جنہوں نے وادئ (قری) میں چٹانوں کو کاٹ (کر پتھروں سے سینکڑوں شہروں کو تعمیر کر) ڈالا تھا","And (what treatment was given to) Thamud, who carved rocks (and constructed hundreds of cities) in the (Qura) valley?"));
 
-                parah_30.add(new data_model_arabicandurdu("بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ", "اللہ کے نام سے شروع جو نہایت مہربان ہمیشہ رحم فرمانے والا ہے", "In the Name of Allah, Most Compassionate, Ever-Merciful."));
+                        parah_30.add(new data_model_arabicandurdu("وَفِرْعَوْنَ ذِي الْأَوْتَادِ","اور فرعون (کا کیا حشر ہوا) جو بڑے لشکروں والا (یا لوگوں کو میخوں سے سزا دینے والا) تھا","And (how was) Pharaoh (dealt with), who wielded large armies (and used to punish victims with stakes)?"));
 
-                parah_30.add(new data_model_arabicandurdu("هَلْ أَتَاكَ حَدِيثُ الْغَاشِيَةِ", "کیا آپ کو (ہر چیز پر) چھا جانے والی قیامت کی خبر پہنچی ہے", "Has the news of the Calamity overwhelming (everything) reached you?"));
+                        parah_30.add(new data_model_arabicandurdu("الَّذِينَ طَغَوْا فِي الْبِلَادِ","(یہ) وہ لوگ (تھے) جنہوں نے (اپنے اپنے) ملکوں میں سرکشی کی تھی","(They were) the people who perpetrated tyranny in their (respective) countries,"));
 
-                parah_30.add(new data_model_arabicandurdu("وُجُوهٌ يَوْمَئِذٍ خَاشِعَةٌ", "اس دن کتنے ہی چہرے ذلیل و خوار ہوں گے", "Many faces on that Day will be humiliated and degraded,"));
+                        parah_30.add(new data_model_arabicandurdu("فَأَكْثَرُوا فِيهَا الْفَسَادَ","پھر ان میں بڑی فساد انگیزی کی تھی","And spread great mischief and corruption there."));
 
-                parah_30.add(new data_model_arabicandurdu("عَامِلَةٌ نَّاصِبَةٌ", "(اللہ کو بھول کر دنیاوی) محنت کرنے والے (چند روزہ عیش و آرام کی خاطر سخت) مشقتیں جھیلنے والے", "(Forgetting Allah,) toiling (for worldly gains), sustaining (strenuous) rigours (for a fleeting luxury),"));
+                        parah_30.add(new data_model_arabicandurdu("فَصَبَّ عَلَيْهِمْ رَبُّكَ سَوْطَ عَذَابٍ","تو آپ کے رب نے ان پر عذاب کا کوڑا برسایا","Then your Lord unleashed the scourge of punishment on them."));
 
-                parah_30.add(new data_model_arabicandurdu("تَصْلَى نَارًا حَامِيَةً", "دہکتی ہوئی آگ میں جا گریں گے", "Will plunge into the Blazing Fire."));
+                        parah_30.add(new data_model_arabicandurdu("إِنَّ رَبَّكَ لَبِالْمِرْصَادِ","بیشک آپ کا رب (سرکشوں اور نافرمانوں کی) خوب تاک میں ہے","Indeed, your Lord is Ever-Watchful (over the tyrant transgressors)."));
 
-                parah_30.add(new data_model_arabicandurdu("تُسْقَى مِنْ عَيْنٍ آنِيَةٍ", "(انہیں) کھولتے ہوئے چشمہ سے (پانی) پلایا جائے گا", "(They will be) offered to drink (water) from a boiling spring."));
+                        parah_30.add(new data_model_arabicandurdu("فَأَمَّا الْإِنسَانُ إِذَا مَا ابْتَلَاهُ رَبُّهُ فَأَكْرَمَهُ وَنَعَّمَهُ فَيَقُولُ رَبِّي أَكْرَمَنِ","مگر انسان (ایسا ہے) کہ جب اس کا رب اسے (راحت و آسائش دے کر) آزماتا ہے اور اسے عزت سے نوازتا ہے اور اسے نعمتیں بخشتا ہے تو وہ کہتا ہے: میرے رب نے مجھ پر کرم فرمایا","But as for man, when his Lord tests him (by providing him pleasure and comfort) and honours him and gives him bounties, he says: ‘My Lord has honoured me.’"));
 
-                parah_30.add(new data_model_arabicandurdu("لَّيْسَ لَهُمْ طَعَامٌ إِلَّا مِن ضَرِيعٍ", "ان کے لئے خاردار خشک زہریلی جھاڑیوں کے سوا کچھ کھانا نہ ہوگا", "They will have no food except thorny and dry venomous herbage."));
+                        parah_30.add(new data_model_arabicandurdu("وَأَمَّا إِذَا مَا ابْتَلَاهُ فَقَدَرَ عَلَيْهِ رِزْقَهُ فَيَقُولُ رَبِّي أَهَانَنِ","لیکن جب وہ اسے (تکلیف و مصیبت دے کر) آزماتا ہے اور اس پر اس کا رزق تنگ کرتا ہے تو وہ کہتا ہے: میرے رب نے مجھے ذلیل کر دیا","But when He tries him (by afflicting him with pain and discomfort) and limits his means of sustenance, he says: ‘My Lord has humiliated me.’"));
 
-                parah_30.add(new data_model_arabicandurdu("لاَّ يُسْمِنُ وَلَا يُغْنِي مِن جُوعٍ", "(یہ کھانا) نہ فربہ کرے گا اور نہ بھوک ہی دور کرے گا", "(This food) will neither nourish nor gratify hunger."));
+                        parah_30.add(new data_model_arabicandurdu("كَلَّا بَل لَّا تُكْرِمُونَ الْيَتِيمَ","یہ بات نہیں بلکہ (حقیقت یہ ہے کہ عزت اور مال و دولت کے ملنے پر) تم یتیموں کی قدر و اِکرام نہیں کرتے","No indeed! But (the truth is that after you gain honour and good fortune), you do not give honour and care to orphans."));
 
-                parah_30.add(new data_model_arabicandurdu("وُجُوهٌ يَوْمَئِذٍ نَّاعِمَةٌ", "(اس کے برعکس) اس دن بہت سے چہرے (حسین) بارونق اور ترو تازہ ہوں گے", "(On the contrary) that Day a number of faces will be (pleasing to the eye,) glowing with joy and freshness,"));
+                        parah_30.add(new data_model_arabicandurdu("وَلَا تَحَاضُّونَ عَلَى طَعَامِ الْمِسْكِينِ","اور نہ ہی تم مسکینوں (یعنی غریبوں اور محتاجوں) کو کھانا کھلانے کی (معاشرے میں) ایک دوسرے کو ترغیب دیتے ہو","Nor do you inspire one another (in society) to promote the feeding of the destitute (i.e., the poor and the needy)."));
 
-                parah_30.add(new data_model_arabicandurdu("لِّسَعْيِهَا رَاضِيَةٌ", "اپنی (نیک) کاوشوں کے باعث خوش و خرم ہوں گے", "Delighted and rejoicing over their (righteous) travail,"));
+                        parah_30.add(new data_model_arabicandurdu("وَتَأْكُلُونَ التُّرَاثَ أَكْلًا لَّمًّا","اور وراثت کا سارا مال سمیٹ کر (خود ہی) کھا جاتے ہو (اس میں سے افلاس زدہ لوگوں کا حق نہیں نکالتے)","And you lay hand on the inherited wealth and devour it (yourselves and do not pay the poverty-stricken their due)."));
 
-                parah_30.add(new data_model_arabicandurdu("فِي جَنَّةٍ عَالِيَةٍ", "عالی شان جنت میں (قیام پذیر) ہوں گے", "(Abiding) in a magnificent Paradise,"));
+                        parah_30.add(new data_model_arabicandurdu("وَتُحِبُّونَ الْمَالَ حُبًّا جَمًّا","اور تم مال و دولت سے حد درجہ محبت رکھتے ہو","And you love wealth and riches inordinately."));
 
-                parah_30.add(new data_model_arabicandurdu("لَّا تَسْمَعُ فِيهَا لَاغِيَةً", "اس میں کوئی لغو بات نہ سنیں گے (جیسے اہلِ باطل ان سے دنیا میں کیا کرتے تھے)", "Where they will not hear anything absurd (as the disbelievers used to say to them in the world)."));
+                        parah_30.add(new data_model_arabicandurdu("كَلَّا إِذَا دُكَّتِ الْأَرْضُ دَكًّا دَكًّا","یقیناً جب زمین پاش پاش کر کے ریزہ ریزہ کر دی جائے گی","Assuredly, when the earth will be cleft asunder and crushed to dust particles,"));
 
-                parah_30.add(new data_model_arabicandurdu("فِيهَا عَيْنٌ جَارِيَةٌ", "اس میں بہتے ہوئے چشمے ہوں گے", "In it there will be flowing springs,"));
+                        parah_30.add(new data_model_arabicandurdu("وَجَاءَ رَبُّكَ وَالْمَلَكُ صَفًّا صَفًّا","اور آپ کا رب جلوہ فرما ہوگا اور فرشتے قطار در قطار (اس کے حضور) حاضر ہوں گے","And your Lord will unveil His Light and the angels will appear (before His presence) rank upon rank,"));
 
-                parah_30.add(new data_model_arabicandurdu("فِيهَا سُرُرٌ مَّرْفُوعَةٌ", "اس میں اونچے (بچھے ہوئے) تخت ہوں گے", "And raised-up couches (laid),"));
+                        parah_30.add(new data_model_arabicandurdu("وَجِيءَ يَوْمَئِذٍ بِجَهَنَّمَ يَوْمَئِذٍ يَتَذَكَّرُ الْإِنسَانُ وَأَنَّى لَهُ الذِّكْرَى","اور اس دن دوزخ پیش کی جائے گی، اس دن انسان کو سمجھ آجائے گی مگر (اب) اسے نصیحت کہاں (فائدہ مند) ہوگی","And that Day, Hell will be brought forth. On that Day man will come to understand, but how will admonition (avail him then)?"));
 
-                parah_30.add(new data_model_arabicandurdu("وَأَكْوَابٌ مَّوْضُوعَةٌ", "اور جام (بڑے قرینے سے) رکھے ہوئے ہوں گے", "And goblets (decently) set in place,"));
+                        parah_30.add(new data_model_arabicandurdu("يَقُولُ يَا لَيْتَنِي قَدَّمْتُ لِحَيَاتِي","وہ کہے گا: اے کاش! میں نے اپنی (اس اصل) زندگی کے لئے (کچھ) آگے بھیج دیا ہوتا (جو آج میرے کام آتا)","He will say: ‘Would that I had sent (something) ahead of me for my (real) life (which would have helped me Today)!’"));
 
-                parah_30.add(new data_model_arabicandurdu("وَنَمَارِقُ مَصْفُوفَةٌ", "اور غالیچے اور گاؤ تکیے قطار در قطار لگے ہوں گے", "And silken cushions orderly lined up,"));
+                        parah_30.add(new data_model_arabicandurdu("فَيَوْمَئِذٍ لَّا يُعَذِّبُ عَذَابَهُ أَحَدٌ","سو اس دن نہ اس کے عذاب کی طرح کوئی عذاب دے سکے گا","But that Day no one will be able to torment like His torment,"));
 
-                parah_30.add(new data_model_arabicandurdu("وَزَرَابِيُّ مَبْثُوثَةٌ", "اور نرم و نفیس قالین اور مَسندیں بچھی ہوں گی", "And soft and refined carpets and rugs (richly) spread."));
+                        parah_30.add(new data_model_arabicandurdu("وَلَا يُوثِقُ وَثَاقَهُ أَحَدٌ","اور نہ اس کے جکڑنے کی طرح کوئی جکڑ سکے گا","And no one will be able to bind as He binds."));
 
-                parah_30.add(new data_model_arabicandurdu("أَفَلَا يَنظُرُونَ إِلَى الْإِبِلِ كَيْفَ خُلِقَتْ", "(منکرین تعجب کرتے ہیں کہ جنت میں یہ سب کچھ کیسے بن جائے گا! تو) کیا یہ لوگ اونٹ کی طرف نہیں دیکھتے کہ وہ کس طرح (عجیب ساخت پر) بنایا گیا ہے", "(The disbelievers wonder how all that would be arranged in Paradise. So) do they not see how the camel has been created (in an unusual form)?"));
+                        parah_30.add(new data_model_arabicandurdu("يَا أَيَّتُهَا النَّفْسُ الْمُطْمَئِنَّةُ","اے اطمینان پا جانے والے نفس","O contented (pleased) self!"));
 
-                parah_30.add(new data_model_arabicandurdu("وَإِلَى السَّمَاءِ كَيْفَ رُفِعَتْ", "اور آسمان کی طرف (نگاہ نہیں کرتے) کہ وہ کیسے (عظیم وسعتوں کے ساتھ) اٹھایا گیا ہے", "And (do they not observe) how the heaven is raised so high (with its vast expanse)?"));
+                        parah_30.add(new data_model_arabicandurdu("ارْجِعِي إِلَى رَبِّكِ رَاضِيَةً مَّرْضِيَّةً","تو اپنے رب کی طرف اس حال میں لوٹ آکہ تو اس کی رضا کا طالب بھی ہو اور اس کی رضا کا مطلوب بھی (گویا اس کی رضا تیری مطلوب ہو اور تیری رضا اس کی مطلوب)","Return to your Lord in such a state that you are both the aspirant to, and the aspired of, His pleasure (i.e., you seek His pleasure and He seeks yours)."));
 
-                parah_30.add(new data_model_arabicandurdu("وَإِلَى الْجِبَالِ كَيْفَ نُصِبَتْ", "اور پہاڑوں کو (نہیں دیکھتے) کہ وہ کس طرح (زمین سے ابھار کر) کھڑے کئے گئے ہیں", "And (do they not see) how the mountains have been created (raised out of the earth)?"));
+                        parah_30.add(new data_model_arabicandurdu("فَادْخُلِي فِي عِبَادِي","پس تو میرے (کامل) بندوں میں شامل ہو جا","So join My (perfect) servants."));
 
-                parah_30.add(new data_model_arabicandurdu("وَإِلَى الْأَرْضِ كَيْفَ سُطِحَتْ", "اور زمین کو (نہیں دیکھتے) کہ وہ کس طرح (گولائی کے باوجود) بچھائی گئی ہے", "(Nor do they consider) how the earth has been spread out (besides its round shape)?"));
+                        parah_30.add(new data_model_arabicandurdu("وَادْخُلِي جَنَّتِي","اور میری جنتِ (قربت و دیدار) میں داخل ہو جا","And enter My Paradise (of nearness and sight)."));
 
-                parah_30.add(new data_model_arabicandurdu("فَذَكِّرْ إِنَّمَا أَنتَ مُذَكِّرٌ", "پس آپ نصیحت فرماتے رہئے، آپ تو نصیحت ہی فرمانے والے ہیں", "So, continuously admonish them, for you are but an admonisher,"));
+//                        parah_30.add(new data_model_arabicandurdu("بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ","اللہ کے نام سے شروع جو نہایت مہربان ہمیشہ رحم فرمانے والا ہے","In the Name of Allah, Most Compassionate, Ever-Merciful."));
 
-                parah_30.add(new data_model_arabicandurdu("لَّسْتَ عَلَيْهِم بِمُصَيْطِرٍ", "آپ ان پر جابر و قاہر (کے طور پر) مسلط نہیں ہیں", "You are not imposed upon them (as) an oppressor and persecutor."));
+                        parah_30.add(new data_model_arabicandurdu("بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ" +"\n\n"+"لَا أُقْسِمُ بِهَذَا الْبَلَدِ" ,"میں اس شہر (مکہ) کی قَسم کھاتا ہوں","I swear by this city (Mecca),"));
 
-                parah_30.add(new data_model_arabicandurdu("إِلَّا مَن تَوَلَّى وَكَفَرَ", "مگر جو رُوگردانی کرے اور کفر کرے", "But anyone who turns away and becomes a disbeliever,"));
+                        parah_30.add(new data_model_arabicandurdu("وَأَنتَ حِلٌّ بِهَذَا الْبَلَدِ","(اے حبیبِ مکرّم!) اس لئے کہ آپ اس شہر میں تشریف فرما ہیں٭","(O My Esteemed Beloved,) because you are residing in it.*"));
 
-                parah_30.add(new data_model_arabicandurdu("فَيُعَذِّبُهُ اللَّهُ الْعَذَابَ الْأَكْبَرَ", "تو اسے اللہ سب سے بڑا عذاب دے گا", "Allah will torment him with the greatest punishment."));
+                        parah_30.add(new data_model_arabicandurdu("وَوَالِدٍ وَمَا وَلَدَ","(اے حبیبِ مکرّم! آپ کے) والد (آدم یا ابراہیم علیہما السلام) کی قَسم اور (ان کی) قَسم جن کی ولادت ہوئی٭","(O My Esteemed Beloved!) By (your) father (Adam or Ibrahim [Abraham]) and by those who are born,*"));
 
-                parah_30.add(new data_model_arabicandurdu("إِنَّ إِلَيْنَا إِيَابَهُمْ", "بیشک (بالآخر) ہماری ہی طرف ان کا پلٹنا ہے", "Indeed, it is to Us that they will return (in the end);"));
+                        parah_30.add(new data_model_arabicandurdu("لَقَدْ خَلَقْنَا الْإِنسَانَ فِي كَبَدٍ","بیشک ہم نے انسان کو مشقت میں (مبتلا رہنے والا) پیدا کیا ہے","Indeed, We have created man (ever suffering) in rigours."));
 
-                parah_30.add(new data_model_arabicandurdu("ثُمَّ إِنَّ عَلَيْنَا حِسَابَهُمْ", "پھر یقیناً ہمارے ہی ذمہ ان کا حساب (لینا) ہے", "Then, surely, it is Our concern to call them to account."));
+                        parah_30.add(new data_model_arabicandurdu("أَيَحْسَبُ أَن لَّن يَقْدِرَ عَلَيْهِ أَحَدٌ","کیا وہ یہ گمان کرتا ہے کہ اس پر ہرگز کوئی بھی قابو نہ پا سکے گا؟","Does he think that no one can ever overpower him?"));
 
-                parah_30.add(new data_model_arabicandurdu("بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ", "اللہ کے نام سے شروع جو نہایت مہربان ہمیشہ رحم فرمانے والا ہے", "In the Name of Allah, Most Compassionate, Ever-Merciful."));
+                        parah_30.add(new data_model_arabicandurdu("يَقُولُ أَهْلَكْتُ مَالًا لُّبَدًا","وہ (بڑے فخر سے) کہتا ہے کہ میں نے ڈھیروں مال خرچ کیا ہے","(Boasting,) he says: ‘I have spent heaps of wealth.’"));
 
-                parah_30.add(new data_model_arabicandurdu("وَالْفَجْرِ", "اس صبح کی قَسم (جس سے ظلمتِ شب چھٹ گئی)٭", "By the emerging dawn (that dispels the darkness of night),*"));
+                        parah_30.add(new data_model_arabicandurdu("أَيَحْسَبُ أَن لَّمْ يَرَهُ أَحَدٌ","کیا وہ یہ خیال کرتا ہے کہ اسے (یہ فضول خرچیاں کرتے ہوئے) کسی نے نہیں دیکھا","Does he think that no one has seen him (making this extravagant spending)?"));
 
-                parah_30.add(new data_model_arabicandurdu("وَلَيَالٍ عَشْرٍ", "اور دس (مبارک) راتوں کی قَسم٭", "And by the ten (blessed) nights,*"));
+                        parah_30.add(new data_model_arabicandurdu("أَلَمْ نَجْعَل لَّهُ عَيْنَيْنِ","کیا ہم نے اس کے لئے دو آنکھیں نہیں بنائیں","Have We not made for him two eyes?"));
 
-                parah_30.add(new data_model_arabicandurdu("وَالشَّفْعِ وَالْوَتْرِ", "اور جفت کی قَسم اور طاق کی قَسم٭", "And by the even and the odd,*"));
+                        parah_30.add(new data_model_arabicandurdu("وَلِسَانًا وَشَفَتَيْنِ","اور (اسے) ایک زبان اور دو ہونٹ (نہیں دئیے)","And (have We not given him) a tongue and two lips?"));
 
-                parah_30.add(new data_model_arabicandurdu("وَاللَّيْلِ إِذَا يَسْرِ", "اور رات کی قسم جب گزر چلے (مراد ہر شب ہے یا بطورِ خاص شبِ مزدلفہ یا شبِ قدر)", "And by the night as it departs. (Every night or particularly the night of Muzdalifa or the night of Qadr.)"));
+                        parah_30.add(new data_model_arabicandurdu("وَهَدَيْنَاهُ النَّجْدَيْنِ","اور ہم نے اسے (خیر و شر کے) دو نمایاں راستے (بھی) دکھا دیئے","And (have We also not) shown him the two highways (of good and evil)?"));
 
-                parah_30.add(new data_model_arabicandurdu("هَلْ فِي ذَلِكَ قَسَمٌ لِّذِي حِجْرٍ", "بیشک ان میں عقل مند کے لئے بڑی قسم ہے", "Surely, in that is a mighty oath for the wise."));
+                        parah_30.add(new data_model_arabicandurdu("فَلَا اقْتَحَمَ الْعَقَبَةَ","وہ تو (دینِ حق اور عملِ خیر کی) دشوار گزار گھاٹی میں داخل ہی نہیں ہوا","But he has not yet attempted the steep ascent (of the Din [Religion]) of truth and the practical life dedicated to good and piety)."));
 
-                parah_30.add(new data_model_arabicandurdu("أَلَمْ تَرَ كَيْفَ فَعَلَ رَبُّكَ بِعَادٍ", "کیا آپ نے نہیں دیکھا کہ آپ کے رب نے (قومِ) عاد کے ساتھ کیسا (سلوک) کیا؟", "Have you not seen how your Lord treated (the people of ‘Ad)?"));
+                        parah_30.add(new data_model_arabicandurdu("وَمَا أَدْرَاكَ مَا الْعَقَبَةُ","اور آپ کیا سمجھے ہیں کہ وہ (دینِ حق کے مجاہدہ کی) گھاٹی کیا ہے","And what have you thought of the steep ascent (of the rigours of the Din [Religion] of truth)?"));
 
-                parah_30.add(new data_model_arabicandurdu("إِرَمَ ذَاتِ الْعِمَادِ", "(جو اہلِ) اِرم تھے (اور) بڑے بڑے ستونوں (کی طرح دراز قد اور اونچے محلات) والے تھے", "(They) were (the people) of Iram (and) were (tall like) lofty columns (possessing towering castles),"));
+                        parah_30.add(new data_model_arabicandurdu("فَكُّ رَقَبَةٍ","وہ (غلامی و محکومی کی زندگی سے) کسی گردن کا آزاد کرانا ہے","It is freeing a neck (from slavery and subjugation),"));
 
-                parah_30.add(new data_model_arabicandurdu("الَّتِي لَمْ يُخْلَقْ مِثْلُهَا فِي الْبِلَادِ", "جن کا مثل (دنیا کے) ملکوں میں (کوئی بھی) پیدا نہیں کیا گیا", "The like of which has not (at all) been created in the countries (of the world)."));
+                        parah_30.add(new data_model_arabicandurdu("أَوْ إِطْعَامٌ فِي يَوْمٍ ذِي مَسْغَبَةٍ","یا بھوک والے دن (یعنی قحط و اَفلاس کے دور میں غریبوں اور محروم المعیشت لوگوں کو) کھانا کھلانا ہے (یعنی ان کے معاشی تعطل اور ابتلاء کو ختم کرنے کی جدّ و جہد کرنا ہے)","Or feeding on a day of scarcity (the poor and the needy during famine and scarcity i.e., striving to put an end to their sufferings and economic crises),"));
 
-                parah_30.add(new data_model_arabicandurdu("وَثَمُودَ الَّذِينَ جَابُوا الصَّخْرَ بِالْوَادِ", "اور ثمود (کے ساتھ کیا سلوک ہوا) جنہوں نے وادئ (قری) میں چٹانوں کو کاٹ (کر پتھروں سے سینکڑوں شہروں کو تعمیر کر) ڈالا تھا", "And (what treatment was given to) Thamud, who carved rocks (and constructed hundreds of cities) in the (Qura) valley?"));
+                        parah_30.add(new data_model_arabicandurdu("يَتِيمًا ذَا مَقْرَبَةٍ","قرابت دار یتیم کو","The orphaned relative,"));
 
-                parah_30.add(new data_model_arabicandurdu("وَفِرْعَوْنَ ذِي الْأَوْتَادِ", "اور فرعون (کا کیا حشر ہوا) جو بڑے لشکروں والا (یا لوگوں کو میخوں سے سزا دینے والا) تھا", "And (how was) Pharaoh (dealt with), who wielded large armies (and used to punish victims with stakes)?"));
+                        parah_30.add(new data_model_arabicandurdu("أَوْ مِسْكِينًا ذَا مَتْرَبَةٍ","یا شدید غربت کے مارے ہوئے محتاج کو جو محض خاک نشین (اور بے گھر) ہے","Or the poverty-stricken destitute who is completely rundown (and homeless)."));
 
-                parah_30.add(new data_model_arabicandurdu("الَّذِينَ طَغَوْا فِي الْبِلَادِ", "(یہ) وہ لوگ (تھے) جنہوں نے (اپنے اپنے) ملکوں میں سرکشی کی تھی", "(They were) the people who perpetrated tyranny in their (respective) countries,"));
+                        parah_30.add(new data_model_arabicandurdu("ثُمَّ كَانَ مِنَ الَّذِينَ آمَنُوا وَتَوَاصَوْا بِالصَّبْرِ وَتَوَاصَوْا بِالْمَرْحَمَةِ","پھر (شرط یہ ہے کہ ایسی جدّ و جہد کرنے والا) وہ شخص ان لوگوں میں سے ہو جو ایمان لائے ہیں اور ایک دوسرے کو صبر و تحمل کی نصیحت کرتے ہیں اور باہم رحمت و شفقت کی تاکید کرتے ہیں","(Provided this striving soul is) one of those who believe and advise one another patience and tolerance and urge one another for mutual affection and mercy."));
 
-                parah_30.add(new data_model_arabicandurdu("فَأَكْثَرُوا فِيهَا الْفَسَادَ", "پھر ان میں بڑی فساد انگیزی کی تھی", "And spread great mischief and corruption there."));
+                        parah_30.add(new data_model_arabicandurdu("أُوْلَئِكَ أَصْحَابُ الْمَيْمَنَةِ","یہی لوگ دائیں طرف والے (یعنی اہلِ سعادت و مغفرت) ہیں","These are the people of the Right Hand (i.e., the privileged and the pardoned)."));
 
-                parah_30.add(new data_model_arabicandurdu("فَصَبَّ عَلَيْهِمْ رَبُّكَ سَوْطَ عَذَابٍ", "تو آپ کے رب نے ان پر عذاب کا کوڑا برسایا", "Then your Lord unleashed the scourge of punishment on them."));
+                        parah_30.add(new data_model_arabicandurdu("وَالَّذِينَ كَفَرُوا بِآيَاتِنَا هُمْ أَصْحَابُ الْمَشْأَمَةِ","اور جن لوگوں نے ہماری آیتوں کا انکار کیا وہ بائیں طرف والے ہیں (یعنی اہلِ شقاوت و عذاب) ہیں","And those who reject Our signs are the people of the Left Hand (the callous and the doomed)."));
 
-                parah_30.add(new data_model_arabicandurdu("إِنَّ رَبَّكَ لَبِالْمِرْصَادِ", "بیشک آپ کا رب (سرکشوں اور نافرمانوں کی) خوب تاک میں ہے", "Indeed, your Lord is Ever-Watchful (over the tyrant transgressors)."));
+                        parah_30.add(new data_model_arabicandurdu("عَلَيْهِمْ نَارٌ مُّؤْصَدَةٌ","ان پر (ہر طرف سے) بند کی ہوئی آگ (چھائی) ہوگی","Fire will be enclosed upon them (covering from all sides)."));
 
-                parah_30.add(new data_model_arabicandurdu("فَأَمَّا الْإِنسَانُ إِذَا مَا ابْتَلَاهُ رَبُّهُ فَأَكْرَمَهُ وَنَعَّمَهُ فَيَقُولُ رَبِّي أَكْرَمَنِ", "مگر انسان (ایسا ہے) کہ جب اس کا رب اسے (راحت و آسائش دے کر) آزماتا ہے اور اسے عزت سے نوازتا ہے اور اسے نعمتیں بخشتا ہے تو وہ کہتا ہے: میرے رب نے مجھ پر کرم فرمایا", "But as for man, when his Lord tests him (by providing him pleasure and comfort) and honours him and gives him bounties, he says: ‘My Lord has honoured me.’"));
+//                        parah_30.add(new data_model_arabicandurdu("بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ","اللہ کے نام سے شروع جو نہایت مہربان ہمیشہ رحم فرمانے والا ہے","In the Name of Allah, Most Compassionate, Ever-Merciful."));
 
-                parah_30.add(new data_model_arabicandurdu("وَأَمَّا إِذَا مَا ابْتَلَاهُ فَقَدَرَ عَلَيْهِ رِزْقَهُ فَيَقُولُ رَبِّي أَهَانَنِ", "لیکن جب وہ اسے (تکلیف و مصیبت دے کر) آزماتا ہے اور اس پر اس کا رزق تنگ کرتا ہے تو وہ کہتا ہے: میرے رب نے مجھے ذلیل کر دیا", "But when He tries him (by afflicting him with pain and discomfort) and limits his means of sustenance, he says: ‘My Lord has humiliated me.’"));
+                        parah_30.add(new data_model_arabicandurdu("بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ" +"\n\n"+"وَالشَّمْسِ وَضُحَاهَا" ,"سورج کی قَسم اور اس کی روشنی کی قَسم","By the sun and by its brightness,"));
 
-                parah_30.add(new data_model_arabicandurdu("كَلَّا بَل لَّا تُكْرِمُونَ الْيَتِيمَ", "یہ بات نہیں بلکہ (حقیقت یہ ہے کہ عزت اور مال و دولت کے ملنے پر) تم یتیموں کی قدر و اِکرام نہیں کرتے", "No indeed! But (the truth is that after you gain honour and good fortune), you do not give honour and care to orphans."));
+                        parah_30.add(new data_model_arabicandurdu("وَالْقَمَرِ إِذَا تَلَاهَا","اور چاند کی قَسم جب وہ سورج کی پیروی کرے (یعنی اس کی روشنی سے چمکے)","And by the moon when it follows the sun (i.e., reflects sunshine),"));
 
-                parah_30.add(new data_model_arabicandurdu("وَلَا تَحَاضُّونَ عَلَى طَعَامِ الْمِسْكِينِ", "اور نہ ہی تم مسکینوں (یعنی غریبوں اور محتاجوں) کو کھانا کھلانے کی (معاشرے میں) ایک دوسرے کو ترغیب دیتے ہو", "Nor do you inspire one another (in society) to promote the feeding of the destitute (i.e., the poor and the needy)."));
+                        parah_30.add(new data_model_arabicandurdu("وَالنَّهَارِ إِذَا جَلَّاهَا","اور دن کی قَسم جب وہ سورج کو ظاہر کرے (یعنی اسے روشن دکھائے)","And by the day when it displays the sun (i.e., brings it forth shining),"));
 
-                parah_30.add(new data_model_arabicandurdu("وَتَأْكُلُونَ التُّرَاثَ أَكْلًا لَّمًّا", "اور وراثت کا سارا مال سمیٹ کر (خود ہی) کھا جاتے ہو (اس میں سے افلاس زدہ لوگوں کا حق نہیں نکالتے)", "And you lay hand on the inherited wealth and devour it (yourselves and do not pay the poverty-stricken their due)."));
+                        parah_30.add(new data_model_arabicandurdu("وَاللَّيْلِ إِذَا يَغْشَاهَا","اور رات کی قَسم جب وہ سورج کو (زمین کی ایک سمت سے) ڈھانپ لے","And by the night when it draws a veil over the sun (from one of the hemispheres of the earth),"));
 
-                parah_30.add(new data_model_arabicandurdu("وَتُحِبُّونَ الْمَالَ حُبًّا جَمًّا", "اور تم مال و دولت سے حد درجہ محبت رکھتے ہو", "And you love wealth and riches inordinately."));
+                        parah_30.add(new data_model_arabicandurdu("وَالسَّمَاءِ وَمَا بَنَاهَا","اور آسمان کی قَسم اور اس (قوت) کی قَسم جس نے اسے (اذنِ الٰہی سے ایک وسیع کائنات کی شکل میں) تعمیر کیا","And by the heaven and by that (energy) which built it (with Allah’s permission in the form of a vast universe),"));
 
-                parah_30.add(new data_model_arabicandurdu("كَلَّا إِذَا دُكَّتِ الْأَرْضُ دَكًّا دَكًّا", "یقیناً جب زمین پاش پاش کر کے ریزہ ریزہ کر دی جائے گی", "Assuredly, when the earth will be cleft asunder and crushed to dust particles,"));
+                        parah_30.add(new data_model_arabicandurdu("وَالْأَرْضِ وَمَا طَحَاهَا","اور زمین کی قَسم اور اس (قوت) کی قَسم جو اسے (امرِ الٰہی سے سورج سے کھینچ دور) لے گئی","And by the earth and by that (force which, by Allah’s command,) pulled it (from the sun far) apart."));
 
-                parah_30.add(new data_model_arabicandurdu("وَجَاءَ رَبُّكَ وَالْمَلَكُ صَفًّا صَفًّا", "اور آپ کا رب جلوہ فرما ہوگا اور فرشتے قطار در قطار (اس کے حضور) حاضر ہوں گے", "And your Lord will unveil His Light and the angels will appear (before His presence) rank upon rank,"));
+                        parah_30.add(new data_model_arabicandurdu("وَنَفْسٍ وَمَا سَوَّاهَا","اور انسانی جان کی قَسم اور اسے ہمہ پہلو توازن و درستگی دینے والے کی قَسم","And by the human soul and by the One Who provided it with an all-dimensional poise, proportion and perfection,"));
 
-                parah_30.add(new data_model_arabicandurdu("وَجِيءَ يَوْمَئِذٍ بِجَهَنَّمَ يَوْمَئِذٍ يَتَذَكَّرُ الْإِنسَانُ وَأَنَّى لَهُ الذِّكْرَى", "اور اس دن دوزخ پیش کی جائے گی، اس دن انسان کو سمجھ آجائے گی مگر (اب) اسے نصیحت کہاں (فائدہ مند) ہوگی", "And that Day, Hell will be brought forth. On that Day man will come to understand, but how will admonition (avail him then)?"));
+                        parah_30.add(new data_model_arabicandurdu("فَأَلْهَمَهَا فُجُورَهَا وَتَقْوَاهَا","پھر اس نے اسے اس کی بدکاری اور پرہیزگاری (کی تمیز) سمجھا دی","Then He inspired it with (discrimination between) vice and virtue,"));
 
-                parah_30.add(new data_model_arabicandurdu("يَقُولُ يَا لَيْتَنِي قَدَّمْتُ لِحَيَاتِي", "وہ کہے گا: اے کاش! میں نے اپنی (اس اصل) زندگی کے لئے (کچھ) آگے بھیج دیا ہوتا (جو آج میرے کام آتا)", "He will say: ‘Would that I had sent (something) ahead of me for my (real) life (which would have helped me Today)!’"));
+                        parah_30.add(new data_model_arabicandurdu("قَدْ أَفْلَحَ مَن زَكَّاهَا","بیشک وہ شخص فلاح پا گیا جس نے اس (نفس) کو (رذائل سے) پاک کر لیا (اور اس میں نیکی کی نشو و نما کی)","Indeed, the one who purifies his (ill-commanding) self (from all vain and vicious desires and cultivates in it virtue and piousness) succeeds,"));
 
-                parah_30.add(new data_model_arabicandurdu("فَيَوْمَئِذٍ لَّا يُعَذِّبُ عَذَابَهُ أَحَدٌ", "سو اس دن نہ اس کے عذاب کی طرح کوئی عذاب دے سکے گا", "But that Day no one will be able to torment like His torment,"));
+                        parah_30.add(new data_model_arabicandurdu("وَقَدْ خَابَ مَن دَسَّاهَا","اور بیشک وہ شخص نامراد ہوگیا جس نے اسے (گناہوں میں) ملوث کر لیا (اور نیکی کو دبا دیا)","But the one who corrupts himself (in sins and suppresses virtue) is doomed indeed."));
 
-                parah_30.add(new data_model_arabicandurdu("وَلَا يُوثِقُ وَثَاقَهُ أَحَدٌ", "اور نہ اس کے جکڑنے کی طرح کوئی جکڑ سکے گا", "And no one will be able to bind as He binds."));
+                        parah_30.add(new data_model_arabicandurdu("كَذَّبَتْ ثَمُودُ بِطَغْوَاهَا","ثمود نے اپنی سرکشی کے باعث (اپنے پیغمبر صالح علیہ السلام کو) جھٹلایا","The people of Thamud rejected (their Messenger Salih) due to their rebellion."));
 
-                parah_30.add(new data_model_arabicandurdu("يَا أَيَّتُهَا النَّفْسُ الْمُطْمَئِنَّةُ", "اے اطمینان پا جانے والے نفس", "O contented (pleased) self!"));
+                        parah_30.add(new data_model_arabicandurdu("إِذِ انبَعَثَ أَشْقَاهَا","جبکہ ان میں سے ایک بڑا بد بخت اٹھا","When the most wretched of them stood up,"));
 
-                parah_30.add(new data_model_arabicandurdu("ارْجِعِي إِلَى رَبِّكِ رَاضِيَةً مَّرْضِيَّةً", "تو اپنے رب کی طرف اس حال میں لوٹ آکہ تو اس کی رضا کا طالب بھی ہو اور اس کی رضا کا مطلوب بھی (گویا اس کی رضا تیری مطلوب ہو اور تیری رضا اس کی مطلوب)", "Return to your Lord in such a state that you are both the aspirant to, and the aspired of, His pleasure (i.e., you seek His pleasure and He seeks yours)."));
+                        parah_30.add(new data_model_arabicandurdu("فَقَالَ لَهُمْ رَسُولُ اللَّهِ نَاقَةَ اللَّهِ وَسُقْيَاهَا","ان سے اللہ کے رسول نے فرمایا: اللہ کی (اس) اونٹنی اور اس کو پانی پلانے (کے دن) کی حفاظت کرنا","Allah’s Messenger said to them: ‘Guard (that) she-camel and (the time of) her taking water.’"));
 
-                parah_30.add(new data_model_arabicandurdu("فَادْخُلِي فِي عِبَادِي", "پس تو میرے (کامل) بندوں میں شامل ہو جا", "So join My (perfect) servants."));
+                        parah_30.add(new data_model_arabicandurdu("فَكَذَّبُوهُ فَعَقَرُوهَا فَدَمْدَمَ عَلَيْهِمْ رَبُّهُم بِذَنبِهِمْ فَسَوَّاهَا","تو انہوں نے اس (رسول) کو جھٹلا دیا، پھر اس (اونٹنی) کی کونچیں کاٹ ڈالیں تو ان کے رب نے ان کے گناہ کی وجہ سے ان پر ہلاکت نازل کر دی، پھر (پوری) بستی کو (تباہ کر کے عذاب میں سب کو) برابر کر دیا","But they rejected the Messenger and hamstrung (the she-camel). So because of their sin, their Lord sent down destruction on them, and levelled (them all in the torment devastating) the town."));
 
-                parah_30.add(new data_model_arabicandurdu("وَادْخُلِي جَنَّتِي", "اور میری جنتِ (قربت و دیدار) میں داخل ہو جا", "And enter My Paradise (of nearness and sight)."));
+                        parah_30.add(new data_model_arabicandurdu("وَلَا يَخَافُ عُقْبَاهَا","اور اللہ کو اس (ہلاکت) کے انجام کا کوئی خوف نہیں ہوتا","And Allah does not fear any repercussions of this (devastation)."));
 
-                parah_30.add(new data_model_arabicandurdu("بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ", "اللہ کے نام سے شروع جو نہایت مہربان ہمیشہ رحم فرمانے والا ہے", "In the Name of Allah, Most Compassionate, Ever-Merciful."));
+//                        parah_30.add(new data_model_arabicandurdu("بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ","اللہ کے نام سے شروع جو نہایت مہربان ہمیشہ رحم فرمانے والا ہے","In the Name of Allah, Most Compassionate, Ever-Merciful."));
 
-                parah_30.add(new data_model_arabicandurdu("لَا أُقْسِمُ بِهَذَا الْبَلَدِ", "میں اس شہر (مکہ) کی قَسم کھاتا ہوں", "I swear by this city (Mecca),"));
+                        parah_30.add(new data_model_arabicandurdu("بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ" +"\n\n"+"وَاللَّيْلِ إِذَا يَغْشَى","رات کی قَسم جب وہ چھا جائے (اور ہر چیز کو اپنی تاریکی میں چھپا لے)","By the night when it covers up (and conceals everything in its darkness),"));
 
-                parah_30.add(new data_model_arabicandurdu("وَأَنتَ حِلٌّ بِهَذَا الْبَلَدِ", "(اے حبیبِ مکرّم!) اس لئے کہ آپ اس شہر میں تشریف فرما ہیں٭", "(O My Esteemed Beloved,) because you are residing in it.*"));
+                        parah_30.add(new data_model_arabicandurdu("وَالنَّهَارِ إِذَا تَجَلَّى","اور دن کی قَسم جب وہ چمک اٹھے","And by the day when it brightens up,"));
 
-                parah_30.add(new data_model_arabicandurdu("وَوَالِدٍ وَمَا وَلَدَ", "(اے حبیبِ مکرّم! آپ کے) والد (آدم یا ابراہیم علیہما السلام) کی قَسم اور (ان کی) قَسم جن کی ولادت ہوئی٭", "(O My Esteemed Beloved!) By (your) father (Adam or Ibrahim [Abraham]) and by those who are born,*"));
+                        parah_30.add(new data_model_arabicandurdu("وَمَا خَلَقَ الذَّكَرَ وَالْأُنثَى","اور اس ذات کی (قَسم) جس نے (ہر چیز میں) نر اور مادہ کو پیدا فرمایا","And by that Being Who created male and female (in everything),"));
 
-                parah_30.add(new data_model_arabicandurdu("لَقَدْ خَلَقْنَا الْإِنسَانَ فِي كَبَدٍ", "بیشک ہم نے انسان کو مشقت میں (مبتلا رہنے والا) پیدا کیا ہے", "Indeed, We have created man (ever suffering) in rigours."));
+                        parah_30.add(new data_model_arabicandurdu("إِنَّ سَعْيَكُمْ لَشَتَّى","بیشک تمہاری کوشش مختلف (اور جداگانہ) ہے","Indeed, your striving is different (and singular)."));
 
-                parah_30.add(new data_model_arabicandurdu("أَيَحْسَبُ أَن لَّن يَقْدِرَ عَلَيْهِ أَحَدٌ", "کیا وہ یہ گمان کرتا ہے کہ اس پر ہرگز کوئی بھی قابو نہ پا سکے گا؟", "Does he think that no one can ever overpower him?"));
+                        parah_30.add(new data_model_arabicandurdu("فَأَمَّا مَن أَعْطَى وَاتَّقَى","پس جس نے (اپنا مال اللہ کی راہ میں) دیا اور پرہیزگاری اختیار کی","So he who gives away (his wealth in the way of Allah) and commits himself to piousness,"));
 
-                parah_30.add(new data_model_arabicandurdu("يَقُولُ أَهْلَكْتُ مَالًا لُّبَدًا", "وہ (بڑے فخر سے) کہتا ہے کہ میں نے ڈھیروں مال خرچ کیا ہے", "(Boasting,) he says: ‘I have spent heaps of wealth.’"));
+                        parah_30.add(new data_model_arabicandurdu("وَصَدَّقَ بِالْحُسْنَى","اور اس نے (اِنفاق و تقوٰی کے ذریعے) اچھائی (یعنی دینِ حق اور آخرت) کی تصدیق کی","And affirms the good (the Din [Religion] of truth and life after death through charity and Godwariness),"));
 
-                parah_30.add(new data_model_arabicandurdu("أَيَحْسَبُ أَن لَّمْ يَرَهُ أَحَدٌ", "کیا وہ یہ خیال کرتا ہے کہ اسے (یہ فضول خرچیاں کرتے ہوئے) کسی نے نہیں دیکھا", "Does he think that no one has seen him (making this extravagant spending)?"));
+                        parah_30.add(new data_model_arabicandurdu("فَسَنُيَسِّرُهُ لِلْيُسْرَى","تو ہم عنقریب اسے آسانی (یعنی رضائے الٰہی) کے لئے سہولت فراہم کر دیں گے","Soon We shall facilitate him in seeking (Allah’s pleasure) with ease."));
 
-                parah_30.add(new data_model_arabicandurdu("أَلَمْ نَجْعَل لَّهُ عَيْنَيْنِ", "کیا ہم نے اس کے لئے دو آنکھیں نہیں بنائیں", "Have We not made for him two eyes?"));
+                        parah_30.add(new data_model_arabicandurdu("وَأَمَّا مَن بَخِلَ وَاسْتَغْنَى","اور جس نے بخل کیا اور (راہِ حق میں مال خرچ کرنے سے) بے پروا رہا","But he who is miser and disregards (spending in the cause of Allah),"));
 
-                parah_30.add(new data_model_arabicandurdu("وَلِسَانًا وَشَفَتَيْنِ", "اور (اسے) ایک زبان اور دو ہونٹ (نہیں دئیے)", "And (have We not given him) a tongue and two lips?"));
+                        parah_30.add(new data_model_arabicandurdu("وَكَذَّبَ بِالْحُسْنَى","اور اس نے (یوں) اچھائی (یعنی دینِ حق اور آخرت) کو جھٹلایا","And (in this way) denies the good (the Din [Religion] of truth and afterlife),"));
 
-                parah_30.add(new data_model_arabicandurdu("وَهَدَيْنَاهُ النَّجْدَيْنِ", "اور ہم نے اسے (خیر و شر کے) دو نمایاں راستے (بھی) دکھا دیئے", "And (have We also not) shown him the two highways (of good and evil)?"));
+                        parah_30.add(new data_model_arabicandurdu("فَسَنُيَسِّرُهُ لِلْعُسْرَى","تو ہم عنقریب اسے سختی (یعنی عذاب کی طرف بڑھنے) کے لئے سہولت فراہم کر دیں گے (تاکہ وہ تیزی سے مستحقِ عذاب ٹھہرے)","Soon shall We facilitate his landing into hardship (advancing towards torment, so that punishment becomes his rightful due)."));
 
-                parah_30.add(new data_model_arabicandurdu("فَلَا اقْتَحَمَ الْعَقَبَةَ", "وہ تو (دینِ حق اور عملِ خیر کی) دشوار گزار گھاٹی میں داخل ہی نہیں ہوا", "But he has not yet attempted the steep ascent (of the Din [Religion]) of truth and the practical life dedicated to good and piety)."));
+                        parah_30.add(new data_model_arabicandurdu("وَمَا يُغْنِي عَنْهُ مَالُهُ إِذَا تَرَدَّى","اور اس کا مال اس کے کسی کام نہیں آئے گا جب وہ ہلاکت (کے گڑھے) میں گرے گا","And his wealth will not help him any way when he falls into (the pit of) destruction."));
 
-                parah_30.add(new data_model_arabicandurdu("وَمَا أَدْرَاكَ مَا الْعَقَبَةُ", "اور آپ کیا سمجھے ہیں کہ وہ (دینِ حق کے مجاہدہ کی) گھاٹی کیا ہے", "And what have you thought of the steep ascent (of the rigours of the Din [Religion] of truth)?"));
+                        parah_30.add(new data_model_arabicandurdu("إِنَّ عَلَيْنَا لَلْهُدَى","بیشک راہِ (حق) دکھانا ہمارے ذمہ ہے","Indeed, it is binding on Us to show you the path (of truth)."));
 
-                parah_30.add(new data_model_arabicandurdu("فَكُّ رَقَبَةٍ", "وہ (غلامی و محکومی کی زندگی سے) کسی گردن کا آزاد کرانا ہے", "It is freeing a neck (from slavery and subjugation),"));
+                        parah_30.add(new data_model_arabicandurdu("وَإِنَّ لَنَا لَلْآخِرَةَ وَالْأُولَى","اور بیشک ہم ہی آخرت اور دنیا کے مالک ہیں","And indeed, We are the Master of the Hereafter and the world."));
 
-                parah_30.add(new data_model_arabicandurdu("أَوْ إِطْعَامٌ فِي يَوْمٍ ذِي مَسْغَبَةٍ", "یا بھوک والے دن (یعنی قحط و اَفلاس کے دور میں غریبوں اور محروم المعیشت لوگوں کو) کھانا کھلانا ہے (یعنی ان کے معاشی تعطل اور ابتلاء کو ختم کرنے کی جدّ و جہد کرنا ہے)", "Or feeding on a day of scarcity (the poor and the needy during famine and scarcity i.e., striving to put an end to their sufferings and economic crises),"));
+                        parah_30.add(new data_model_arabicandurdu("فَأَنذَرْتُكُمْ نَارًا تَلَظَّى","سو میں نے تمہیں (دوزخ کی) آگ سے ڈرا دیا ہے جو بھڑک رہی ہے","So I have warned you of the raging Fire (of Hell)."));
 
-                parah_30.add(new data_model_arabicandurdu("يَتِيمًا ذَا مَقْرَبَةٍ", "قرابت دار یتیم کو", "The orphaned relative,"));
+                        parah_30.add(new data_model_arabicandurdu("لَا يَصْلَاهَا إِلَّا الْأَشْقَى","جس میں انتہائی بدبخت کے سوا کوئی داخل نہیں ہوگا","No one shall enter it but the most wretched,"));
 
-                parah_30.add(new data_model_arabicandurdu("أَوْ مِسْكِينًا ذَا مَتْرَبَةٍ", "یا شدید غربت کے مارے ہوئے محتاج کو جو محض خاک نشین (اور بے گھر) ہے", "Or the poverty-stricken destitute who is completely rundown (and homeless)."));
+                        parah_30.add(new data_model_arabicandurdu("الَّذِي كَذَّبَ وَتَوَلَّى","جس نے (دینِ حق کو) جھٹلایا اور (رسول کی اطاعت سے) منہ پھیر لیا","He who gives lie to (the Din [Religion] of truth) and turns away (from obedience to the Messenger [blessings and peace be upon him])."));
 
-                parah_30.add(new data_model_arabicandurdu("ثُمَّ كَانَ مِنَ الَّذِينَ آمَنُوا وَتَوَاصَوْا بِالصَّبْرِ وَتَوَاصَوْا بِالْمَرْحَمَةِ", "پھر (شرط یہ ہے کہ ایسی جدّ و جہد کرنے والا) وہ شخص ان لوگوں میں سے ہو جو ایمان لائے ہیں اور ایک دوسرے کو صبر و تحمل کی نصیحت کرتے ہیں اور باہم رحمت و شفقت کی تاکید کرتے ہیں", "(Provided this striving soul is) one of those who believe and advise one another patience and tolerance and urge one another for mutual affection and mercy."));
+                        parah_30.add(new data_model_arabicandurdu("وَسَيُجَنَّبُهَا الْأَتْقَى","اور اس (آگ) سے اس بڑے پرہیزگار شخص کو بچا لیا جائے گا","But the most pious one shall be saved from this (Fire),"));
 
-                parah_30.add(new data_model_arabicandurdu("أُوْلَئِكَ أَصْحَابُ الْمَيْمَنَةِ", "یہی لوگ دائیں طرف والے (یعنی اہلِ سعادت و مغفرت) ہیں", "These are the people of the Right Hand (i.e., the privileged and the pardoned)."));
+                        parah_30.add(new data_model_arabicandurdu("الَّذِي يُؤْتِي مَالَهُ يَتَزَكَّى","جو اپنا مال (اللہ کی راہ میں) دیتا ہے کہ (اپنے جان و مال کی) پاکیزگی حاصل کرے","Who gives his wealth away (in the cause of Allah) to attain to purity (of his soul and assets),"));
 
-                parah_30.add(new data_model_arabicandurdu("وَالَّذِينَ كَفَرُوا بِآيَاتِنَا هُمْ أَصْحَابُ الْمَشْأَمَةِ", "اور جن لوگوں نے ہماری آیتوں کا انکار کیا وہ بائیں طرف والے ہیں (یعنی اہلِ شقاوت و عذاب) ہیں", "And those who reject Our signs are the people of the Left Hand (the callous and the doomed)."));
+                        parah_30.add(new data_model_arabicandurdu("وَمَا لِأَحَدٍ عِندَهُ مِن نِّعْمَةٍ تُجْزَى","اور کسی کا اس پر کوئی احسان نہیں کہ جس کا بدلہ دیا جا رہا ہو","And who owes no favour to anyone that he is seeking to pay back."));
 
-                parah_30.add(new data_model_arabicandurdu("عَلَيْهِمْ نَارٌ مُّؤْصَدَةٌ", "ان پر (ہر طرف سے) بند کی ہوئی آگ (چھائی) ہوگی", "Fire will be enclosed upon them (covering from all sides)."));
+                        parah_30.add(new data_model_arabicandurdu("إِلَّا ابْتِغَاءَ وَجْهِ رَبِّهِ الْأَعْلَى","مگر (وہ) صرف اپنے ربِ عظیم کی رضا جوئی کے لئے (مال خرچ کر رہا ہے)","Rather (he spends) seeking the pleasure of his Lord, Most High."));
 
-                parah_30.add(new data_model_arabicandurdu("بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ", "اللہ کے نام سے شروع جو نہایت مہربان ہمیشہ رحم فرمانے والا ہے", "In the Name of Allah, Most Compassionate, Ever-Merciful."));
+                        parah_30.add(new data_model_arabicandurdu("وَلَسَوْفَ يَرْضَى","اور عنقریب وہ (اللہ کی عطا سے اور اللہ اس کی وفا سے) راضی ہو جائے گا","And soon shall he be well-pleased (with Allah for His bestowal and Allah with him for his fidelity)."));
 
-                parah_30.add(new data_model_arabicandurdu("وَالشَّمْسِ وَضُحَاهَا", "سورج کی قَسم اور اس کی روشنی کی قَسم", "By the sun and by its brightness,"));
+//                        parah_30.add(new data_model_arabicandurdu("بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ","اللہ کے نام سے شروع جو نہایت مہربان ہمیشہ رحم فرمانے والا ہے","In the Name of Allah, Most Compassionate, Ever-Merciful."));
 
-                parah_30.add(new data_model_arabicandurdu("وَالْقَمَرِ إِذَا تَلَاهَا", "اور چاند کی قَسم جب وہ سورج کی پیروی کرے (یعنی اس کی روشنی سے چمکے)", "And by the moon when it follows the sun (i.e., reflects sunshine),"));
+                        parah_30.add(new data_model_arabicandurdu("بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ" +"\n\n"+"وَالضُّحَى" ,"قَسم ہے چاشت کے وقت کی (جب آفتاب بلند ہو کر اپنا نور پھیلاتا ہے)۔<br> (یا:- قَسم ہے وقتِ چاشت (کی طرح آپ کے آفتابِ رِسالت کے بلند ہونے) کی (جس کے نور نے گمراہی کے اندھیروں کو اجالے سے بدل دیا)","By the growing morning bright (when the sun gains height and spreads its radiance), Or By (the growing sunshine of your Messengership rising like) the morning bright (whose radiance has replaced the darkness of ignorance with the enlightenment of guidance,)"));
 
-                parah_30.add(new data_model_arabicandurdu("وَالنَّهَارِ إِذَا جَلَّاهَا", "اور دن کی قَسم جب وہ سورج کو ظاہر کرے (یعنی اسے روشن دکھائے)", "And by the day when it displays the sun (i.e., brings it forth shining),"));
+                        parah_30.add(new data_model_arabicandurdu("وَاللَّيْلِ إِذَا سَجَى","اور قَسم ہے رات کی جب وہ چھا جائے۔","And by the night when it covers up."));
 
-                parah_30.add(new data_model_arabicandurdu("وَاللَّيْلِ إِذَا يَغْشَاهَا", "اور رات کی قَسم جب وہ سورج کو (زمین کی ایک سمت سے) ڈھانپ لے", "And by the night when it draws a veil over the sun (from one of the hemispheres of the earth),"));
+                        parah_30.add(new data_model_arabicandurdu("مَا وَدَّعَكَ رَبُّكَ وَمَا قَلَى","آپ کے رب نے (جب سے آپ کو منتخب فرمایا ہے) آپ کو نہیں چھوڑا اور نہ ہی (جب سے آپ کو محبوب بنایا ہے) ناراض ہوا ہے","(Ever since He has chosen you,) your Lord has not forsaken you. Nor is He displeased (ever since He has taken you as His Beloved)."));
 
-                parah_30.add(new data_model_arabicandurdu("وَالسَّمَاءِ وَمَا بَنَاهَا", "اور آسمان کی قَسم اور اس (قوت) کی قَسم جس نے اسے (اذنِ الٰہی سے ایک وسیع کائنات کی شکل میں) تعمیر کیا", "And by the heaven and by that (energy) which built it (with Allah’s permission in the form of a vast universe),"));
+                        parah_30.add(new data_model_arabicandurdu("وَلَلْآخِرَةُ خَيْرٌ لَّكَ مِنَ الْأُولَى","اور بیشک (ہر) بعد کی گھڑی آپ کے لئے پہلے سے بہتر (یعنی باعثِ عظمت و رفعت) ہے","Indeed, every following hour is a better (source of eminence and exaltation) for you than the preceding one."));
 
-                parah_30.add(new data_model_arabicandurdu("وَالْأَرْضِ وَمَا طَحَاهَا", "اور زمین کی قَسم اور اس (قوت) کی قَسم جو اسے (امرِ الٰہی سے سورج سے کھینچ دور) لے گئی", "And by the earth and by that (force which, by Allah’s command,) pulled it (from the sun far) apart."));
+                        parah_30.add(new data_model_arabicandurdu("وَلَسَوْفَ يُعْطِيكَ رَبُّكَ فَتَرْضَى","اور آپ کا رب عنقریب آپ کو (اتنا کچھ) عطا فرمائے گا کہ آپ راضی ہو جائیں گے","And soon your Lord shall bestow upon you (so much) that you will be well-pleased."));
 
-                parah_30.add(new data_model_arabicandurdu("وَنَفْسٍ وَمَا سَوَّاهَا", "اور انسانی جان کی قَسم اور اسے ہمہ پہلو توازن و درستگی دینے والے کی قَسم", "And by the human soul and by the One Who provided it with an all-dimensional poise, proportion and perfection,"));
+                        parah_30.add(new data_model_arabicandurdu("أَلَمْ يَجِدْكَ يَتِيمًا فَآوَى","(اے حبیب!) کیا اس نے آپ کو یتیم نہیں پایا پھر اس نے (آپ کو معزّز و مکرّم) ٹھکانا دیا۔ یا- کیا اس نے آپ کو (مہربان) نہیں پایا پھر اس نے (آپ کے ذریعے) یتیموں کو ٹھکانا دیا۔٭","(O Beloved!) Did He not find you an orphan, and then provided you (a dignifying and graceful) abode? Or Did He not find you (compassionate) and provided (in your person) a shelter for orphans?"));
 
-                parah_30.add(new data_model_arabicandurdu("فَأَلْهَمَهَا فُجُورَهَا وَتَقْوَاهَا", "پھر اس نے اسے اس کی بدکاری اور پرہیزگاری (کی تمیز) سمجھا دی", "Then He inspired it with (discrimination between) vice and virtue,"));
+                        parah_30.add(new data_model_arabicandurdu("وَوَجَدَكَ ضَالًّا فَهَدَى","اور اس نے آپ کو اپنی محبت میں خود رفتہ و گم پایا تو اس نے مقصود تک پہنچا دیا۔ یا- اور اس نے آپ کو بھٹکی ہوئی قوم کے درمیان (رہنمائی فرمانے والا) پایا تو اس نے (انہیں آپ کے ذریعے) ہدایت دے دی۔٭","And He found you engrossed and lost in His love and then made you achieve the coveted objective. Or And He found in you (a leader) for a straying people so He provided them guidance (through you)."));
 
-                parah_30.add(new data_model_arabicandurdu("قَدْ أَفْلَحَ مَن زَكَّاهَا", "بیشک وہ شخص فلاح پا گیا جس نے اس (نفس) کو (رذائل سے) پاک کر لیا (اور اس میں نیکی کی نشو و نما کی)", "Indeed, the one who purifies his (ill-commanding) self (from all vain and vicious desires and cultivates in it virtue and piousness) succeeds,"));
+                        parah_30.add(new data_model_arabicandurdu("وَوَجَدَكَ عَائِلًا فَأَغْنَى","اور اس نے آپ کو (وصالِ حق کا) حاجت مند پایا تو اس نے (اپنی لذت دید سے نواز کر ہمیشہ کے لئے ہر طلب سے) بے نیاز کر دیا۔ یا- اور اس نے آپ کو (جواد و کریم) پایا تو اس نے (آپ کے ذریعے) محتاجوں کو غنی کر دیا۔٭","And He found you seeking (closeness with your Lord), and (then blessed you with the pleasure of His sight and) freed you of every need (forever). Or And He found you compassionate and benevolent, then (through you) made the destitute non-liable."));
 
-                parah_30.add(new data_model_arabicandurdu("وَقَدْ خَابَ مَن دَسَّاهَا", "اور بیشک وہ شخص نامراد ہوگیا جس نے اسے (گناہوں میں) ملوث کر لیا (اور نیکی کو دبا دیا)", "But the one who corrupts himself (in sins and suppresses virtue) is doomed indeed."));
+                        parah_30.add(new data_model_arabicandurdu("فَأَمَّا الْيَتِيمَ فَلَا تَقْهَرْ","سو آپ بھی کسی یتیم پر سختی نہ فرمائیں","So, never should you be strict with any orphan,"));
 
-                parah_30.add(new data_model_arabicandurdu("كَذَّبَتْ ثَمُودُ بِطَغْوَاهَا", "ثمود نے اپنی سرکشی کے باعث (اپنے پیغمبر صالح علیہ السلام کو) جھٹلایا", "The people of Thamud rejected (their Messenger Salih) due to their rebellion."));
+                        parah_30.add(new data_model_arabicandurdu("وَأَمَّا السَّائِلَ فَلَا تَنْهَرْ","اور (اپنے در کے) کسی منگتے کو نہ جھڑکیں","Nor reproach any beggar (seeking help at your door),"));
 
-                parah_30.add(new data_model_arabicandurdu("إِذِ انبَعَثَ أَشْقَاهَا", "جبکہ ان میں سے ایک بڑا بد بخت اٹھا", "When the most wretched of them stood up,"));
+                        parah_30.add(new data_model_arabicandurdu("وَأَمَّا بِنِعْمَةِ رَبِّكَ فَحَدِّثْ","اور اپنے رب کی نعمتوں کا (خوب) تذکرہ کریں","And proclaim (well) the bounties of your Lord."));
 
-                parah_30.add(new data_model_arabicandurdu("فَقَالَ لَهُمْ رَسُولُ اللَّهِ نَاقَةَ اللَّهِ وَسُقْيَاهَا", "ان سے اللہ کے رسول نے فرمایا: اللہ کی (اس) اونٹنی اور اس کو پانی پلانے (کے دن) کی حفاظت کرنا", "Allah’s Messenger said to them: ‘Guard (that) she-camel and (the time of) her taking water.’"));
+//                        parah_30.add(new data_model_arabicandurdu("بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ","اللہ کے نام سے شروع جو نہایت مہربان ہمیشہ رحم فرمانے والا ہے","In the Name of Allah, Most Compassionate, Ever-Merciful."));
 
-                parah_30.add(new data_model_arabicandurdu("فَكَذَّبُوهُ فَعَقَرُوهَا فَدَمْدَمَ عَلَيْهِمْ رَبُّهُم بِذَنبِهِمْ فَسَوَّاهَا", "تو انہوں نے اس (رسول) کو جھٹلا دیا، پھر اس (اونٹنی) کی کونچیں کاٹ ڈالیں تو ان کے رب نے ان کے گناہ کی وجہ سے ان پر ہلاکت نازل کر دی، پھر (پوری) بستی کو (تباہ کر کے عذاب میں سب کو) برابر کر دیا", "But they rejected the Messenger and hamstrung (the she-camel). So because of their sin, their Lord sent down destruction on them, and levelled (them all in the torment devastating) the town."));
+                        parah_30.add(new data_model_arabicandurdu("بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ" +"\n\n"+"أَلَمْ نَشْرَحْ لَكَ صَدْرَكَ","کیا ہم نے آپ کی خاطر آپ کا سینہ (انوارِ علم و حکمت اور معرفت کے لئے) کشادہ نہیں فرما دیا","Have We not broadened your breast for you (for the light of knowledge, wisdom and spiritual gnosis)?"));
 
-                parah_30.add(new data_model_arabicandurdu("وَلَا يَخَافُ عُقْبَاهَا", "اور اللہ کو اس (ہلاکت) کے انجام کا کوئی خوف نہیں ہوتا", "And Allah does not fear any repercussions of this (devastation)."));
+                        parah_30.add(new data_model_arabicandurdu("وَوَضَعْنَا عَنكَ وِزْرَكَ","اور ہم نے آپ کا (غمِ امت کا وہ) بار آپ سے اتار دیا","And We have taken off the load (of grief of the Umma [Community]) from you,"));
 
-                parah_30.add(new data_model_arabicandurdu("بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ", "اللہ کے نام سے شروع جو نہایت مہربان ہمیشہ رحم فرمانے والا ہے", "In the Name of Allah, Most Compassionate, Ever-Merciful."));
+                        parah_30.add(new data_model_arabicandurdu("الَّذِي أَنقَضَ ظَهْرَكَ","جو آپ کی پشتِ (مبارک) پر گراں ہو رہا تھا","(The load) which was growing heavier on your (holy) back."));
 
-                parah_30.add(new data_model_arabicandurdu("وَاللَّيْلِ إِذَا يَغْشَى", "رات کی قَسم جب وہ چھا جائے (اور ہر چیز کو اپنی تاریکی میں چھپا لے)", "By the night when it covers up (and conceals everything in its darkness),"));
+                        parah_30.add(new data_model_arabicandurdu("وَرَفَعْنَا لَكَ ذِكْرَكَ","اور ہم نے آپ کی خاطر آپ کا ذکر (اپنے ذکر کے ساتھ ملا کر دنیا و آخرت میں ہر جگہ) بلند فرما دیا","And We exalted for you your remembrance (by annexing it to Ours everywhere in the world and in the Hereafter)."));
 
-                parah_30.add(new data_model_arabicandurdu("وَالنَّهَارِ إِذَا تَجَلَّى", "اور دن کی قَسم جب وہ چمک اٹھے", "And by the day when it brightens up,"));
+                        parah_30.add(new data_model_arabicandurdu("فَإِنَّ مَعَ الْعُسْرِ يُسْرًا","سو بیشک ہر دشواری کے ساتھ آسانی (آتی) ہے","So surely ease (comes) with every hardship."));
 
-                parah_30.add(new data_model_arabicandurdu("وَمَا خَلَقَ الذَّكَرَ وَالْأُنثَى", "اور اس ذات کی (قَسم) جس نے (ہر چیز میں) نر اور مادہ کو پیدا فرمایا", "And by that Being Who created male and female (in everything),"));
+                        parah_30.add(new data_model_arabicandurdu("إِنَّ مَعَ الْعُسْرِ يُسْرًا","یقیناً (اس) دشواری کے ساتھ آسانی (بھی) ہے","Verily, with (this) hardship (too) there is ease."));
 
-                parah_30.add(new data_model_arabicandurdu("إِنَّ سَعْيَكُمْ لَشَتَّى", "بیشک تمہاری کوشش مختلف (اور جداگانہ) ہے", "Indeed, your striving is different (and singular)."));
+                        parah_30.add(new data_model_arabicandurdu("فَإِذَا فَرَغْتَ فَانصَبْ","پس جب آپ (تعلیمِ امت، تبلیغ و جہاد اور ادائیگیِ فرائض سے) فارغ ہوں تو (ذکر و عبادت میں) محنت فرمایا کریں","So when you are free (from educating the Umma (Community), preaching the Din (Religion) and fighting, and fulfilling your responsibilities), then strive hard (in remembrance and the worship of your Lord),"));
 
-                parah_30.add(new data_model_arabicandurdu("فَأَمَّا مَن أَعْطَى وَاتَّقَى", "پس جس نے (اپنا مال اللہ کی راہ میں) دیا اور پرہیزگاری اختیار کی", "So he who gives away (his wealth in the way of Allah) and commits himself to piousness,"));
+                        parah_30.add(new data_model_arabicandurdu("وَإِلَى رَبِّكَ فَارْغَبْ","اور اپنے رب کی طرف راغب ہو جایا کریں","And turn to your Lord earnestly."));
 
-                parah_30.add(new data_model_arabicandurdu("وَصَدَّقَ بِالْحُسْنَى", "اور اس نے (اِنفاق و تقوٰی کے ذریعے) اچھائی (یعنی دینِ حق اور آخرت) کی تصدیق کی", "And affirms the good (the Din [Religion] of truth and life after death through charity and Godwariness),"));
+//                        parah_30.add(new data_model_arabicandurdu("بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ","اللہ کے نام سے شروع جو نہایت مہربان ہمیشہ رحم فرمانے والا ہے","In the Name of Allah, Most Compassionate, Ever-Merciful."));
 
-                parah_30.add(new data_model_arabicandurdu("فَسَنُيَسِّرُهُ لِلْيُسْرَى", "تو ہم عنقریب اسے آسانی (یعنی رضائے الٰہی) کے لئے سہولت فراہم کر دیں گے", "Soon We shall facilitate him in seeking (Allah’s pleasure) with ease."));
+                        parah_30.add(new data_model_arabicandurdu("بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ" +"\n\n"+"وَالتِّينِ وَالزَّيْتُونِ","انجیر کی قَسم اور زیتون کی قَسم","By the fig and by the olive!"));
 
-                parah_30.add(new data_model_arabicandurdu("وَأَمَّا مَن بَخِلَ وَاسْتَغْنَى", "اور جس نے بخل کیا اور (راہِ حق میں مال خرچ کرنے سے) بے پروا رہا", "But he who is miser and disregards (spending in the cause of Allah),"));
+                        parah_30.add(new data_model_arabicandurdu("وَطُورِ سِينِينَ","اور سینا کے (پہاڑ) طور کی قَسم","And by (Mount) Tur of Sinai!"));
 
-                parah_30.add(new data_model_arabicandurdu("وَكَذَّبَ بِالْحُسْنَى", "اور اس نے (یوں) اچھائی (یعنی دینِ حق اور آخرت) کو جھٹلایا", "And (in this way) denies the good (the Din [Religion] of truth and afterlife),"));
+                        parah_30.add(new data_model_arabicandurdu("وَهَذَا الْبَلَدِ الْأَمِينِ","اور اس امن والے شہر (مکہ) کی قَسم","And by this city of peace (Mecca)!"));
 
-                parah_30.add(new data_model_arabicandurdu("فَسَنُيَسِّرُهُ لِلْعُسْرَى", "تو ہم عنقریب اسے سختی (یعنی عذاب کی طرف بڑھنے) کے لئے سہولت فراہم کر دیں گے (تاکہ وہ تیزی سے مستحقِ عذاب ٹھہرے)", "Soon shall We facilitate his landing into hardship (advancing towards torment, so that punishment becomes his rightful due)."));
+                        parah_30.add(new data_model_arabicandurdu("لَقَدْ خَلَقْنَا الْإِنسَانَ فِي أَحْسَنِ تَقْوِيمٍ","بیشک ہم نے انسان کو بہترین (اعتدال اور توازن والی) ساخت میں پیدا فرمایا ہے","Indeed, We have created man in the best constitution (equipoised in the finest proportion)."));
 
-                parah_30.add(new data_model_arabicandurdu("وَمَا يُغْنِي عَنْهُ مَالُهُ إِذَا تَرَدَّى", "اور اس کا مال اس کے کسی کام نہیں آئے گا جب وہ ہلاکت (کے گڑھے) میں گرے گا", "And his wealth will not help him any way when he falls into (the pit of) destruction."));
+                        parah_30.add(new data_model_arabicandurdu("ثُمَّ رَدَدْنَاهُ أَسْفَلَ سَافِلِينَ","پھر ہم نے اسے پست سے پست تر حالت میں لوٹا دیا","Then We returned him to the lowest state of the low,"));
 
-                parah_30.add(new data_model_arabicandurdu("إِنَّ عَلَيْنَا لَلْهُدَى", "بیشک راہِ (حق) دکھانا ہمارے ذمہ ہے", "Indeed, it is binding on Us to show you the path (of truth)."));
+                        parah_30.add(new data_model_arabicandurdu("إِلَّا الَّذِينَ آمَنُوا وَعَمِلُوا الصَّالِحَاتِ فَلَهُمْ أَجْرٌ غَيْرُ مَمْنُونٍ","سوائے ان لوگوں کے جو ایمان لائے اور نیک عمل کرتے رہے تو ان کے لئے ختم نہ ہونے والا (دائمی) اجر ہے","Except for those who believe and do good works. For them is an unending (i.e., everlasting) reward."));
 
-                parah_30.add(new data_model_arabicandurdu("وَإِنَّ لَنَا لَلْآخِرَةَ وَالْأُولَى", "اور بیشک ہم ہی آخرت اور دنیا کے مالک ہیں", "And indeed, We are the Master of the Hereafter and the world."));
+                        parah_30.add(new data_model_arabicandurdu("فَمَا يُكَذِّبُكَ بَعْدُ بِالدِّينِ","پھر اس کے بعد کون ہے جو آپ کو دین (یا قیامت اور جزا و سزا) کے بارے میں جھٹلاتا ہے","Then who denies you after this regarding the Din (Religion or the Last Hour and reward and punishment)?"));
 
-                parah_30.add(new data_model_arabicandurdu("فَأَنذَرْتُكُمْ نَارًا تَلَظَّى", "سو میں نے تمہیں (دوزخ کی) آگ سے ڈرا دیا ہے جو بھڑک رہی ہے", "So I have warned you of the raging Fire (of Hell)."));
+                        parah_30.add(new data_model_arabicandurdu("أَلَيْسَ اللَّهُ بِأَحْكَمِ الْحَاكِمِينَ","کیا اللہ سب حاکموں سے بڑا حاکم نہیں ہے","Is Allah not the Greatest of all the rulers?"));
 
-                parah_30.add(new data_model_arabicandurdu("لَا يَصْلَاهَا إِلَّا الْأَشْقَى", "جس میں انتہائی بدبخت کے سوا کوئی داخل نہیں ہوگا", "No one shall enter it but the most wretched,"));
+//                        parah_30.add(new data_model_arabicandurdu("بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ","اللہ کے نام سے شروع جو نہایت مہربان ہمیشہ رحم فرمانے والا ہے","In the Name of Allah, Most Compassionate, Ever-Merciful."));
 
-                parah_30.add(new data_model_arabicandurdu("الَّذِي كَذَّبَ وَتَوَلَّى", "جس نے (دینِ حق کو) جھٹلایا اور (رسول کی اطاعت سے) منہ پھیر لیا", "He who gives lie to (the Din [Religion] of truth) and turns away (from obedience to the Messenger [blessings and peace be upon him])."));
+                        parah_30.add(new data_model_arabicandurdu("بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ" +"\n\n"+"اقْرَأْ بِاسْمِ رَبِّكَ الَّذِي خَلَقَ" ,"(اے حبیب!) اپنے رب کے نام سے (آغاز کرتے ہوئے) پڑھئے جس نے (ہر چیز کو) پیدا فرمایا","(O Beloved!) Read (commencing) with the Name of Allah, Who has created (everything)."));
 
-                parah_30.add(new data_model_arabicandurdu("وَسَيُجَنَّبُهَا الْأَتْقَى", "اور اس (آگ) سے اس بڑے پرہیزگار شخص کو بچا لیا جائے گا", "But the most pious one shall be saved from this (Fire),"));
+                        parah_30.add(new data_model_arabicandurdu("خَلَقَ الْإِنسَانَ مِنْ عَلَقٍ","اس نے انسان کو (رحمِ مادر میں) جونک کی طرح معلّق وجود سے پیدا کیا","He created man from a hanging mass (clinging) like a leech (to the mother’s womb)."));
 
-                parah_30.add(new data_model_arabicandurdu("الَّذِي يُؤْتِي مَالَهُ يَتَزَكَّى", "جو اپنا مال (اللہ کی راہ میں) دیتا ہے کہ (اپنے جان و مال کی) پاکیزگی حاصل کرے", "Who gives his wealth away (in the cause of Allah) to attain to purity (of his soul and assets),"));
+                        parah_30.add(new data_model_arabicandurdu("اقْرَأْ وَرَبُّكَ الْأَكْرَمُ","پڑھیئے اور آپ کا رب بڑا ہی کریم ہے","Read, and your Lord is Most Generous,"));
 
-                parah_30.add(new data_model_arabicandurdu("وَمَا لِأَحَدٍ عِندَهُ مِن نِّعْمَةٍ تُجْزَى", "اور کسی کا اس پر کوئی احسان نہیں کہ جس کا بدلہ دیا جا رہا ہو", "And who owes no favour to anyone that he is seeking to pay back."));
+                        parah_30.add(new data_model_arabicandurdu("الَّذِي عَلَّمَ بِالْقَلَمِ","جس نے قلم کے ذریعے (لکھنے پڑھنے کا) علم سکھایا","Who taught man (reading and writing) by the pen,"));
 
-                parah_30.add(new data_model_arabicandurdu("إِلَّا ابْتِغَاءَ وَجْهِ رَبِّهِ الْأَعْلَى", "مگر (وہ) صرف اپنے ربِ عظیم کی رضا جوئی کے لئے (مال خرچ کر رہا ہے)", "Rather (he spends) seeking the pleasure of his Lord, Most High."));
+                        parah_30.add(new data_model_arabicandurdu("عَلَّمَ الْإِنسَانَ مَا لَمْ يَعْلَمْ","جس نے انسان کو (اس کے علاوہ بھی) وہ (کچھ) سکھا دیا جو وہ نہیں جانتا تھا۔ یا- جس نے (سب سے بلند رتبہ) انسان (محمد مصطفی صلی اللہ علیہ وآلہ وسلم) کو (بغیر ذریعۂ قلم کے) وہ سارا علم عطا فرما دیا جو وہ پہلے نہ جانتے تھے","Who (besides that) taught man (all that) which he did not know. Or Who imparted to (the most eminent of) mankind (the chosen Prophet Muhammad [blessings and peace be upon him] without using any pen) the whole knowledge that he was not aware of before."));
 
-                parah_30.add(new data_model_arabicandurdu("وَلَسَوْفَ يَرْضَى", "اور عنقریب وہ (اللہ کی عطا سے اور اللہ اس کی وفا سے) راضی ہو جائے گا", "And soon shall he be well-pleased (with Allah for His bestowal and Allah with him for his fidelity)."));
+                        parah_30.add(new data_model_arabicandurdu("كَلَّا إِنَّ الْإِنسَانَ لَيَطْغَى","(مگر) حقیقت یہ ہے کہ (نافرمان) انسان سر کشی کرتا ہے","(But) the fact is that (the disobedient) man rebels,"));
 
-                parah_30.add(new data_model_arabicandurdu("بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ", "اللہ کے نام سے شروع جو نہایت مہربان ہمیشہ رحم فرمانے والا ہے", "In the Name of Allah, Most Compassionate, Ever-Merciful."));
+                        parah_30.add(new data_model_arabicandurdu("أَن رَّآهُ اسْتَغْنَى","اس بنا پر کہ وہ اپنے آپ کو (دنیا میں ظاہراً) بے نیاز دیکھتا ہے","For the reason that (apparently) he finds himself self-sufficient (in the world)."));
 
-                parah_30.add(new data_model_arabicandurdu("وَالضُّحَى", "قَسم ہے چاشت کے وقت کی (جب آفتاب بلند ہو کر اپنا نور پھیلاتا ہے)۔<br> (یا:- قَسم ہے وقتِ چاشت (کی طرح آپ کے آفتابِ رِسالت کے بلند ہونے) کی (جس کے نور نے گمراہی کے اندھیروں کو اجالے سے بدل دیا)", "By the growing morning bright (when the sun gains height and spreads its radiance), Or By (the growing sunshine of your Messengership rising like) the morning bright (whose radiance has replaced the darkness of ignorance with the enlightenment of guidance,)"));
+                        parah_30.add(new data_model_arabicandurdu("إِنَّ إِلَى رَبِّكَ الرُّجْعَى","بیشک (ہر انسان کو) آپ کے رب ہی کی طرف لوٹنا ہے","Surely, (every man) has to return to your Lord."));
 
-                parah_30.add(new data_model_arabicandurdu("وَاللَّيْلِ إِذَا سَجَى", "اور قَسم ہے رات کی جب وہ چھا جائے۔", "And by the night when it covers up."));
+                        parah_30.add(new data_model_arabicandurdu("أَرَأَيْتَ الَّذِي يَنْهَى","کیا آپ نے اس شخص کو دیکھا جو منع کرتا ہے","Have you seen him who prevents,"));
 
-                parah_30.add(new data_model_arabicandurdu("مَا وَدَّعَكَ رَبُّكَ وَمَا قَلَى", "آپ کے رب نے (جب سے آپ کو منتخب فرمایا ہے) آپ کو نہیں چھوڑا اور نہ ہی (جب سے آپ کو محبوب بنایا ہے) ناراض ہوا ہے", "(Ever since He has chosen you,) your Lord has not forsaken you. Nor is He displeased (ever since He has taken you as His Beloved)."));
+                        parah_30.add(new data_model_arabicandurdu("عَبْدًا إِذَا صَلَّى","(اللہ کے) بندے کو جب وہ نماز پڑھتا ہے۔ (یا:- (اللہ کے محبوب و برگزیدہ) بندے (محمد مصطفی صلی اللہ علیہ وآلہ وسلم) کو جب وہ نماز پڑھتے ہیں)","The servant (of Allah) when he prays? Or The (beloved and the exalted) servant of Allah (Muhammad [blessings and peace be upon him]) when he offers Prayers."));
 
-                parah_30.add(new data_model_arabicandurdu("وَلَلْآخِرَةُ خَيْرٌ لَّكَ مِنَ الْأُولَى", "اور بیشک (ہر) بعد کی گھڑی آپ کے لئے پہلے سے بہتر (یعنی باعثِ عظمت و رفعت) ہے", "Indeed, every following hour is a better (source of eminence and exaltation) for you than the preceding one."));
+                        parah_30.add(new data_model_arabicandurdu("أَرَأَيْتَ إِن كَانَ عَلَى الْهُدَى","بھلا دیکھئے تو اگر وہ ہدایت پر ہوتا","Well, imagine! If he had been rightly guided;"));
 
-                parah_30.add(new data_model_arabicandurdu("وَلَسَوْفَ يُعْطِيكَ رَبُّكَ فَتَرْضَى", "اور آپ کا رب عنقریب آپ کو (اتنا کچھ) عطا فرمائے گا کہ آپ راضی ہو جائیں گے", "And soon your Lord shall bestow upon you (so much) that you will be well-pleased."));
+                        parah_30.add(new data_model_arabicandurdu("أَوْ أَمَرَ بِالتَّقْوَى","یا وہ (لوگوں کو) پرہیزگاری کا حکم دیتا (تو کیا خوب ہوتا)","Or if he had commanded (the people) to be pious (how beneficial it would have been)!"));
 
-                parah_30.add(new data_model_arabicandurdu("أَلَمْ يَجِدْكَ يَتِيمًا فَآوَى", "(اے حبیب!) کیا اس نے آپ کو یتیم نہیں پایا پھر اس نے (آپ کو معزّز و مکرّم) ٹھکانا دیا۔ یا- کیا اس نے آپ کو (مہربان) نہیں پایا پھر اس نے (آپ کے ذریعے) یتیموں کو ٹھکانا دیا۔٭", "(O Beloved!) Did He not find you an orphan, and then provided you (a dignifying and graceful) abode? Or Did He not find you (compassionate) and provided (in your person) a shelter for orphans?"));
+                        parah_30.add(new data_model_arabicandurdu("أَرَأَيْتَ إِن كَذَّبَ وَتَوَلَّى","اب بتائیے! اگر اس نے (دینِ حق کو) جھٹلایا ہے اور (آپ سے) منہ پھیر لیا ہے (تو اس کا کیا حشر ہوگا)","But see now when he has rejected (the true Din [Religion]) and has turned away (from you, what torment is he going to face?)"));
 
-                parah_30.add(new data_model_arabicandurdu("وَوَجَدَكَ ضَالًّا فَهَدَى", "اور اس نے آپ کو اپنی محبت میں خود رفتہ و گم پایا تو اس نے مقصود تک پہنچا دیا۔ یا- اور اس نے آپ کو بھٹکی ہوئی قوم کے درمیان (رہنمائی فرمانے والا) پایا تو اس نے (انہیں آپ کے ذریعے) ہدایت دے دی۔٭", "And He found you engrossed and lost in His love and then made you achieve the coveted objective. Or And He found in you (a leader) for a straying people so He provided them guidance (through you)."));
+                        parah_30.add(new data_model_arabicandurdu("أَلَمْ يَعْلَمْ بِأَنَّ اللَّهَ يَرَى","کیا وہ نہیں جانتا کہ اللہ (اس کے سارے کردار کو) دیکھ رہا ہے","Does he not know that Allah monitors (minutely all his conduct)?"));
 
-                parah_30.add(new data_model_arabicandurdu("وَوَجَدَكَ عَائِلًا فَأَغْنَى", "اور اس نے آپ کو (وصالِ حق کا) حاجت مند پایا تو اس نے (اپنی لذت دید سے نواز کر ہمیشہ کے لئے ہر طلب سے) بے نیاز کر دیا۔ یا- اور اس نے آپ کو (جواد و کریم) پایا تو اس نے (آپ کے ذریعے) محتاجوں کو غنی کر دیا۔٭", "And He found you seeking (closeness with your Lord), and (then blessed you with the pleasure of His sight and) freed you of every need (forever). Or And He found you compassionate and benevolent, then (through you) made the destitute non-liable."));
+                        parah_30.add(new data_model_arabicandurdu("كَلَّا لَئِن لَّمْ يَنتَهِ لَنَسْفَعًا بِالنَّاصِيَةِ","خبر دار! اگر وہ (گستاخئ رسالت اور دینِ حق کی عداوت سے) باز نہ آیا تو ہم ضرور (اسے) پیشانی کے بالوں سے پکڑ کر گھسیٹیں گے","Beware! If he does not desist (from the denigration of the Holy Prophet [blessings and peace be upon him] and antagonism against the true Din [Religion]), We shall certainly grab his forehead and drag him by the forelock,"));
 
-                parah_30.add(new data_model_arabicandurdu("فَأَمَّا الْيَتِيمَ فَلَا تَقْهَرْ", "سو آپ بھی کسی یتیم پر سختی نہ فرمائیں", "So, never should you be strict with any orphan,"));
+                        parah_30.add(new data_model_arabicandurdu("نَاصِيَةٍ كَاذِبَةٍ خَاطِئَةٍ","وہ پیشانی جو جھوٹی (اور) خطا کار ہے","His lying (and) sinful forehead!"));
 
-                parah_30.add(new data_model_arabicandurdu("وَأَمَّا السَّائِلَ فَلَا تَنْهَرْ", "اور (اپنے در کے) کسی منگتے کو نہ جھڑکیں", "Nor reproach any beggar (seeking help at your door),"));
+                        parah_30.add(new data_model_arabicandurdu("فَلْيَدْعُ نَادِيَهُ","پس وہ اپنے ہم نشینوں کو (مدد کے لئے) بلا لے","Then let him call his companions (for help)."));
 
-                parah_30.add(new data_model_arabicandurdu("وَأَمَّا بِنِعْمَةِ رَبِّكَ فَحَدِّثْ", "اور اپنے رب کی نعمتوں کا (خوب) تذکرہ کریں", "And proclaim (well) the bounties of your Lord."));
+                        parah_30.add(new data_model_arabicandurdu("سَنَدْعُ الزَّبَانِيَةَ","ہم بھی عنقریب (اپنے) سپاہیوں (یعنی دوزخ کے عذاب پر مقرر فرشتوں) کو بلا لیں گے","We too shall soon call (Our) guards (the angels appointed to inflict the punishment of Hell)."));
 
-                parah_30.add(new data_model_arabicandurdu("بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ", "اللہ کے نام سے شروع جو نہایت مہربان ہمیشہ رحم فرمانے والا ہے", "In the Name of Allah, Most Compassionate, Ever-Merciful."));
+                        parah_30.add(new data_model_arabicandurdu("كَلَّا لَا تُطِعْهُ وَاسْجُدْ وَاقْتَرِبْ","ہرگز نہیں! آپ اس کے کئے کی پرواہ نہ کیجئے، اور (اے حبیبِ مکرّم!) آپ سر بسجود رہئے اور (ہم سے مزید) قریب ہوتے جائیے","No indeed! Do not pay any heed to his doings and, (O Esteemed Beloved,) persist in prostration and keep drawing near (to Us more and more)."));
 
-                parah_30.add(new data_model_arabicandurdu("أَلَمْ نَشْرَحْ لَكَ صَدْرَكَ", "کیا ہم نے آپ کی خاطر آپ کا سینہ (انوارِ علم و حکمت اور معرفت کے لئے) کشادہ نہیں فرما دیا", "Have We not broadened your breast for you (for the light of knowledge, wisdom and spiritual gnosis)?"));
+//                        parah_30.add(new data_model_arabicandurdu("بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ","اللہ کے نام سے شروع جو نہایت مہربان ہمیشہ رحم فرمانے والا ہے","In the Name of Allah, Most Compassionate, Ever-Merciful."));
 
-                parah_30.add(new data_model_arabicandurdu("وَوَضَعْنَا عَنكَ وِزْرَكَ", "اور ہم نے آپ کا (غمِ امت کا وہ) بار آپ سے اتار دیا", "And We have taken off the load (of grief of the Umma [Community]) from you,"));
+                        parah_30.add(new data_model_arabicandurdu("بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ" +"\n\n"+"إِنَّا أَنزَلْنَاهُ فِي لَيْلَةِ الْقَدْرِ" ,"بیشک ہم نے اس (قرآن) کو شبِ قدر میں اتارا ہے","Surely, We sent down this (Holy Qur’an) during the Night of Destiny."));
 
-                parah_30.add(new data_model_arabicandurdu("الَّذِي أَنقَضَ ظَهْرَكَ", "جو آپ کی پشتِ (مبارک) پر گراں ہو رہا تھا", "(The load) which was growing heavier on your (holy) back."));
+                        parah_30.add(new data_model_arabicandurdu("وَمَا أَدْرَاكَ مَا لَيْلَةُ الْقَدْرِ","اور آپ کیا سمجھے ہیں (کہ) شبِ قدر کیا ہے","And what have you made out what the Night of Destiny is?"));
 
-                parah_30.add(new data_model_arabicandurdu("وَرَفَعْنَا لَكَ ذِكْرَكَ", "اور ہم نے آپ کی خاطر آپ کا ذکر (اپنے ذکر کے ساتھ ملا کر دنیا و آخرت میں ہر جگہ) بلند فرما دیا", "And We exalted for you your remembrance (by annexing it to Ours everywhere in the world and in the Hereafter)."));
+                        parah_30.add(new data_model_arabicandurdu("لَيْلَةُ الْقَدْرِ خَيْرٌ مِّنْ أَلْفِ شَهْرٍ","شبِ قدر (فضیلت و برکت اور اَجر و ثواب میں) ہزار مہینوں سے بہتر ہے","The Night of Destiny is better than a thousand months (in merit, blessings, reward and recompense)."));
 
-                parah_30.add(new data_model_arabicandurdu("فَإِنَّ مَعَ الْعُسْرِ يُسْرًا", "سو بیشک ہر دشواری کے ساتھ آسانی (آتی) ہے", "So surely ease (comes) with every hardship."));
+                        parah_30.add(new data_model_arabicandurdu("تَنَزَّلُ الْمَلَائِكَةُ وَالرُّوحُ فِيهَا بِإِذْنِ رَبِّهِم مِّن كُلِّ أَمْرٍ","اس (رات) میں فرشتے اور روح الامین (جبرائیل) اپنے رب کے حکم سے (خیر و برکت کے) ہر امر کے ساتھ اترتے ہیں","The angels and the Spirit of Peace (Gabriel) descend by their Lord’s command during this (night) with decrees concerning all matters (of blessings and bounties)."));
 
-                parah_30.add(new data_model_arabicandurdu("إِنَّ مَعَ الْعُسْرِ يُسْرًا", "یقیناً (اس) دشواری کے ساتھ آسانی (بھی) ہے", "Verily, with (this) hardship (too) there is ease."));
+                        parah_30.add(new data_model_arabicandurdu("سَلَامٌ هِيَ حَتَّى مَطْلَعِ الْفَجْرِ","یہ (رات) طلوعِ فجر تک (سراسر) سلامتی ہے","This (night) is (absolute) peace and security till daybreak."));
 
-                parah_30.add(new data_model_arabicandurdu("فَإِذَا فَرَغْتَ فَانصَبْ", "پس جب آپ (تعلیمِ امت، تبلیغ و جہاد اور ادائیگیِ فرائض سے) فارغ ہوں تو (ذکر و عبادت میں) محنت فرمایا کریں", "So when you are free (from educating the Umma (Community), preaching the Din (Religion) and fighting, and fulfilling your responsibilities), then strive hard (in remembrance and the worship of your Lord),"));
+//                        parah_30.add(new data_model_arabicandurdu("بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ","اللہ کے نام سے شروع جو نہایت مہربان ہمیشہ رحم فرمانے والا ہے","In the Name of Allah, Most Compassionate, Ever-Merciful."));
 
-                parah_30.add(new data_model_arabicandurdu("وَإِلَى رَبِّكَ فَارْغَبْ", "اور اپنے رب کی طرف راغب ہو جایا کریں", "And turn to your Lord earnestly."));
+                        parah_30.add(new data_model_arabicandurdu("بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ" +"\n\n"+"لَمْ يَكُنِ الَّذِينَ كَفَرُوا مِنْ أَهْلِ الْكِتَابِ وَالْمُشْرِكِينَ مُنفَكِّينَ حَتَّى تَأْتِيَهُمُ الْبَيِّنَةُ","اہلِ کتاب میں سے جو لوگ کافر ہو گئے اور مشرکین اس وقت تک (کفر سے) الگ ہونے والے نہ تھے جب تک ان کے پاس روشن دلیل (نہ) آجاتی","The disbelievers from amongst the People of the Book and the idolaters would not desist (from disbelief) until clear proof came to them."));
 
-                parah_30.add(new data_model_arabicandurdu("بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ", "اللہ کے نام سے شروع جو نہایت مہربان ہمیشہ رحم فرمانے والا ہے", "In the Name of Allah, Most Compassionate, Ever-Merciful."));
+                        parah_30.add(new data_model_arabicandurdu("رَسُولٌ مِّنَ اللَّهِ يَتْلُو صُحُفًا مُّطَهَّرَةً","(وہ دلیل) اللہ کی طرف سے رسول (آخر الزماں صلی اللہ علیہ وآلہ وسلم) ہیں جو (ان پر) پاکیزہ اوراقِ (قرآن) کی تلاوت فرماتے ہیں","That (proof) is the (last) Messenger from Allah, who recites (to them) holy pages (of the Glorious Qur’an),"));
 
-                parah_30.add(new data_model_arabicandurdu("وَالتِّينِ وَالزَّيْتُونِ", "انجیر کی قَسم اور زیتون کی قَسم", "By the fig and by the olive!"));
+                        parah_30.add(new data_model_arabicandurdu("فِيهَا كُتُبٌ قَيِّمَةٌ","جن میں درست اور مستحکم احکام (درج) ہیں","In which are (written) correct and firm commandments."));
 
-                parah_30.add(new data_model_arabicandurdu("وَطُورِ سِينِينَ", "اور سینا کے (پہاڑ) طور کی قَسم", "And by (Mount) Tur of Sinai!"));
+                        parah_30.add(new data_model_arabicandurdu("وَمَا تَفَرَّقَ الَّذِينَ أُوتُوا الْكِتَابَ إِلَّا مِن بَعْدِ مَا جَاءَتْهُمُ الْبَيِّنَةُ","(ان) اہل کتاب میں (نبی آخر الزماں صلی اللہ علیہ وآلہ وسلم کی نبوت و رسالت پر ایمان لانے اور آپ کی شانِ اقدس کو پہچاننے کے بارے میں پہلے) کوئی پھوٹ نہ پڑی تھی مگر اس کے بعد کہ جب (بعثتِ محمدی صلی اللہ علیہ وآلہ وسلم کی) روشن دلیل ان کے پاس آگئی (تو وہ باہم بٹ گئے کوئی ان پر ایمان لے آیا اور کوئی حسد کے باعث منکر و کافر ہوگیا)","These People of the Book did not dissent amongst themselves (with regard to believing in the Prophethood and Messengership of the Last Messenger and recognizing his holy status), until after the clear proof (of the Prophethood of Muhammad [blessings and peace be upon him]) had come to them. (Then, they broke up: some of them accepted belief in him whilst others became deniers and disbelievers out of jealousy,)"));
 
-                parah_30.add(new data_model_arabicandurdu("وَهَذَا الْبَلَدِ الْأَمِينِ", "اور اس امن والے شہر (مکہ) کی قَسم", "And by this city of peace (Mecca)!"));
+                        parah_30.add(new data_model_arabicandurdu("وَمَا أُمِرُوا إِلَّا لِيَعْبُدُوا اللَّهَ مُخْلِصِينَ لَهُ الدِّينَ حُنَفَاءَ وَيُقِيمُوا الصَّلَاةَ وَيُؤْتُوا الزَّكَاةَ وَذَلِكَ دِينُ الْقَيِّمَةِ","حالانکہ انہیں فقط یہی حکم دیا گیا تھا کہ صرف اسی کے لئے اپنے دین کو خالص کرتے ہوئے اللہ کی عبادت کریں، (ہر باطل سے جدا ہو کر) حق کی طرف یک سُوئی پیدا کریں اور نماز قائم کریں اور زکوٰۃ دیا کریں اور یہی سیدھا اور مضبوط دین ہے","Whereas they were commanded to worship only Allah, making their Din (faith and devotion) sincerely His (dissociating from every falsehood) to establish Prayer and to pay Zakat (the Alms-due) regularly. And this is the straight and firm Din (Religion)."));
 
-                parah_30.add(new data_model_arabicandurdu("لَقَدْ خَلَقْنَا الْإِنسَانَ فِي أَحْسَنِ تَقْوِيمٍ", "بیشک ہم نے انسان کو بہترین (اعتدال اور توازن والی) ساخت میں پیدا فرمایا ہے", "Indeed, We have created man in the best constitution (equipoised in the finest proportion)."));
+                        parah_30.add(new data_model_arabicandurdu("إِنَّ الَّذِينَ كَفَرُوا مِنْ أَهْلِ الْكِتَابِ وَالْمُشْرِكِينَ فِي نَارِ جَهَنَّمَ خَالِدِينَ فِيهَا أُوْلَئِكَ هُمْ شَرُّ الْبَرِيَّةِ","بیشک جو لوگ اہلِ کتاب میں سے کافر ہوگئے اور مشرکین (سب) دوزخ کی آگ میں (پڑے) ہوں گے وہ ہمیشہ اسی میں رہنے والے ہیں، یہی لوگ بد ترین مخلوق ہیں","Indeed, those who disbelieve from amongst the People of the Book and the polytheists (all) will be (abiding) in the Fire of Hell. They are its permanent dwellers. It is they who are the worst of the creation."));
 
-                parah_30.add(new data_model_arabicandurdu("ثُمَّ رَدَدْنَاهُ أَسْفَلَ سَافِلِينَ", "پھر ہم نے اسے پست سے پست تر حالت میں لوٹا دیا", "Then We returned him to the lowest state of the low,"));
+                        parah_30.add(new data_model_arabicandurdu("إِنَّ الَّذِينَ آمَنُوا وَعَمِلُوا الصَّالِحَاتِ أُوْلَئِكَ هُمْ خَيْرُ الْبَرِيَّةِ","بیشک جو لوگ ایمان لائے اور نیک عمل کرتے رہے وہی لوگ ساری مخلوق سے بہتر ہیں","Indeed, those who believe and keep doing pious actions, it is they who are the best of the creation."));
 
-                parah_30.add(new data_model_arabicandurdu("إِلَّا الَّذِينَ آمَنُوا وَعَمِلُوا الصَّالِحَاتِ فَلَهُمْ أَجْرٌ غَيْرُ مَمْنُونٍ", "سوائے ان لوگوں کے جو ایمان لائے اور نیک عمل کرتے رہے تو ان کے لئے ختم نہ ہونے والا (دائمی) اجر ہے", "Except for those who believe and do good works. For them is an unending (i.e., everlasting) reward."));
+                        parah_30.add(new data_model_arabicandurdu("جَزَاؤُهُمْ عِندَ رَبِّهِمْ جَنَّاتُ عَدْنٍ تَجْرِي مِن تَحْتِهَا الْأَنْهَارُ خَالِدِينَ فِيهَا أَبَدًا رَّضِيَ اللَّهُ عَنْهُمْ وَرَضُوا عَنْهُ ذَلِكَ لِمَنْ خَشِيَ رَبَّهُ","ان کی جزا ان کے رب کے حضور دائمی رہائش کے باغات ہیں جن کے نیچے سے نہریں رواں ہیں، وہ ان میں ہمیشہ ہمیشہ رہیں گے، اللہ اُن سے راضی ہوگیا ہے اور وہ لوگ اس سے راضی ہیں، یہ (مقام) اس شخص کے لئے ہے جو اپنے رب سے خائف رہا","Their reward is the Gardens of eternal living in the presence of their Lord, with streams flowing under them. They will live in them forever. Allah is pleased with them and they are pleased with Him. This (status) is meant for the one who fears his Lord."));
 
-                parah_30.add(new data_model_arabicandurdu("فَمَا يُكَذِّبُكَ بَعْدُ بِالدِّينِ", "پھر اس کے بعد کون ہے جو آپ کو دین (یا قیامت اور جزا و سزا) کے بارے میں جھٹلاتا ہے", "Then who denies you after this regarding the Din (Religion or the Last Hour and reward and punishment)?"));
+//                        parah_30.add(new data_model_arabicandurdu("بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ","اللہ کے نام سے شروع جو نہایت مہربان ہمیشہ رحم فرمانے والا ہے","In the Name of Allah, Most Compassionate, Ever-Merciful."));
 
-                parah_30.add(new data_model_arabicandurdu("أَلَيْسَ اللَّهُ بِأَحْكَمِ الْحَاكِمِينَ", "کیا اللہ سب حاکموں سے بڑا حاکم نہیں ہے", "Is Allah not the Greatest of all the rulers?"));
+                        parah_30.add(new data_model_arabicandurdu("بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ" +"\n\n"+"إِذَا زُلْزِلَتِ الْأَرْضُ زِلْزَالَهَا","جب زمین اپنے سخت بھونچال سے بڑی شدت کے ساتھ تھرتھرائی جائے گی","When the earth will be violently shaken with a high-scale quake,"));
 
-                parah_30.add(new data_model_arabicandurdu("بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ", "اللہ کے نام سے شروع جو نہایت مہربان ہمیشہ رحم فرمانے والا ہے", "In the Name of Allah, Most Compassionate, Ever-Merciful."));
+                        parah_30.add(new data_model_arabicandurdu("وَأَخْرَجَتِ الْأَرْضُ أَثْقَالَهَا","اور زمین اپنے (سب) بوجھ نکال باہر پھینکے گی","And when the earth will throw out (all) her burdens,"));
 
-                parah_30.add(new data_model_arabicandurdu("اقْرَأْ بِاسْمِ رَبِّكَ الَّذِي خَلَقَ", "(اے حبیب!) اپنے رب کے نام سے (آغاز کرتے ہوئے) پڑھئے جس نے (ہر چیز کو) پیدا فرمایا", "(O Beloved!) Read (commencing) with the Name of Allah, Who has created (everything)."));
+                        parah_30.add(new data_model_arabicandurdu("وَقَالَ الْإِنسَانُ مَا لَهَا","اور انسان (حیران و ششدر ہو کر) کہے گا: اسے کیا ہوگیا ہے","And man (bewildered and baffled) will say: ‘What has happened to her?’"));
 
-                parah_30.add(new data_model_arabicandurdu("خَلَقَ الْإِنسَانَ مِنْ عَلَقٍ", "اس نے انسان کو (رحمِ مادر میں) جونک کی طرح معلّق وجود سے پیدا کیا", "He created man from a hanging mass (clinging) like a leech (to the mother’s womb)."));
+                        parah_30.add(new data_model_arabicandurdu("يَوْمَئِذٍ تُحَدِّثُ أَخْبَارَهَا","اس دن وہ اپنے حالات خود ظاہر کر دے گی","On that Day, she will herself bring to light her experiences,"));
 
-                parah_30.add(new data_model_arabicandurdu("اقْرَأْ وَرَبُّكَ الْأَكْرَمُ", "پڑھیئے اور آپ کا رب بڑا ہی کریم ہے", "Read, and your Lord is Most Generous,"));
+                        parah_30.add(new data_model_arabicandurdu("بِأَنَّ رَبَّكَ أَوْحَى لَهَا","اس لئے کہ آپ کے رب نے اس کے لئے تیز اشاروں (کی زبان) کو مسخر فرما دیا ہوگا","For your Lord will have made subservient to her (the symbolic language of) sharp signals."));
 
-                parah_30.add(new data_model_arabicandurdu("الَّذِي عَلَّمَ بِالْقَلَمِ", "جس نے قلم کے ذریعے (لکھنے پڑھنے کا) علم سکھایا", "Who taught man (reading and writing) by the pen,"));
+                        parah_30.add(new data_model_arabicandurdu("يَوْمَئِذٍ يَصْدُرُ النَّاسُ أَشْتَاتًا لِّيُرَوْا أَعْمَالَهُمْ","اس دن لوگ مختلف گروہ بن کر (جدا جدا حالتوں کے ساتھ) نکلیں گے تاکہ انہیں ان کے اَعمال دکھائے جائیں","On that Day, people will form up in different groups, (in diverse conditions,) so that they may be shown their works."));
 
-                parah_30.add(new data_model_arabicandurdu("عَلَّمَ الْإِنسَانَ مَا لَمْ يَعْلَمْ", "جس نے انسان کو (اس کے علاوہ بھی) وہ (کچھ) سکھا دیا جو وہ نہیں جانتا تھا۔ یا- جس نے (سب سے بلند رتبہ) انسان (محمد مصطفی صلی اللہ علیہ وآلہ وسلم) کو (بغیر ذریعۂ قلم کے) وہ سارا علم عطا فرما دیا جو وہ پہلے نہ جانتے تھے", "Who (besides that) taught man (all that) which he did not know. Or Who imparted to (the most eminent of) mankind (the chosen Prophet Muhammad [blessings and peace be upon him] without using any pen) the whole knowledge that he was not aware of before."));
+                        parah_30.add(new data_model_arabicandurdu("فَمَن يَعْمَلْ مِثْقَالَ ذَرَّةٍ خَيْرًا يَرَهُ","تو جس نے ذرہ بھر نیکی کی ہوگی وہ اسے دیکھ لے گا","Then he who will have done even an atom’s weight of good will see it."));
 
-                parah_30.add(new data_model_arabicandurdu("كَلَّا إِنَّ الْإِنسَانَ لَيَطْغَى", "(مگر) حقیقت یہ ہے کہ (نافرمان) انسان سر کشی کرتا ہے", "(But) the fact is that (the disobedient) man rebels,"));
+                        parah_30.add(new data_model_arabicandurdu("وَمَن يَعْمَلْ مِثْقَالَ ذَرَّةٍ شَرًّا يَرَهُ","اور جس نے ذرہ بھر برائی کی ہوگی وہ اسے (بھی) دیکھ لے گا","And he who will have done even an atom’s weight of evil will (also) see it."));
 
-                parah_30.add(new data_model_arabicandurdu("أَن رَّآهُ اسْتَغْنَى", "اس بنا پر کہ وہ اپنے آپ کو (دنیا میں ظاہراً) بے نیاز دیکھتا ہے", "For the reason that (apparently) he finds himself self-sufficient (in the world)."));
+//                        parah_30.add(new data_model_arabicandurdu("بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ","اللہ کے نام سے شروع جو نہایت مہربان ہمیشہ رحم فرمانے والا ہے","In the Name of Allah, Most Compassionate, Ever-Merciful."));
 
-                parah_30.add(new data_model_arabicandurdu("إِنَّ إِلَى رَبِّكَ الرُّجْعَى", "بیشک (ہر انسان کو) آپ کے رب ہی کی طرف لوٹنا ہے", "Surely, (every man) has to return to your Lord."));
+                        parah_30.add(new data_model_arabicandurdu("بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ" +"\n\n"+"وَالْعَادِيَاتِ ضَبْحًا" ,"(میدانِ جہاد میں) تیز دوڑنے والے گھوڑوں کی قَسم جو ہانپتے ہیں","By the charging horses that gallop (in the battlefield) and pant,"));
 
-                parah_30.add(new data_model_arabicandurdu("أَرَأَيْتَ الَّذِي يَنْهَى", "کیا آپ نے اس شخص کو دیکھا جو منع کرتا ہے", "Have you seen him who prevents,"));
+                        parah_30.add(new data_model_arabicandurdu("فَالْمُورِيَاتِ قَدْحًا","پھر جو پتھروں پر سُم مار کر چنگاریاں نکالتے ہیں","And those that produce sparks striking their hoofs on rocks,"));
 
-                parah_30.add(new data_model_arabicandurdu("عَبْدًا إِذَا صَلَّى", "(اللہ کے) بندے کو جب وہ نماز پڑھتا ہے۔ (یا:- (اللہ کے محبوب و برگزیدہ) بندے (محمد مصطفی صلی اللہ علیہ وآلہ وسلم) کو جب وہ نماز پڑھتے ہیں)", "The servant (of Allah) when he prays? Or The (beloved and the exalted) servant of Allah (Muhammad [blessings and peace be upon him]) when he offers Prayers."));
+                        parah_30.add(new data_model_arabicandurdu("فَالْمُغِيرَاتِ صُبْحًا","پھر جو صبح ہوتے ہی (دشمن پر) اچانک حملہ کر ڈالتے ہیں","Then they attack (the enemy) at dawn,"));
 
-                parah_30.add(new data_model_arabicandurdu("أَرَأَيْتَ إِن كَانَ عَلَى الْهُدَى", "بھلا دیکھئے تو اگر وہ ہدایت پر ہوتا", "Well, imagine! If he had been rightly guided;"));
+                        parah_30.add(new data_model_arabicandurdu("فَأَثَرْنَ بِهِ نَقْعًا","پھر وہ اس (حملے والی) جگہ سے گرد و غبار اڑاتے ہیں","And then raise clouds of dust from the point (of attack),"));
 
-                parah_30.add(new data_model_arabicandurdu("أَوْ أَمَرَ بِالتَّقْوَى", "یا وہ (لوگوں کو) پرہیزگاری کا حکم دیتا (تو کیا خوب ہوتا)", "Or if he had commanded (the people) to be pious (how beneficial it would have been)!"));
+                        parah_30.add(new data_model_arabicandurdu("فَوَسَطْنَ بِهِ جَمْعًا","پھر وہ اسی وقت (دشمن کے) لشکر میں گھس جاتے ہیں","And then simultaneously pierce into (the enemy) ranks,"));
 
-                parah_30.add(new data_model_arabicandurdu("أَرَأَيْتَ إِن كَذَّبَ وَتَوَلَّى", "اب بتائیے! اگر اس نے (دینِ حق کو) جھٹلایا ہے اور (آپ سے) منہ پھیر لیا ہے (تو اس کا کیا حشر ہوگا)", "But see now when he has rejected (the true Din [Religion]) and has turned away (from you, what torment is he going to face?)"));
+                        parah_30.add(new data_model_arabicandurdu("إِنَّ الْإِنسَانَ لِرَبِّهِ لَكَنُودٌ","بیشک انسان اپنے رب کا بڑا ہی ناشکرا ہے","Indeed, man is most ungrateful to his Lord,"));
 
-                parah_30.add(new data_model_arabicandurdu("أَلَمْ يَعْلَمْ بِأَنَّ اللَّهَ يَرَى", "کیا وہ نہیں جانتا کہ اللہ (اس کے سارے کردار کو) دیکھ رہا ہے", "Does he not know that Allah monitors (minutely all his conduct)?"));
+                        parah_30.add(new data_model_arabicandurdu("وَإِنَّهُ عَلَى ذَلِكَ لَشَهِيدٌ","اور یقیناً وہ اس (ناشکری) پر خود گواہ ہے","And verily, he is himself a witness to this ingratitude."));
 
-                parah_30.add(new data_model_arabicandurdu("كَلَّا لَئِن لَّمْ يَنتَهِ لَنَسْفَعًا بِالنَّاصِيَةِ", "خبر دار! اگر وہ (گستاخئ رسالت اور دینِ حق کی عداوت سے) باز نہ آیا تو ہم ضرور (اسے) پیشانی کے بالوں سے پکڑ کر گھسیٹیں گے", "Beware! If he does not desist (from the denigration of the Holy Prophet [blessings and peace be upon him] and antagonism against the true Din [Religion]), We shall certainly grab his forehead and drag him by the forelock,"));
+                        parah_30.add(new data_model_arabicandurdu("وَإِنَّهُ لِحُبِّ الْخَيْرِ لَشَدِيدٌ","اور بیشک وہ مال کی محبت میں بہت سخت ہے","And indeed, he is quite stubborn in his love of wealth."));
 
-                parah_30.add(new data_model_arabicandurdu("نَاصِيَةٍ كَاذِبَةٍ خَاطِئَةٍ", "وہ پیشانی جو جھوٹی (اور) خطا کار ہے", "His lying (and) sinful forehead!"));
+                        parah_30.add(new data_model_arabicandurdu("أَفَلَا يَعْلَمُ إِذَا بُعْثِرَ مَا فِي الْقُبُورِ","تو کیا اسے معلوم نہیں جب وہ (مُردے) اٹھائے جائیں گے جو قبروں میں ہیں","But does he not know when those (dead) in the graves will be raised,"));
 
-                parah_30.add(new data_model_arabicandurdu("فَلْيَدْعُ نَادِيَهُ", "پس وہ اپنے ہم نشینوں کو (مدد کے لئے) بلا لے", "Then let him call his companions (for help)."));
+                        parah_30.add(new data_model_arabicandurdu("وَحُصِّلَ مَا فِي الصُّدُورِ","اور (راز) ظاہر کر دیئے جائیں گے جو سینوں میں ہیں","And secrets which are in hearts will be disclosed?"));
 
-                parah_30.add(new data_model_arabicandurdu("سَنَدْعُ الزَّبَانِيَةَ", "ہم بھی عنقریب (اپنے) سپاہیوں (یعنی دوزخ کے عذاب پر مقرر فرشتوں) کو بلا لیں گے", "We too shall soon call (Our) guards (the angels appointed to inflict the punishment of Hell)."));
+                        parah_30.add(new data_model_arabicandurdu("إِنَّ رَبَّهُم بِهِمْ يَوْمَئِذٍ لَّخَبِيرٌ","بیشک ان کا رب اس دن ان (کے اعمال) سے خوب خبردار ہوگا","Indeed, their Lord will be Well Aware of their (deeds) on that Day."));
 
-                parah_30.add(new data_model_arabicandurdu("كَلَّا لَا تُطِعْهُ وَاسْجُدْ وَاقْتَرِبْ", "ہرگز نہیں! آپ اس کے کئے کی پرواہ نہ کیجئے، اور (اے حبیبِ مکرّم!) آپ سر بسجود رہئے اور (ہم سے مزید) قریب ہوتے جائیے", "No indeed! Do not pay any heed to his doings and, (O Esteemed Beloved,) persist in prostration and keep drawing near (to Us more and more)."));
+//                        parah_30.add(new data_model_arabicandurdu("بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ","اللہ کے نام سے شروع جو نہایت مہربان ہمیشہ رحم فرمانے والا ہے","In the Name of Allah, Most Compassionate, Ever-Merciful."));
 
-                parah_30.add(new data_model_arabicandurdu("بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ", "اللہ کے نام سے شروع جو نہایت مہربان ہمیشہ رحم فرمانے والا ہے", "In the Name of Allah, Most Compassionate, Ever-Merciful."));
+                        parah_30.add(new data_model_arabicandurdu("بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ" +"\n\n"+"الْقَارِعَةُ" ,"(زمین و آسمان کی ساری کائنات کو) کھڑکھڑا دینے والا شدید جھٹکا اور کڑک","The high-scale jolt rocking (the whole universe of the heavens and the earth) and thunder!"));
 
-                parah_30.add(new data_model_arabicandurdu("إِنَّا أَنزَلْنَاهُ فِي لَيْلَةِ الْقَدْرِ", "بیشک ہم نے اس (قرآن) کو شبِ قدر میں اتارا ہے", "Surely, We sent down this (Holy Qur’an) during the Night of Destiny."));
+                        parah_30.add(new data_model_arabicandurdu("مَا الْقَارِعَةُ","وہ (ہر شے کو) کھڑ کھڑا دینے والا شدید جھٹکا اور کڑک کیا ہے","And what is that high-scale jolt rocking (everything) and that thunder?"));
 
-                parah_30.add(new data_model_arabicandurdu("وَمَا أَدْرَاكَ مَا لَيْلَةُ الْقَدْرِ", "اور آپ کیا سمجھے ہیں (کہ) شبِ قدر کیا ہے", "And what have you made out what the Night of Destiny is?"));
+                        parah_30.add(new data_model_arabicandurdu("وَمَا أَدْرَاكَ مَا الْقَارِعَةُ","اور آپ کیا سمجھے ہیں کہ (ہر شے کو) کھڑ کھڑا دینے والے شدید جھٹکے اور کڑک سے مراد کیا ہے","And what have you made out what the high-scale jolt and thunder implies?"));
 
-                parah_30.add(new data_model_arabicandurdu("لَيْلَةُ الْقَدْرِ خَيْرٌ مِّنْ أَلْفِ شَهْرٍ", "شبِ قدر (فضیلت و برکت اور اَجر و ثواب میں) ہزار مہینوں سے بہتر ہے", "The Night of Destiny is better than a thousand months (in merit, blessings, reward and recompense)."));
+                        parah_30.add(new data_model_arabicandurdu("يَوْمَ يَكُونُ النَّاسُ كَالْفَرَاشِ الْمَبْثُوثِ","(اس سے مراد) وہ یومِ قیامت ہے جس دن (سارے) لوگ بکھرے ہوئے پروانوں کی طرح ہو جائیں گے","(It implies) the Day of Resurrection when (the whole of) mankind will become like scattered moths,"));
 
-                parah_30.add(new data_model_arabicandurdu("تَنَزَّلُ الْمَلَائِكَةُ وَالرُّوحُ فِيهَا بِإِذْنِ رَبِّهِم مِّن كُلِّ أَمْرٍ", "اس (رات) میں فرشتے اور روح الامین (جبرائیل) اپنے رب کے حکم سے (خیر و برکت کے) ہر امر کے ساتھ اترتے ہیں", "The angels and the Spirit of Peace (Gabriel) descend by their Lord’s command during this (night) with decrees concerning all matters (of blessings and bounties)."));
+                        parah_30.add(new data_model_arabicandurdu("وَتَكُونُ الْجِبَالُ كَالْعِهْنِ الْمَنفُوشِ","اور پہاڑ رنگ برنگ دھنکی ہوئی اُون کی طرح ہو جائیں گے","And the mountains will be like multicoloured carded wool."));
 
-                parah_30.add(new data_model_arabicandurdu("سَلَامٌ هِيَ حَتَّى مَطْلَعِ الْفَجْرِ", "یہ (رات) طلوعِ فجر تک (سراسر) سلامتی ہے", "This (night) is (absolute) peace and security till daybreak."));
+                        parah_30.add(new data_model_arabicandurdu("فَأَمَّا مَن ثَقُلَتْ مَوَازِينُهُ","پس وہ شخص کہ جس (کے اعمال) کے پلڑے بھاری ہوں گے","So he whose scales of deeds in the balance will be heavy,"));
 
-                parah_30.add(new data_model_arabicandurdu("بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ", "اللہ کے نام سے شروع جو نہایت مہربان ہمیشہ رحم فرمانے والا ہے", "In the Name of Allah, Most Compassionate, Ever-Merciful."));
+                        parah_30.add(new data_model_arabicandurdu("فَهُوَ فِي عِيشَةٍ رَّاضِيَةٍ","تو وہ خوش گوار عیش و مسرت میں ہوگا","He will be in luxury and delight."));
 
-                parah_30.add(new data_model_arabicandurdu("لَمْ يَكُنِ الَّذِينَ كَفَرُوا مِنْ أَهْلِ الْكِتَابِ وَالْمُشْرِكِينَ مُنفَكِّينَ حَتَّى تَأْتِيَهُمُ الْبَيِّنَةُ", "اہلِ کتاب میں سے جو لوگ کافر ہو گئے اور مشرکین اس وقت تک (کفر سے) الگ ہونے والے نہ تھے جب تک ان کے پاس روشن دلیل (نہ) آجاتی", "The disbelievers from amongst the People of the Book and the idolaters would not desist (from disbelief) until clear proof came to them."));
+                        parah_30.add(new data_model_arabicandurdu("وَأَمَّا مَنْ خَفَّتْ مَوَازِينُهُ","اور جس شخص کے (اعمال کے) پلڑے ہلکے ہوں گے","But as for him whose scales of deeds in the balance will be light,"));
 
-                parah_30.add(new data_model_arabicandurdu("رَسُولٌ مِّنَ اللَّهِ يَتْلُو صُحُفًا مُّطَهَّرَةً", "(وہ دلیل) اللہ کی طرف سے رسول (آخر الزماں صلی اللہ علیہ وآلہ وسلم) ہیں جو (ان پر) پاکیزہ اوراقِ (قرآن) کی تلاوت فرماتے ہیں", "That (proof) is the (last) Messenger from Allah, who recites (to them) holy pages (of the Glorious Qur’an),"));
+                        parah_30.add(new data_model_arabicandurdu("فَأُمُّهُ هَاوِيَةٌ","تو اس کا ٹھکانا ہاویہ (جہنم کا گڑھا) ہوگا","His abode will be Hawiya (a pit in Hell)!"));
 
-                parah_30.add(new data_model_arabicandurdu("فِيهَا كُتُبٌ قَيِّمَةٌ", "جن میں درست اور مستحکم احکام (درج) ہیں", "In which are (written) correct and firm commandments."));
+                        parah_30.add(new data_model_arabicandurdu("وَمَا أَدْرَاكَ مَا هِيَهْ","اور آپ کیا سمجھے ہیں کہ ہاویہ کیا ہے","And what have you made out what that (Hawiya) is?"));
 
-                parah_30.add(new data_model_arabicandurdu("وَمَا تَفَرَّقَ الَّذِينَ أُوتُوا الْكِتَابَ إِلَّا مِن بَعْدِ مَا جَاءَتْهُمُ الْبَيِّنَةُ", "(ان) اہل کتاب میں (نبی آخر الزماں صلی اللہ علیہ وآلہ وسلم کی نبوت و رسالت پر ایمان لانے اور آپ کی شانِ اقدس کو پہچاننے کے بارے میں پہلے) کوئی پھوٹ نہ پڑی تھی مگر اس کے بعد کہ جب (بعثتِ محمدی صلی اللہ علیہ وآلہ وسلم کی) روشن دلیل ان کے پاس آگئی (تو وہ باہم بٹ گئے کوئی ان پر ایمان لے آیا اور کوئی حسد کے باعث منکر و کافر ہوگیا)", "These People of the Book did not dissent amongst themselves (with regard to believing in the Prophethood and Messengership of the Last Messenger and recognizing his holy status), until after the clear proof (of the Prophethood of Muhammad [blessings and peace be upon him]) had come to them. (Then, they broke up: some of them accepted belief in him whilst others became deniers and disbelievers out of jealousy,)"));
+                        parah_30.add(new data_model_arabicandurdu("نَارٌ حَامِيَةٌ","(وہ جہنم کی) سخت دہکتی آگ (کا انتہائی گہرا گڑھا) ہے","It is (an extremely deep pit of) the fiercely Blazing Fire (of Hell)."));
 
-                parah_30.add(new data_model_arabicandurdu("وَمَا أُمِرُوا إِلَّا لِيَعْبُدُوا اللَّهَ مُخْلِصِينَ لَهُ الدِّينَ حُنَفَاءَ وَيُقِيمُوا الصَّلَاةَ وَيُؤْتُوا الزَّكَاةَ وَذَلِكَ دِينُ الْقَيِّمَةِ", "حالانکہ انہیں فقط یہی حکم دیا گیا تھا کہ صرف اسی کے لئے اپنے دین کو خالص کرتے ہوئے اللہ کی عبادت کریں، (ہر باطل سے جدا ہو کر) حق کی طرف یک سُوئی پیدا کریں اور نماز قائم کریں اور زکوٰۃ دیا کریں اور یہی سیدھا اور مضبوط دین ہے", "Whereas they were commanded to worship only Allah, making their Din (faith and devotion) sincerely His (dissociating from every falsehood) to establish Prayer and to pay Zakat (the Alms-due) regularly. And this is the straight and firm Din (Religion)."));
+//                        parah_30.add(new data_model_arabicandurdu("بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ","اللہ کے نام سے شروع جو نہایت مہربان ہمیشہ رحم فرمانے والا ہے","In the Name of Allah, Most Compassionate, Ever-Merciful."));
 
-                parah_30.add(new data_model_arabicandurdu("إِنَّ الَّذِينَ كَفَرُوا مِنْ أَهْلِ الْكِتَابِ وَالْمُشْرِكِينَ فِي نَارِ جَهَنَّمَ خَالِدِينَ فِيهَا أُوْلَئِكَ هُمْ شَرُّ الْبَرِيَّةِ", "بیشک جو لوگ اہلِ کتاب میں سے کافر ہوگئے اور مشرکین (سب) دوزخ کی آگ میں (پڑے) ہوں گے وہ ہمیشہ اسی میں رہنے والے ہیں، یہی لوگ بد ترین مخلوق ہیں", "Indeed, those who disbelieve from amongst the People of the Book and the polytheists (all) will be (abiding) in the Fire of Hell. They are its permanent dwellers. It is they who are the worst of the creation."));
+                        parah_30.add(new data_model_arabicandurdu("بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ" +"\n\n"+"أَلْهَاكُمُ التَّكَاثُرُ" ,"تمہیں کثرتِ مال کی ہوس اور فخر نے (آخرت سے) غافل کر دیا","Your greed for massive wealth and the superiority complex has made you negligent (of the Hereafter),"));
 
-                parah_30.add(new data_model_arabicandurdu("إِنَّ الَّذِينَ آمَنُوا وَعَمِلُوا الصَّالِحَاتِ أُوْلَئِكَ هُمْ خَيْرُ الْبَرِيَّةِ", "بیشک جو لوگ ایمان لائے اور نیک عمل کرتے رہے وہی لوگ ساری مخلوق سے بہتر ہیں", "Indeed, those who believe and keep doing pious actions, it is they who are the best of the creation."));
+                        parah_30.add(new data_model_arabicandurdu("حَتَّى زُرْتُمُ الْمَقَابِرَ","یہاں تک کہ تم قبروں میں جا پہنچے","Until you go down to the graves."));
 
-                parah_30.add(new data_model_arabicandurdu("جَزَاؤُهُمْ عِندَ رَبِّهِمْ جَنَّاتُ عَدْنٍ تَجْرِي مِن تَحْتِهَا الْأَنْهَارُ خَالِدِينَ فِيهَا أَبَدًا رَّضِيَ اللَّهُ عَنْهُمْ وَرَضُوا عَنْهُ ذَلِكَ لِمَنْ خَشِيَ رَبَّهُ", "ان کی جزا ان کے رب کے حضور دائمی رہائش کے باغات ہیں جن کے نیچے سے نہریں رواں ہیں، وہ ان میں ہمیشہ ہمیشہ رہیں گے، اللہ اُن سے راضی ہوگیا ہے اور وہ لوگ اس سے راضی ہیں، یہ (مقام) اس شخص کے لئے ہے جو اپنے رب سے خائف رہا", "Their reward is the Gardens of eternal living in the presence of their Lord, with streams flowing under them. They will live in them forever. Allah is pleased with them and they are pleased with Him. This (status) is meant for the one who fears his Lord."));
+                        parah_30.add(new data_model_arabicandurdu("كَلَّا سَوْفَ تَعْلَمُونَ","ہرگز نہیں! (مال و دولت تمہارے کام نہیں آئیں گے) تم عنقریب (اس حقیقت کو) جان لو گے","No indeed! You will soon learn (this reality that wealth and riches will avail you nothing)."));
 
-                parah_30.add(new data_model_arabicandurdu("بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ", "اللہ کے نام سے شروع جو نہایت مہربان ہمیشہ رحم فرمانے والا ہے", "In the Name of Allah, Most Compassionate, Ever-Merciful."));
+                        parah_30.add(new data_model_arabicandurdu("ثُمَّ كَلَّا سَوْفَ تَعْلَمُونَ","پھر (آگاہ کیا جاتا ہے:) ہرگز نہیں! عنقریب تمہیں (اپنا انجام) معلوم ہو جائے گا","Again (you are warned.) No! Never! You will soon learn about (your end)."));
 
-                parah_30.add(new data_model_arabicandurdu("إِذَا زُلْزِلَتِ الْأَرْضُ زِلْزَالَهَا", "جب زمین اپنے سخت بھونچال سے بڑی شدت کے ساتھ تھرتھرائی جائے گی", "When the earth will be violently shaken with a high-scale quake,"));
+                        parah_30.add(new data_model_arabicandurdu("كَلَّا لَوْ تَعْلَمُونَ عِلْمَ الْيَقِينِ","ہاں ہاں! کاش تم (مال و زَر کی ہوس اور اپنی غفلت کے انجام کو) یقینی علم کے ساتھ جانتے (تو دنیا میں کھو کر آخرت کو اس طرح نہ بھولتے)","Yes indeed! Would that you knew with the knowledge of certitude (the consequence of greed for wealth and riches and your negligence! Then, lost in the worldly pleasures, you would never forget the Hereafter like this)."));
 
-                parah_30.add(new data_model_arabicandurdu("وَأَخْرَجَتِ الْأَرْضُ أَثْقَالَهَا", "اور زمین اپنے (سب) بوجھ نکال باہر پھینکے گی", "And when the earth will throw out (all) her burdens,"));
+                        parah_30.add(new data_model_arabicandurdu("لَتَرَوُنَّ الْجَحِيمَ","تم (اپنی حرص کے نتیجے میں) دوزخ کو ضرور دیکھ کر رہو گے","(Consequent on your greed) you will surely see Hell."));
 
-                parah_30.add(new data_model_arabicandurdu("وَقَالَ الْإِنسَانُ مَا لَهَا", "اور انسان (حیران و ششدر ہو کر) کہے گا: اسے کیا ہوگیا ہے", "And man (bewildered and baffled) will say: ‘What has happened to her?’"));
+                        parah_30.add(new data_model_arabicandurdu("ثُمَّ لَتَرَوُنَّهَا عَيْنَ الْيَقِينِ","پھر تم اسے ضرور یقین کی آنکھ سے دیکھ لو گے","Then you will certainly see it with the eye of certitude."));
 
-                parah_30.add(new data_model_arabicandurdu("يَوْمَئِذٍ تُحَدِّثُ أَخْبَارَهَا", "اس دن وہ اپنے حالات خود ظاہر کر دے گی", "On that Day, she will herself bring to light her experiences,"));
+                        parah_30.add(new data_model_arabicandurdu("ثُمَّ لَتُسْأَلُنَّ يَوْمَئِذٍ عَنِ النَّعِيمِ","پھر اس دن تم سے (اللہ کی) نعمتوں کے بارے میں ضرور پوچھا جائے گا (کہ تم نے انہیں کہاں کہاں اور کیسے کیسے خرچ کیا تھا)","Then on that Day, you will certainly be questioned about the bounties (given to you by Allah and the way you consumed them)."));
 
-                parah_30.add(new data_model_arabicandurdu("بِأَنَّ رَبَّكَ أَوْحَى لَهَا", "اس لئے کہ آپ کے رب نے اس کے لئے تیز اشاروں (کی زبان) کو مسخر فرما دیا ہوگا", "For your Lord will have made subservient to her (the symbolic language of) sharp signals."));
 
-                parah_30.add(new data_model_arabicandurdu("يَوْمَئِذٍ يَصْدُرُ النَّاسُ أَشْتَاتًا لِّيُرَوْا أَعْمَالَهُمْ", "اس دن لوگ مختلف گروہ بن کر (جدا جدا حالتوں کے ساتھ) نکلیں گے تاکہ انہیں ان کے اَعمال دکھائے جائیں", "On that Day, people will form up in different groups, (in diverse conditions,) so that they may be shown their works."));
+//                        parah_30.add(new data_model_arabicandurdu("بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ","اللہ کے نام سے شروع جو نہایت مہربان ہمیشہ رحم فرمانے والا ہے","In the Name of Allah, Most Compassionate, Ever-Merciful."));
 
-                parah_30.add(new data_model_arabicandurdu("فَمَن يَعْمَلْ مِثْقَالَ ذَرَّةٍ خَيْرًا يَرَهُ", "تو جس نے ذرہ بھر نیکی کی ہوگی وہ اسے دیکھ لے گا", "Then he who will have done even an atom’s weight of good will see it."));
+                        parah_30.add(new data_model_arabicandurdu("بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ" +"\n\n"+"وَالْعَصْرِ" ,"زمانہ کی قَسم (جس کی گردش انسانی حالات پر گواہ ہے)۔ <br>یا: نماز عصر کی قسم (کہ وہ سب نمازوں کا وسط ہے)۔ <br>یا: وقت عصر کی قسم (جب دن بھر چمکنے والا سورج خود ڈوبنے کا منظر پیش کرتا ہے)۔ <br>یا: زمانۂ بعثت مصطفیٰ (صلی اللہ علیہ وآلہ وسلم) کی قَسم (جو سارے زمانوں کا ماحصل اور مقصود ہے)","By the passing time (whose rotation bears witness to the affairs of mankind). Or By the Prayer of declining day (‘Asr, for this Prayer is the middle of all Prayers). Or By the declining time of the day, (when the sun, after shining for the whole day, presents the sight of its setting). Or By the holy era of the Prophethood of Muhammad (blessings and peace be upon him), the sole objective and the most coveted achievement of all ages historic as well as pre-historic, and of all times to come."));
 
-                parah_30.add(new data_model_arabicandurdu("وَمَن يَعْمَلْ مِثْقَالَ ذَرَّةٍ شَرًّا يَرَهُ", "اور جس نے ذرہ بھر برائی کی ہوگی وہ اسے (بھی) دیکھ لے گا", "And he who will have done even an atom’s weight of evil will (also) see it."));
+                        parah_30.add(new data_model_arabicandurdu("إِنَّ الْإِنسَانَ لَفِي خُسْرٍ","بیشک انسان خسارے میں ہے (کہ وہ عمرِ عزیز گنوا رہا ہے)","Indeed, man is at a loss (for he is losing his valuable lifetime),"));
 
-                parah_30.add(new data_model_arabicandurdu("بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ", "اللہ کے نام سے شروع جو نہایت مہربان ہمیشہ رحم فرمانے والا ہے", "In the Name of Allah, Most Compassionate, Ever-Merciful."));
+                        parah_30.add(new data_model_arabicandurdu("إِلَّا الَّذِينَ آمَنُوا وَعَمِلُوا الصَّالِحَاتِ وَتَوَاصَوْا بِالْحَقِّ وَتَوَاصَوْا بِالصَّبْرِ","سوائے ان لوگوں کے جو ایمان لے آئے اور نیک عمل کرتے رہے اور (معاشرے میں) ایک دوسرے کو حق کی تلقین کرتے رہے اور (تبلیغِ حق کے نتیجے میں پیش آمدہ مصائب و آلام میں) باہم صبر کی تاکید کرتے رہے","Except for those who believe and do good deeds and exhort one another to truth and exhort one another to patience (in the face of hardships and afflictions that are faced whilst preaching the Din [Religion] of truth)."));
 
-                parah_30.add(new data_model_arabicandurdu("وَالْعَادِيَاتِ ضَبْحًا", "(میدانِ جہاد میں) تیز دوڑنے والے گھوڑوں کی قَسم جو ہانپتے ہیں", "By the charging horses that gallop (in the battlefield) and pant,"));
 
-                parah_30.add(new data_model_arabicandurdu("فَالْمُورِيَاتِ قَدْحًا", "پھر جو پتھروں پر سُم مار کر چنگاریاں نکالتے ہیں", "And those that produce sparks striking their hoofs on rocks,"));
+//                        parah_30.add(new data_model_arabicandurdu("بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ","اللہ کے نام سے شروع جو نہایت مہربان ہمیشہ رحم فرمانے والا ہے","In the Name of Allah, Most Compassionate, Ever-Merciful."));
 
-                parah_30.add(new data_model_arabicandurdu("فَالْمُغِيرَاتِ صُبْحًا", "پھر جو صبح ہوتے ہی (دشمن پر) اچانک حملہ کر ڈالتے ہیں", "Then they attack (the enemy) at dawn,"));
+                        parah_30.add(new data_model_arabicandurdu("بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ" +"\n\n"+"وَيْلٌ لِّكُلِّ هُمَزَةٍ لُّمَزَةٍ" ,"ہر اس شخص کے لئے ہلاکت ہے جو (روبرو) طعنہ زنی کرنے والا ہے (اور پسِ پشت) عیب جوئی کرنے والا ہے","Woe to everyone who slanders (face to face) and finds fault (in absence)!"));
 
-                parah_30.add(new data_model_arabicandurdu("فَأَثَرْنَ بِهِ نَقْعًا", "پھر وہ اس (حملے والی) جگہ سے گرد و غبار اڑاتے ہیں", "And then raise clouds of dust from the point (of attack),"));
+                        parah_30.add(new data_model_arabicandurdu("الَّذِي جَمَعَ مَالًا وَعَدَّدَهُ","(خرابی و تباہی ہے اس شخص کے لئے) جس نے مال جمع کیا اور اسے گن گن کر رکھتا ہے","(Woe to him) who accumulates wealth and keeps counting it!"));
 
-                parah_30.add(new data_model_arabicandurdu("فَوَسَطْنَ بِهِ جَمْعًا", "پھر وہ اسی وقت (دشمن کے) لشکر میں گھس جاتے ہیں", "And then simultaneously pierce into (the enemy) ranks,"));
+                        parah_30.add(new data_model_arabicandurdu("يَحْسَبُ أَنَّ مَالَهُ أَخْلَدَهُ","وہ یہ گمان کرتا ہے کہ اس کی دولت اسے ہمیشہ زندہ رکھے گی","He thinks that his riches will keep him alive forever."));
 
-                parah_30.add(new data_model_arabicandurdu("إِنَّ الْإِنسَانَ لِرَبِّهِ لَكَنُودٌ", "بیشک انسان اپنے رب کا بڑا ہی ناشکرا ہے", "Indeed, man is most ungrateful to his Lord,"));
+                        parah_30.add(new data_model_arabicandurdu("كَلَّا لَيُنبَذَنَّ فِي الْحُطَمَةِ","ہرگز نہیں! وہ ضرور حطمہ (یعنی چورا چورا کر دینے والی آگ) میں پھینک دیا جائے گا","By no means! He will certainly be cast into al-Hutama (the crushing up Fire)."));
 
-                parah_30.add(new data_model_arabicandurdu("وَإِنَّهُ عَلَى ذَلِكَ لَشَهِيدٌ", "اور یقیناً وہ اس (ناشکری) پر خود گواہ ہے", "And verily, he is himself a witness to this ingratitude."));
+                        parah_30.add(new data_model_arabicandurdu("وَمَا أَدْرَاكَ مَا الْحُطَمَةُ","اور آپ کیا سمجھے ہیں کہ حطمہ (چورا چورا کر دینے والی آگ) کیا ہے","And what will make you understand what al-Hutama (the crushing up Fire) is?"));
 
-                parah_30.add(new data_model_arabicandurdu("وَإِنَّهُ لِحُبِّ الْخَيْرِ لَشَدِيدٌ", "اور بیشک وہ مال کی محبت میں بہت سخت ہے", "And indeed, he is quite stubborn in his love of wealth."));
+                        parah_30.add(new data_model_arabicandurdu("نَارُ اللَّهِ الْمُوقَدَةُ","(یہ) اللہ کی بھڑکائی ہوئی آگ ہے","(It) is a Fire kindled by Allah."));
 
-                parah_30.add(new data_model_arabicandurdu("أَفَلَا يَعْلَمُ إِذَا بُعْثِرَ مَا فِي الْقُبُورِ", "تو کیا اسے معلوم نہیں جب وہ (مُردے) اٹھائے جائیں گے جو قبروں میں ہیں", "But does he not know when those (dead) in the graves will be raised,"));
+                        parah_30.add(new data_model_arabicandurdu("الَّتِي تَطَّلِعُ عَلَى الْأَفْئِدَةِ","جو دلوں پر (اپنی اذیت کے ساتھ) چڑھ جائے گی","That will rise over the hearts (with its torture)."));
 
-                parah_30.add(new data_model_arabicandurdu("وَحُصِّلَ مَا فِي الصُّدُورِ", "اور (راز) ظاہر کر دیئے جائیں گے جو سینوں میں ہیں", "And secrets which are in hearts will be disclosed?"));
+                        parah_30.add(new data_model_arabicandurdu("إِنَّهَا عَلَيْهِم مُّؤْصَدَةٌ","بیشک وہ (آگ) ان لوگوں پر ہر طرف سے بند کر دی جائے گی","Indeed, that (Fire) will be closed upon them all around,"));
 
-                parah_30.add(new data_model_arabicandurdu("إِنَّ رَبَّهُم بِهِمْ يَوْمَئِذٍ لَّخَبِيرٌ", "بیشک ان کا رب اس دن ان (کے اعمال) سے خوب خبردار ہوگا", "Indeed, their Lord will be Well Aware of their (deeds) on that Day."));
+                        parah_30.add(new data_model_arabicandurdu("فِي عَمَدٍ مُّمَدَّدَةٍ","(بھڑکتے شعلوں کے) لمبے لمبے ستونوں میں (اور ان لوگوں کے لئے کوئی راہِ فرار نہ رہے گی)","In towering columns (of fierce flames and they will not find any way to escape)."));
 
-                parah_30.add(new data_model_arabicandurdu("بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ", "اللہ کے نام سے شروع جو نہایت مہربان ہمیشہ رحم فرمانے والا ہے", "In the Name of Allah, Most Compassionate, Ever-Merciful."));
+//                        parah_30.add(new data_model_arabicandurdu("بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ","اللہ کے نام سے شروع جو نہایت مہربان ہمیشہ رحم فرمانے والا ہے","In the Name of Allah, Most Compassionate, Ever-Merciful."));
 
-                parah_30.add(new data_model_arabicandurdu("الْقَارِعَةُ", "(زمین و آسمان کی ساری کائنات کو) کھڑکھڑا دینے والا شدید جھٹکا اور کڑک", "The high-scale jolt rocking (the whole universe of the heavens and the earth) and thunder!"));
+                        parah_30.add(new data_model_arabicandurdu("بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ" +"\n\n"+"أَلَمْ تَرَ كَيْفَ فَعَلَ رَبُّكَ بِأَصْحَابِ الْفِيلِ" ,"کیا آپ نے نہیں دیکھا کہ آپ کے رب نے ہاتھی والوں کے ساتھ کیا سلوک کیا","Have you not seen how your Lord dealt with those who had elephants?"));
 
-                parah_30.add(new data_model_arabicandurdu("مَا الْقَارِعَةُ", "وہ (ہر شے کو) کھڑ کھڑا دینے والا شدید جھٹکا اور کڑک کیا ہے", "And what is that high-scale jolt rocking (everything) and that thunder?"));
+                        parah_30.add(new data_model_arabicandurdu("أَلَمْ يَجْعَلْ كَيْدَهُمْ فِي تَضْلِيلٍ","کیا اس نے ان کے مکر و فریب کو باطل و ناکام نہیں کر دیا","Did He not thwart their crafty designs?"));
 
-                parah_30.add(new data_model_arabicandurdu("وَمَا أَدْرَاكَ مَا الْقَارِعَةُ", "اور آپ کیا سمجھے ہیں کہ (ہر شے کو) کھڑ کھڑا دینے والے شدید جھٹکے اور کڑک سے مراد کیا ہے", "And what have you made out what the high-scale jolt and thunder implies?"));
+                        parah_30.add(new data_model_arabicandurdu("وَأَرْسَلَ عَلَيْهِمْ طَيْرًا أَبَابِيلَ","اور اس نے ان پر (ہر سمت سے) پرندوں کے جھنڈ کے جھنڈ بھیج دیئے","And He sent on to them (ambient) swarms of birds,"));
 
-                parah_30.add(new data_model_arabicandurdu("يَوْمَ يَكُونُ النَّاسُ كَالْفَرَاشِ الْمَبْثُوثِ", "(اس سے مراد) وہ یومِ قیامت ہے جس دن (سارے) لوگ بکھرے ہوئے پروانوں کی طرح ہو جائیں گے", "(It implies) the Day of Resurrection when (the whole of) mankind will become like scattered moths,"));
+                        parah_30.add(new data_model_arabicandurdu("تَرْمِيهِم بِحِجَارَةٍ مِّن سِجِّيلٍ","جو ان پر کنکریلے پتھر مارتے تھے","Which pelted them with stone-hard slugs."));
 
-                parah_30.add(new data_model_arabicandurdu("وَتَكُونُ الْجِبَالُ كَالْعِهْنِ الْمَنفُوشِ", "اور پہاڑ رنگ برنگ دھنکی ہوئی اُون کی طرح ہو جائیں گے", "And the mountains will be like multicoloured carded wool."));
+                        parah_30.add(new data_model_arabicandurdu("فَجَعَلَهُمْ كَعَصْفٍ مَّأْكُولٍ","پھر (اللہ نے) ان کو کھائے ہوئے بھوسے کی طرح (پامال) کر دیا","Then (Allah made them perish) like chewed-up chaff."));
 
-                parah_30.add(new data_model_arabicandurdu("فَأَمَّا مَن ثَقُلَتْ مَوَازِينُهُ", "پس وہ شخص کہ جس (کے اعمال) کے پلڑے بھاری ہوں گے", "So he whose scales of deeds in the balance will be heavy,"));
 
-                parah_30.add(new data_model_arabicandurdu("فَهُوَ فِي عِيشَةٍ رَّاضِيَةٍ", "تو وہ خوش گوار عیش و مسرت میں ہوگا", "He will be in luxury and delight."));
+//                        parah_30.add(new data_model_arabicandurdu("بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ","اللہ کے نام سے شروع جو نہایت مہربان ہمیشہ رحم فرمانے والا ہے","In the Name of Allah, Most Compassionate, Ever-Merciful."));
 
-                parah_30.add(new data_model_arabicandurdu("وَأَمَّا مَنْ خَفَّتْ مَوَازِينُهُ", "اور جس شخص کے (اعمال کے) پلڑے ہلکے ہوں گے", "But as for him whose scales of deeds in the balance will be light,"));
+                        parah_30.add(new data_model_arabicandurdu("بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ" +"\n\n"+"لِإِيلَافِ قُرَيْشٍ" ,"قریش کو رغبت دلانے کے سبب سے","To awake drive amongst the Quraysh,"));
 
-                parah_30.add(new data_model_arabicandurdu("فَأُمُّهُ هَاوِيَةٌ", "تو اس کا ٹھکانا ہاویہ (جہنم کا گڑھا) ہوگا", "His abode will be Hawiya (a pit in Hell)!"));
+                        parah_30.add(new data_model_arabicandurdu("إِيلَافِهِمْ رِحْلَةَ الشِّتَاءِ وَالصَّيْفِ","انہیں سردیوں اور گرمیوں کے (تجارتی) سفر سے مانوس کر دیا","They were acclimatized to the summer and winter (commercial) trips."));
 
-                parah_30.add(new data_model_arabicandurdu("وَمَا أَدْرَاكَ مَا هِيَهْ", "اور آپ کیا سمجھے ہیں کہ ہاویہ کیا ہے", "And what have you made out what that (Hawiya) is?"));
+                        parah_30.add(new data_model_arabicandurdu("فَلْيَعْبُدُوا رَبَّ هَذَا الْبَيْتِ","پس انہیں چاہئے کہ اس گھر (خانہ کعبہ) کے رب کی عبادت کریں (تاکہ اس کی شکر گزاری ہو)","So they should worship the Lord of this (Sacred) House (Ka‘ba, to give Him thanks),"));
 
-                parah_30.add(new data_model_arabicandurdu("نَارٌ حَامِيَةٌ", "(وہ جہنم کی) سخت دہکتی آگ (کا انتہائی گہرا گڑھا) ہے", "It is (an extremely deep pit of) the fiercely Blazing Fire (of Hell)."));
+                        parah_30.add(new data_model_arabicandurdu("الَّذِي أَطْعَمَهُم مِّن جُوعٍ وَآمَنَهُم مِّنْ خَوْفٍ","جس نے انہیں بھوک (یعنی فقر و فاقہ کے حالات) میں کھانا دیا (یعنی رِزق فراہم کیا) اور (دشمنوں کے) خوف سے امن بخشا (یعنی محفوظ و مامون زندگی سے نوازا)","Who has fed them in hunger (i.e., provided them sustenance in starving conditions) and secured them from fear (of foes i.e., blessed them with secure and peaceful life)."));
 
-                parah_30.add(new data_model_arabicandurdu("بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ", "اللہ کے نام سے شروع جو نہایت مہربان ہمیشہ رحم فرمانے والا ہے", "In the Name of Allah, Most Compassionate, Ever-Merciful."));
+//                        parah_30.add(new data_model_arabicandurdu("بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ","اللہ کے نام سے شروع جو نہایت مہربان ہمیشہ رحم فرمانے والا ہے","In the Name of Allah, Most Compassionate, Ever-Merciful."));
 
-                parah_30.add(new data_model_arabicandurdu("أَلْهَاكُمُ التَّكَاثُرُ", "تمہیں کثرتِ مال کی ہوس اور فخر نے (آخرت سے) غافل کر دیا", "Your greed for massive wealth and the superiority complex has made you negligent (of the Hereafter),"));
+                        parah_30.add(new data_model_arabicandurdu("أَرَأَيْتَ الَّذِي يُكَذِّبُ بِالدِّينِ" ,"کیا آپ نے اس شخص کو دیکھا جو دین کو جھٹلاتا ہے","Have you seen him who denies the Din (Religion)?"));
 
-                parah_30.add(new data_model_arabicandurdu("حَتَّى زُرْتُمُ الْمَقَابِرَ", "یہاں تک کہ تم قبروں میں جا پہنچے", "Until you go down to the graves."));
+                        parah_30.add(new data_model_arabicandurdu("فَذَلِكَ الَّذِي يَدُعُّ الْيَتِيمَ","تو یہ وہ شخص ہے جو یتیم کو دھکے دیتا ہے (یعنی یتیموں کی حاجات کو ردّ کرتا اور انہیں حق سے محروم رکھتا ہے)","So he is the one who pushes away the orphan (i.e., rejects the needs of the orphans and deprives them of their right),"));
 
-                parah_30.add(new data_model_arabicandurdu("كَلَّا سَوْفَ تَعْلَمُونَ", "ہرگز نہیں! (مال و دولت تمہارے کام نہیں آئیں گے) تم عنقریب (اس حقیقت کو) جان لو گے", "No indeed! You will soon learn (this reality that wealth and riches will avail you nothing)."));
+                        parah_30.add(new data_model_arabicandurdu("وَلَا يَحُضُّ عَلَى طَعَامِ الْمِسْكِينِ","اور محتاج کو کھانا کھلانے کی ترغیب نہیں دیتا (یعنی معاشرے سے غریبوں اور محتاجوں کے معاشی اِستحصال کے خاتمے کی کوشش نہیں کرتا)","And does not promote the cause of feeding the poor (i.e., does not strive to end the economic exploitation of the poor and the needy)."));
 
-                parah_30.add(new data_model_arabicandurdu("ثُمَّ كَلَّا سَوْفَ تَعْلَمُونَ", "پھر (آگاہ کیا جاتا ہے:) ہرگز نہیں! عنقریب تمہیں (اپنا انجام) معلوم ہو جائے گا", "Again (you are warned.) No! Never! You will soon learn about (your end)."));
+                        parah_30.add(new data_model_arabicandurdu("فَوَيْلٌ لِّلْمُصَلِّينَ","پس افسوس (اور خرابی) ہے ان نمازیوں کے لئے","So woe to those worshippers,"));
 
-                parah_30.add(new data_model_arabicandurdu("كَلَّا لَوْ تَعْلَمُونَ عِلْمَ الْيَقِينِ", "ہاں ہاں! کاش تم (مال و زَر کی ہوس اور اپنی غفلت کے انجام کو) یقینی علم کے ساتھ جانتے (تو دنیا میں کھو کر آخرت کو اس طرح نہ بھولتے)", "Yes indeed! Would that you knew with the knowledge of certitude (the consequence of greed for wealth and riches and your negligence! Then, lost in the worldly pleasures, you would never forget the Hereafter like this)."));
+                        parah_30.add(new data_model_arabicandurdu("الَّذِينَ هُمْ عَن صَلَاتِهِمْ سَاهُونَ","جو اپنی نماز (کی روح) سے بے خبر ہیں (یعنی انہیں محض حقوق اللہ یاد ہیں حقوق العباد بھلا بیٹھے ہیں)","Who are unaware of (the spirit of) their Prayers (i.e., they are mindful only of the rights of Allah, but are heedless of the rights of fellow human beings),"));
 
-                parah_30.add(new data_model_arabicandurdu("لَتَرَوُنَّ الْجَحِيمَ", "تم (اپنی حرص کے نتیجے میں) دوزخ کو ضرور دیکھ کر رہو گے", "(Consequent on your greed) you will surely see Hell."));
+                        parah_30.add(new data_model_arabicandurdu("الَّذِينَ هُمْ يُرَاؤُونَ","وہ لوگ (عبادت میں) دکھلاوا کرتے ہیں (کیونکہ وہ خالق کی رسمی بندگی بجا لاتے ہیں اور پسی ہوئی مخلوق سے بے پرواہی برت رہے ہیں)","Who show off (their worship, for they only render a formal service to the Creator and are inconsiderate to the oppressed humanity),"));
 
-                parah_30.add(new data_model_arabicandurdu("ثُمَّ لَتَرَوُنَّهَا عَيْنَ الْيَقِينِ", "پھر تم اسے ضرور یقین کی آنکھ سے دیکھ لو گے", "Then you will certainly see it with the eye of certitude."));
+                        parah_30.add(new data_model_arabicandurdu("وَيَمْنَعُونَ الْمَاعُونَ","اور وہ برتنے کی معمولی سی چیز بھی مانگے نہیں دیتے","And who refuse to lend a worthless small object of use even on demand!"));
 
-                parah_30.add(new data_model_arabicandurdu("ثُمَّ لَتُسْأَلُنَّ يَوْمَئِذٍ عَنِ النَّعِيمِ", "پھر اس دن تم سے (اللہ کی) نعمتوں کے بارے میں ضرور پوچھا جائے گا (کہ تم نے انہیں کہاں کہاں اور کیسے کیسے خرچ کیا تھا)", "Then on that Day, you will certainly be questioned about the bounties (given to you by Allah and the way you consumed them)."));
+//                        parah_30.add(new data_model_arabicandurdu("بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ","اللہ کے نام سے شروع جو نہایت مہربان ہمیشہ رحم فرمانے والا ہے","In the Name of Allah, Most Compassionate, Ever-Merciful."));
 
+                        parah_30.add(new data_model_arabicandurdu("إِنَّا أَعْطَيْنَاكَ الْكَوْثَرَ" ,"بیشک ہم نے آپ کو (ہر خیر و فضیلت میں) بے انتہا کثرت بخشی ہے٭","Indeed, We have bestowed on you an infinite abundance (every kind of superiority, bliss and bounty).*"));
 
-                parah_30.add(new data_model_arabicandurdu("بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ", "اللہ کے نام سے شروع جو نہایت مہربان ہمیشہ رحم فرمانے والا ہے", "In the Name of Allah, Most Compassionate, Ever-Merciful."));
+                        parah_30.add(new data_model_arabicandurdu("فَصَلِّ لِرَبِّكَ وَانْحَرْ","پس آپ اپنے رب کے لئے نماز پڑھا کریں اور قربانی دیا کریں (یہ ہدیۂ تشکرّ ہے)","So pray to your Lord and offer sacrifice (a token of gratitude)."));
 
-                parah_30.add(new data_model_arabicandurdu("وَالْعَصْرِ", "زمانہ کی قَسم (جس کی گردش انسانی حالات پر گواہ ہے)۔ <br>یا: نماز عصر کی قسم (کہ وہ سب نمازوں کا وسط ہے)۔ <br>یا: وقت عصر کی قسم (جب دن بھر چمکنے والا سورج خود ڈوبنے کا منظر پیش کرتا ہے)۔ <br>یا: زمانۂ بعثت مصطفیٰ (صلی اللہ علیہ وآلہ وسلم) کی قَسم (جو سارے زمانوں کا ماحصل اور مقصود ہے)", "By the passing time (whose rotation bears witness to the affairs of mankind). Or By the Prayer of declining day (‘Asr, for this Prayer is the middle of all Prayers). Or By the declining time of the day, (when the sun, after shining for the whole day, presents the sight of its setting). Or By the holy era of the Prophethood of Muhammad (blessings and peace be upon him), the sole objective and the most coveted achievement of all ages historic as well as pre-historic, and of all times to come."));
+                        parah_30.add(new data_model_arabicandurdu("إِنَّ شَانِئَكَ هُوَ الْأَبْتَرُ","بیشک آپ کا دشمن ہی بے نسل اور بے نام و نشاں ہوگا","Indeed, your enemy will remain childless and his race will be cut off."));
 
-                parah_30.add(new data_model_arabicandurdu("إِنَّ الْإِنسَانَ لَفِي خُسْرٍ", "بیشک انسان خسارے میں ہے (کہ وہ عمرِ عزیز گنوا رہا ہے)", "Indeed, man is at a loss (for he is losing his valuable lifetime),"));
+//                        parah_30.add(new data_model_arabicandurdu("بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ","اللہ کے نام سے شروع جو نہایت مہربان ہمیشہ رحم فرمانے والا ہے","In the Name of Allah, Most Compassionate, Ever-Merciful."));
 
-                parah_30.add(new data_model_arabicandurdu("إِلَّا الَّذِينَ آمَنُوا وَعَمِلُوا الصَّالِحَاتِ وَتَوَاصَوْا بِالْحَقِّ وَتَوَاصَوْا بِالصَّبْرِ", "سوائے ان لوگوں کے جو ایمان لے آئے اور نیک عمل کرتے رہے اور (معاشرے میں) ایک دوسرے کو حق کی تلقین کرتے رہے اور (تبلیغِ حق کے نتیجے میں پیش آمدہ مصائب و آلام میں) باہم صبر کی تاکید کرتے رہے", "Except for those who believe and do good deeds and exhort one another to truth and exhort one another to patience (in the face of hardships and afflictions that are faced whilst preaching the Din [Religion] of truth)."));
+                        parah_30.add(new data_model_arabicandurdu("بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ" +"\n\n"+"قُلْ يَا أَيُّهَا الْكَافِرُونَ","آپ فرما دیجئے: اے کافرو!","Say: ‘O disbelievers!"));
 
+                        parah_30.add(new data_model_arabicandurdu("لَا أَعْبُدُ مَا تَعْبُدُونَ","میں ان کی عبادت نہیں کرتا جنہیں تم پوجتے ہو","I do not worship that which you worship."));
 
-                parah_30.add(new data_model_arabicandurdu("بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ", "اللہ کے نام سے شروع جو نہایت مہربان ہمیشہ رحم فرمانے والا ہے", "In the Name of Allah, Most Compassionate, Ever-Merciful."));
+                        parah_30.add(new data_model_arabicandurdu("وَلَا أَنتُمْ عَابِدُونَ مَا أَعْبُدُ","اور نہ تم اس کی عبادت کرنے والے ہو جس کی میں عبادت کرتا ہوں","Nor do you worship Whom I worship."));
 
-                parah_30.add(new data_model_arabicandurdu("وَيْلٌ لِّكُلِّ هُمَزَةٍ لُّمَزَةٍ", "ہر اس شخص کے لئے ہلاکت ہے جو (روبرو) طعنہ زنی کرنے والا ہے (اور پسِ پشت) عیب جوئی کرنے والا ہے", "Woe to everyone who slanders (face to face) and finds fault (in absence)!"));
+                        parah_30.add(new data_model_arabicandurdu("وَلَا أَنَا عَابِدٌ مَّا عَبَدتُّمْ","اور نہ (ہی) میں (آئندہ کبھی) ان کی عبادت کرنے والا ہوں جن کی تم پرستش کرتے ہو","And I shall never worship that which you worship."));
 
-                parah_30.add(new data_model_arabicandurdu("الَّذِي جَمَعَ مَالًا وَعَدَّدَهُ", "(خرابی و تباہی ہے اس شخص کے لئے) جس نے مال جمع کیا اور اسے گن گن کر رکھتا ہے", "(Woe to him) who accumulates wealth and keeps counting it!"));
+                        parah_30.add(new data_model_arabicandurdu("وَلَا أَنتُمْ عَابِدُونَ مَا أَعْبُدُ","اور نہ تم اس کی عبادت کرنے والے ہو جس کی میں عبادت کرتا ہوں","Nor will you worship Whom I worship."));
 
-                parah_30.add(new data_model_arabicandurdu("يَحْسَبُ أَنَّ مَالَهُ أَخْلَدَهُ", "وہ یہ گمان کرتا ہے کہ اس کی دولت اسے ہمیشہ زندہ رکھے گی", "He thinks that his riches will keep him alive forever."));
+                        parah_30.add(new data_model_arabicandurdu("لَكُمْ دِينُكُمْ وَلِيَ دِينِ","(سو) تمہارا دین تمہارے لئے اور میرا دین میرے لئے ہے","(So) you have your din (religion), and I have my Din (Religion).’"));
 
-                parah_30.add(new data_model_arabicandurdu("كَلَّا لَيُنبَذَنَّ فِي الْحُطَمَةِ", "ہرگز نہیں! وہ ضرور حطمہ (یعنی چورا چورا کر دینے والی آگ) میں پھینک دیا جائے گا", "By no means! He will certainly be cast into al-Hutama (the crushing up Fire)."));
+//                        parah_30.add(new data_model_arabicandurdu("بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ","اللہ کے نام سے شروع جو نہایت مہربان ہمیشہ رحم فرمانے والا ہے","In the Name of Allah, Most Compassionate, Ever-Merciful."));
 
-                parah_30.add(new data_model_arabicandurdu("وَمَا أَدْرَاكَ مَا الْحُطَمَةُ", "اور آپ کیا سمجھے ہیں کہ حطمہ (چورا چورا کر دینے والی آگ) کیا ہے", "And what will make you understand what al-Hutama (the crushing up Fire) is?"));
+                        parah_30.add(new data_model_arabicandurdu("بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ" +"\n\n"+"إِذَا جَاءَ نَصْرُ اللَّهِ وَالْفَتْحُ" ,"جب اللہ کی مدد اور فتح آپہنچے","When there comes Allah’s help and victory,"));
 
-                parah_30.add(new data_model_arabicandurdu("نَارُ اللَّهِ الْمُوقَدَةُ", "(یہ) اللہ کی بھڑکائی ہوئی آگ ہے", "(It) is a Fire kindled by Allah."));
+                        parah_30.add(new data_model_arabicandurdu("وَرَأَيْتَ النَّاسَ يَدْخُلُونَ فِي دِينِ اللَّهِ أَفْوَاجًا","اور آپ لوگوں کو دیکھ لیں (کہ) وہ اللہ کے دین میں جوق دَر جوق داخل ہو رہے ہیں","And you see people joining Allah’s Din (Religion) in droves,"));
 
-                parah_30.add(new data_model_arabicandurdu("الَّتِي تَطَّلِعُ عَلَى الْأَفْئِدَةِ", "جو دلوں پر (اپنی اذیت کے ساتھ) چڑھ جائے گی", "That will rise over the hearts (with its torture)."));
+                        parah_30.add(new data_model_arabicandurdu("فَسَبِّحْ بِحَمْدِ رَبِّكَ وَاسْتَغْفِرْهُ إِنَّهُ كَانَ تَوَّابًا","تو آپ (تشکراً) اپنے رب کی حمد کے ساتھ تسبیح فرمائیں اور (تواضعاً) اس سے استغفار کریں، بیشک وہ بڑا ہی توبہ قبول فرمانے والا (اور مزید رحمت کے ساتھ رجوع فرمانے والا) ہے","Then glorify Allah’s praise (in gratitude), exalting Him, and beg Him (humbly) for pardon. Surely, He is Ever-Relenting and Oft-Returning (with evermore compassion)."));
 
-                parah_30.add(new data_model_arabicandurdu("إِنَّهَا عَلَيْهِم مُّؤْصَدَةٌ", "بیشک وہ (آگ) ان لوگوں پر ہر طرف سے بند کر دی جائے گی", "Indeed, that (Fire) will be closed upon them all around,"));
+//                        parah_30.add(new data_model_arabicandurdu("بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ","اللہ کے نام سے شروع جو نہایت مہربان ہمیشہ رحم فرمانے والا ہے","In the Name of Allah, Most Compassionate, Ever-Merciful."));
 
-                parah_30.add(new data_model_arabicandurdu("فِي عَمَدٍ مُّمَدَّدَةٍ", "(بھڑکتے شعلوں کے) لمبے لمبے ستونوں میں (اور ان لوگوں کے لئے کوئی راہِ فرار نہ رہے گی)", "In towering columns (of fierce flames and they will not find any way to escape)."));
+                        parah_30.add(new data_model_arabicandurdu("بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ" +"\n\n"+"تَبَّتْ يَدَا أَبِي لَهَبٍ وَتَبَّ" ,"ابولہب کے دونوں ہاتھ ٹوٹ جائیں اور وہ تباہ ہو جائے (اس نے ہمارے حبیب پر ہاتھ اٹھانے کی کوشش کی ہے)","Perished be the two hands of Abu Lahab and be he perished himself (he has pointed his finger to Our Beloved)!"));
 
-                parah_30.add(new data_model_arabicandurdu("بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ", "اللہ کے نام سے شروع جو نہایت مہربان ہمیشہ رحم فرمانے والا ہے", "In the Name of Allah, Most Compassionate, Ever-Merciful."));
+                        parah_30.add(new data_model_arabicandurdu("مَا أَغْنَى عَنْهُ مَالُهُ وَمَا كَسَبَ","اسے اس کے (موروثی) مال نے کچھ فائدہ نہ پہنچایا اور نہ ہی اس کی کمائی نے","Neither His (inherited) wealth nor his earned riches have given him any benefit."));
 
-                parah_30.add(new data_model_arabicandurdu("أَلَمْ تَرَ كَيْفَ فَعَلَ رَبُّكَ بِأَصْحَابِ الْفِيلِ", "کیا آپ نے نہیں دیکھا کہ آپ کے رب نے ہاتھی والوں کے ساتھ کیا سلوک کیا", "Have you not seen how your Lord dealt with those who had elephants?"));
+                        parah_30.add(new data_model_arabicandurdu("سَيَصْلَى نَارًا ذَاتَ لَهَبٍ","عنقریب وہ شعلوں والی آگ میں جا پڑے گا","Soon he will tumble into the Flaming Fire,"));
 
-                parah_30.add(new data_model_arabicandurdu("أَلَمْ يَجْعَلْ كَيْدَهُمْ فِي تَضْلِيلٍ", "کیا اس نے ان کے مکر و فریب کو باطل و ناکام نہیں کر دیا", "Did He not thwart their crafty designs?"));
+                        parah_30.add(new data_model_arabicandurdu("وَامْرَأَتُهُ حَمَّالَةَ الْحَطَبِ","اور اس کی (خبیث) عورت (بھی) جو (کانٹے دار) لکڑیوں کا بوجھ (سر پر) اٹھائے پھرتی ہے، (اور ہمارے حبیب کے تلووں کو زخمی کرنے کے لئے رات کو ان کی راہوں میں بچھا دیتی ہے)","And his (damned, wretched) wife (too) who carries (on her head) the burden of (thorny) twigs (and spreads them in the way of Our Beloved, to injure the holy soles of his feet)."));
 
-                parah_30.add(new data_model_arabicandurdu("وَأَرْسَلَ عَلَيْهِمْ طَيْرًا أَبَابِيلَ", "اور اس نے ان پر (ہر سمت سے) پرندوں کے جھنڈ کے جھنڈ بھیج دیئے", "And He sent on to them (ambient) swarms of birds,"));
+                        parah_30.add(new data_model_arabicandurdu("فِي جِيدِهَا حَبْلٌ مِّن مَّسَدٍ","اس کی گردن میں کھجور کی چھال کا (وہی) رسّہ ہوگا (جس سے کانٹوں کا گٹھا باندھتی ہے)","Around her neck will be (the same) palm-fibre rope (she uses to bind the bunch of thorny twigs)."));
 
-                parah_30.add(new data_model_arabicandurdu("تَرْمِيهِم بِحِجَارَةٍ مِّن سِجِّيلٍ", "جو ان پر کنکریلے پتھر مارتے تھے", "Which pelted them with stone-hard slugs."));
+//                        parah_30.add(new data_model_arabicandurdu("بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ","اللہ کے نام سے شروع جو نہایت مہربان ہمیشہ رحم فرمانے والا ہے","In the Name of Allah, Most Compassionate, Ever-Merciful."));
 
-                parah_30.add(new data_model_arabicandurdu("فَجَعَلَهُمْ كَعَصْفٍ مَّأْكُولٍ", "پھر (اللہ نے) ان کو کھائے ہوئے بھوسے کی طرح (پامال) کر دیا", "Then (Allah made them perish) like chewed-up chaff."));
+                        parah_30.add(new data_model_arabicandurdu("بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ" +"\n\n"+"قُلْ هُوَ اللَّهُ أَحَدٌ"  ,"(اے نبئ مکرّم!) آپ فرما دیجئے: وہ اللہ ہے جو یکتا ہے","(O Esteemed Messenger!) Proclaim: ‘He is Allah, Who is the One."));
 
+                        parah_30.add(new data_model_arabicandurdu("اللَّهُ الصَّمَدُ","اللہ سب سے بے نیاز، سب کی پناہ اور سب پر فائق ہے","Allah is the Transcendent of all, the Protector and Far-Superior to all."));
 
-                parah_30.add(new data_model_arabicandurdu("بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ", "اللہ کے نام سے شروع جو نہایت مہربان ہمیشہ رحم فرمانے والا ہے", "In the Name of Allah, Most Compassionate, Ever-Merciful."));
+                        parah_30.add(new data_model_arabicandurdu("لَمْ يَلِدْ وَلَمْ يُولَدْ","نہ اس سے کوئی پیدا ہوا ہے اور نہ ہی وہ پیدا کیا گیا ہے","He has not begotten any, nor is He begotten."));
 
-                parah_30.add(new data_model_arabicandurdu("لِإِيلَافِ قُرَيْشٍ", "قریش کو رغبت دلانے کے سبب سے", "To awake drive amongst the Quraysh,"));
+                        parah_30.add(new data_model_arabicandurdu("وَلَمْ يَكُن لَّهُ كُفُوًا أَحَدٌ","اور نہ ہی اس کا کوئی ہمسر ہے","Nor is there anyone equal to Him.’"));
 
-                parah_30.add(new data_model_arabicandurdu("إِيلَافِهِمْ رِحْلَةَ الشِّتَاءِ وَالصَّيْفِ", "انہیں سردیوں اور گرمیوں کے (تجارتی) سفر سے مانوس کر دیا", "They were acclimatized to the summer and winter (commercial) trips."));
+//                        parah_30.add(new data_model_arabicandurdu("بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ","اللہ کے نام سے شروع جو نہایت مہربان ہمیشہ رحم فرمانے والا ہے","In the Name of Allah, Most Compassionate, Ever-Merciful."));
 
-                parah_30.add(new data_model_arabicandurdu("فَلْيَعْبُدُوا رَبَّ هَذَا الْبَيْتِ", "پس انہیں چاہئے کہ اس گھر (خانہ کعبہ) کے رب کی عبادت کریں (تاکہ اس کی شکر گزاری ہو)", "So they should worship the Lord of this (Sacred) House (Ka‘ba, to give Him thanks),"));
+                        parah_30.add(new data_model_arabicandurdu("بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ" +"\n\n"+"قُلْ أَعُوذُ بِرَبِّ الْفَلَقِ"  ,"آپ عرض کیجئے کہ میں (ایک) دھماکے سے انتہائی تیزی کے ساتھ (کائنات کو) وجود میں لانے والے رب کی پناہ مانگتا ہوں","Beseech: ‘I seek refuge with the Lord of daybreak (or Who brought the universe into existence with an explosion extremely fast),"));
 
-                parah_30.add(new data_model_arabicandurdu("الَّذِي أَطْعَمَهُم مِّن جُوعٍ وَآمَنَهُم مِّنْ خَوْفٍ", "جس نے انہیں بھوک (یعنی فقر و فاقہ کے حالات) میں کھانا دیا (یعنی رِزق فراہم کیا) اور (دشمنوں کے) خوف سے امن بخشا (یعنی محفوظ و مامون زندگی سے نوازا)", "Who has fed them in hunger (i.e., provided them sustenance in starving conditions) and secured them from fear (of foes i.e., blessed them with secure and peaceful life)."));
+                        parah_30.add(new data_model_arabicandurdu("مِن شَرِّ مَا خَلَقَ","ہر اس چیز کے شر (اور نقصان) سے جو اس نے پیدا فرمائی ہے","From the evil influence (and harmfulness) of everything that He has created,"));
 
-                parah_30.add(new data_model_arabicandurdu("بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ", "اللہ کے نام سے شروع جو نہایت مہربان ہمیشہ رحم فرمانے والا ہے", "In the Name of Allah, Most Compassionate, Ever-Merciful."));
+                        parah_30.add(new data_model_arabicandurdu("وَمِن شَرِّ غَاسِقٍ إِذَا وَقَبَ","اور (بالخصوص) اندھیری رات کے شر سے جب (اس کی) ظلمت چھا جائے","And (in particular) from the evil of the murky night when (its) darkness prevails,"));
 
-                parah_30.add(new data_model_arabicandurdu("أَرَأَيْتَ الَّذِي يُكَذِّبُ بِالدِّينِ", "کیا آپ نے اس شخص کو دیکھا جو دین کو جھٹلاتا ہے", "Have you seen him who denies the Din (Religion)?"));
+                        parah_30.add(new data_model_arabicandurdu("وَمِن شَرِّ النَّفَّاثَاتِ فِي الْعُقَدِ","اور گرہوں میں پھونک مارنے والی جادوگرنیوں (اور جادوگروں) کے شر سے","And from the evil of those women (and men) who practise magic on knots by blowing,"));
 
-                parah_30.add(new data_model_arabicandurdu("فَذَلِكَ الَّذِي يَدُعُّ الْيَتِيمَ", "تو یہ وہ شخص ہے جو یتیم کو دھکے دیتا ہے (یعنی یتیموں کی حاجات کو ردّ کرتا اور انہیں حق سے محروم رکھتا ہے)", "So he is the one who pushes away the orphan (i.e., rejects the needs of the orphans and deprives them of their right),"));
+                        parah_30.add(new data_model_arabicandurdu("وَمِن شَرِّ حَاسِدٍ إِذَا حَسَدَ","اور ہر حسد کرنے والے کے شر سے جب وہ حسد کرے","And from the mischief of every envious person when he envies.’"));
 
-                parah_30.add(new data_model_arabicandurdu("وَلَا يَحُضُّ عَلَى طَعَامِ الْمِسْكِينِ", "اور محتاج کو کھانا کھلانے کی ترغیب نہیں دیتا (یعنی معاشرے سے غریبوں اور محتاجوں کے معاشی اِستحصال کے خاتمے کی کوشش نہیں کرتا)", "And does not promote the cause of feeding the poor (i.e., does not strive to end the economic exploitation of the poor and the needy)."));
+//                        parah_30.add(new data_model_arabicandurdu("بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ","اللہ کے نام سے شروع جو نہایت مہربان ہمیشہ رحم فرمانے والا ہے","In the Name of Allah, Most Compassionate, Ever-Merciful."));
 
-                parah_30.add(new data_model_arabicandurdu("فَوَيْلٌ لِّلْمُصَلِّينَ", "پس افسوس (اور خرابی) ہے ان نمازیوں کے لئے", "So woe to those worshippers,"));
+                        parah_30.add(new data_model_arabicandurdu("بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ" +"\n\n"+"قُلْ أَعُوذُ بِرَبِّ النَّاسِ"  ,"آپ عرض کیجئے کہ میں (سب) انسانوں کے رب کی پناہ مانگتا ہوں","Beseech: ‘I seek refuge with the Lord of (the whole of) mankind,"));
 
-                parah_30.add(new data_model_arabicandurdu("الَّذِينَ هُمْ عَن صَلَاتِهِمْ سَاهُونَ", "جو اپنی نماز (کی روح) سے بے خبر ہیں (یعنی انہیں محض حقوق اللہ یاد ہیں حقوق العباد بھلا بیٹھے ہیں)", "Who are unaware of (the spirit of) their Prayers (i.e., they are mindful only of the rights of Allah, but are heedless of the rights of fellow human beings),"));
+                        parah_30.add(new data_model_arabicandurdu("مَلِكِ النَّاسِ","جو (سب) لوگوں کا بادشاہ ہے","Who is the King of (all) mankind,"));
 
-                parah_30.add(new data_model_arabicandurdu("الَّذِينَ هُمْ يُرَاؤُونَ", "وہ لوگ (عبادت میں) دکھلاوا کرتے ہیں (کیونکہ وہ خالق کی رسمی بندگی بجا لاتے ہیں اور پسی ہوئی مخلوق سے بے پرواہی برت رہے ہیں)", "Who show off (their worship, for they only render a formal service to the Creator and are inconsiderate to the oppressed humanity),"));
+                        parah_30.add(new data_model_arabicandurdu("إِلَهِ النَّاسِ","جو (ساری) نسلِ انسانی کا معبود ہے","Who is the God of the (whole) human race,"));
 
-                parah_30.add(new data_model_arabicandurdu("وَيَمْنَعُونَ الْمَاعُونَ", "اور وہ برتنے کی معمولی سی چیز بھی مانگے نہیں دیتے", "And who refuse to lend a worthless small object of use even on demand!"));
+                        parah_30.add(new data_model_arabicandurdu("مِن شَرِّ الْوَسْوَاسِ الْخَنَّاسِ","وسوسہ انداز (شیطان) کے شر سے جو (اللہ کے ذکر کے اثر سے) پیچھے ہٹ کر چھپ جانے والا ہے","From the evil of the slinking whisperer (Satan) who hides himself withdrawing (from the influence of Allah’s remembrance),"));
 
-                parah_30.add(new data_model_arabicandurdu("بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ", "اللہ کے نام سے شروع جو نہایت مہربان ہمیشہ رحم فرمانے والا ہے", "In the Name of Allah, Most Compassionate, Ever-Merciful."));
+                        parah_30.add(new data_model_arabicandurdu("الَّذِي يُوَسْوِسُ فِي صُدُورِ النَّاسِ","جو لوگوں کے دلوں میں وسوسہ ڈالتا ہے","Who whispers into the hearts of mankind,"));
 
-                parah_30.add(new data_model_arabicandurdu("إِنَّا أَعْطَيْنَاكَ الْكَوْثَرَ", "بیشک ہم نے آپ کو (ہر خیر و فضیلت میں) بے انتہا کثرت بخشی ہے٭", "Indeed, We have bestowed on you an infinite abundance (every kind of superiority, bliss and bounty).*"));
+                        parah_30.add(new data_model_arabicandurdu("مِنَ الْجِنَّةِ وَ النَّاسِ","خواہ وہ (وسوسہ انداز شیطان) جنات میں سے ہو یا انسانوں میں سے","Whether he (the whispering Satan) comes from the jinn or mankind.’"));
 
-                parah_30.add(new data_model_arabicandurdu("فَصَلِّ لِرَبِّكَ وَانْحَرْ", "پس آپ اپنے رب کے لئے نماز پڑھا کریں اور قربانی دیا کریں (یہ ہدیۂ تشکرّ ہے)", "So pray to your Lord and offer sacrifice (a token of gratitude)."));
 
-                parah_30.add(new data_model_arabicandurdu("إِنَّ شَانِئَكَ هُوَ الْأَبْتَرُ", "بیشک آپ کا دشمن ہی بے نسل اور بے نام و نشاں ہوگا", "Indeed, your enemy will remain childless and his race will be cut off."));
-
-                parah_30.add(new data_model_arabicandurdu("بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ", "اللہ کے نام سے شروع جو نہایت مہربان ہمیشہ رحم فرمانے والا ہے", "In the Name of Allah, Most Compassionate, Ever-Merciful."));
-
-                parah_30.add(new data_model_arabicandurdu("قُلْ يَا أَيُّهَا الْكَافِرُونَ", "آپ فرما دیجئے: اے کافرو!", "Say: ‘O disbelievers!"));
-
-                parah_30.add(new data_model_arabicandurdu("لَا أَعْبُدُ مَا تَعْبُدُونَ", "میں ان کی عبادت نہیں کرتا جنہیں تم پوجتے ہو", "I do not worship that which you worship."));
-
-                parah_30.add(new data_model_arabicandurdu("وَلَا أَنتُمْ عَابِدُونَ مَا أَعْبُدُ", "اور نہ تم اس کی عبادت کرنے والے ہو جس کی میں عبادت کرتا ہوں", "Nor do you worship Whom I worship."));
-
-                parah_30.add(new data_model_arabicandurdu("وَلَا أَنَا عَابِدٌ مَّا عَبَدتُّمْ", "اور نہ (ہی) میں (آئندہ کبھی) ان کی عبادت کرنے والا ہوں جن کی تم پرستش کرتے ہو", "And I shall never worship that which you worship."));
-
-                parah_30.add(new data_model_arabicandurdu("وَلَا أَنتُمْ عَابِدُونَ مَا أَعْبُدُ", "اور نہ تم اس کی عبادت کرنے والے ہو جس کی میں عبادت کرتا ہوں", "Nor will you worship Whom I worship."));
-
-                parah_30.add(new data_model_arabicandurdu("لَكُمْ دِينُكُمْ وَلِيَ دِينِ", "(سو) تمہارا دین تمہارے لئے اور میرا دین میرے لئے ہے", "(So) you have your din (religion), and I have my Din (Religion).’"));
-
-                parah_30.add(new data_model_arabicandurdu("بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ", "اللہ کے نام سے شروع جو نہایت مہربان ہمیشہ رحم فرمانے والا ہے", "In the Name of Allah, Most Compassionate, Ever-Merciful."));
-
-                parah_30.add(new data_model_arabicandurdu("إِذَا جَاءَ نَصْرُ اللَّهِ وَالْفَتْحُ", "جب اللہ کی مدد اور فتح آپہنچے", "When there comes Allah’s help and victory,"));
-
-                parah_30.add(new data_model_arabicandurdu("وَرَأَيْتَ النَّاسَ يَدْخُلُونَ فِي دِينِ اللَّهِ أَفْوَاجًا", "اور آپ لوگوں کو دیکھ لیں (کہ) وہ اللہ کے دین میں جوق دَر جوق داخل ہو رہے ہیں", "And you see people joining Allah’s Din (Religion) in droves,"));
-
-                parah_30.add(new data_model_arabicandurdu("فَسَبِّحْ بِحَمْدِ رَبِّكَ وَاسْتَغْفِرْهُ إِنَّهُ كَانَ تَوَّابًا", "تو آپ (تشکراً) اپنے رب کی حمد کے ساتھ تسبیح فرمائیں اور (تواضعاً) اس سے استغفار کریں، بیشک وہ بڑا ہی توبہ قبول فرمانے والا (اور مزید رحمت کے ساتھ رجوع فرمانے والا) ہے", "Then glorify Allah’s praise (in gratitude), exalting Him, and beg Him (humbly) for pardon. Surely, He is Ever-Relenting and Oft-Returning (with evermore compassion)."));
-
-                parah_30.add(new data_model_arabicandurdu("بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ", "اللہ کے نام سے شروع جو نہایت مہربان ہمیشہ رحم فرمانے والا ہے", "In the Name of Allah, Most Compassionate, Ever-Merciful."));
-
-                parah_30.add(new data_model_arabicandurdu("تَبَّتْ يَدَا أَبِي لَهَبٍ وَتَبَّ", "ابولہب کے دونوں ہاتھ ٹوٹ جائیں اور وہ تباہ ہو جائے (اس نے ہمارے حبیب پر ہاتھ اٹھانے کی کوشش کی ہے)", "Perished be the two hands of Abu Lahab and be he perished himself (he has pointed his finger to Our Beloved)!"));
-
-                parah_30.add(new data_model_arabicandurdu("مَا أَغْنَى عَنْهُ مَالُهُ وَمَا كَسَبَ", "اسے اس کے (موروثی) مال نے کچھ فائدہ نہ پہنچایا اور نہ ہی اس کی کمائی نے", "Neither His (inherited) wealth nor his earned riches have given him any benefit."));
-
-                parah_30.add(new data_model_arabicandurdu("سَيَصْلَى نَارًا ذَاتَ لَهَبٍ", "عنقریب وہ شعلوں والی آگ میں جا پڑے گا", "Soon he will tumble into the Flaming Fire,"));
-
-                parah_30.add(new data_model_arabicandurdu("وَامْرَأَتُهُ حَمَّالَةَ الْحَطَبِ", "اور اس کی (خبیث) عورت (بھی) جو (کانٹے دار) لکڑیوں کا بوجھ (سر پر) اٹھائے پھرتی ہے، (اور ہمارے حبیب کے تلووں کو زخمی کرنے کے لئے رات کو ان کی راہوں میں بچھا دیتی ہے)", "And his (damned, wretched) wife (too) who carries (on her head) the burden of (thorny) twigs (and spreads them in the way of Our Beloved, to injure the holy soles of his feet)."));
-
-                parah_30.add(new data_model_arabicandurdu("فِي جِيدِهَا حَبْلٌ مِّن مَّسَدٍ", "اس کی گردن میں کھجور کی چھال کا (وہی) رسّہ ہوگا (جس سے کانٹوں کا گٹھا باندھتی ہے)", "Around her neck will be (the same) palm-fibre rope (she uses to bind the bunch of thorny twigs)."));
-
-                parah_30.add(new data_model_arabicandurdu("بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ", "اللہ کے نام سے شروع جو نہایت مہربان ہمیشہ رحم فرمانے والا ہے", "In the Name of Allah, Most Compassionate, Ever-Merciful."));
-
-                parah_30.add(new data_model_arabicandurdu("قُلْ هُوَ اللَّهُ أَحَدٌ", "(اے نبئ مکرّم!) آپ فرما دیجئے: وہ اللہ ہے جو یکتا ہے", "(O Esteemed Messenger!) Proclaim: ‘He is Allah, Who is the One."));
-
-                parah_30.add(new data_model_arabicandurdu("اللَّهُ الصَّمَدُ", "اللہ سب سے بے نیاز، سب کی پناہ اور سب پر فائق ہے", "Allah is the Transcendent of all, the Protector and Far-Superior to all."));
-
-                parah_30.add(new data_model_arabicandurdu("لَمْ يَلِدْ وَلَمْ يُولَدْ", "نہ اس سے کوئی پیدا ہوا ہے اور نہ ہی وہ پیدا کیا گیا ہے", "He has not begotten any, nor is He begotten."));
-
-                parah_30.add(new data_model_arabicandurdu("وَلَمْ يَكُن لَّهُ كُفُوًا أَحَدٌ", "اور نہ ہی اس کا کوئی ہمسر ہے", "Nor is there anyone equal to Him.’"));
-
-                parah_30.add(new data_model_arabicandurdu("بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ", "اللہ کے نام سے شروع جو نہایت مہربان ہمیشہ رحم فرمانے والا ہے", "In the Name of Allah, Most Compassionate, Ever-Merciful."));
-
-                parah_30.add(new data_model_arabicandurdu("قُلْ أَعُوذُ بِرَبِّ الْفَلَقِ", "آپ عرض کیجئے کہ میں (ایک) دھماکے سے انتہائی تیزی کے ساتھ (کائنات کو) وجود میں لانے والے رب کی پناہ مانگتا ہوں", "Beseech: ‘I seek refuge with the Lord of daybreak (or Who brought the universe into existence with an explosion extremely fast),"));
-
-                parah_30.add(new data_model_arabicandurdu("مِن شَرِّ مَا خَلَقَ", "ہر اس چیز کے شر (اور نقصان) سے جو اس نے پیدا فرمائی ہے", "From the evil influence (and harmfulness) of everything that He has created,"));
-
-                parah_30.add(new data_model_arabicandurdu("وَمِن شَرِّ غَاسِقٍ إِذَا وَقَبَ", "اور (بالخصوص) اندھیری رات کے شر سے جب (اس کی) ظلمت چھا جائے", "And (in particular) from the evil of the murky night when (its) darkness prevails,"));
-
-                parah_30.add(new data_model_arabicandurdu("وَمِن شَرِّ النَّفَّاثَاتِ فِي الْعُقَدِ", "اور گرہوں میں پھونک مارنے والی جادوگرنیوں (اور جادوگروں) کے شر سے", "And from the evil of those women (and men) who practise magic on knots by blowing,"));
-
-                parah_30.add(new data_model_arabicandurdu("وَمِن شَرِّ حَاسِدٍ إِذَا حَسَدَ", "اور ہر حسد کرنے والے کے شر سے جب وہ حسد کرے", "And from the mischief of every envious person when he envies.’"));
-
-                parah_30.add(new data_model_arabicandurdu("بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ", "اللہ کے نام سے شروع جو نہایت مہربان ہمیشہ رحم فرمانے والا ہے", "In the Name of Allah, Most Compassionate, Ever-Merciful."));
-
-                parah_30.add(new data_model_arabicandurdu("قُلْ أَعُوذُ بِرَبِّ النَّاسِ", "آپ عرض کیجئے کہ میں (سب) انسانوں کے رب کی پناہ مانگتا ہوں", "Beseech: ‘I seek refuge with the Lord of (the whole of) mankind,"));
-
-                parah_30.add(new data_model_arabicandurdu("مَلِكِ النَّاسِ", "جو (سب) لوگوں کا بادشاہ ہے", "Who is the King of (all) mankind,"));
-
-                parah_30.add(new data_model_arabicandurdu("إِلَهِ النَّاسِ", "جو (ساری) نسلِ انسانی کا معبود ہے", "Who is the God of the (whole) human race,"));
-
-                parah_30.add(new data_model_arabicandurdu("مِن شَرِّ الْوَسْوَاسِ الْخَنَّاسِ", "وسوسہ انداز (شیطان) کے شر سے جو (اللہ کے ذکر کے اثر سے) پیچھے ہٹ کر چھپ جانے والا ہے", "From the evil of the slinking whisperer (Satan) who hides himself withdrawing (from the influence of Allah’s remembrance),"));
-
-                parah_30.add(new data_model_arabicandurdu("الَّذِي يُوَسْوِسُ فِي صُدُورِ النَّاسِ", "جو لوگوں کے دلوں میں وسوسہ ڈالتا ہے", "Who whispers into the hearts of mankind,"));
-
-                parah_30.add(new data_model_arabicandurdu("مِنَ الْجِنَّةِ وَ النَّاسِ", "خواہ وہ (وسوسہ انداز شیطان) جنات میں سے ہو یا انسانوں میں سے", "Whether he (the whispering Satan) comes from the jinn or mankind.’"));
-                return parah_30;
+                        return parah_30;
             default:
                 return null;
         }
