@@ -26,9 +26,9 @@
                 android:textAlignment="center"
                 android:layout_gravity="center"
                 android:id="@+id/textx"
-                android:textColor="@color/gold2"
+                android:textColor="@color/gold"
                 android:textStyle="bold"
-                android:textSize="20sp"
+                android:textSize="21sp"
 
                 />
         </androidx.cardview.widget.CardView>
