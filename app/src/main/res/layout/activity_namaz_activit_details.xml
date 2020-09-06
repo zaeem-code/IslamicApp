@@ -19,11 +19,10 @@
 
 
     <androidx.recyclerview.widget.RecyclerView
-        android:paddingVertical="3dp"
+
         android:layout_below="@+id/back"
         android:id="@+id/rec"
         android:animateLayoutChanges="false"
-        android:layout_marginHorizontal="30dp"
 
 
         android:layout_width="match_parent"

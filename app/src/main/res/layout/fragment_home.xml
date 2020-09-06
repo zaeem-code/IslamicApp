@@ -4,7 +4,6 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:background="@drawable/bg1"
-    android:paddingBottom="5dp"
     android:layout_height="match_parent">
 
 
@@ -17,24 +16,25 @@
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:visibility="visible"
             android:id="@+id/design"
             >
 
             <RelativeLayout
                 android:layout_width="match_parent"
-                android:layout_height="225dp"
-                android:paddingHorizontal="5dp"
+                android:layout_height="wrap_content"
                 android:minHeight="220dp"
                 android:layout_alignParentTop="true"
                 android:id="@+id/admin_lyt"
                 android:layout_margin="20dp"
                 android:background="@drawable/corner_white"
-                android:visibility="gone"
+                android:visibility="visible"
                 >
 
                 <TextView
                     android:layout_width="match_parent"
-                    android:layout_height="55dp"
+                    android:layout_height="wrap_content"
+                    android:minHeight="55dp"
                     android:textSize="15sp"
                     android:padding="3dp"
 
@@ -69,7 +69,8 @@
 
                 <EditText
                     android:layout_width="match_parent"
-                    android:layout_height="50dp"
+                    android:layout_height="wrap_content"
+                    android:minHeight="55dp"
                     android:padding="3dp"
                     android:textSize="15sp"
                     android:hint="Answer"
@@ -96,10 +97,10 @@
                     android:layout_alignParentEnd="true"
                     android:layout_alignParentRight="true"
                     android:text="Submit"
-                    android:textSize="13sp"
+                    android:textSize="12sp"
                     android:textAlignment="center"
                     android:background="@drawable/corner_bn_black"
-                    android:layout_margin="5dp"
+                    android:layout_margin="10dp"
                     android:textColor="@color/gold2"
 
                     >
@@ -150,9 +151,9 @@
                     android:layout_centerVertical="true"
                     android:textSize="14sp"
                     android:text="Sign up"
-                    android:textColor="@color/colorText"
-                    android:layout_marginLeft="10dp"
-                    android:layout_toRightOf="@+id/signup_text"
+                    android:textColor="@color/gold2"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="5dp"
                     android:background="@drawable/corner_bn_black"/>
 
 
@@ -187,34 +188,32 @@
             android:layout_height="wrap_content"
             android:layout_below="@+id/design"
             android:layout_marginTop="15dp"
-            android:background="@drawable/ayatframe"
+            android:minHeight="100dp"
+            android:background="@drawable/corner_bn_green"
             android:id="@+id/ayatoftheday_lyt">
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="5dp"
                 android:textSize="17sp"
+                android:textStyle="bold"
                 android:id="@+id/ayatoftheday_title"
-                android:layout_marginTop="20dp"
+                android:layout_marginTop="15dp"
                 android:text="Ayat of the day"
-                android:textColor="@android:color/black"
+                android:textColor="@color/gold2"
                 android:gravity="center" />
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:paddingVertical="10dp"
                 android:layout_below="@+id/ayatoftheday_title"
 
-                android:paddingBottom="30dp"
+                android:gravity="top|center"
                 android:textSize="15sp"
                 android:id="@+id/ayatoftheday_txt"
-                android:layout_marginTop="15dp"
-                android:paddingHorizontal="2dp"
-                android:layout_marginHorizontal="25dp"
-                android:textColor="@color/colorText"
-                android:textStyle="bold"
-                android:gravity="center" />
+                android:layout_marginVertical="15dp"
+                android:layout_marginHorizontal="5dp"
+                android:textColor="@color/gold2"
+                android:textStyle="bold" />
 
 
         </RelativeLayout>
@@ -231,13 +230,12 @@
             android:visibility="visible"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:minHeight="60dp"
+            android:minHeight="100dp"
 
             android:layout_below="@+id/ayatoftheday_lyt"
             android:layout_marginTop="15dp"
             android:layout_marginHorizontal="15dp"
             android:background="@drawable/corner_bn_black"
-            android:paddingVertical="30dp"
             android:id="@+id/itla_e_mehfil_lyt">
 
             <TextView
@@ -253,14 +251,14 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/itla_e_mehfil_title"
-                android:paddingBottom="5dp"
+             android:layout_marginVertical="10dp"
                 android:textSize="14sp"
-                android:paddingHorizontal="5dp"
+                android:layout_marginHorizontal="5dp"
 
                 android:id="@+id/itla_e_mehfil_text"
                 android:textColor="@color/gold2"
                 android:textStyle="bold"
-                android:visibility="gone"
+                android:visibility="visible"
                 android:gravity="top|center" />
 
 
@@ -275,19 +273,19 @@
             android:layout_height="wrap_content"
             android:layout_below="@+id/itla_e_mehfil_lyt"
             android:layout_marginTop="15dp"
-            android:paddingVertical="30dp"
-            android:background="@drawable/ayatframe"
+            android:minHeight="100dp"
+            android:background="@drawable/corner_bn_green"
             android:id="@+id/hadeesoftheday_lyt">
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="5dp"
                 android:textSize="17sp"
+                android:textStyle="bold"
                 android:id="@+id/hadeesoftheday_title"
-                android:layout_marginTop="20dp"
+                android:layout_marginTop="15dp"
                 android:text="Hadees of the day"
-                android:textColor="@android:color/black"
+                android:textColor="@color/gold2"
                 android:gravity="center" />
 
             <TextView
@@ -295,14 +293,12 @@
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/hadeesoftheday_title"
                 android:textSize="15sp"
+                android:gravity="top|center"
                 android:id="@+id/hadeesoftheday_text"
-                android:layout_marginTop="15dp"
-                android:paddingHorizontal="2dp"
-                android:layout_marginHorizontal="25dp"
-                android:paddingBottom="30dp"
-                 android:textColor="@color/colorText"
+                android:layout_marginVertical="15dp"
+                android:layout_marginHorizontal="5dp"
+                 android:textColor="@color/gold2"
                 android:textStyle="bold"
-                android:gravity="center"
                 />
 
 
@@ -313,7 +309,7 @@
             android:visibility="visible"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:minHeight="60dp"
+            android:minHeight="100dp"
             android:layout_below="@+id/hadeesoftheday_lyt"
             android:layout_marginTop="15dp"
             android:layout_marginHorizontal="15dp"
@@ -329,7 +325,7 @@
                 android:text="Wazifa of the day"
                 android:textColor="@color/gold2"
                 android:textStyle="bold"
-                android:layout_marginTop="5dp"
+                android:layout_marginTop="15dp"
                 android:gravity="center" />
 
             <TextView
@@ -337,11 +333,10 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/wazifa_title"
-                android:layout_marginTop="5dp"
+            android:layout_marginVertical="15dp"
                 android:gravity="top|center"
 
-                android:paddingHorizontal="5dp"
-                android:paddingBottom="5dp"
+                android:layout_marginHorizontal="5dp"
                 android:textColor="@color/gold2"
                 android:textSize="14sp"
                 android:textStyle="bold"
@@ -356,11 +351,11 @@
             android:visibility="visible"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:minHeight="60dp"
+            android:minHeight="100dp"
             android:layout_below="@+id/wazifa_lyt"
             android:layout_marginTop="15dp"
             android:layout_marginHorizontal="15dp"
-            android:background="@drawable/corner_bn_black"
+            android:background="@drawable/corner_bn_green"
             android:id="@+id/eventoftheday_lyt">
 
             <TextView
@@ -372,7 +367,7 @@
                 android:text="Event of the day"
                 android:textColor="@color/gold2"
                 android:textStyle="bold"
-                android:layout_marginTop="5dp"
+                android:layout_marginTop="15dp"
                 android:gravity="center" />
 
             <TextView
@@ -380,11 +375,10 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/eventoftheday_title"
-                android:layout_marginTop="5dp"
+                android:layout_marginVertical="15dp"
                 android:gravity="top|center"
-                android:paddingHorizontal="7dp"
 
-                android:paddingBottom="5dp"
+                android:layout_marginHorizontal="5dp"
                 android:textColor="@color/gold2"
                 android:textSize="14sp"
                 android:textStyle="bold"
