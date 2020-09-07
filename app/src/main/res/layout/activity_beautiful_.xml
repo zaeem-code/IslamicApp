@@ -9,7 +9,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="@drawable/bg1"
-    tools:context=".Activities.Beautiful_Activity">
+    tools:context=".Activities.Beautiful_recitation_Activity">
 
 
     <ImageView

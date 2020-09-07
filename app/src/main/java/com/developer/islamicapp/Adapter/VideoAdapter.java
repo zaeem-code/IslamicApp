@@ -1,56 +1,25 @@
 package com.developer.islamicapp.Adapter;
 
-import android.app.Activity;
-import android.app.DownloadManager;
-import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
-import android.content.IntentFilter;
-import android.content.res.Resources;
-import android.database.Cursor;
-import android.net.Uri;
-import android.os.Build;
-import android.os.Environment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.webkit.MimeTypeMap;
-import android.webkit.URLUtil;
 import android.widget.ImageView;
 import android.widget.RelativeLayout;
-import android.widget.Toast;
 
 import androidx.annotation.NonNull;
-import androidx.cardview.widget.CardView;
-import androidx.core.content.FileProvider;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.bumptech.glide.Glide;
-import com.developer.islamicapp.Activities.Beautiful_Activity;
-import com.developer.islamicapp.Activities.Video_view;
+import com.developer.islamicapp.Activities.Beautiful_recitation_Activity;
 import com.developer.islamicapp.Activities.Youtube_video;
 import com.developer.islamicapp.Model.Config;
-import com.developer.islamicapp.Model.Constants;
-import com.developer.islamicapp.Model.Fire_model;
-import com.developer.islamicapp.Model.StoryModel;
-import com.developer.islamicapp.Network.NetworkState;
 import com.developer.islamicapp.R;
-import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.android.youtube.player.YouTubeInitializationResult;
-import com.google.android.youtube.player.YouTubeStandalonePlayer;
 import com.google.android.youtube.player.YouTubeThumbnailLoader;
 import com.google.android.youtube.player.YouTubeThumbnailView;
-import com.google.firebase.database.DataSnapshot;
-import com.google.firebase.database.DatabaseError;
-import com.google.firebase.database.DatabaseReference;
-import com.google.firebase.database.FirebaseDatabase;
-import com.google.firebase.database.ValueEventListener;
 
-import java.io.File;
 import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Comparator;
-import java.util.HashMap;
 
 public class VideoAdapter extends RecyclerView.Adapter<VideoAdapter.ProgHolder>
 {
@@ -64,9 +33,9 @@ public class VideoAdapter extends RecyclerView.Adapter<VideoAdapter.ProgHolder>
     String chk_status;
 
 
-    public VideoAdapter(Beautiful_Activity beautiful_activity, ArrayList<String> uri) {
+    public VideoAdapter(Beautiful_recitation_Activity beautiful_recitation_activity, ArrayList<String> uri) {
 
-        this.context = beautiful_activity;
+        this.context = beautiful_recitation_activity;
         this.filesList = uri;
     }
 

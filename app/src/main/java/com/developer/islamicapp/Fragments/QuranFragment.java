@@ -10,13 +10,11 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
-import android.widget.Toast;
 
-import com.developer.islamicapp.Activities.Beautiful_Activity;
+import com.developer.islamicapp.Activities.Beautiful_recitation_Activity;
 import com.developer.islamicapp.Activities.QuranActivity;
 import com.developer.islamicapp.Activities.QuraninfoActivity;
 import com.developer.islamicapp.Activities.SearchActivity;
-import com.developer.islamicapp.Activities.VideoUpload;
 import com.developer.islamicapp.R;
 import com.developer.islamicapp.utils.Typcastregular;
 
@@ -119,7 +117,7 @@ translation_text=view.findViewById(R.id.transalate_text); translation_text.setOn
             case R.id.transalate:
             case R.id.transalate_text:
 //                Toast.makeText(getContext(), ""+v.getId(), Toast.LENGTH_SHORT).show();
-                startActivity(new Intent(getContext(), Beautiful_Activity.class).putExtra("process","urdu"));
+                startActivity(new Intent(getContext(), Beautiful_recitation_Activity.class).putExtra("process","urdu"));
 
                 break;
 
@@ -127,7 +125,7 @@ translation_text=view.findViewById(R.id.transalate_text); translation_text.setOn
             case R.id.recitation_text:
 
 //                Toast.makeText(getContext(), ""+v.getId(), Toast.LENGTH_SHORT).show();
-                startActivity(new Intent(getContext(), Beautiful_Activity.class).putExtra("process","rec"));
+                startActivity(new Intent(getContext(), Beautiful_recitation_Activity.class).putExtra("process","rec"));
 
                 break;
 

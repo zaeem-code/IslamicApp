@@ -28,7 +28,7 @@ import com.google.firebase.database.ValueEventListener;
 
 import java.util.ArrayList;
 
-public class Beautiful_Activity extends AppCompatActivity {
+public class Beautiful_recitation_Activity extends AppCompatActivity {
 
     RecyclerView recyclerView;
     VideoAdapter videoAdapter;
@@ -38,13 +38,20 @@ ArrayList<String>uri=new ArrayList<>();
     ArrayList<Fire_model> filesList = new ArrayList<>();
   ImageView back;
 
+    String chk="rec";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
         Typcastregular.Typcastregular(getApplicationContext(), "SERIF", "Poppins-Regular.otf");
         setContentView(R.layout.activity_beautiful_);
-         recyclerView=findViewById(R.id.recycle);
+
+        try {
+            chk=getIntent().getStringExtra("process");
+        }catch (Exception e){ }
+
+        recyclerView=findViewById(R.id.recycle);
 
          back=findViewById(R.id.back);
          back.setOnClickListener(new View.OnClickListener() {
@@ -55,10 +62,7 @@ ArrayList<String>uri=new ArrayList<>();
              }
          });
 
-String chk="rec";
-try {
-    chk=getIntent().getStringExtra("process");
-}catch (Exception e){ }
+
 if (chk.equals("rec")){
     fetch_Recitation_firebase();
 }else {
@@ -91,10 +95,10 @@ try {
             @Override
             public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
 
-                for (DataSnapshot dataSnapshot1:dataSnapshot.getChildren())
+                for (DataSnapshot dataSnapshot2:dataSnapshot.getChildren())
                 {
 
-                    String url=dataSnapshot1.child("url").getValue().toString();
+                    String url=dataSnapshot2.child("url").getValue().toString();
                     Log.v("hassan",url);
 
 
@@ -122,11 +126,19 @@ if (!TextUtils.isEmpty(url)){
             @Override
             public void onCancelled(@NonNull DatabaseError databaseError) {
 
-                Toast.makeText(getApplicationContext(), "Sorry!\n Currently no urdu Translation available", Toast.LENGTH_SHORT).show();
+//                Toast.makeText(getApplicationContext(), "Sorry!\n Currently no urdu Translation available", Toast.LENGTH_SHORT).show();
+                Log.v("hassan",chk+": error : "+databaseError);
             }
         });
 
 
+
+
+
+        if (uri==null){
+            Toast.makeText(getApplicationContext(), "Sorry!\n Currently no urdu Translation available", Toast.LENGTH_SHORT).show();
+
+        }
 
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M)
         {
@@ -141,13 +153,11 @@ if (!TextUtils.isEmpty(url)){
             }
         }
 }catch (Exception e){
-    Toast.makeText(this, "Sorry!\n Currently no urdu Translation available", Toast.LENGTH_SHORT).show();
-}
-if (uri!=null){
-if (uri.size()<=0){
-    Toast.makeText(getApplicationContext(), "Sorry!\n Currently no urdu Translation available", Toast.LENGTH_SHORT).show();
+//    Toast.makeText(this, "Sorry!\n Currently no urdu Translation available", Toast.LENGTH_SHORT).show();
+    Log.v("hassan",chk+": exp : "+e);
 
-}}
+}
+
     }
     public void fetch_Recitation_firebase()
     {

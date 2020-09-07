@@ -1,6 +1,5 @@
 package com.developer.islamicapp.Adapter;
 
-import android.app.AlertDialog;
 import android.app.Dialog;
 import android.app.DownloadManager;
 import android.app.ProgressDialog;
@@ -24,18 +23,15 @@ import android.view.LayoutInflater;
 import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewGroup;
-import android.view.WindowManager;
 import android.webkit.MimeTypeMap;
 import android.webkit.URLUtil;
 import android.widget.ImageView;
 import android.widget.ProgressBar;
 import android.widget.SeekBar;
-import android.widget.Switch;
 import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.core.content.FileProvider;
-import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.developer.islamicapp.Model.data_model_arabicandurdu;
@@ -47,7 +43,6 @@ import java.io.File;
 import java.util.ArrayList;
 
 import static android.content.Context.MODE_PRIVATE;
-import static android.content.Context.POWER_SERVICE;
 
 
 public class AdapterParah_and_surah_Reader extends RecyclerView.Adapter<AdapterParah_and_surah_Reader.ViewHolder> {
@@ -83,10 +78,10 @@ String apndArabi,apndurdu;
     int Recent;
     String TEMP;
     String TEMP_urdu;
+int star_of_para_surah_number;
 
 
-
-    public AdapterParah_and_surah_Reader(Context context, String DBx, ArrayList<data_model_arabicandurdu> data, String numb, int REcent)
+    public AdapterParah_and_surah_Reader(Context context, String DBx, ArrayList<data_model_arabicandurdu> data, String numb, int REcent, int size)
     {
         this.context = context;
         this.data = data;
@@ -94,6 +89,12 @@ String apndArabi,apndurdu;
         this.numb=numb;
         chk= DBx;
         this.Recent=REcent;
+        if (size==1){
+         star_of_para_surah_number=size;}else {
+            star_of_para_surah_number=size+1;
+        }
+
+        Log.v("parah_surah_number",star_of_para_surah_number+" got");
 
     }
 
@@ -164,9 +165,10 @@ String apndArabi,apndurdu;
             {
 
                 item = data.get(position);
-                holder.textView.setText(item.Arabic.trim()+"۞");
+                holder.textView.setText(item.Arabic.trim()+ "❲"+(star_of_para_surah_number++)+"❳ ۞");
                 holder.textView_urdu.setText("\n"+" "+item.Urdu);
 
+                Log.v("parah_surah_number",": runtime"+star_of_para_surah_number);
 
 
 

@@ -52,7 +52,7 @@
         <activity android:name=".Activities.Read_quran_Activity" />
         <activity android:name=".Activities.QuranActivity" />
         <activity android:name=".Activities.SignupActivity" />
-        <activity android:name=".Activities.Beautiful_Activity" />
+        <activity android:name=".Activities.Beautiful_recitation_Activity" />
         <activity android:name=".Activities.Video_view" />
         <activity android:name=".Activities.VideoUpload" />
         <activity android:name=".Activities.MainActivity" />
