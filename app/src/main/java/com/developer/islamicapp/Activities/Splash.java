@@ -33,7 +33,6 @@ public class Splash extends AppCompatActivity {
             public void onSuccess(InstanceIdResult instanceIdResult)
             {
                 String newToken = instanceIdResult.getToken();
-//                Toast.makeText(Splash.this, ""+newToken, Toast.LENGTH_SHORT).show();
 
                 FirebaseMessaging.getInstance().subscribeToTopic("APP_master");
             }
@@ -50,7 +49,7 @@ public class Splash extends AppCompatActivity {
             new Handler().postDelayed(new Runnable() {
                 public void run()
                 {
-                    Splash.this.startActivity(new Intent(Splash.this.getApplicationContext(), MainActivity.class).addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP|Intent.FLAG_ACTIVITY_CLEAR_TASK
+              startActivity(new Intent(getApplicationContext(), MainActivity.class).addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP|Intent.FLAG_ACTIVITY_CLEAR_TASK
                     ));
                     finish();
                 }
@@ -71,7 +70,7 @@ public class Splash extends AppCompatActivity {
             }
             new Handler().postDelayed(new Runnable() {
                 public void run() {
-                    Splash.this.startActivity(new Intent(Splash.this.getApplicationContext(), MainActivity.class).addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP|Intent.FLAG_ACTIVITY_CLEAR_TASK
+                 startActivity(new Intent(getApplicationContext(), MainActivity.class).addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP|Intent.FLAG_ACTIVITY_CLEAR_TASK
                     ));
                     finish();
                 }

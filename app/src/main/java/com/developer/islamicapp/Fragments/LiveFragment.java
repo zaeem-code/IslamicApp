@@ -11,6 +11,7 @@ import android.text.TextUtils;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Toast;
 
 import com.developer.islamicapp.Activities.Youtube_video;
 import com.developer.islamicapp.R;
@@ -21,43 +22,31 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 
-import java.net.URL;
-
 /**
  * A simple {@link Fragment} subclass.
  * Use the {@link LiveFragment#newInstance} factory method to
  * create an instance of this fragment.
  */
 public class LiveFragment extends Fragment implements View.OnClickListener {
-String URLX;
+String URLyt ="https://www.youtube.com/channel/UCmV5CFC6bbZmMhqTUqZdlrg";String URLfb ="211680932500811";
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
     private static final String ARG_PARAM1 = "param1";
     private static final String ARG_PARAM2 = "param2";
 
-    // TODO: Rename and change types of parameters
     private String mParam1;
     private String mParam2;
 
     public LiveFragment() {
-        // Required empty public constructor
     }
 
-    /**
-     * Use this factory method to create a new instance of
-     * this fragment using the provided parameters.
-     *
-     * @param param1 Parameter 1.
-     * @param param2 Parameter 2.
-     * @return A new instance of fragment LiveFragment.
-     */
-    // TODO: Rename and change types and number of parameters
     public static LiveFragment newInstance(String param1, String param2) {
         LiveFragment fragment = new LiveFragment();
         Bundle args = new Bundle();
         args.putString(ARG_PARAM1, param1);
         args.putString(ARG_PARAM2, param2);
         fragment.setArguments(args);
+
         return fragment;
     }
 View v;
@@ -75,7 +64,7 @@ View v;
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         Typcastregular.Typcastregular(getContext(), "SERIF", "Poppins-Regular.otf");
-
+        getYoutube(); getFaceboook();
         v= inflater.inflate(R.layout.fragment_live, container, false);
         v.findViewById(R.id.FB).setOnClickListener(this);
         v.findViewById(R.id.YT).setOnClickListener(this);
@@ -88,47 +77,46 @@ View v;
 
             case R.id.FB:
 //
-                String id="211680932500811";
+//                String id="211680932500811";
                 try {
 //
-                    Intent intent=new Intent(Intent.ACTION_VIEW,Uri.parse("fb://page/"+id));
+                    Intent intent=new Intent(Intent.ACTION_VIEW,Uri.parse("fb://page/"+URLfb));
                     startActivity(intent);
 
 
                 } catch (Exception e)
                 {
 
-                    Intent intent=new Intent(Intent.ACTION_VIEW,Uri.parse("https://www.facebook.com/"+id));
+                    Intent intent=new Intent(Intent.ACTION_VIEW,Uri.parse("https://www.facebook.com/"+URLfb));
                     startActivity(intent);
 
                 }
                 break;
 
             case R.id.YT:
-//                Intent intent=null;
-//                try {
-//                    intent =new Intent(Intent.ACTION_VIEW);
-//                    intent.setPackage("com.google.android.youtube");
-//                    if (!TextUtils.isEmpty(URLX)){
-//                        intent.setData(Uri.parse( URLX));
-//
-//                    }else {
-//
-//                        intent.setData(Uri.parse("https://www.youtube.com/channel/UCmV5CFC6bbZmMhqTUqZdlrg?view_as=subscriber"));
-//                    }
-//                     startActivity(intent);
-//                } catch (ActivityNotFoundException e) {
-//                    intent = new Intent(Intent.ACTION_VIEW);
-//                    if (!TextUtils.isEmpty(URLX)){
-//                        intent.setData(Uri.parse( URLX));
-//
-//                    }else {
-//
-//                        intent.setData(Uri.parse("https://www.youtube.com/channel/UCmV5CFC6bbZmMhqTUqZdlrg?view_as=subscriber"));
-//                    }  startActivity(intent);
-//                }
+                 Intent intentyt=null;
+                try {
+                    intentyt =new Intent(Intent.ACTION_VIEW);
+                    intentyt.setPackage("com.google.android.youtube");
+                    if (!TextUtils.isEmpty(URLyt)){
+                        intentyt.setData(Uri.parse( URLyt));
 
-           startActivity(new Intent(getContext(), Youtube_video.class).addFlags(Intent.FLAG_ACTIVITY_NEW_TASK));
+                    }else {
+
+                        intentyt.setData(Uri.parse("https://www.youtube.com/channel/UCmV5CFC6bbZmMhqTUqZdlrg?view_as=subscriber"));
+                    }
+                     startActivity(intentyt);
+                } catch (ActivityNotFoundException e) {
+                    intentyt = new Intent(Intent.ACTION_VIEW);
+                    if (!TextUtils.isEmpty(URLyt)){
+                        intentyt.setData(Uri.parse( URLyt));
+
+                    }else {
+
+                        intentyt.setData(Uri.parse("https://www.youtube.com/channel/UCmV5CFC6bbZmMhqTUqZdlrg?view_as=subscriber"));
+                    }  startActivity(intentyt);
+                }
+
                 break;
 
 
@@ -143,10 +131,8 @@ View v;
             public void onDataChange(DataSnapshot dataSnapshot) {
                 // This method is called once with the initial value and again
                 // whenever data at this location is updated.
-                String value = dataSnapshot.child("Youtube").getValue().toString().trim();
 
-URLX=value;
-
+URLyt = dataSnapshot.child("Youtube").getValue().toString().trim();
 
 
 
@@ -156,7 +142,38 @@ URLX=value;
 
 
 
-             }
+
+            }
+
+            @Override
+            public void onCancelled(DatabaseError error) {
+                // Failed to read value
+            }
+        });
+
+    }
+    private void getFaceboook(){
+        FirebaseDatabase database = FirebaseDatabase.getInstance();
+        DatabaseReference myRef = database.getReference("Admin_DATA");
+
+        myRef.addValueEventListener(new ValueEventListener() {
+            @Override
+            public void onDataChange(DataSnapshot dataSnapshot) {
+                // This method is called once with the initial value and again
+                // whenever data at this location is updated.
+
+                URLfb = dataSnapshot.child("Facebook").getValue().toString().trim();
+
+
+
+
+
+
+
+
+
+
+            }
 
             @Override
             public void onCancelled(DatabaseError error) {

@@ -129,8 +129,14 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         Typcastregular.Typcastregular(getApplicationContext(), "SERIF", "Poppins-Regular.otf");
         setContentView(R.layout.activity_main);
-        this.bundle = getIntent().getExtras();
-        View_layout();
+
+        try {
+
+
+            this.bundle = getIntent().getExtras();}catch (Exception e){
+
+        }  View_layout();
+
         bottomNav_Click();
 
         String str = "";
@@ -139,7 +145,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 WindowManager.LayoutParams.FLAG_FULLSCREEN);
 
 
-        home_txt=findViewById(R.id.home_text);
+        home_txt = findViewById(R.id.home_text);
 
         findViewById(R.id.home_text).setOnClickListener(this);
         findViewById(R.id.home).setOnClickListener(this);
@@ -163,22 +169,23 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         findViewById(R.id.Abouttxt3).setOnClickListener(this);
         findViewById(R.id.Bstatuseslyt3).setOnClickListener(this);
 
-        relativeLayout=findViewById(R.id.card);
+        relativeLayout = findViewById(R.id.card);
 //        cardView=findViewById(R.id.card);
 
-        back_img=findViewById(R.id.back_img);
-        notification=findViewById(R.id.notification);
-        counter=findViewById(R.id.counter);
+        back_img = findViewById(R.id.back_img);
+        notification = findViewById(R.id.notification);
+        counter = findViewById(R.id.counter);
 
 
-
-
+        try {
 
         prefs = getSharedPreferences("login", MODE_PRIVATE);
         get_name = prefs.getString("name", "");//"No name defined" is the default value.
         get_pass = prefs.getString("country", "");//"No name defined" is the default value.
-        get_number= prefs.getString("phone", "");//"No name defined" is the default value.
+        get_number = prefs.getString("phone", "");//"No name defined" is the default value.
+    }catch (Exception e){
 
+        }
         Get_budge_database();
         get_alert();
         calander_upoad();

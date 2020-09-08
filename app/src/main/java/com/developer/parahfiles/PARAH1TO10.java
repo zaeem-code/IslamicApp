@@ -55,8 +55,7 @@ public class PARAH1TO10 {
 //
 //                parah_1.add(new data_model_arabicandurdu("بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ", "اللہ کے نام سے شروع جو نہایت مہربان ہمیشہ رحم فرمانے والا ہے\n" +
 //                        "\t\t\t\t\t", "In the Name of Allah, Most Compassionate, Ever-Merciful.\n"));
-                parah_1.add(new data_model_arabicandurdu("\n" +
-                        "الم", "\n" +
+                parah_1.add(new data_model_arabicandurdu("بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ"+"\n\n"+"الم",
                         "الف لام میم (حقیقی معنی اللہ اور رسول صلی اللہ علیہ وآلہ وسلم ہی بہتر جانتے ہیں)", "Alif, Lam, Mim. (Only Allah and the Messenger [blessings and peace be upon him] know the real meaning.)\n"));
                 parah_1.add(new data_model_arabicandurdu("ذَلِكَ الْكِتَابُ لاَ رَيْبَ فِيهِ هُدًى لِّلْمُتَّقِيْنَ", "\n" +
                         "(یہ) وہ عظیم کتاب ہے جس میں کسی شک کی گنجائش نہیں، (یہ) پرہیزگاروں کے لئے ہدایت ہے", "(This is) the Glorious Book in which there is no chance of doubt. (It is) a guide for those who guard against evil and fear Allah:\n"));

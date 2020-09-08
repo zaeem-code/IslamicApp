@@ -20,13 +20,18 @@ import com.developer.surahfiles.SURAH61TO114;
 import com.developer.islamicapp.R;
 import com.developer.islamicapp.utils.Typcastregular;
 
+import java.util.ArrayList;
+
 public class Read_quran_Activity extends AppCompatActivity implements View.OnClickListener {
     String chk, chk_parrah_or_surahnumber, DBx;
     RecyclerView recyclerView;
     FrameLayout bg;
+    int i=0;
     RelativeLayout bgx;
     int REcent=0;
     LinearLayoutManager linearLayoutManager;
+
+    ArrayList<Integer> indexxx=new ArrayList<>();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -81,17 +86,16 @@ process(DBx);
                     recyclerView.removeAllViewsInLayout();
                     if (Integer.parseInt(chk_parrah_or_surahnumber)<=10) {
 
-                        recyclerView.setAdapter(new AdapterParah_and_surah_Reader(getApplicationContext(), DBx, new PARAH1TO10().Data(chk_parrah_or_surahnumber),  chk_parrah_or_surahnumber, REcent,        stating(chk_parrah_or_surahnumber)));
+                        recyclerView.setAdapter(new AdapterParah_and_surah_Reader(Read_quran_Activity.this, DBx, new PARAH1TO10().Data(chk_parrah_or_surahnumber),  chk_parrah_or_surahnumber, REcent, fillSurahnumbers(stating(chk_parrah_or_surahnumber),new PARAH1TO10().Data(chk_parrah_or_surahnumber).size())));
 
 
                     } else if (Integer.parseInt(chk_parrah_or_surahnumber)>10 && Integer.parseInt(chk_parrah_or_surahnumber)<=17) {
-                        recyclerView.setAdapter(new AdapterParah_and_surah_Reader(getApplicationContext(), DBx, new PARAH11TO17().Data(chk_parrah_or_surahnumber), chk_parrah_or_surahnumber, REcent,         stating(chk_parrah_or_surahnumber)));
-
+                        recyclerView.setAdapter(new AdapterParah_and_surah_Reader(Read_quran_Activity.this, DBx, new PARAH11TO17().Data(chk_parrah_or_surahnumber), chk_parrah_or_surahnumber, REcent,        fillSurahnumbers(stating(chk_parrah_or_surahnumber),new PARAH11TO17().Data(chk_parrah_or_surahnumber).size())));
                     }else if (Integer.parseInt(chk_parrah_or_surahnumber)>17 && Integer.parseInt(chk_parrah_or_surahnumber)<=24) {
-                        recyclerView.setAdapter(new AdapterParah_and_surah_Reader(getApplicationContext(), DBx, new PARAH18TO24().Data(chk_parrah_or_surahnumber), chk_parrah_or_surahnumber, REcent,         stating(chk_parrah_or_surahnumber)));
+                        recyclerView.setAdapter(new AdapterParah_and_surah_Reader(Read_quran_Activity.this, DBx, new PARAH18TO24().Data(chk_parrah_or_surahnumber), chk_parrah_or_surahnumber, REcent,        fillSurahnumbers(stating(chk_parrah_or_surahnumber),new PARAH18TO24().Data(chk_parrah_or_surahnumber).size())));
 
                     }else if (Integer.parseInt(chk_parrah_or_surahnumber)>25 && Integer.parseInt(chk_parrah_or_surahnumber)<=30) {
-                        recyclerView.setAdapter(new AdapterParah_and_surah_Reader(getApplicationContext(), DBx, new PARAH25TO30().Data(chk_parrah_or_surahnumber), chk_parrah_or_surahnumber, REcent,         stating(chk_parrah_or_surahnumber)));
+                        recyclerView.setAdapter(new AdapterParah_and_surah_Reader(Read_quran_Activity.this, DBx, new PARAH25TO30().Data(chk_parrah_or_surahnumber), chk_parrah_or_surahnumber, REcent,        fillSurahnumbers(stating(chk_parrah_or_surahnumber),new PARAH25TO30().Data(chk_parrah_or_surahnumber).size())));
 
                     }
                     linearLayoutManager.scrollToPosition(REcentx);
@@ -116,15 +120,15 @@ process(DBx);
         switch (chk){
             case "Surah":
                 if (Integer.parseInt(chk_parrah_or_surahnumber)<=15) {
-                    recyclerView.setAdapter(new AdapterParah_and_surah_Reader(this, DBx, new SURAH1TO15(this).Data(chk_parrah_or_surahnumber), chk_parrah_or_surahnumber, REcent, 0));
+                    recyclerView.setAdapter(new AdapterParah_and_surah_Reader(Read_quran_Activity.this, DBx, new SURAH1TO15(this).Data(chk_parrah_or_surahnumber), chk_parrah_or_surahnumber, REcent, null));
                 }else if (Integer.parseInt(chk_parrah_or_surahnumber)>15 && Integer.parseInt(chk_parrah_or_surahnumber)<=30) {
-                    recyclerView.setAdapter(new AdapterParah_and_surah_Reader(this, DBx, new SURAH16TO30(this).Data(chk_parrah_or_surahnumber), chk_parrah_or_surahnumber, REcent, 0));
+                    recyclerView.setAdapter(new AdapterParah_and_surah_Reader(Read_quran_Activity.this, DBx, new SURAH16TO30(this).Data(chk_parrah_or_surahnumber), chk_parrah_or_surahnumber, REcent, null));
 
                 }else if (Integer.parseInt(chk_parrah_or_surahnumber)>30 && Integer.parseInt(chk_parrah_or_surahnumber)<=60) {
-                    recyclerView.setAdapter(new AdapterParah_and_surah_Reader(this, DBx, new SURAH31TO60(this).Data(chk_parrah_or_surahnumber), chk_parrah_or_surahnumber, REcent, 0));
+                    recyclerView.setAdapter(new AdapterParah_and_surah_Reader(Read_quran_Activity.this, DBx, new SURAH31TO60(this).Data(chk_parrah_or_surahnumber), chk_parrah_or_surahnumber, REcent, null));
 
                 }else if (Integer.parseInt(chk_parrah_or_surahnumber)>60 && Integer.parseInt(chk_parrah_or_surahnumber)<=114) {
-                    recyclerView.setAdapter(new AdapterParah_and_surah_Reader(this, DBx, new SURAH61TO114(this).Data(chk_parrah_or_surahnumber), chk_parrah_or_surahnumber, REcent, 0));
+                    recyclerView.setAdapter(new AdapterParah_and_surah_Reader(Read_quran_Activity.this, DBx, new SURAH61TO114(this).Data(chk_parrah_or_surahnumber), chk_parrah_or_surahnumber, REcent, null));
 
                 }
 
@@ -144,19 +148,15 @@ process(DBx);
                 }
 
                 if (Integer.parseInt(chk_parrah_or_surahnumber)<=10) {
-                        recyclerView.setAdapter(new AdapterParah_and_surah_Reader(this, DBx, new PARAH1TO10().Data(chk_parrah_or_surahnumber),  chk_parrah_or_surahnumber, REcent,        stating(chk_parrah_or_surahnumber)));
-
-
-                }
-                else if (Integer.parseInt(chk_parrah_or_surahnumber)>10 && Integer.parseInt(chk_parrah_or_surahnumber)<=17) {
-                    recyclerView.setAdapter(new AdapterParah_and_surah_Reader(this, DBx, new PARAH11TO17().Data(chk_parrah_or_surahnumber), chk_parrah_or_surahnumber, REcent,         stating(chk_parrah_or_surahnumber)));
-
+                   recyclerView.setAdapter(new AdapterParah_and_surah_Reader(Read_quran_Activity.this, DBx, new PARAH1TO10().Data(chk_parrah_or_surahnumber),  chk_parrah_or_surahnumber, REcent, fillSurahnumbers(stating(chk_parrah_or_surahnumber),new PARAH1TO10().Data(chk_parrah_or_surahnumber).size())));
+                } else if (Integer.parseInt(chk_parrah_or_surahnumber)>10 && Integer.parseInt(chk_parrah_or_surahnumber)<=17) {
+                    recyclerView.setAdapter(new AdapterParah_and_surah_Reader(Read_quran_Activity.this, DBx, new PARAH11TO17().Data(chk_parrah_or_surahnumber), chk_parrah_or_surahnumber, REcent,        fillSurahnumbers(stating(chk_parrah_or_surahnumber),new PARAH11TO17().Data(chk_parrah_or_surahnumber).size())));
                 }else if (Integer.parseInt(chk_parrah_or_surahnumber)>17 && Integer.parseInt(chk_parrah_or_surahnumber)<=24) {
-                    recyclerView.setAdapter(new AdapterParah_and_surah_Reader(this, DBx, new PARAH18TO24().Data(chk_parrah_or_surahnumber), chk_parrah_or_surahnumber, REcent,         stating(chk_parrah_or_surahnumber)));
+                    recyclerView.setAdapter(new AdapterParah_and_surah_Reader(Read_quran_Activity.this, DBx, new PARAH18TO24().Data(chk_parrah_or_surahnumber), chk_parrah_or_surahnumber, REcent,        fillSurahnumbers(stating(chk_parrah_or_surahnumber),new PARAH18TO24().Data(chk_parrah_or_surahnumber).size())));
 
-                }else if (Integer.parseInt(chk_parrah_or_surahnumber)>24 && Integer.parseInt(chk_parrah_or_surahnumber)<=30) {
-                    recyclerView.setAdapter(new AdapterParah_and_surah_Reader(this, DBx, new PARAH25TO30().Data(chk_parrah_or_surahnumber), chk_parrah_or_surahnumber, REcent,         stating(chk_parrah_or_surahnumber)));
-            
+                }else if (Integer.parseInt(chk_parrah_or_surahnumber)>25 && Integer.parseInt(chk_parrah_or_surahnumber)<=30) {
+                    recyclerView.setAdapter(new AdapterParah_and_surah_Reader(Read_quran_Activity.this, DBx, new PARAH25TO30().Data(chk_parrah_or_surahnumber), chk_parrah_or_surahnumber, REcent,        fillSurahnumbers(stating(chk_parrah_or_surahnumber),new PARAH25TO30().Data(chk_parrah_or_surahnumber).size())));
+
                 }
 
                 break;
@@ -169,7 +169,7 @@ process(DBx);
     private int stating(String parah){
         switch (parah){
             case "1":
-                return 1;
+                return 0;
             case "2":
                 return 148;
             case "3":
@@ -235,5 +235,20 @@ process(DBx);
                 return 0;
 
         }
+
+    }
+    private ArrayList<Integer> fillSurahnumbers(int startx,int endx){
+
+        indexxx.clear();
+
+
+        for ( i=0;i<=endx; i++){
+            indexxx.add((i+startx));
+            Log.v("TPX"," start at : "+startx+", will end at : "+endx+", currently :----->: "+indexxx.get(i));
+                                        }
+
+
+        return indexxx;
+
     }
 }

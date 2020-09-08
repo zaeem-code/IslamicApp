@@ -34,6 +34,7 @@ import android.widget.Toast;
 import androidx.core.content.FileProvider;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.developer.islamicapp.Activities.Read_quran_Activity;
 import com.developer.islamicapp.Model.data_model_arabicandurdu;
 import com.developer.islamicapp.Network.NetworkState;
 import com.developer.islamicapp.R;
@@ -43,6 +44,7 @@ import java.io.File;
 import java.util.ArrayList;
 
 import static android.content.Context.MODE_PRIVATE;
+import static android.content.Context.POWER_SERVICE;
 
 
 public class AdapterParah_and_surah_Reader extends RecyclerView.Adapter<AdapterParah_and_surah_Reader.ViewHolder> {
@@ -50,6 +52,7 @@ public class AdapterParah_and_surah_Reader extends RecyclerView.Adapter<AdapterP
     public data_model_arabicandurdu item;
     private LayoutInflater mInflater;
     ArrayList<data_model_arabicandurdu> data=new ArrayList<>();
+    ArrayList<Integer> indexxx=new ArrayList<>();
     Context context;
     String bism="بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ ";
 String apndArabi,apndurdu;
@@ -57,6 +60,7 @@ String apndArabi,apndurdu;
     View view;
     File audio;
     String vid;
+    Read_quran_Activity read_quran_activity;
     String numb,pre_pos;
      Dialog dialog;
     ProgressBar progressBar;
@@ -77,22 +81,22 @@ String apndArabi,apndurdu;
     String download_status="not_success";
     int Recent;
     String TEMP;
-    String TEMP_urdu;
+    int ayatnumber=0;
+            String TEMP_urdu;
 int star_of_para_surah_number;
 
 
-    public AdapterParah_and_surah_Reader(Context context, String DBx, ArrayList<data_model_arabicandurdu> data, String numb, int REcent, int size)
+    public AdapterParah_and_surah_Reader(Read_quran_Activity read_quran_activity, String DBx, ArrayList<data_model_arabicandurdu> data, String numb, int REcent,     ArrayList<Integer> indexxx)
     {
-        this.context = context;
+        this.context = read_quran_activity.getApplicationContext();
+        this.read_quran_activity=read_quran_activity;
         this.data = data;
         this.mInflater = LayoutInflater.from(context);
         this.numb=numb;
         chk= DBx;
         this.Recent=REcent;
-        if (size==1){
-         star_of_para_surah_number=size;}else {
-            star_of_para_surah_number=size+1;
-        }
+
+        this.indexxx=indexxx;
 
         Log.v("parah_surah_number",star_of_para_surah_number+" got");
 
@@ -122,7 +126,7 @@ int star_of_para_surah_number;
         prefs = context.getSharedPreferences("previous", MODE_PRIVATE);
 
 
-        Log.v("hassan","Parameters read auto: "+" adap   :"+":"+ numb);
+//        Log.v("hassan","Parameters read auto: "+" adap   :"+":"+ numb);
 
         if (chk.equals("Surah"))
         {
@@ -147,9 +151,9 @@ int star_of_para_surah_number;
 
 
                     }
-
-                    Log.v("Hassan", "main Data  manipulate:throughout::--:" + item.Arabic);
-                    Log.v("Hassan", "main Data  manipulate:throughout urdu::--:" + item.Urdu);
+//
+//                    Log.v("Hassan", "main Data  manipulate:throughout::--:" + item.Arabic);
+//                    Log.v("Hassan", "main Data  manipulate:throughout urdu::--:" + item.Urdu);
                 }
 
                 holder.textView.setText(TEMP);
@@ -165,8 +169,98 @@ int star_of_para_surah_number;
             {
 
                 item = data.get(position);
-                holder.textView.setText(item.Arabic.trim()+ "❲"+(star_of_para_surah_number++)+"❳ ۞");
-                holder.textView_urdu.setText("\n"+" "+item.Urdu);
+if (indexxx!=null){
+         ayatnumber=   indexxx.get(position);
+Log.v("TPX","aray size"+indexxx.size());
+}else {
+
+    Log.v("TPX","aray is null");
+}
+
+                if (ayatnumber != 0) {
+
+                        holder.textView.setText(item.Arabic.trim() + "❲" + (ayatnumber) + "❳ ۞");
+                        holder.textView_urdu.setText("\n" + " " + item.Urdu);
+                    }else{
+                            holder.textView.setText(item.Arabic.trim());
+                            holder.textView_urdu.setText("\n" + " " + item.Urdu);
+
+                    Log.v("hassan","index is 0");
+ }
+
+
+
+
+
+
+
+
+//                if (star_of_para_surah_number != 0) {
+//                    if (index.isEmpty()) {
+//                        holder.textView.setText(item.Arabic.trim() + "❲" + (star_of_para_surah_number++) + "❳ ۞");
+//                        holder.textView_urdu.setText("\n" + " " + item.Urdu);
+//                        index.add(star_of_para_surah_number);
+//                        Log.v("hassan","index is empty");
+//                    }else{
+//
+//                        int num=0;
+//                        try {
+//
+//                            num=index.get(position);
+//                        }catch (Exception e){
+//
+//                        }
+//                        Log.v("hassan","index is not empty: "+num );
+//
+//                        if (num>0) {
+//                            Log.v("hassan","index is not empty: "+num+ " >0");
+//
+//                            holder.textView.setText(item.Arabic.trim() + "❲" + (numb) + "❳ ۞");
+//                            holder.textView_urdu.setText("\n" + " " + item.Urdu);
+//                        }else {
+//                            holder.textView.setText(item.Arabic.trim() + "❲" + (star_of_para_surah_number++) + "❳ ۞");
+//                            holder.textView_urdu.setText("\n" + " " + item.Urdu);
+//                            index.add(star_of_para_surah_number);
+//
+//                            Log.v("hassan","index is not empty: "+num+ " <0");
+//
+//                        }
+//                    }
+//                }else {
+//
+//                    if (index.isEmpty()) {
+//                        holder.textView.setText(item.Arabic.trim());
+//                        holder.textView_urdu.setText("\n" + " " + item.Urdu);
+//
+//                        star_of_para_surah_number++;
+//                        index.add(star_of_para_surah_number);
+//                    }else{
+//                        int num=0;
+//                        try {
+//
+//                            num=index.get(position);
+//                        }catch (Exception e){
+//
+//                        }
+//                        if (num>0) {
+//
+//                            holder.textView.setText(item.Arabic.trim());
+//                            holder.textView_urdu.setText("\n" + " " + item.Urdu);
+//
+//                            star_of_para_surah_number++;      }else {
+//                            holder.textView.setText(item.Arabic.trim() + "❲" + (star_of_para_surah_number++) + "❳ ۞");
+//
+//                            holder.textView.setText(item.Arabic.trim());
+//                            holder.textView_urdu.setText("\n" + " " + item.Urdu);
+//
+//                            star_of_para_surah_number++;
+//                            index.add(star_of_para_surah_number);
+//
+//                        }
+//                    }
+//                    }
+//                holder.textView.setText(item.Arabic.trim()+ "❲"+(star_of_para_surah_number++)+"❳ ۞");
+//                holder.textView_urdu.setText("\n"+" "+item.Urdu);
 
                 Log.v("parah_surah_number",": runtime"+star_of_para_surah_number);
 
@@ -508,7 +602,7 @@ context.getSharedPreferences(numb,MODE_PRIVATE).edit().putInt("Recent",position)
                             }
 
 
-                              dialog = new Dialog(context, R.style.Theme_AppCompat_DayNight_Dialog);
+                              dialog = new Dialog(read_quran_activity, R.style.Theme_AppCompat_DayNight_Dialog);
                               dialog.setContentView(R.layout.activity_sound2);
                               dialog.setTitle("Audio...");
                               dialog.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
@@ -1338,6 +1432,20 @@ try {
 
     }
 
-
+//private  int getayattnum(int position, int star_of_para_surah_numberx){
+//        int val;
+//
+//        try {
+//            val=indexxx.get(position);
+//
+//        }catch (Exception e){
+//            indexxx.add(position,star_of_para_surah_numberx);
+//            val=indexxx.get(position);
+//            this.star_of_para_surah_number++;
+//        }
+//        Log.v("hassan","> val:   "+val+", at pos:  "+position);
+//        return val;
+//
+//}
 
 }
