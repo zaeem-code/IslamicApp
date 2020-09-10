@@ -57,7 +57,7 @@ public class PARAH1TO10 {
 
                 parah_1.add(new data_model_arabicandurdu("الَّذِينَ يُؤْمِنُونَ بِالْغَيْبِ وَيُقِيمُونَ الصَّـلَاةَ وَمِمَّا رَزَقْنَاهُمْ يُنفِقُونَ  وَالَّذِينَ يُؤْمِنُونَ بِمَا أُنزِلَ إِلَيْكَ وَمَا أُنزِلَ مِن قَبْلِكَ وَبِالآخِرَةِ هُمْ يُوقِنُونَ","جو غیب پر ایمان لاتے اور نماز کو (تمام حقوق کے ساتھ) قائم کرتے ہیں اور جو کچھ ہم نے انہیں عطا کیا ہے اس میں سے (ہماری راہ) میں خرچ کرتے ہیں    اور وہ لوگ جو آپ کی طرف نازل کیا گیا اور جو آپ سے پہلے نازل کیا گیا (سب) پر ایمان لاتے ہیں، اور وہ آخرت پر بھی (کامل) یقین رکھتے ہیں","Those who believe in the unseen, and establish Prayer (fulfilling all its requisites) and spend (in Our way) out of what We have given them;"));
 
-
+    
                 parah_1.add(new data_model_arabicandurdu("أُوْلَـئِكَ عَلَى هُدًى مِّن رَّبِّهِمْ وَأُوْلَـئِكَ هُمُ الْمُفْلِحُونَ","وہی اپنے رب کی طرف سے ہدایت پر ہیں اور وہی حقیقی کامیابی پانے والے ہیں","It is they who follow guidance from their Lord, and it is they who shall achieve real success."));
 
                 parah_1.add(new data_model_arabicandurdu("إِنَّ الَّذِينَ كَفَرُواْ سَوَآءٌ عَلَيْهِمْ أَأَنذَرْتَهُمْ أَمْ لَمْ تُنذِرْهُمْ لاَ يُؤْمِنُونَ","بیشک جنہوں نے کفر اپنا لیا ہے ان کے لئے برابر ہے خواہ آپ انہیں ڈرائیں یا نہ ڈرائیں، وہ ایمان نہیں لائیں گے","Verily, those who have adopted disbelief, it is the same for them whether you warn them or you warn them not, they will not believe."));

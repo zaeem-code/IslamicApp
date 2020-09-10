@@ -172,6 +172,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         relativeLayout = findViewById(R.id.card);
 //        cardView=findViewById(R.id.card);
 
+
         back_img = findViewById(R.id.back_img);
         notification = findViewById(R.id.notification);
         counter = findViewById(R.id.counter);

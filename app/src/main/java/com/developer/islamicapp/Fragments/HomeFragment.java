@@ -302,6 +302,7 @@ public class HomeFragment extends Fragment implements View.OnClickListener {
 if (TextUtils.isEmpty(ayat_admin)){
     ayat_admin="NA";
 }
+
                     if (TextUtils.isEmpty(event_admin)){
                         event_admin="NA";
                     }
@@ -371,7 +372,8 @@ if (TextUtils.isEmpty(ayat_admin)){
 try {
 
 
-    if (getActivity().getSharedPreferences("answered", Context.MODE_PRIVATE).getBoolean("chk", true) && !TextUtils.isEmpty(ques_admin)) {
+    if (getActivity().getSharedPreferences("answered", Context.MODE_PRIVATE).getBoolean("chk", true) && !TextUtils.isEmpty(ques_admin))
+    {
         QuestionNotAnswered();
 
         Log.v("dell", "answer not answed");
@@ -446,11 +448,19 @@ try {
 
             }
         });
-    } else {
-        QuestionAnswered();
+    }
+
+
+
+    else
+
+        {
+
+            QuestionAnswered();
 
         Log.v("dell", "answer  answed");
-        Log.v("dell", "conditions:  chk if needed to ans: " + getContext().getSharedPreferences("answered", Context.MODE_PRIVATE).getBoolean("chk", true)
+        Log.v("dell", "conditions:  chk if needed to ans: " +
+                getContext().getSharedPreferences("answered", Context.MODE_PRIVATE).getBoolean("chk", true)
                 + ", ques: " + ques_admin + ", same as prev ?: "
                 + getContext().getSharedPreferences("same", Context.MODE_PRIVATE).getString("las", ques_admin).equals(ques_admin) + ", prev q: " + getContext().getSharedPreferences("same", Context.MODE_PRIVATE).getString("las", ques_admin));
 
@@ -618,6 +628,10 @@ try {
 
                 Toast.makeText(getContext(), "exist", Toast.LENGTH_LONG).show();
 
+            }
+            else
+            {
+                Toast.makeText(getActivity(), "version issue", Toast.LENGTH_SHORT).show();
             }
 
         }
