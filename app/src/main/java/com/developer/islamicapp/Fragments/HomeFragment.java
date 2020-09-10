@@ -1,6 +1,7 @@
 package com.developer.islamicapp.Fragments;
 
 import android.app.DownloadManager;
+import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.net.Uri;
@@ -13,7 +14,6 @@ import androidx.fragment.app.Fragment;
 
 import android.os.CountDownTimer;
 import android.os.Environment;
-import android.os.Handler;
 import android.text.TextUtils;
 import android.util.Log;
 import android.view.LayoutInflater;
@@ -56,8 +56,6 @@ import java.util.HashMap;
 import java.util.Locale;
 import java.util.Objects;
 
-import static android.content.Context.MODE_PRIVATE;
-
 public class HomeFragment extends Fragment implements View.OnClickListener {
     private  TextView itla_e_mehfil_text,
             hadeesoftheday_text
@@ -73,7 +71,6 @@ public class HomeFragment extends Fragment implements View.OnClickListener {
     private  View view;
     private int second=30;
     String event_admin,hadese_admin,mahfil_admin,namaz_time_admin,ques_admin,wazifa_admin,islamic_cal,isamic_count,ayat_admin;
-
 
 
 
@@ -201,21 +198,19 @@ public class HomeFragment extends Fragment implements View.OnClickListener {
             @Override
             public void onTick(long millisUntilFinished) {
 
-                counter.setText(String.valueOf(millisUntilFinished/1000));
-                 submit_btn.setEnabled(true);
-
+                counter.setText("Time Left: "+ millisUntilFinished / 1000);
+//
 
 
             }
 
             @Override
             public void onFinish() {
+                QuestionNotAvailible(" ");
 
-                submit_btn.setEnabled(false);
-                admin_ans.setText("");
-                admin_ans.setEnabled(false);
-                counter.setText("time over");
 
+                counter.setText("Time to answer the question is over");
+                counter.setVisibility(View.GONE);
             }
         };
 
@@ -233,10 +228,11 @@ public class HomeFragment extends Fragment implements View.OnClickListener {
 
             mParam1 = getArguments().getString(ARG_PARAM1);
             mParam2 = getArguments().getString(ARG_PARAM2);
+//
+//            admin_lyt.setVisibility(View.VISIBLE); Database_admin decidwes k show karna ha admin_lyt ko ya ni
 
-            admin_lyt.setVisibility(View.VISIBLE);
             signUp_lyt.setVisibility(View.GONE);
-            Toast.makeText(getContext(), "ha"+mParam1, Toast.LENGTH_SHORT).show();
+//            Toast.makeText(getContext(), "ha"+mParam1, Toast.LENGTH_SHORT).show();
 
             Database_admin();
 
@@ -286,8 +282,7 @@ public class HomeFragment extends Fragment implements View.OnClickListener {
     public void Database_admin()
     {
 
-         databaseReference= FirebaseDatabase.getInstance().getReference()
-                .child("Admin_DATA");
+         databaseReference= FirebaseDatabase.getInstance().getReference().child("Admin_DATA");
         databaseReference.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
@@ -321,6 +316,23 @@ if (TextUtils.isEmpty(ayat_admin)){
                     }
                     if (TextUtils.isEmpty(ques_admin)){
                         ques_admin="NA";
+                    }else {
+                        QuestionAvailible();
+
+//                        String x;
+                        admin_ques.setText(ques_admin);
+//                        try {
+//
+//                              x=getContext().getSharedPreferences("same", Context.MODE_PRIVATE).getString("las",ques_admin);
+//                            if (! (x.trim().equals(ques_admin.trim()))){
+//
+//                                getContext().getSharedPreferences("answered", Context.MODE_PRIVATE).edit().putBoolean("chk",true).apply();
+//                                Log.v("dell","answer not same");
+//                            }
+//                        }catch (Exception e){
+//                            x=e.toString();
+//                        }
+
                     }
                     if (TextUtils.isEmpty(wazifa_admin)){
                         wazifa_admin="NA";
@@ -328,119 +340,125 @@ if (TextUtils.isEmpty(ayat_admin)){
                     islamic_cal="NA";
                 }if (TextUtils.isEmpty(isamic_count)){
                     isamic_count="NA";
+                }else {
+
+                    counter.setText("Time Left: "+ isamic_count);
                 }
 
-                    itla_e_mehfil_text.setVisibility(View.VISIBLE);
 
                     ayatoftheday_txt.setText(ayat_admin);
                     eventoftheday_text.setText(event_admin);
                     itla_e_mehfil_text.setText(mahfil_admin);
                     itla_e_mehfil_text.setVisibility(View.VISIBLE);
                     hadeesoftheday_text.setText(hadese_admin);
-                    admin_ques.setText(ques_admin);
                     wazifa_text.setText(wazifa_admin);
                     admin_calander.setText(islamic_cal);
-                    counter.setText(isamic_count);
 
 
 
 
-
-                    if (isamic_count.equals("0"))
+//isko less then one karna ha
+                    if (Integer.parseInt(isamic_count)<=1)
                     {
-                        submit_btn.setEnabled(false);
-                        admin_ans.setText("");
-                        admin_ans.setEnabled(false);
+//                        view.findViewById(R.id.admin_lyt).setVisibility(View.GONE);
+                       QuestionTimeisOVER();
 
+                        counter.setText("Time to answer the question is over");
                     }
                     else
                     {
-                        submit_btn.setEnabled(true);
-                        admin_ans.setEnabled(true);
-                        submit_btn.setOnClickListener(new View.OnClickListener() {
+                        //if ans not submittes and ans availible
+try {
+
+
+    if (getActivity().getSharedPreferences("answered", Context.MODE_PRIVATE).getBoolean("chk", true) && !TextUtils.isEmpty(ques_admin)) {
+        QuestionNotAnswered();
+
+        Log.v("dell", "answer not answed");
+        Log.v("dell", "conditions:  chk if needed to ans: " + getContext().getSharedPreferences("answered", Context.MODE_PRIVATE).getBoolean("chk", true)
+                + ", ques: " + ques_admin);
+
+
+        submit_btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                if (getArguments() != null) {
+                    mParam1 = getArguments().getString(ARG_PARAM1);
+                    mParam2 = getArguments().getString(ARG_PARAM2);
+
+                    if (TextUtils.isEmpty(admin_ans.getText().toString().trim())) {
+                        admin_ans.setError("Please fill up your answer");
+                    } else {
+
+
+                        if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.O) {
+                            ZoneId z = ZoneId.of("Asia/Karachi");
+                            LocalTime localTime = LocalTime.now(z);
+                            LocalDate locale_date = LocalDate.now(z);
+                            Locale locale_SAU_date = Locale.forLanguageTag("PK");
+
+                            DateTimeFormatter formatter = DateTimeFormatter.ofLocalizedDate(FormatStyle.MEDIUM).withLocale(locale_SAU_date);
+                            output2 = locale_date.format(formatter);
+
+
+                        }
+
+                        String curr_Time = new SimpleDateFormat("HH:mm").format(new Date());
+
+                        try {
+
+                            _24HourSDF = new SimpleDateFormat("HH:mm");
+                            _12HourSDF = new SimpleDateFormat("hh:mm a");
+                            _24HourDt = _24HourSDF.parse(curr_Time);
+
+                        } catch (ParseException e) {
+                            e.printStackTrace();
+                        }
+
+
+                        DatabaseReference databaseReference = FirebaseDatabase.getInstance().getReference()
+                                .child("Admin_Ans");
+
+                        HashMap hashMap = new HashMap();
+                        hashMap.put("name", mParam1);
+                        hashMap.put("phone", mParam2);
+                        hashMap.put("answer", admin_ans.getText().toString());
+                        hashMap.put("time", _12HourSDF.format(_24HourDt));
+                        hashMap.put("date", output2);
+
+
+                        databaseReference.push().updateChildren(hashMap).addOnSuccessListener(new OnSuccessListener() {
                             @Override
-                            public void onClick(View v)
-                            {
+                            public void onSuccess(Object o) {
+                                QuestionAnswered();
 
-                                if (getArguments()!=null)
-                                {
-                                    mParam1 = getArguments().getString(ARG_PARAM1);
-                                    mParam2 = getArguments().getString(ARG_PARAM2);
-
-                                    if (TextUtils.isEmpty(admin_ans.getText().toString()))
-                                    {
-                                        Toast.makeText(getContext(), "fill answer", Toast.LENGTH_SHORT).show();
-                                    }
-                                    else
-                                    {
-
-
-                                        if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.O)
-                                        {
-                                            ZoneId z = ZoneId.of("Asia/Karachi") ;
-                                            LocalTime localTime = LocalTime.now( z ) ;
-                                            LocalDate locale_date= LocalDate.now(z);
-                                            Locale locale_SAU_date = Locale.forLanguageTag("PK");
-
-                                            DateTimeFormatter formatter = DateTimeFormatter.ofLocalizedDate(FormatStyle.MEDIUM).withLocale( locale_SAU_date ) ;
-                                            output2 = locale_date.format( formatter ) ;
-
-
-
-                                        }
-
-                                        String curr_Time = new SimpleDateFormat("HH:mm").format(new Date());
-
-                                        try
-                                        {
-
-                                            _24HourSDF = new SimpleDateFormat("HH:mm");
-                                            _12HourSDF = new SimpleDateFormat("hh:mm a");
-                                            _24HourDt = _24HourSDF.parse(curr_Time);
-
-                                        }
-                                        catch (ParseException e)
-                                        {
-                                            e.printStackTrace();
-                                        }
-
-
-
-
-
-
-
-
-                                        DatabaseReference databaseReference=FirebaseDatabase.getInstance().getReference()
-                                                .child("Admin_Ans");
-
-                                        HashMap hashMap=new HashMap();
-                                        hashMap.put("name",mParam1);
-                                        hashMap.put("phone",mParam2);
-                                        hashMap.put("answer",admin_ans.getText().toString());
-                                        hashMap.put("time", _12HourSDF.format(_24HourDt));
-                                        hashMap.put("date", output2);
-
-
-
-
-                                        databaseReference.push().updateChildren(hashMap).addOnSuccessListener(new OnSuccessListener() {
-                                            @Override
-                                            public void onSuccess(Object o) {
-
-                                                Toast.makeText(getContext(), "your answer is submitted", Toast.LENGTH_SHORT).show();
-
-                                            }
-                                        });
-
-
-                                    }
-
-                                }
+                                Log.v("dell", "anser written");
+                                Toast.makeText(getContext(), "Thank You!\nyour answer has been submitted", Toast.LENGTH_SHORT).show();
 
                             }
                         });
+
+
                     }
+
+                }
+
+            }
+        });
+    } else {
+        QuestionAnswered();
+
+        Log.v("dell", "answer  answed");
+        Log.v("dell", "conditions:  chk if needed to ans: " + getContext().getSharedPreferences("answered", Context.MODE_PRIVATE).getBoolean("chk", true)
+                + ", ques: " + ques_admin + ", same as prev ?: "
+                + getContext().getSharedPreferences("same", Context.MODE_PRIVATE).getString("las", ques_admin).equals(ques_admin) + ", prev q: " + getContext().getSharedPreferences("same", Context.MODE_PRIVATE).getString("las", ques_admin));
+
+    }
+}catch (Exception e){
+
+}
+                             }
 
 
 
@@ -631,6 +649,61 @@ if (TextUtils.isEmpty(ayat_admin)){
 
     }
 
+private void QuestionAvailible(){
+        submit_btn.setVisibility(View.VISIBLE);
+    admin_ans.setVisibility(View.VISIBLE);
+    counter.setVisibility(View.VISIBLE);
+    submit_btn.setEnabled(true);
+    admin_ans.setEnabled(true);
+
+    view.findViewById(R.id.done).setVisibility(View.GONE);
+    view.findViewById(R.id.note).setVisibility(View.GONE);
+ admin_lyt.setVisibility(View.VISIBLE);
+    Log.v("dell","QuestionAvailible");
+}
+    private void QuestionNotAvailible(String answered) {
+
+        submit_btn.setVisibility(View.GONE);
+        admin_ans.setVisibility(View.GONE);
+        counter.setVisibility(View.VISIBLE);
+        submit_btn.setEnabled(false);
+        admin_ans.setEnabled(false);
+        Log.v("dell","QuestionNotAvailible");
+
+        ////
+
+        admin_ans.setText("");
+        if (TextUtils.isEmpty(answered)){
+            admin_ques.setText("Question for umrah tickets will be announced soon");
+    }
+
+    }
+    private void QuestionNotAnswered(){
+
+        Log.v("dell","QuestionNotAnswered");
+       QuestionAvailible();
+
+    } private void QuestionAnswered(){
+        Log.v("dell","QuestionAnswered");
+
+        QuestionNotAvailible("answered");
+        getContext().getSharedPreferences("answered", Context.MODE_PRIVATE).edit().putBoolean("chk",false).apply();
+//        getContext().getSharedPreferences("same", Context.MODE_PRIVATE).edit().putString("las", ques_admin).apply();
+view.findViewById(R.id.done).setVisibility(View.VISIBLE);
+view.findViewById(R.id.note).setVisibility(View.VISIBLE);
 
 
+    }
+    private void QuestionTimeisOVER(){
+
+        admin_lyt.setVisibility(View.GONE);
+        try {
+            getActivity().getSharedPreferences("answered", Context.MODE_PRIVATE).edit().putBoolean("chk", true).apply();
+        }catch ( Exception e){
+
+        }
+
+       //        getContext().getSharedPreferences("same", Context.MODE_PRIVATE).edit().putString("las", ques_admin).apply();
+        QuestionNotAvailible(" ");
+    }
 }

@@ -108,8 +108,10 @@
                 android:layout_toLeftOf="@+id/fresh"
                 android:layout_height="35dp"
                 android:layout_marginRight="15dp"
+                android:clickable="true"
                 android:layout_below="@id/rc"
-                android:src="@drawable/spkt"/>
+                android:tint="@color/gold2"
+                android:src="@drawable/volume_full_24"/>
 
         </RelativeLayout>
 

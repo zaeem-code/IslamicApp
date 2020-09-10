@@ -3,6 +3,7 @@
 
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:background="@drawable/bg1"
     android:layout_height="match_parent">
 
@@ -23,28 +24,42 @@
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:minHeight="220dp"
+                android:minHeight="120dp"
                 android:layout_alignParentTop="true"
                 android:id="@+id/admin_lyt"
+
                 android:layout_margin="20dp"
                 android:background="@drawable/corner_white"
-                android:visibility="visible"
+                android:visibility="gone"
                 >
+                <com.airbnb.lottie.LottieAnimationView
+                    android:layout_margin="2dp"
+                    android:padding="1dp"
 
+                    android:layout_alignParentTop="true"
+                    android:visibility="visible"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:id="@+id/umrah"
+                    android:background="@android:color/transparent"
+                    app:lottie_autoPlay="true"
+                    app:lottie_loop="true"
+                    app:lottie_imageAssetsFolder="images"
+                    app:lottie_rawRes="@raw/hajj" />
                 <TextView
+                    android:layout_below="@+id/umrah"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:minHeight="55dp"
-                    android:textSize="15sp"
+                    android:textSize="16sp"
                     android:padding="3dp"
 
                     android:elevation="1dp"
-                    android:text="Sign up for umrah  tickets :"
+                    android:text="Question for umrah tickets will be announced soon :"
                     android:textColor="@android:color/black"
                     android:textStyle="bold"
                     android:id="@+id/admin_ques"
                     android:background="@drawable/corner_white"
-                    android:layout_marginTop="20dp"
                     android:layout_marginLeft="10dp"
                     android:layout_marginRight="10dp"
                     android:gravity="center" />
@@ -56,6 +71,7 @@
                     android:layout_height="30dp"
                     android:textSize="15sp"
                     android:text="Counter"
+                    android:visibility="gone"
 
                     android:textColor="@android:color/black"
                     android:textStyle="bold"
@@ -68,6 +84,7 @@
 
 
                 <EditText
+                    android:visibility="gone"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:minHeight="55dp"
@@ -87,9 +104,51 @@
                     android:gravity="center" />
 
 
+                <com.airbnb.lottie.LottieAnimationView
+                    android:padding="1dp"
 
+                    android:visibility="gone"
+                     android:id="@+id/done"
+                    android:background="@android:color/transparent"
+                    app:lottie_autoPlay="true"
+                    app:lottie_loop="false"
+                    app:lottie_imageAssetsFolder="images"
+                    app:lottie_rawRes="@raw/done"
+
+
+
+
+                    android:layout_width="50dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_height="50dp"
+                    android:layout_marginRight="50dp"
+                    android:layout_below="@id/admin_answer"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+
+                    />
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_toLeftOf="@+id/done"
+                    android:layout_height="wrap_content"
+                    android:textSize="13sp"
+                    android:text="Submitted successfully"
+                    android:visibility="gone"
+
+
+                    android:textColor="@android:color/black"
+                    android:textStyle="bold"
+                    android:id="@+id/note"
+                    android:layout_alignParentLeft="true"
+
+                    android:layout_below="@id/admin_answer"
+                    android:layout_marginTop="25dp"
+                    android:gravity="center" />
 
                 <Button
+                    android:visibility="gone"
                     android:layout_width="120dp"
                     android:layout_height="wrap_content"
                     android:id="@+id/submit_ans"
@@ -183,7 +242,7 @@
 
 
         <RelativeLayout
-            android:layout_marginHorizontal="10dp"
+            android:layout_marginHorizontal="5dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@+id/design"
@@ -208,7 +267,7 @@
                 android:layout_below="@+id/ayatoftheday_title"
 
                 android:gravity="top|center"
-                android:textSize="15sp"
+                android:textSize="17sp"
                 android:id="@+id/ayatoftheday_txt"
                 android:layout_marginVertical="15dp"
                 android:layout_marginHorizontal="5dp"
@@ -234,7 +293,7 @@
 
             android:layout_below="@+id/ayatoftheday_lyt"
             android:layout_marginTop="15dp"
-            android:layout_marginHorizontal="15dp"
+            android:layout_marginHorizontal="5dp"
             android:background="@drawable/corner_bn_black"
             android:id="@+id/itla_e_mehfil_lyt">
 
@@ -252,7 +311,7 @@
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/itla_e_mehfil_title"
              android:layout_marginVertical="10dp"
-                android:textSize="14sp"
+                android:textSize="17sp"
                 android:layout_marginHorizontal="5dp"
 
                 android:id="@+id/itla_e_mehfil_text"
@@ -272,7 +331,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@+id/itla_e_mehfil_lyt"
-            android:layout_marginTop="15dp"
+            android:layout_marginTop="17dp"
             android:minHeight="100dp"
             android:background="@drawable/corner_bn_green"
             android:id="@+id/hadeesoftheday_lyt">
@@ -292,7 +351,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/hadeesoftheday_title"
-                android:textSize="15sp"
+                android:textSize="17sp"
                 android:gravity="top|center"
                 android:id="@+id/hadeesoftheday_text"
                 android:layout_marginVertical="15dp"
@@ -312,7 +371,7 @@
             android:minHeight="100dp"
             android:layout_below="@+id/hadeesoftheday_lyt"
             android:layout_marginTop="15dp"
-            android:layout_marginHorizontal="15dp"
+            android:layout_marginHorizontal="5dp"
             android:background="@drawable/corner_bn_black"
             android:id="@+id/wazifa_lyt">
 
@@ -333,12 +392,12 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/wazifa_title"
-            android:layout_marginVertical="15dp"
+            android:layout_marginVertical="17dp"
                 android:gravity="top|center"
 
                 android:layout_marginHorizontal="5dp"
                 android:textColor="@color/gold2"
-                android:textSize="14sp"
+                android:textSize="17sp"
                 android:textStyle="bold"
                 android:visibility="visible" />
 
@@ -354,7 +413,7 @@
             android:minHeight="100dp"
             android:layout_below="@+id/wazifa_lyt"
             android:layout_marginTop="15dp"
-            android:layout_marginHorizontal="15dp"
+            android:layout_marginHorizontal="5dp"
             android:background="@drawable/corner_bn_green"
             android:id="@+id/eventoftheday_lyt">
 
@@ -380,7 +439,7 @@
 
                 android:layout_marginHorizontal="5dp"
                 android:textColor="@color/gold2"
-                android:textSize="14sp"
+                android:textSize="17sp"
                 android:textStyle="bold"
                 android:visibility="visible" />
 
@@ -393,8 +452,8 @@
         <RelativeLayout
             android:visibility="visible"
             android:layout_width="match_parent"
-            android:layout_height="120dp"
-            android:minHeight="60dp"
+            android:layout_height="wrap_content"
+            android:minHeight="100dp"
             android:layout_below="@+id/eventoftheday_lyt"
             android:layout_marginTop="20dp"
             android:layout_marginHorizontal="15dp"
@@ -434,8 +493,8 @@
                 android:layout_height="50dp"
                 android:id="@+id/calander_img"
                 android:layout_marginLeft="30dp"
-
-                android:layout_centerInParent="true"
+                android:layout_marginTop="15dp"
+                android:layout_toLeftOf="@+id/islamicdate_title"
                 android:layout_alignParentLeft="true"
                 android:src="@drawable/calendar"/>
 
@@ -446,12 +505,13 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/islamicdate_text"
-               android:hint="admin"
-                android:textAlignment="center"
+                android:gravity="center"
+                android:layout_marginHorizontal="5dp"
                 android:textSize="17sp"
-                android:layout_marginTop="5dp"
+                android:layout_marginVertical="5dp"
                 android:id="@+id/admin_calander"
                 android:textColor="@color/gold2"
+                android:textStyle="bold"
                 />
 
         </RelativeLayout>

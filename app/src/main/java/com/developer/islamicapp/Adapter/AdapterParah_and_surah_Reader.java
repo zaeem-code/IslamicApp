@@ -142,12 +142,12 @@ int star_of_para_surah_number;
 //                    apndArabi=apndArabi+"\n"+ item.Arabic.trim()+" ";
 //                    apndurdu=apndurdu+"  "+ item.Urdu.trim();
 
-                        TEMP = TEMP + "\n\n" + item.Arabic.trim()+"۞"  + "\n" + "\n" + item.Urdu.trim();
+                        TEMP = TEMP + "\n\n" + item.Arabic.trim().replace("<img src=http://www.irfan-ul-quran.com/quran/images/waqf-lazim_mim_sm.png>","  ")+"❲" + (i)+ "❳ ۞" + "\n" + "\n" + item.Urdu.trim();
 
 
                     } else {
 
-                        TEMP = item.Arabic.trim()+"۞" + "\n" + "\n" + item.Urdu.trim();
+                        TEMP =item.Arabic.trim().replace("<img src=http://www.irfan-ul-quran.com/quran/images/waqf-lazim_mim_sm.png>","  ")+" ۞" + "\n" + "\n" + item.Urdu.trim();
 
 
                     }

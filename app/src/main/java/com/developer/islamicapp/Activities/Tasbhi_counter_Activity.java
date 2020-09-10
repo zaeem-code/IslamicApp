@@ -28,7 +28,8 @@ public class Tasbhi_counter_Activity extends AppCompatActivity implements View.O
     int count = 0;
     Bundle bundle2;
     Bundle bundle;
-    ImageView reset;
+
+    ImageView reset,speaker;
 
     FrameLayout frameLayout;
     int store = 0;
@@ -43,6 +44,9 @@ public class Tasbhi_counter_Activity extends AppCompatActivity implements View.O
         Typcastregular.Typcastregular(getApplicationContext(), "SERIF", "Poppins-Regular.otf");
         setContentView(R.layout.activity_tasbhi_counter_);
         findViewById(R.id.Tcount).setOnClickListener(this);
+
+        speaker=   findViewById(R.id.spkr);
+        speaker.setOnClickListener(this);
         reset = findViewById(R.id.fresh);
         findViewById(R.id.back).setOnClickListener(this);
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
@@ -212,11 +216,21 @@ public class Tasbhi_counter_Activity extends AppCompatActivity implements View.O
 
 
     }
-
+boolean silent=false;
     @Override
     public void onClick(View v) {
         switch (v.getId()) {
-
+            case R.id.spkr:
+                if (silent){
+                    //unsilent
+                    speaker.setImageResource(R.drawable.volume_full_24);
+                    silent=false;
+                }else {
+//silent lagao
+                    speaker.setImageResource(R.drawable.volume_24);
+                    silent=true;
+                }
+                break;
             case R.id.back:
                 finish();
                 break;
@@ -227,8 +241,8 @@ public class Tasbhi_counter_Activity extends AppCompatActivity implements View.O
                 bundle2 = getIntent().getExtras();
                 bundle = getIntent().getExtras();
 
-
-                playClick();
+if (!silent){
+                playClick();}
                 shakeItBaby();
 
 
