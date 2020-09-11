@@ -324,7 +324,7 @@ if (arabicDATA.contains("بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱ
         for (int i = 0; i < arabicDATA.size(); i++) {
             itemarabic = arabicDATA.get(i);
             itemurdu = urduDATA.get(i);
-            data.add(new data_model_arabicandurdu(itemarabic.text, itemarabic.item, itemurdu.text));
+            data.add(new data_model_arabicandurdu(itemarabic.text, itemarabic.item, itemurdu.text, 0));
             d = data.get(i);
 
             if (i == arabicDATA.size() - 1) {

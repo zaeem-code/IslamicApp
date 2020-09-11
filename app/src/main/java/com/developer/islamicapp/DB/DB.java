@@ -6,7 +6,6 @@ import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 import android.util.Log;
-import android.widget.Toast;
 
 import com.developer.islamicapp.Model.data_model_arabicandurdu;
 
@@ -103,7 +102,7 @@ onCreate(db);
             String number=cursor.getString(2);
             String text_urdu=cursor.getString(3);
 
-            data.add(new data_model_arabicandurdu(text_arab,number,text_urdu));
+            data.add(new data_model_arabicandurdu(text_arab,number,text_urdu, 0));
 
         }
         return  data;

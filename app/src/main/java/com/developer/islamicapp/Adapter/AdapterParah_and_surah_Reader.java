@@ -169,13 +169,14 @@ int star_of_para_surah_number;
             {
 
                 item = data.get(position);
-if (indexxx!=null){
-         ayatnumber=   indexxx.get(position);
-Log.v("TPX","aray size"+indexxx.size());
-}else {
-
-    Log.v("TPX","aray is null");
-}
+//if (indexxx!=null){
+//         ayatnumber=   indexxx.get(position);
+//Log.v("TPX","aray size"+indexxx.size());
+//}else {
+//
+//    Log.v("TPX","aray is null");
+//}
+                ayatnumber=item.Ayat_number;
 
                 if (ayatnumber != 0) {
 
