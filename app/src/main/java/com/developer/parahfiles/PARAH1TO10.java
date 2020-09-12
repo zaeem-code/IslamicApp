@@ -39,7 +39,7 @@ public class PARAH1TO10 {
 
                 parah_1.add(new data_model_arabicandurdu("اهْدِنَا الصِّرَاطَ الْمُسْتَقِيمَ","ہمیں سیدھا راستہ دکھا","Show us the straight path,",5));
 
-                parah_1.add(new data_model_arabicandurdu("صِرَاطَ الَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ الْمَغْضُوبِ عَلَيْهِمْ وَلا الضَّالِّينَ","ان لوگوں کا راستہ جن پر تو نے انعام فرمایا ان لوگوں کا نہیں جن پر غضب کیا گیا ہے اور نہ (ہی) گمراہوں کا","The path of those upon whom You have bestowed Your favours,",6));
+                parah_1.add(new data_model_arabicandurdu("صِرَاطَ الَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ الْمَغْضُوبِ عَلَيْهِمْ وَلا الضَّالِّينَ","ان لوگوں کا راستہ جن پر تو نے انعام فرمایا ان لوگوں کا نہیں جن پر غضب کیا گیا ہے اور نہ (ہی) گمراہوں کا","The path of those upon whom You have bestowed Your favours",6));
 
 
 
