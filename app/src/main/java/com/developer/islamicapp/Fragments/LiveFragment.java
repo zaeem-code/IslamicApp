@@ -11,10 +11,9 @@ import android.text.TextUtils;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Toast;
 
-import com.developer.islamicapp.Activities.Youtube_video;
 import com.developer.islamicapp.R;
+import com.developer.islamicapp.Activities.WebviewActivity;
 import com.developer.islamicapp.utils.Typcastregular;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
@@ -68,6 +67,8 @@ View v;
         v= inflater.inflate(R.layout.fragment_live, container, false);
         v.findViewById(R.id.FB).setOnClickListener(this);
         v.findViewById(R.id.YT).setOnClickListener(this);
+        v.findViewById(R.id.WT).setOnClickListener(this);
+
         return v;
     }
 
@@ -75,7 +76,13 @@ View v;
     public void onClick(View v) {
         switch (v.getId()){
 
+            case R.id.WT:
+               startActivity(new Intent(getActivity(), WebviewActivity.class));
+
+                break;
             case R.id.FB:
+
+
 //
 //                String id="211680932500811";
                 try {
@@ -123,63 +130,58 @@ View v;
         }
     }
     private void getYoutube(){
-        FirebaseDatabase database = FirebaseDatabase.getInstance();
-        DatabaseReference myRef = database.getReference("Admin_DATA");
-
-        myRef.addValueEventListener(new ValueEventListener() {
-            @Override
-            public void onDataChange(DataSnapshot dataSnapshot) {
-                // This method is called once with the initial value and again
-                // whenever data at this location is updated.
-
-URLyt = dataSnapshot.child("Youtube").getValue().toString().trim();
+        try {
 
 
+            FirebaseDatabase database = FirebaseDatabase.getInstance();
+            DatabaseReference myRef = database.getReference("Admin_DATA");
 
+            myRef.addValueEventListener(new ValueEventListener() {
+                @Override
+                public void onDataChange(DataSnapshot dataSnapshot) {
+                    // This method is called once with the initial value and again
+                    // whenever data at this location is updated.
 
+                    if (dataSnapshot.hasChild("Youtube")) {
+                        URLyt = dataSnapshot.child("Youtube").getValue().toString().trim();
+                    }
 
+                }
 
+                @Override
+                public void onCancelled(DatabaseError error) {
+                    // Failed to read value
+                }
+            });
+        }catch (Exception e){
 
-
-
-
-            }
-
-            @Override
-            public void onCancelled(DatabaseError error) {
-                // Failed to read value
-            }
-        });
-
+        }
     }
     private void getFaceboook(){
-        FirebaseDatabase database = FirebaseDatabase.getInstance();
-        DatabaseReference myRef = database.getReference("Admin_DATA");
-
-        myRef.addValueEventListener(new ValueEventListener() {
-            @Override
-            public void onDataChange(DataSnapshot dataSnapshot) {
-                // This method is called once with the initial value and again
-                // whenever data at this location is updated.
-
-                URLfb = dataSnapshot.child("Facebook").getValue().toString().trim();
+        try {
 
 
+            FirebaseDatabase database = FirebaseDatabase.getInstance();
+            DatabaseReference myRef = database.getReference("Admin_DATA");
 
+            myRef.addValueEventListener(new ValueEventListener() {
+                @Override
+                public void onDataChange(DataSnapshot dataSnapshot) {
+                    // This method is called once with the initial value and again
+                    // whenever data at this location is updated.
+if (dataSnapshot.hasChild("Facebook")) {
+    URLfb = dataSnapshot.child("Facebook").getValue().toString().trim();
+}
 
+                }
 
+                @Override
+                public void onCancelled(DatabaseError error) {
+                    // Failed to read value
+                }
+            });
+        }catch (Exception e){
 
-
-
-
-
-            }
-
-            @Override
-            public void onCancelled(DatabaseError error) {
-                // Failed to read value
-            }
-        });
-
+        }
     }
 }

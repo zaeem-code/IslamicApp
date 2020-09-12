@@ -254,18 +254,19 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textSize="17sp"
+                android:textSize="18sp"
                 android:textStyle="bold"
                 android:id="@+id/ayatoftheday_title"
                 android:layout_marginTop="15dp"
                 android:text="Ayat of the day"
+
                 android:textColor="@color/gold2"
                 android:gravity="center" />
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/ayatoftheday_title"
-
+android:visibility="gone"
                 android:gravity="top|center"
                 android:textSize="17sp"
                 android:id="@+id/ayatoftheday_txt"
@@ -274,6 +275,22 @@
                 android:textColor="@color/gold2"
                 android:textStyle="bold" />
 
+            <com.airbnb.lottie.LottieAnimationView
+                android:layout_height="50dp"
+                android:layout_below="@+id/ayatoftheday_title"
+
+                android:id="@+id/loading1"
+                android:textColor="@color/gold2"
+                android:textStyle="bold"
+                android:gravity="top|center"
+                android:background="@android:color/transparent"
+
+                android:visibility="gone"
+                android:layout_width="match_parent"
+
+                app:lottie_autoPlay="true"
+                app:lottie_loop="true"
+                app:lottie_rawRes="@raw/loadingmain" />
 
         </RelativeLayout>
 
@@ -307,6 +324,7 @@
                 android:textStyle="bold"
                 android:gravity="center" />
             <TextView
+
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/itla_e_mehfil_title"
@@ -317,8 +335,25 @@
                 android:id="@+id/itla_e_mehfil_text"
                 android:textColor="@color/gold2"
                 android:textStyle="bold"
-                android:visibility="visible"
+                android:visibility="gone"
                 android:gravity="top|center" />
+
+            <com.airbnb.lottie.LottieAnimationView
+                android:layout_height="40dp"
+                android:layout_below="@+id/itla_e_mehfil_title"
+
+                android:id="@+id/loading2"
+                android:textColor="@color/gold2"
+                android:textStyle="bold"
+                android:gravity="top|center"
+                android:background="@android:color/transparent"
+                android:clickable="true"
+                android:visibility="gone"
+                android:layout_width="match_parent"
+
+                app:lottie_autoPlay="true"
+                app:lottie_loop="true"
+                app:lottie_rawRes="@raw/loadingmain" />
 
 
         </RelativeLayout>
@@ -331,7 +366,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@+id/itla_e_mehfil_lyt"
-            android:layout_marginTop="17dp"
+            android:layout_marginTop="18dp"
             android:minHeight="100dp"
             android:background="@drawable/corner_bn_green"
             android:id="@+id/hadeesoftheday_lyt">
@@ -339,7 +374,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textSize="17sp"
+                android:textSize="18sp"
                 android:textStyle="bold"
                 android:id="@+id/hadeesoftheday_title"
                 android:layout_marginTop="15dp"
@@ -348,6 +383,7 @@
                 android:gravity="center" />
 
             <TextView
+                android:visibility="gone"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/hadeesoftheday_title"
@@ -361,6 +397,23 @@
                 />
 
 
+            <com.airbnb.lottie.LottieAnimationView
+                android:layout_height="50dp"
+                android:layout_below="@+id/hadeesoftheday_title"
+
+                android:id="@+id/loading3"
+                android:textColor="@color/gold2"
+                android:textStyle="bold"
+                android:gravity="top|center"
+                android:background="@android:color/transparent"
+                android:padding="1dp"
+                android:clickable="true"
+                android:visibility="gone"
+                android:layout_width="match_parent"
+
+                app:lottie_autoPlay="true"
+                app:lottie_loop="true"
+                app:lottie_rawRes="@raw/loadingmain" />
 
         </RelativeLayout>
 
@@ -378,7 +431,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textSize="17sp"
+                android:textSize="18sp"
                 android:id="@+id/wazifa_title"
 
                 android:text="Wazifa of the day"
@@ -395,12 +448,29 @@
             android:layout_marginVertical="17dp"
                 android:gravity="top|center"
 
+
                 android:layout_marginHorizontal="5dp"
                 android:textColor="@color/gold2"
                 android:textSize="17sp"
                 android:textStyle="bold"
-                android:visibility="visible" />
+                android:visibility="gone" />
 
+            <com.airbnb.lottie.LottieAnimationView
+                android:layout_height="50dp"
+                android:layout_below="@+id/wazifa_title"
+
+                android:visibility="gone"
+                android:id="@+id/loading4"
+                android:textColor="@color/gold2"
+                android:textStyle="bold"
+                android:gravity="top|center"
+                android:background="@android:color/transparent"
+                android:clickable="true"
+                android:layout_width="match_parent"
+
+                app:lottie_autoPlay="true"
+                app:lottie_loop="true"
+                app:lottie_rawRes="@raw/loadingmain" />
 
         </RelativeLayout>
 
@@ -420,7 +490,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textSize="17sp"
+                android:textSize="18sp"
                 android:id="@+id/eventoftheday_title"
 
                 android:text="Event of the day"
@@ -440,10 +510,27 @@
                 android:layout_marginHorizontal="5dp"
                 android:textColor="@color/gold2"
                 android:textSize="17sp"
+
                 android:textStyle="bold"
-                android:visibility="visible" />
+                android:visibility="gone" />
 
 
+            <com.airbnb.lottie.LottieAnimationView
+                android:layout_height="50dp"
+                android:layout_below="@+id/eventoftheday_title"
+
+                android:id="@+id/loading5"
+                android:textColor="@color/gold2"
+                android:textStyle="bold"
+                android:gravity="top|center"
+                android:background="@android:color/transparent"
+                android:clickable="true"
+                android:visibility="visible"
+                android:layout_width="match_parent"
+
+                app:lottie_autoPlay="true"
+                app:lottie_loop="true"
+                app:lottie_rawRes="@raw/loadingmain" />
         </RelativeLayout>
 
 
@@ -463,10 +550,11 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textSize="17sp"
+                android:textSize="18sp"
                 android:id="@+id/islamicdate_title"
                 android:layout_centerHorizontal="true"
 
+                android:layout_marginLeft="10dp"
                 android:text="Islamic Date"
                 android:textColor="@color/gold2"
                 android:textStyle="bold"
@@ -483,6 +571,7 @@
                 android:gravity="top|center"
                 android:paddingBottom="2dp"
                 android:text="DD/MM/YYYY"
+                android:layout_marginLeft="10dp"
                 android:textColor="@color/gold2"
                 android:textSize="17sp"
                 android:textStyle="bold"
@@ -512,8 +601,24 @@
                 android:id="@+id/admin_calander"
                 android:textColor="@color/gold2"
                 android:textStyle="bold"
+                android:visibility="visible"
                 />
+            <com.airbnb.lottie.LottieAnimationView
+                android:layout_height="50dp"
+                android:layout_below="@+id/islamicdate_text"
 
+                android:id="@+id/loading6"
+                android:textColor="@color/gold2"
+                android:textStyle="bold"
+                android:gravity="top|center"
+                android:background="@android:color/transparent"
+                android:clickable="true"
+                android:visibility="gone"
+                android:layout_width="match_parent"
+
+                app:lottie_autoPlay="true"
+                app:lottie_loop="true"
+                app:lottie_rawRes="@raw/loadingmain" />
         </RelativeLayout>
 
 

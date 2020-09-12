@@ -139,7 +139,7 @@ public class VideoAdapterbackup extends RecyclerView.Adapter<VideoAdapterbackup.
                             {
 
                                 Uri uri = FileProvider.getUriForFile(context, "com.developer.islamicapp.provider",video);
-                                Toast.makeText(context, ""+uri, Toast.LENGTH_LONG).show();
+//                                Toast.makeText(context, ""+uri, Toast.LENGTH_LONG).show();
 
 
                                 context.startActivity(new Intent(context, Video_view.class)
@@ -151,7 +151,7 @@ public class VideoAdapterbackup extends RecyclerView.Adapter<VideoAdapterbackup.
 
                             }else {
 //                                Toast.makeText(context, "File don't exist", Toast.LENGTH_SHORT).show();
-                                    Toast.makeText(context, "download", Toast.LENGTH_SHORT).show();
+                                    Toast.makeText(context, "download it", Toast.LENGTH_SHORT).show();
                                     download_file(fire_model.getUrl(), fire_model.getKey() + ".mp4");
 //
 
@@ -202,7 +202,7 @@ public class VideoAdapterbackup extends RecyclerView.Adapter<VideoAdapterbackup.
                         {
 
                             Uri uri = FileProvider.getUriForFile(context, "com.developer.islamicapp.provider",video);
-                            Toast.makeText(context, ""+uri, Toast.LENGTH_LONG).show();
+//                            Toast.makeText(context, ""+uri, Toast.LENGTH_LONG).show();
 
 
                             context.startActivity(new Intent(context, Video_view.class)
@@ -373,7 +373,7 @@ public class VideoAdapterbackup extends RecyclerView.Adapter<VideoAdapterbackup.
         if (files == null)
         {
 //
-            Toast.makeText(context, "null ha", Toast.LENGTH_SHORT).show();
+//            Toast.makeText(context, "null ha", Toast.LENGTH_SHORT).show();
         }
         try {
 
@@ -425,7 +425,7 @@ public class VideoAdapterbackup extends RecyclerView.Adapter<VideoAdapterbackup.
 //                    f.setFilename("not exist");
                     chk_status="not exist";
 
-                    Toast.makeText(context, "not exist", Toast.LENGTH_SHORT).show();
+//                    Toast.makeText(context, "not exist", Toast.LENGTH_SHORT).show();
 
 
                 }

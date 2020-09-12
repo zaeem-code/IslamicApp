@@ -29,6 +29,7 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.airbnb.lottie.LottieAnimationView;
 import com.developer.islamicapp.Activities.SignupActivity;
 import com.developer.islamicapp.Model.Constants;
 import com.developer.islamicapp.Model.StoryModel;
@@ -70,8 +71,9 @@ public class HomeFragment extends Fragment implements View.OnClickListener {
     DownloadManager downloadManager;
     private  View view;
     private int second=30;
-    String event_admin,hadese_admin,mahfil_admin,namaz_time_admin,ques_admin,wazifa_admin,islamic_cal,isamic_count,ayat_admin;
-
+    String event_admin,hadese_admin,mahfil_admin,namaz_time_admin,ques_admin,wazifa_admin,islamic_cal,isamic_count;
+    String ayat_admin="";
+LottieAnimationView l1,l2,l3,l4,l5,l6;
 
 
     private Button signup_button;
@@ -82,6 +84,7 @@ public class HomeFragment extends Fragment implements View.OnClickListener {
     EditText answer_admin;
     TextView counter_admin;
     LinearLayout linearLayout;
+
     private String mParam1;
     private String mParam2;
     private String mParam3;
@@ -97,12 +100,6 @@ public class HomeFragment extends Fragment implements View.OnClickListener {
     String get_name,get_pass,get_number;
     CountDownTimer countDownTimer;
      StoryModel f;
-
-
-
-
-
-
     String output2;
 
 
@@ -144,10 +141,19 @@ public class HomeFragment extends Fragment implements View.OnClickListener {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              final Bundle savedInstanceState) {
+        view=inflater.inflate(R.layout.fragment_home, container, false);
 
         Typcastregular.Typcastregular(getContext(), "SERIF", "Poppins-Regular.otf");
 
-        view=inflater.inflate(R.layout.fragment_home, container, false);
+
+        l1=view.findViewById(R.id.loading1);
+        l2=view.findViewById(R.id.loading2);
+        l3=view.findViewById(R.id.loading3);
+        l4=view.findViewById(R.id.loading4);
+        l5=view.findViewById(R.id.loading5);
+        l6=view.findViewById(R.id.loading6);
+
+
         itla_e_mehfil_text=view.findViewById(R.id.itla_e_mehfil_text);
         hadeesoftheday_text=view.findViewById(R.id.hadeesoftheday_text);
         ayatoftheday_txt=view.findViewById(R.id.ayatoftheday_txt);
@@ -166,8 +172,6 @@ public class HomeFragment extends Fragment implements View.OnClickListener {
         calandr_img=view.findViewById(R.id.calander_img);
 
         f = new StoryModel();
-
-
 
         calandr_img.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -248,7 +252,7 @@ public class HomeFragment extends Fragment implements View.OnClickListener {
             signUp_lyt.setVisibility(View.VISIBLE);
 
 
-            Toast.makeText(getContext(), "nhi"+mParam1, Toast.LENGTH_SHORT).show();
+//            Toast.makeText(getContext(), "nhi"+mParam1, Toast.LENGTH_SHORT).show();
 
 
         }
@@ -281,6 +285,7 @@ public class HomeFragment extends Fragment implements View.OnClickListener {
 
     public void Database_admin()
     {
+        loadingstart();
 
          databaseReference= FirebaseDatabase.getInstance().getReference().child("Admin_DATA");
         databaseReference.addValueEventListener(new ValueEventListener() {
@@ -355,7 +360,9 @@ if (TextUtils.isEmpty(ayat_admin)){
                     wazifa_text.setText(wazifa_admin);
                     admin_calander.setText(islamic_cal);
 
-
+                    if (!ayat_admin.isEmpty()||!hadese_admin.isEmpty()||!wazifa_admin.isEmpty()){
+                        loadingover();
+                      }
 
 
 //isko less then one karna ha
@@ -626,19 +633,20 @@ try {
                     intent.setFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION);
                     startActivity(intent);
 
-                Toast.makeText(getContext(), "exist", Toast.LENGTH_LONG).show();
+//                Toast.makeText(getContext(), "exist", Toast.LENGTH_LONG).show();
 
             }
             else
             {
-                Toast.makeText(getActivity(), "version issue", Toast.LENGTH_SHORT).show();
+//                Toast.makeText(getActivity(), "version issue", Toast.LENGTH_SHORT).show();
             }
 
         }
         else
         {
             f.setFilename("not exist");
-            Toast.makeText(getContext(), "not exist", Toast.LENGTH_LONG).show();
+//            Toast.makeText(getContext(), "not exist", Toast.LENGTH_LONG).show();
+
 
             view_calander();
 
@@ -719,5 +727,83 @@ view.findViewById(R.id.note).setVisibility(View.VISIBLE);
 
        //        getContext().getSharedPreferences("same", Context.MODE_PRIVATE).edit().putString("las", ques_admin).apply();
         QuestionNotAvailible(" ");
+    }
+    private void loadingstart(){  admin_calander.setVisibility(View.GONE);
+        itla_e_mehfil_text.setVisibility(View.GONE);
+        hadeesoftheday_text.setVisibility(View.GONE);
+        ayatoftheday_txt.setVisibility(View.GONE);
+        wazifa_text.setVisibility(View.GONE);
+        eventoftheday_text.setVisibility(View.GONE);
+
+        l1.setVisibility(View.VISIBLE);
+        l1.playAnimation();
+        if (!l1.isAnimating()){
+        l1.resumeAnimation();}
+
+        l2.setVisibility(View.VISIBLE);
+        l2.playAnimation();
+        if (!l2.isAnimating()){
+        l2.resumeAnimation();}
+
+        l3.setVisibility(View.VISIBLE);
+
+        l3.playAnimation();
+        if (!l3.isAnimating()) {
+
+            l3.resumeAnimation();
+        }
+        l4.setVisibility(View.VISIBLE);
+        l4.playAnimation();
+        if (!l4.isAnimating()){
+            l4.resumeAnimation();
+        }
+
+        l4.resumeAnimation();
+        l5.setVisibility(View.VISIBLE);
+        l5.playAnimation();
+
+        if (!l5.isAnimating()){
+            l5.resumeAnimation();
+        }
+
+        l6.setVisibility(View.VISIBLE);
+        l6.playAnimation();
+
+        if (!l6.isAnimating()){
+            l6.resumeAnimation();
+        }
+        admin_calander.setVisibility(View.GONE);
+        itla_e_mehfil_text.setVisibility(View.GONE);
+                hadeesoftheday_text.setVisibility(View.GONE);
+                ayatoftheday_txt.setVisibility(View.GONE);
+                wazifa_text.setVisibility(View.GONE);
+                eventoftheday_text.setVisibility(View.GONE);
+    }
+    private void loadingover(){
+        l1.setVisibility(View.GONE);
+        l1.pauseAnimation();
+
+
+        l2.setVisibility(View.GONE);
+        l2.pauseAnimation();
+
+        l3.setVisibility(View.GONE);
+        l3.pauseAnimation();
+
+        l4.setVisibility(View.GONE);
+        l4.pauseAnimation();
+
+        l5.setVisibility(View.GONE);
+        l5.pauseAnimation();
+
+        l6.setVisibility(View.GONE);
+       l6.pauseAnimation();
+
+        admin_calander.setVisibility(View.VISIBLE);
+        itla_e_mehfil_text.setVisibility(View.VISIBLE);
+        hadeesoftheday_text.setVisibility(View.VISIBLE);
+        ayatoftheday_txt.setVisibility(View.VISIBLE);
+        wazifa_text.setVisibility(View.VISIBLE);
+        eventoftheday_text.setVisibility(View.VISIBLE);
     }
 }

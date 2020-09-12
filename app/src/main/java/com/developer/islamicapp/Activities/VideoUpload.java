@@ -37,7 +37,7 @@ mStorageRef.getDownloadUrl().addOnSuccessListener(new OnSuccessListener<Uri>() {
     @Override
     public void onSuccess(Uri uri) {
 
-        Toast.makeText(VideoUpload.this, ""+uri.toString(), Toast.LENGTH_SHORT).show();
+//        Toast.makeText(VideoUpload.this, ""+uri.toString(), Toast.LENGTH_SHORT).show();
 
 
 

@@ -37,7 +37,7 @@ android:background="@android:color/transparent"
         android:layout_width="wrap_content"
         android:layout_height="0dp"
         android:layout_gravity="left|center_vertical"
-        android:layout_weight=".7"
+        android:layout_weight="1.3"
         android:background="@android:color/transparent"
         android:gravity="center|top"
         android:text="'Kalma channels is one of the most reliable source of providing authentic and up to date info related to any event accurs from all over the muslim world '"
@@ -78,68 +78,76 @@ android:background="@android:color/transparent"
         android:layout_weight=".2"
         />
     <LinearLayout
+        android:layout_marginTop="5dp"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight=".5"
-        android:weightSum="5"
+        android:weightSum="2.5"
         android:background="@android:color/transparent"
         android:orientation="horizontal">
 
-        <com.airbnb.lottie.LottieAnimationView
-            android:padding="1dp"
+
+
+        <ImageView
+            android:padding="5dp"
             android:clickable="true"
-            android:background="@android:color/transparent"
             android:visibility="visible"
             android:layout_width="0dp"
+            android:src="@drawable/email_24"
+            android:background="@android:color/transparent"
             android:layout_height="match_parent"
-            android:layout_weight=".5"
-
-            app:lottie_autoPlay="true"
-            app:lottie_loop="true"
-            app:lottie_rawRes="@raw/whatsapp" />
+            android:layout_weight=".5" />
 
         <TextView
             android:visibility="visible"
             android:background="@android:color/transparent"
-            android:text="+00000000000."
+            android:text="Ahmad.babar32@gmail.com"
             android:autoSizeMaxTextSize="15sp"
             android:autoSizeMinTextSize="5sp"
             android:autoSizeTextType="uniform"
-            android:autoText="true"
-            android:gravity="center"
+            android:paddingLeft="20dp"
             android:textStyle="bold"
-            android:layout_gravity="left|center_vertical"
+            android:gravity="left|center_vertical"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="2"
             />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".5"
+        android:layout_marginTop="3dp"
+        android:weightSum="2.5"
+        android:background="@android:color/transparent"
+        android:orientation="horizontal">
 
 
-        <com.airbnb.lottie.LottieAnimationView
-            android:padding="1dp"
+
+        <ImageView
+            android:padding="5dp"
             android:clickable="true"
             android:visibility="visible"
             android:layout_width="0dp"
             android:background="@android:color/transparent"
             android:layout_height="match_parent"
-            android:layout_weight=".5"
 
-            app:lottie_autoPlay="true"
-            app:lottie_loop="true"
-            app:lottie_rawRes="@raw/email_us" />
+            android:src="@drawable/phone_24"
+            android:layout_weight=".5" />
 
         <TextView
             android:visibility="visible"
             android:background="@android:color/transparent"
-            android:text="Kalma_ch@gmail.com"
+            android:text="+3662412121"
+
             android:autoSizeMaxTextSize="15sp"
             android:autoSizeMinTextSize="5sp"
-            android:autoSizeTextType="uniform"
-            android:autoText="true"
-            android:gravity="center"
+            android:autoSizeTextType="uniform" android:paddingLeft="25dp"
             android:textStyle="bold"
-            android:layout_gravity="left|center_vertical"
+            android:gravity="left|center_vertical"
             android:layout_width="0dp"
+
             android:layout_height="match_parent"
             android:layout_weight="2"
             />

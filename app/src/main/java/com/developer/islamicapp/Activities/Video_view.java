@@ -130,7 +130,7 @@ public class Video_view extends AppCompatActivity {
                     f.setFilename(file.getName());
 
 
-                    Toast.makeText(this, ""+Uri.fromFile(file), Toast.LENGTH_SHORT).show();
+//                    Toast.makeText(this, ""+Uri.fromFile(file), Toast.LENGTH_SHORT).show();
 
 
 

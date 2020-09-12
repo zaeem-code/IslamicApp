@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@drawable/bg1"
+    tools:context=".Activities.WebviewActivity">
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:padding="1dp"
+        android:layout_centerInParent="true"
+        android:clickable="true"
+        android:id="@+id/load"
+        android:visibility="visible"
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:layout_height="200dp"
+
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_colorFilter="@color/colorGreen"
+        app:lottie_rawRes="@raw/load" />
+
+    <WebView  xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/webview"
+        android:visibility="gone"
+        android:layout_below="@+id/back"
+        android:background="@android:color/transparent"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        />
+    <ImageView
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:src="@drawable/backarrow"
+        android:clickable="true"
+        android:id="@+id/back"/>
+</FrameLayout>

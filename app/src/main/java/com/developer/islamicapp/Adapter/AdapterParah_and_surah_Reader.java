@@ -142,12 +142,12 @@ int star_of_para_surah_number;
 //                    apndArabi=apndArabi+"\n"+ item.Arabic.trim()+" ";
 //                    apndurdu=apndurdu+"  "+ item.Urdu.trim();
 
-                        TEMP = TEMP + "\n\n" + item.Arabic.trim().replace("<img src=http://www.irfan-ul-quran.com/quran/images/waqf-lazim_mim_sm.png>","  ")+"❲" + (i)+ "❳ ۞" + "\n" + "\n" + item.Urdu.trim();
+                        TEMP = TEMP +"\n"+ "\n" + item.Arabic.trim().replace("<img src=http://www.irfan-ul-quran.com/quran/images/waqf-lazim_mim_sm.png>","  ")+"❲" + (i)+ "❳ ۞" + "\n" + item.Urdu.trim();
 
 
                     } else {
 
-                        TEMP =item.Arabic.trim().replace("<img src=http://www.irfan-ul-quran.com/quran/images/waqf-lazim_mim_sm.png>","  ")+" ۞" + "\n" + "\n" + item.Urdu.trim();
+                        TEMP =item.Arabic.trim().replace("<img src=http://www.irfan-ul-quran.com/quran/images/waqf-lazim_mim_sm.png>","  ")+" ۞" + "\n" + item.Urdu.trim();
 
 
                     }
@@ -181,10 +181,10 @@ int star_of_para_surah_number;
                 if (ayatnumber != 0) {
 
                         holder.textView.setText(item.Arabic.trim() + "❲" + (ayatnumber) + "❳ ۞");
-                        holder.textView_urdu.setText("\n" + " " + item.Urdu);
+                        holder.textView_urdu.setText( " " + item.Urdu);
                     }else{
                             holder.textView.setText(item.Arabic.trim());
-                            holder.textView_urdu.setText("\n" + " " + item.Urdu);
+                            holder.textView_urdu.setText( " " + item.Urdu);
 
                     Log.v("hassan","index is 0");
  }
@@ -289,7 +289,7 @@ int star_of_para_surah_number;
 
 
                     pre_pos = prefs.getString("pre_pos1", "");
-                    Toast.makeText(context, ""+pre_pos, Toast.LENGTH_LONG).show();
+//                    Toast.makeText(context, ""+pre_pos, Toast.LENGTH_LONG).show();
 
 
 
@@ -320,7 +320,7 @@ context.getSharedPreferences(numb,MODE_PRIVATE).edit().putInt("Recent",position)
                                 editor.putString("pre_pos1", String.valueOf(position+1));
                                 editor.apply();
 
-                                Toast.makeText(context, ""+(holder.getAdapterPosition()+1), Toast.LENGTH_SHORT).show();
+//                                Toast.makeText(context, ""+(holder.getAdapterPosition()+1), Toast.LENGTH_SHORT).show();
 
                             }
                             else if (numb.equals("2"))
@@ -657,7 +657,7 @@ context.getSharedPreferences(numb,MODE_PRIVATE).edit().putInt("Recent",position)
                                      } else
                                      {
 
-                                         Toast.makeText(context, "play", Toast.LENGTH_SHORT).show();
+//                                         Toast.makeText(context, "play", Toast.LENGTH_SHORT).show();
 
 
 
@@ -697,7 +697,7 @@ context.getSharedPreferences(numb,MODE_PRIVATE).edit().putInt("Recent",position)
 
                                          if (numb.equals("1"))
                                          {
-                                             Toast.makeText(context, "downoading start", Toast.LENGTH_SHORT).show();
+                                             Toast.makeText(context, "Downloading start", Toast.LENGTH_SHORT).show();
                                              download_file
                                                      ("https://cdn.islamic.network/quran/audio/64/ar.alafasy/"
                                                                      + (position + 1)
@@ -710,7 +710,7 @@ context.getSharedPreferences(numb,MODE_PRIVATE).edit().putInt("Recent",position)
                                          else if (numb.equals("2"))
                                          {
 
-                                             Toast.makeText(context, "downoading start", Toast.LENGTH_SHORT).show();
+                                             Toast.makeText(context, "Downloading start", Toast.LENGTH_SHORT).show();
                                              download_file
                                                      ("https://cdn.islamic.network/quran/audio/64/ar.alafasy/"
                                                                      + (position + 149)
@@ -723,7 +723,7 @@ context.getSharedPreferences(numb,MODE_PRIVATE).edit().putInt("Recent",position)
                                          else if (numb.equals("3"))
                                          {
 
-                                             Toast.makeText(context, "downoading start", Toast.LENGTH_SHORT).show();
+                                             Toast.makeText(context, "Downloading start", Toast.LENGTH_SHORT).show();
                                              download_file
                                                      ("https://cdn.islamic.network/quran/audio/64/ar.alafasy/"
                                                                      + (position + 260)
@@ -738,7 +738,7 @@ context.getSharedPreferences(numb,MODE_PRIVATE).edit().putInt("Recent",position)
                                          else if (numb.equals("4"))
                                          {
 
-                                             Toast.makeText(context, "downoading start", Toast.LENGTH_SHORT).show();
+                                             Toast.makeText(context, "Downloading start", Toast.LENGTH_SHORT).show();
                                              download_file
                                                      ("https://cdn.islamic.network/quran/audio/64/ar.alafasy/"
                                                                      + (position + 385)
@@ -750,7 +750,7 @@ context.getSharedPreferences(numb,MODE_PRIVATE).edit().putInt("Recent",position)
                                          else if (numb.equals("5"))
                                          {
 
-                                             Toast.makeText(context, "downoading start", Toast.LENGTH_SHORT).show();
+                                             Toast.makeText(context, "Downloading start", Toast.LENGTH_SHORT).show();
                                              download_file
                                                      ("https://cdn.islamic.network/quran/audio/64/ar.alafasy/"
                                                                      + (position + 517)
@@ -763,7 +763,7 @@ context.getSharedPreferences(numb,MODE_PRIVATE).edit().putInt("Recent",position)
                                          else if (numb.equals("6"))
                                          {
 
-                                             Toast.makeText(context, "downoading start", Toast.LENGTH_SHORT).show();
+                                             Toast.makeText(context, "Downloading start", Toast.LENGTH_SHORT).show();
                                              download_file
                                                      ("https://cdn.islamic.network/quran/audio/64/ar.alafasy/"
                                                                      + (position + 641)
@@ -776,7 +776,7 @@ context.getSharedPreferences(numb,MODE_PRIVATE).edit().putInt("Recent",position)
                                          else if (numb.equals("7"))
                                          {
 
-                                             Toast.makeText(context, "downoading start", Toast.LENGTH_SHORT).show();
+                                             Toast.makeText(context, "Downloading start", Toast.LENGTH_SHORT).show();
                                              download_file
                                                      ("https://cdn.islamic.network/quran/audio/64/ar.alafasy/"
                                                                      + (position + 752)
@@ -790,7 +790,7 @@ context.getSharedPreferences(numb,MODE_PRIVATE).edit().putInt("Recent",position)
                                          else if (numb.equals("8"))
                                          {
 
-                                             Toast.makeText(context, "downoading start", Toast.LENGTH_SHORT).show();
+                                             Toast.makeText(context, "Downloading start", Toast.LENGTH_SHORT).show();
                                              download_file
                                                      ("https://cdn.islamic.network/quran/audio/64/ar.alafasy/"
                                                                      + (position + 900)
@@ -804,7 +804,7 @@ context.getSharedPreferences(numb,MODE_PRIVATE).edit().putInt("Recent",position)
                                          else if (numb.equals("9"))
                                          {
 
-                                             Toast.makeText(context, "downoading start", Toast.LENGTH_SHORT).show();
+                                             Toast.makeText(context, "Downloading start", Toast.LENGTH_SHORT).show();
                                              download_file
                                                      ("https://cdn.islamic.network/quran/audio/64/ar.alafasy/"
                                                                      + (position + 1042)
@@ -818,7 +818,7 @@ context.getSharedPreferences(numb,MODE_PRIVATE).edit().putInt("Recent",position)
                                          else if (numb.equals("10"))
                                          {
 
-                                             Toast.makeText(context, "downoading start", Toast.LENGTH_SHORT).show();
+                                             Toast.makeText(context, "Downloading start", Toast.LENGTH_SHORT).show();
                                              download_file
                                                      ("https://cdn.islamic.network/quran/audio/64/ar.alafasy/"
                                                                      + (position + 1201)
@@ -833,7 +833,7 @@ context.getSharedPreferences(numb,MODE_PRIVATE).edit().putInt("Recent",position)
                                          else if (numb.equals("11"))
                                          {
 
-                                             Toast.makeText(context, "downoading start", Toast.LENGTH_SHORT).show();
+                                             Toast.makeText(context, "Downloading start", Toast.LENGTH_SHORT).show();
                                              download_file
                                                      ("https://cdn.islamic.network/quran/audio/64/ar.alafasy/"
                                                                      + (position + 1329)
@@ -847,7 +847,7 @@ context.getSharedPreferences(numb,MODE_PRIVATE).edit().putInt("Recent",position)
                                          else if (numb.equals("12"))
                                          {
 
-                                             Toast.makeText(context, "downoading start", Toast.LENGTH_SHORT).show();
+                                             Toast.makeText(context, "Downloading start", Toast.LENGTH_SHORT).show();
                                              download_file
                                                      ("https://cdn.islamic.network/quran/audio/64/ar.alafasy/"
                                                                      + (position + 1479)
@@ -861,7 +861,7 @@ context.getSharedPreferences(numb,MODE_PRIVATE).edit().putInt("Recent",position)
                                          else if (numb.equals("13"))
                                          {
 
-                                             Toast.makeText(context, "downoading start", Toast.LENGTH_SHORT).show();
+                                             Toast.makeText(context, "Downloading start", Toast.LENGTH_SHORT).show();
                                              download_file
                                                      ("https://cdn.islamic.network/quran/audio/64/ar.alafasy/"
                                                                      + (position + 1649)
@@ -873,7 +873,7 @@ context.getSharedPreferences(numb,MODE_PRIVATE).edit().putInt("Recent",position)
                                          else if (numb.equals("14"))
                                          {
 
-                                             Toast.makeText(context, "downoading start", Toast.LENGTH_SHORT).show();
+                                             Toast.makeText(context, "Downloading start", Toast.LENGTH_SHORT).show();
                                              download_file
                                                      ("https://cdn.islamic.network/quran/audio/64/ar.alafasy/"
                                                                      + (position + 1804)
@@ -888,7 +888,7 @@ context.getSharedPreferences(numb,MODE_PRIVATE).edit().putInt("Recent",position)
                                          else if (numb.equals("15"))
                                          {
 
-                                             Toast.makeText(context, "downoading start", Toast.LENGTH_SHORT).show();
+                                             Toast.makeText(context, "Downloading start", Toast.LENGTH_SHORT).show();
                                              download_file
                                                      ("https://cdn.islamic.network/quran/audio/64/ar.alafasy/"
                                                                      + (position + 2030)
@@ -903,7 +903,7 @@ context.getSharedPreferences(numb,MODE_PRIVATE).edit().putInt("Recent",position)
                                          else if (numb.equals("16"))
                                          {
 
-                                             Toast.makeText(context, "downoading start", Toast.LENGTH_SHORT).show();
+                                             Toast.makeText(context, "Downloading start", Toast.LENGTH_SHORT).show();
                                              download_file
                                                      ("https://cdn.islamic.network/quran/audio/64/ar.alafasy/"
                                                                      + (position + 2215)
@@ -917,7 +917,7 @@ context.getSharedPreferences(numb,MODE_PRIVATE).edit().putInt("Recent",position)
                                          else if (numb.equals("17"))
                                          {
 
-                                             Toast.makeText(context, "downoading start", Toast.LENGTH_SHORT).show();
+                                             Toast.makeText(context, "Downloading start", Toast.LENGTH_SHORT).show();
                                              download_file
                                                      ("https://cdn.islamic.network/quran/audio/64/ar.alafasy/"
                                                                      + (position + 2484)
@@ -928,7 +928,7 @@ context.getSharedPreferences(numb,MODE_PRIVATE).edit().putInt("Recent",position)
                                          else if (numb.equals("18"))
                                          {
 
-                                             Toast.makeText(context, "downoading start", Toast.LENGTH_SHORT).show();
+                                             Toast.makeText(context, "Downloading start", Toast.LENGTH_SHORT).show();
                                              download_file
                                                      ("https://cdn.islamic.network/quran/audio/64/ar.alafasy/"
                                                                      + (position + 2674)
@@ -942,7 +942,7 @@ context.getSharedPreferences(numb,MODE_PRIVATE).edit().putInt("Recent",position)
                                          else if (numb.equals("19"))
                                          {
 
-                                             Toast.makeText(context, "downoading start", Toast.LENGTH_SHORT).show();
+                                             Toast.makeText(context, "Downloading start", Toast.LENGTH_SHORT).show();
                                              download_file
                                                      ("https://cdn.islamic.network/quran/audio/64/ar.alafasy/"
                                                                      + (position + 2876)
@@ -958,7 +958,7 @@ context.getSharedPreferences(numb,MODE_PRIVATE).edit().putInt("Recent",position)
                                          else if (numb.equals("20"))
                                          {
 
-                                             Toast.makeText(context, "downoading start", Toast.LENGTH_SHORT).show();
+                                             Toast.makeText(context, "Downloading start", Toast.LENGTH_SHORT).show();
                                              download_file
                                                      ("https://cdn.islamic.network/quran/audio/64/ar.alafasy/"
                                                                      + (position + 3219)
@@ -971,7 +971,7 @@ context.getSharedPreferences(numb,MODE_PRIVATE).edit().putInt("Recent",position)
                                          else if (numb.equals("21"))
                                          {
 
-                                             Toast.makeText(context, "downoading start", Toast.LENGTH_SHORT).show();
+                                             Toast.makeText(context, "Downloading start", Toast.LENGTH_SHORT).show();
                                              download_file
                                                      ("https://cdn.islamic.network/quran/audio/64/ar.alafasy/"
                                                                      + (position + 3385)
@@ -983,7 +983,7 @@ context.getSharedPreferences(numb,MODE_PRIVATE).edit().putInt("Recent",position)
                                          else if (numb.equals("22"))
                                          {
 
-                                             Toast.makeText(context, "downoading start", Toast.LENGTH_SHORT).show();
+                                             Toast.makeText(context, "Downloading start", Toast.LENGTH_SHORT).show();
                                              download_file
                                                      ("https://cdn.islamic.network/quran/audio/64/ar.alafasy/"
                                                                      + (position + 3564)
@@ -995,7 +995,7 @@ context.getSharedPreferences(numb,MODE_PRIVATE).edit().putInt("Recent",position)
                                          else if (numb.equals("23"))
                                          {
 
-                                             Toast.makeText(context, "downoading start", Toast.LENGTH_SHORT).show();
+                                             Toast.makeText(context, "Downloading start", Toast.LENGTH_SHORT).show();
                                              download_file
                                                      ("https://cdn.islamic.network/quran/audio/64/ar.alafasy/"
                                                                      + (position + 3727)
@@ -1009,7 +1009,7 @@ context.getSharedPreferences(numb,MODE_PRIVATE).edit().putInt("Recent",position)
                                          else if (numb.equals("24"))
                                          {
 
-                                             Toast.makeText(context, "downoading start", Toast.LENGTH_SHORT).show();
+                                             Toast.makeText(context, "Downloading start", Toast.LENGTH_SHORT).show();
                                              download_file
                                                      ("https://cdn.islamic.network/quran/audio/64/ar.alafasy/"
                                                                      + (position + 4090)
@@ -1022,7 +1022,7 @@ context.getSharedPreferences(numb,MODE_PRIVATE).edit().putInt("Recent",position)
                                          else if (numb.equals("25"))
                                          {
 
-                                             Toast.makeText(context, "downoading start", Toast.LENGTH_SHORT).show();
+                                             Toast.makeText(context, "Downloading start", Toast.LENGTH_SHORT).show();
                                              download_file
                                                      ("https://cdn.islamic.network/quran/audio/64/ar.alafasy/"
                                                                      + (position + 4265)
@@ -1035,7 +1035,7 @@ context.getSharedPreferences(numb,MODE_PRIVATE).edit().putInt("Recent",position)
                                          else if (numb.equals("26"))
                                          {
 
-                                             Toast.makeText(context, "downoading start", Toast.LENGTH_SHORT).show();
+                                             Toast.makeText(context, "Downloading start", Toast.LENGTH_SHORT).show();
                                              download_file
                                                      ("https://cdn.islamic.network/quran/audio/64/ar.alafasy/"
                                                                      + (position + 4511)
@@ -1048,7 +1048,7 @@ context.getSharedPreferences(numb,MODE_PRIVATE).edit().putInt("Recent",position)
                                          else if (numb.equals("27"))
                                          {
 
-                                             Toast.makeText(context, "downoading start", Toast.LENGTH_SHORT).show();
+                                             Toast.makeText(context, "Downloading start", Toast.LENGTH_SHORT).show();
                                              download_file
                                                      ("https://cdn.islamic.network/quran/audio/64/ar.alafasy/"
                                                                      + (position + 4706)
@@ -1061,7 +1061,7 @@ context.getSharedPreferences(numb,MODE_PRIVATE).edit().putInt("Recent",position)
                                          else if (numb.equals("28"))
                                          {
 
-                                             Toast.makeText(context, "downoading start", Toast.LENGTH_SHORT).show();
+                                             Toast.makeText(context, "Downloading start", Toast.LENGTH_SHORT).show();
                                              download_file
                                                      ("https://cdn.islamic.network/quran/audio/64/ar.alafasy/"
                                                                      + (position + 5105)
@@ -1075,7 +1075,7 @@ context.getSharedPreferences(numb,MODE_PRIVATE).edit().putInt("Recent",position)
                                          else if (numb.equals("29"))
                                          {
 
-                                             Toast.makeText(context, "downoading start", Toast.LENGTH_SHORT).show();
+                                             Toast.makeText(context, "Downloading start", Toast.LENGTH_SHORT).show();
                                              download_file
                                                      ("https://cdn.islamic.network/quran/audio/64/ar.alafasy/"
                                                                      + (position + 5242)
@@ -1088,7 +1088,7 @@ context.getSharedPreferences(numb,MODE_PRIVATE).edit().putInt("Recent",position)
                                          else if (numb.equals("30"))
                                          {
 
-                                             Toast.makeText(context, "downoading start", Toast.LENGTH_SHORT).show();
+                                             Toast.makeText(context, "Downloading start", Toast.LENGTH_SHORT).show();
                                              download_file
                                                      ("https://cdn.islamic.network/quran/audio/64/ar.alafasy/"
                                                                      + (position + 5673)

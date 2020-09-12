@@ -50,9 +50,7 @@ public class SURAH1TO15 {
 
                 ayat_1.add(new data_model_arabicandurdu("إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ", "(اے اللہ!) ہم تیری ہی عبادت کرتے ہیں اور ہم تجھ ہی سے مدد چاہتے ہیں", "(O Allah!) You alone do we worship and to You alone do we look for help.", 0));
 
-                ayat_1.add(new data_model_arabicandurdu("اهْدِنَا الصِّرَاطَ الْمُسْتَقِيمَ", "ہمیں سیدھا راستہ دکھا", "Show us the straight path,", 0));
-
-                ayat_1.add(new data_model_arabicandurdu("صِرَاطَ الَّذِينَ أَنْعَمْتَ عَلَيْهِمْ", "ان لوگوں کا راستہ جن پر تو نے انعام فرمایا", "The path of those upon whom You have bestowed Your favours,", 0));
+                ayat_1.add(new data_model_arabicandurdu("اهْدِنَا الصِّرَاطَ الْمُسْتَقِيمَ صِرَاطَ الَّذِينَ أَنْعَمْتَ عَلَيْهِمْ", "ہمیں سیدھا راستہ دکھا ان لوگوں کا راستہ جن پر تو نے انعام فرمایا", "Show us the straight path,The path of those upon whom You have bestowed Your favours,", 0));
 
                 ayat_1.add(new data_model_arabicandurdu("غَيْرِ الْمَغْضُوبِ عَلَيْهِمْ وَلا الضَّالِّينَ", "ان لوگوں کا نہیں جن پر غضب کیا گیا ہے اور نہ (ہی) گمراہوں کا", "Not of those who have been afflicted with wrath, nor of those who have gone astray.", 0));
 

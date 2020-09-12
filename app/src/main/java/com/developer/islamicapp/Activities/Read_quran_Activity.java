@@ -102,7 +102,7 @@ process(DBx);
                     bgx.setVisibility(View.GONE);
                 }
                 catch (Exception e){
-                    Toast.makeText(Read_quran_Activity.this, ""+e, Toast.LENGTH_SHORT).show();
+//                    Toast.makeText(Read_quran_Activity.this, ""+e, Toast.LENGTH_SHORT).show();
                 }
             }
         });

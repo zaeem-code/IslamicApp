@@ -70,7 +70,7 @@ public class Youtube_video extends YouTubeBaseActivity implements YouTubePlayer.
             errorReason.getErrorDialog(this, RECOVERY_REQUEST).show();
         } else {
             String error = String.format(getString(R.string.player_error), errorReason.toString());
-            Toast.makeText(this, error, Toast.LENGTH_LONG).show();
+//            Toast.makeText(this, error, Toast.LENGTH_LONG).show();
         }
     }
 
@@ -90,7 +90,7 @@ public class Youtube_video extends YouTubeBaseActivity implements YouTubePlayer.
 
 
     private void showMessage(String message) {
-        Toast.makeText(this, message, Toast.LENGTH_LONG).show();
+//        Toast.makeText(this, message, Toast.LENGTH_LONG).show();
     }
 
 

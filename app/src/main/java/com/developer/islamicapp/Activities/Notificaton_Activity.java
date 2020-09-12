@@ -122,7 +122,7 @@ public class Notificaton_Activity extends AppCompatActivity {
                     else
                     {
                         progressDialog.dismiss();
-                        Toast.makeText(Notificaton_Activity.this, "empty notification", Toast.LENGTH_LONG).show();
+//                        Toast.makeText(Notificaton_Activity.this, "empty notification", Toast.LENGTH_LONG).show();
                     }
 
 

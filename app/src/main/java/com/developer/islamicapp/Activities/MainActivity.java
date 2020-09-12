@@ -43,7 +43,6 @@ import com.developer.islamicapp.Fragments.LiberaryFragment;
 import com.developer.islamicapp.Fragments.LiveFragment;
 import com.developer.islamicapp.Fragments.QuranFragment;
 import com.developer.islamicapp.Model.NotficationCounter;
-import com.developer.islamicapp.Api.PrayerApi;
 import com.developer.islamicapp.R;
 import com.developer.islamicapp.utils.Typcastregular;
 import com.developer.islamicapp.utils.share;
@@ -56,7 +55,6 @@ import com.google.firebase.database.ValueEventListener;
 import com.hassanjamil.hqibla.CompassActivity;
 import com.hassanjamil.hqibla.Constants;
 
-import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
@@ -149,7 +147,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         findViewById(R.id.home_text).setOnClickListener(this);
         findViewById(R.id.home).setOnClickListener(this);
-        findViewById(R.id.statuseslyt).setOnClickListener(this);
+        findViewById(R.id.homelyt).setOnClickListener(this);
         findViewById(R.id.share).setOnClickListener(this);
         findViewById(R.id.sharetxt).setOnClickListener(this);
         findViewById(R.id.About).setOnClickListener(this);
@@ -170,23 +168,30 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         findViewById(R.id.Bstatuseslyt3).setOnClickListener(this);
 
         relativeLayout = findViewById(R.id.card);
+        greetings();
 //        cardView=findViewById(R.id.card);
-
+findViewById(R.id.signoutpic).setOnClickListener(this);
+        findViewById(R.id.signouttxt).setOnClickListener(this);
+        findViewById(R.id.signuppic).setOnClickListener(this);
+        findViewById(R.id.signuptxt).setOnClickListener(this);
 
         back_img = findViewById(R.id.back_img);
         notification = findViewById(R.id.notification);
         counter = findViewById(R.id.counter);
 
-
+        greetings();
         try {
 
         prefs = getSharedPreferences("login", MODE_PRIVATE);
         get_name = prefs.getString("name", "");//"No name defined" is the default value.
         get_pass = prefs.getString("country", "");//"No name defined" is the default value.
         get_number = prefs.getString("phone", "");//"No name defined" is the default value.
+
+            getUser();
     }catch (Exception e){
 
         }
+
         Get_budge_database();
         get_alert();
         calander_upoad();
@@ -860,7 +865,7 @@ String hr=String.valueOf(Integer.parseInt(asr.substring(0,2))+1);
                 }
                 catch (JSONException ex)
                 {
-                    Toast.makeText(MainActivity.this, ""+ex.getLocalizedMessage(), Toast.LENGTH_SHORT).show();
+//                    Toast.makeText(MainActivity.this, ""+ex.getLocalizedMessage(), Toast.LENGTH_SHORT).show();
                 } catch (ParseException e) {
                     e.printStackTrace();
                 }
@@ -895,7 +900,7 @@ String hr=String.valueOf(Integer.parseInt(asr.substring(0,2))+1);
                 }
                 catch (JSONException ex)
                 {
-                    Toast.makeText(MainActivity.this, ""+ex.getLocalizedMessage(), Toast.LENGTH_SHORT).show();
+//                    Toast.makeText(MainActivity.this, ""+ex.getLocalizedMessage(), Toast.LENGTH_SHORT).show();
                 }
 
             }
@@ -1243,7 +1248,14 @@ String hr=String.valueOf(Integer.parseInt(asr.substring(0,2))+1);
 
                 startActivity(new Intent(this,aboutActivity.class));
                 break;
-
+            case R.id.signoutpic:
+            case R.id.signouttxt:
+                unsuscribe();
+                break;
+            case R.id.signuppic:
+            case R.id.signuptxt:
+                startActivity(new Intent(getApplicationContext(), SignupActivity.class));
+                break;
             case R.id.share:
             case R.id.sharetxt:
                  new share(this);
@@ -1253,10 +1265,11 @@ String hr=String.valueOf(Integer.parseInt(asr.substring(0,2))+1);
 
             case R.id.home_text:
             case R.id.home:
-            case R.id.statuseslyt:
+            case R.id.homelyt:
 
 
-                startActivity(new Intent(this,MainActivity.class));
+                startActivity(new Intent(this,MainActivity.class).addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP)
+                        .addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK).addFlags(Intent.FLAG_ACTIVITY_NEW_TASK));
 
                 break;
 
@@ -1377,7 +1390,7 @@ String hr=String.valueOf(Integer.parseInt(asr.substring(0,2))+1);
                     }
                     else
                     {
-                        Toast.makeText(MainActivity.this, "no child", Toast.LENGTH_SHORT).show();
+//                        Toast.makeText(MainActivity.this, "no child", Toast.LENGTH_SHORT).show();
                     }
 
 
@@ -1420,7 +1433,7 @@ String hr=String.valueOf(Integer.parseInt(asr.substring(0,2))+1);
                             String budge= String.valueOf(dataSnapshot1.child("count").getValue());
                             String noti=dataSnapshot1.child("notification").getValue().toString();
 
-                            Toast.makeText(MainActivity.this, ""+budge, Toast.LENGTH_LONG).show();
+//                            Toast.makeText(MainActivity.this, ""+budge, Toast.LENGTH_LONG).show();
 
 
                             counter.setText(budge);
@@ -1431,7 +1444,7 @@ String hr=String.valueOf(Integer.parseInt(asr.substring(0,2))+1);
                     }
                     else
                     {
-                        Toast.makeText(MainActivity.this, "no", Toast.LENGTH_SHORT).show();
+//                        Toast.makeText(MainActivity.this, "no", Toast.LENGTH_SHORT).show();
                     }
 
 
@@ -1485,4 +1498,77 @@ String hr=String.valueOf(Integer.parseInt(asr.substring(0,2))+1);
             }
         });
     }
+    private void greetings(){
+
+//        try {  MediaPlayer mp = MediaPlayer.create(this, R.raw.gf);
+//
+//            if(! mp.isPlaying()){
+//                mp.start();}
+//            new Handler().postDelayed(new Runnable() {
+//                @Override
+//                public void run() {
+//                    if(mp!=null){
+//
+//                        if(mp.isPlaying()){
+//                            mp.stop();
+//                        }
+//                        mp.release();
+//
+//                    }
+//                }
+//            }, 5000);
+//        }catch (Exception e){}
+    }
+    private void getUser(){
+        if (TextUtils.isEmpty(get_number)){
+            findViewById(R.id.signoutlyt).setVisibility(View.GONE);
+            findViewById(R.id.signuplyt).setVisibility(View.VISIBLE);
+        }else {
+
+            findViewById(R.id.signoutlyt).setVisibility(View.VISIBLE);
+            findViewById(R.id.signuplyt).setVisibility(View.GONE);
+        }
+    }
+    private void unsuscribe(){
+
+    if (!TextUtils.isEmpty(get_number)){
+
+        remove_user_record(get_number);
+    }
+    }
+
+    public void remove_user_record(String num)
+    {
+        DatabaseReference databaseReference=FirebaseDatabase.getInstance().getReference()
+                .child("user_record");
+
+
+
+        databaseReference.addListenerForSingleValueEvent(new ValueEventListener() {
+            @Override
+            public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
+                for (DataSnapshot dsp:dataSnapshot.getChildren()){
+                    if (dsp.hasChildren()){
+
+                        Log.v("delldata"," num in db: "+num+" num in shp: "+dsp.child("phone").getValue());
+                        if (dsp.child("phone").getValue().toString().equals(num)){
+                            Log.v("delldata","delled___> num in db: "+num+" num in shp: "+dsp.child("phone").getValue());
+                            dataSnapshot.getRef().removeValue();
+                            getSharedPreferences("login", MODE_PRIVATE).edit().clear().apply();
+                            findViewById(R.id.homelyt).callOnClick();
+                        }
+                    }
+                }
+            }
+
+            @Override
+            public void onCancelled(@NonNull DatabaseError databaseError) {
+
+            }
+        });
+
+
+
+    }
+
 }

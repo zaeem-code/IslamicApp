@@ -601,12 +601,12 @@ TextView book1,book2,book3,book4,book5,book4b,book5b,book6,book6b,book7b,book8b,
 
              }
 
-             Toast.makeText(getContext(), ""+f.getFilename(), Toast.LENGTH_SHORT).show();
+//             Toast.makeText(getContext(), ""+f.getFilename(), Toast.LENGTH_SHORT).show();
          }
          else
          {
              f.setFilename("not exist");
-             Toast.makeText(getContext(), ""+f.getFilename(), Toast.LENGTH_SHORT).show();
+//             Toast.makeText(getContext(), ""+f.getFilename(), Toast.LENGTH_SHORT).show();
          }
 
         }
@@ -745,7 +745,7 @@ TextView book1,book2,book3,book4,book5,book4b,book5b,book6,book6b,book7b,book8b,
                 else
                 {
 
-                    Toast.makeText(getContext(), "download your file", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(getContext(), "download your book ", Toast.LENGTH_SHORT).show();
                 }
 
 
