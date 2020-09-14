@@ -46,7 +46,9 @@ import com.developer.islamicapp.Model.NotficationCounter;
 import com.developer.islamicapp.R;
 import com.developer.islamicapp.utils.Typcastregular;
 import com.developer.islamicapp.utils.share;
+import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.OnSuccessListener;
+import com.google.android.gms.tasks.Task;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
@@ -1249,12 +1251,18 @@ String hr=String.valueOf(Integer.parseInt(asr.substring(0,2))+1);
                 startActivity(new Intent(this,aboutActivity.class));
                 break;
             case R.id.signoutpic:
+            case R.id.signoutlyt:
             case R.id.signouttxt:
                 unsuscribe();
                 break;
             case R.id.signuppic:
+            case R.id.signuplyt:
             case R.id.signuptxt:
-                startActivity(new Intent(getApplicationContext(), SignupActivity.class));
+                startActivity(new Intent(getApplicationContext(), SignupActivity.class).putExtra("chk","main")
+                        .addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP)
+                                .addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK)
+                        .addFlags(Intent.FLAG_ACTIVITY_NEW_TASK).addFlags(Intent.FLAG_ACTIVITY_NO_HISTORY));
+
                 break;
             case R.id.share:
             case R.id.sharetxt:
@@ -1521,24 +1529,33 @@ String hr=String.valueOf(Integer.parseInt(asr.substring(0,2))+1);
     }
     private void getUser(){
         if (TextUtils.isEmpty(get_number)){
+            Log.v("k","--->user not vailibel: "+get_name+", "+get_number);
             findViewById(R.id.signoutlyt).setVisibility(View.GONE);
             findViewById(R.id.signuplyt).setVisibility(View.VISIBLE);
         }else {
 
+            Log.v("k","---->user vailibel: "+get_name+", "+get_number);
             findViewById(R.id.signoutlyt).setVisibility(View.VISIBLE);
             findViewById(R.id.signuplyt).setVisibility(View.GONE);
         }
     }
     private void unsuscribe(){
 
-    if (!TextUtils.isEmpty(get_number)){
+
+        if (!get_number.equals("")){
 
         remove_user_record(get_number);
-    }
+
+        Log.v("k","user to unsuscribe: "+get_name+", "+get_number);
+    }else {
+
+            Log.v("k","No user to unsuscribe: "+get_name+", "+get_number);
+        }
     }
 
     public void remove_user_record(String num)
     {
+
         DatabaseReference databaseReference=FirebaseDatabase.getInstance().getReference()
                 .child("user_record");
 
@@ -1550,12 +1567,24 @@ String hr=String.valueOf(Integer.parseInt(asr.substring(0,2))+1);
                 for (DataSnapshot dsp:dataSnapshot.getChildren()){
                     if (dsp.hasChildren()){
 
-                        Log.v("delldata"," num in db: "+num+" num in shp: "+dsp.child("phone").getValue());
+                        Log.v("k"," num in db: "+num+" num in shp: "+dsp.child("phone").getValue());
                         if (dsp.child("phone").getValue().toString().equals(num)){
-                            Log.v("delldata","delled___> num in db: "+num+" num in shp: "+dsp.child("phone").getValue());
-                            dataSnapshot.getRef().removeValue();
-                            getSharedPreferences("login", MODE_PRIVATE).edit().clear().apply();
-                            findViewById(R.id.homelyt).callOnClick();
+                            Log.v("k","delled___> num in db: "+num+" num in shp: "+dsp.child("phone").getValue());
+                                dataSnapshot.getRef().removeValue().addOnCompleteListener(new OnCompleteListener<Void>() {
+                                    @Override
+                                    public void onComplete(@NonNull Task<Void> task) {
+                                        getSharedPreferences("login", MODE_PRIVATE).edit().clear().apply();
+
+                                        startActivity(new Intent(getApplicationContext(),MainActivity.class).putExtra("chk","main")
+                                                .addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP)
+                                                .addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK)
+                                                .addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
+                                                .addFlags(Intent.FLAG_ACTIVITY_NO_HISTORY));
+                                        Toast.makeText(MainActivity.this, "Signout Successful", Toast.LENGTH_SHORT).show();
+                                    }
+                                });
+
+
                         }
                     }
                 }
@@ -1571,4 +1600,9 @@ String hr=String.valueOf(Integer.parseInt(asr.substring(0,2))+1);
 
     }
 
+    @Override
+    protected void onResume() {
+        getUser();
+        super.onResume();
+    }
 }

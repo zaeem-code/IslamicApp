@@ -47,7 +47,6 @@
 
             <com.smarteist.autoimageslider.SliderView
                 android:visibility="visible"
-                android:layout_below="@+id/slider"
 
 
                 android:id="@+id/slider2"

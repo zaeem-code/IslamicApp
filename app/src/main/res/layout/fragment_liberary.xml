@@ -12,6 +12,19 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"  >
     <com.smarteist.autoimageslider.SliderView
+         app:sliderAnimationDuration="500"
+        app:sliderAutoCycleDirection="left"
+        app:sliderAutoCycleEnabled="false"
+        app:sliderIndicatorAnimationDuration="500"
+        app:sliderIndicatorGravity="center_horizontal|bottom"
+        app:sliderIndicatorMargin="0dp"
+        app:sliderIndicatorOrientation="horizontal"
+        app:sliderIndicatorPadding="3dp"
+        app:sliderIndicatorRadius="1dp"
+        app:sliderIndicatorSelectedColor="@color/colorText"
+        app:sliderIndicatorUnselectedColor="@android:color/transparent"
+        app:sliderScrollTimeInSec="1"
+        app:sliderStartAutoCycle="true"
 
         android:visibility="visible"
         android:layout_alignParentTop="true"
@@ -19,21 +32,7 @@
         android:id="@+id/slider"
         android:layout_width="match_parent"
         android:layout_height="300dp"
-        app:sliderAnimationDuration="500"
-        app:sliderAutoCycleEnabled="true"
-        app:sliderIndicatorAnimationDuration="500"
-        app:sliderIndicatorGravity="center_horizontal|bottom"
-        app:sliderIndicatorMargin="0dp"
-        app:sliderIndicatorOrientation="horizontal"
-        app:sliderIndicatorPadding="3dp"
-
-        app:sliderIndicatorRadius="1dp"
-        app:sliderIndicatorSelectedColor="@color/gold2"
-        app:sliderIndicatorUnselectedColor="@android:color/transparent"
-        app:sliderScrollTimeInSec="500"
-
-        app:sliderAutoCycleDirection="left"
-        app:sliderStartAutoCycle="true" />
+  />
 
 
 
@@ -56,7 +55,7 @@
             app:sliderIndicatorSelectedColor="@color/gold2"
             app:sliderIndicatorUnselectedColor="@android:color/transparent"
             app:sliderScrollTimeInSec="500"
-            app:sliderStartAutoCycle="true" />
+            app:sliderStartAutoCycle="false" />
     
     
     <RelativeLayout

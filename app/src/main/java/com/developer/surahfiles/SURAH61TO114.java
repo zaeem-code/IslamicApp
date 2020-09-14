@@ -2345,7 +2345,7 @@ ayat_106.add(new data_model_arabicandurdu("بِسْمِ اللَّهِ الرَ�
 
 ayat_106.add(new data_model_arabicandurdu("لِإِيلَافِ قُرَيْشٍ","قریش کو رغبت دلانے کے سبب سے","To awake drive amongst the Quraysh,", 0));
 
-ayat_106.add(new data_model_arabicandurdu("إِيلَافِهِمْ رِحْلَةَ الشِّتَاءِ وَالصَّيْفِ","انہیں سردیوں اور گرمیوں کے (تجارتی) سفر سے مانوس کر دیا","They were acclimatized to the summer and winter (commercial) trips.", 0));
+ayat_106.add(new data_model_arabicandurdu("اٖلٰفِہِمۡ رِحْلَةَ الشِّتَاءِ وَالصَّيْفِ","انہیں سردیوں اور گرمیوں کے (تجارتی) سفر سے مانوس کر دیا","They were acclimatized to the summer and winter (commercial) trips.", 0));
 
 ayat_106.add(new data_model_arabicandurdu("فَلْيَعْبُدُوا رَبَّ هَذَا الْبَيْتِ","پس انہیں چاہئے کہ اس گھر (خانہ کعبہ) کے رب کی عبادت کریں (تاکہ اس کی شکر گزاری ہو)","So they should worship the Lord of this (Sacred) House (Ka‘ba, to give Him thanks),", 0));
 

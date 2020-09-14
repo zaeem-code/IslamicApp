@@ -98,7 +98,7 @@ int star_of_para_surah_number;
 
         this.indexxx=indexxx;
 
-        Log.v("parah_surah_number",star_of_para_surah_number+" got");
+//        Log.v("parah_surah_number",star_of_para_surah_number+" got");
 
     }
 
@@ -182,11 +182,17 @@ int star_of_para_surah_number;
 
                         holder.textView.setText(item.Arabic.trim() + "❲" + (ayatnumber) + "❳ ۞");
                         holder.textView_urdu.setText( " " + item.Urdu);
+
+                    Log.v("k","ayat number in para: "+ayatnumber);
+                    Log.v("k","arabic number in para verse: "+item.Arabic.trim());
+
                     }else{
                             holder.textView.setText(item.Arabic.trim());
                             holder.textView_urdu.setText( " " + item.Urdu);
 
-                    Log.v("hassan","index is 0");
+                    Log.v("k","ayat number in para: "+ayatnumber);
+                    Log.v("k","arabic number in para verse: "+item.Arabic.trim());
+
  }
 
 

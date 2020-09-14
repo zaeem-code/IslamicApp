@@ -57,6 +57,8 @@ import java.util.HashMap;
 import java.util.Locale;
 import java.util.Objects;
 
+import static android.content.Context.MODE_PRIVATE;
+
 public class HomeFragment extends Fragment implements View.OnClickListener {
     private  TextView itla_e_mehfil_text,
             hadeesoftheday_text
@@ -70,7 +72,6 @@ public class HomeFragment extends Fragment implements View.OnClickListener {
     long enqueID;
     DownloadManager downloadManager;
     private  View view;
-    private int second=30;
     String event_admin,hadese_admin,mahfil_admin,namaz_time_admin,ques_admin,wazifa_admin,islamic_cal,isamic_count;
     String ayat_admin="";
 LottieAnimationView l1,l2,l3,l4,l5,l6;
@@ -108,12 +109,14 @@ LottieAnimationView l1,l2,l3,l4,l5,l6;
 
     public static HomeFragment newInstance(String param1, String param2, String param3)
     {
+
         HomeFragment fragment = new HomeFragment();
         Bundle args = new Bundle();
         args.putString(ARG_PARAM1, param1);
         args.putString(ARG_PARAM2, param2);
         args.putString(ARG_PARAM3, param3);
         fragment.setArguments(args);
+
         return fragment;
     }
 
@@ -198,25 +201,25 @@ LottieAnimationView l1,l2,l3,l4,l5,l6;
             }
         });
 
-        countDownTimer=new CountDownTimer(10000,1000) {
-            @Override
-            public void onTick(long millisUntilFinished) {
-
-                counter.setText("Time Left: "+ millisUntilFinished / 1000);
+//        countDownTimer=new CountDownTimer(10000,1000) {
+//            @Override
+//            public void onTick(long millisUntilFinished) {
 //
-
-
-            }
-
-            @Override
-            public void onFinish() {
-                QuestionNotAvailible(" ");
-
-
-                counter.setText("Time to answer the question is over");
-                counter.setVisibility(View.GONE);
-            }
-        };
+//                counter.setText("Time Left: "+ millisUntilFinished / 1000);
+////
+//
+//
+//            }
+//
+//            @Override
+//            public void onFinish() {
+//                QuestionNotAvailible(" ");
+//
+//
+//                counter.setText("Time to answer the question is over");
+//                counter.setVisibility(View.GONE);
+//            }
+//        };
 
 
 
@@ -272,7 +275,11 @@ LottieAnimationView l1,l2,l3,l4,l5,l6;
         switch (v.getId()){
 
             case R.id.signup_button:
-                getContext().startActivity(new Intent(getContext(), SignupActivity.class));
+                getActivity().startActivity(new Intent(getActivity(), SignupActivity.class).putExtra("chk","main")
+                    .addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP)
+                    .addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK)
+                    .addFlags(Intent.FLAG_ACTIVITY_NEW_TASK).addFlags(Intent.FLAG_ACTIVITY_NO_HISTORY));
+
                 break;
 
 
@@ -323,10 +330,12 @@ if (TextUtils.isEmpty(ayat_admin)){
                     if (TextUtils.isEmpty(ques_admin)){
                         ques_admin="NA";
                     }else {
+                        if (chkUserSiginState()){
                         QuestionAvailible();
 
+                            admin_ques.setText(ques_admin);}
+
 //                        String x;
-                        admin_ques.setText(ques_admin);
 //                        try {
 //
 //                              x=getContext().getSharedPreferences("same", Context.MODE_PRIVATE).getString("las",ques_admin);
@@ -366,6 +375,8 @@ if (TextUtils.isEmpty(ayat_admin)){
 
 
 //isko less then one karna ha
+                    if (chkUserSiginState()){
+
                     if (Integer.parseInt(isamic_count)<=1)
                     {
 //                        view.findViewById(R.id.admin_lyt).setVisibility(View.GONE);
@@ -379,12 +390,12 @@ if (TextUtils.isEmpty(ayat_admin)){
 try {
 
 
-    if (getActivity().getSharedPreferences("answered", Context.MODE_PRIVATE).getBoolean("chk", true) && !TextUtils.isEmpty(ques_admin))
+    if (getActivity().getSharedPreferences("answered", MODE_PRIVATE).getBoolean("chk", true) && !TextUtils.isEmpty(ques_admin))
     {
         QuestionNotAnswered();
 
         Log.v("dell", "answer not answed");
-        Log.v("dell", "conditions:  chk if needed to ans: " + getContext().getSharedPreferences("answered", Context.MODE_PRIVATE).getBoolean("chk", true)
+        Log.v("dell", "conditions:  chk if needed to ans: " + getContext().getSharedPreferences("answered", MODE_PRIVATE).getBoolean("chk", true)
                 + ", ques: " + ques_admin);
 
 
@@ -467,15 +478,19 @@ try {
 
         Log.v("dell", "answer  answed");
         Log.v("dell", "conditions:  chk if needed to ans: " +
-                getContext().getSharedPreferences("answered", Context.MODE_PRIVATE).getBoolean("chk", true)
+                getContext().getSharedPreferences("answered", MODE_PRIVATE).getBoolean("chk", true)
                 + ", ques: " + ques_admin + ", same as prev ?: "
-                + getContext().getSharedPreferences("same", Context.MODE_PRIVATE).getString("las", ques_admin).equals(ques_admin) + ", prev q: " + getContext().getSharedPreferences("same", Context.MODE_PRIVATE).getString("las", ques_admin));
+                + getContext().getSharedPreferences("same", MODE_PRIVATE).getString("las", ques_admin).equals(ques_admin) + ", prev q: " + getContext().getSharedPreferences("same", MODE_PRIVATE).getString("las", ques_admin));
 
     }
 }catch (Exception e){
 
 }
                              }
+
+
+
+                    }
 
 
 
@@ -709,7 +724,7 @@ private void QuestionAvailible(){
         Log.v("dell","QuestionAnswered");
 
         QuestionNotAvailible("answered");
-        getContext().getSharedPreferences("answered", Context.MODE_PRIVATE).edit().putBoolean("chk",false).apply();
+        getContext().getSharedPreferences("answered", MODE_PRIVATE).edit().putBoolean("chk",false).apply();
 //        getContext().getSharedPreferences("same", Context.MODE_PRIVATE).edit().putString("las", ques_admin).apply();
 view.findViewById(R.id.done).setVisibility(View.VISIBLE);
 view.findViewById(R.id.note).setVisibility(View.VISIBLE);
@@ -720,7 +735,7 @@ view.findViewById(R.id.note).setVisibility(View.VISIBLE);
 
         admin_lyt.setVisibility(View.GONE);
         try {
-            getActivity().getSharedPreferences("answered", Context.MODE_PRIVATE).edit().putBoolean("chk", true).apply();
+            getActivity().getSharedPreferences("answered", MODE_PRIVATE).edit().putBoolean("chk", true).apply();
         }catch ( Exception e){
 
         }
@@ -805,5 +820,27 @@ view.findViewById(R.id.note).setVisibility(View.VISIBLE);
         ayatoftheday_txt.setVisibility(View.VISIBLE);
         wazifa_text.setVisibility(View.VISIBLE);
         eventoftheday_text.setVisibility(View.VISIBLE);
+    }
+    private boolean chkUserSiginState(){
+        String user="";
+        try {
+            user=    getActivity().getSharedPreferences("login", MODE_PRIVATE).getString("phone", "");
+
+        }catch (Exception e){
+            return false;
+        }
+      if (!TextUtils.isEmpty(user) ){
+
+           Log.v("k","user ->>>>>>> ha :    "+user);
+           return  true;
+
+       }else {
+
+           Log.v("k","user ->>>>>>>ni  ha :    "+user);
+           return false;
+
+       }
+
+
     }
 }

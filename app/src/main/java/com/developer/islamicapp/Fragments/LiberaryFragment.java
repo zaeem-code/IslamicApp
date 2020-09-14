@@ -207,7 +207,9 @@ TextView book1,book2,book3,book4,book5,book4b,book5b,book6,book6b,book7b,book8b,
 //        slider.setScrollTimeInSec(3); //set scroll delay in seconds :
 //        slider.startAutoCycle();
 
-        slider.setCurrentPagePosition(getdata().size());
+        slider.setCurrentPagePosition(getdata().size()-1);
+
+
 
 
 //     DatabaseReference databaseReference=FirebaseDatabase.getInstance().getReference().child("Image");
@@ -917,6 +919,7 @@ private void setbool_name(String chk,String book_name){
     public void onResume() {
         super.onResume();
         Database_images();
+//        settingupslider();
     }
 
 }

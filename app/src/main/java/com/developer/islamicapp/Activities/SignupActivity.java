@@ -30,7 +30,7 @@ public class SignupActivity extends AppCompatActivity implements View.OnClickLis
     private Button signup_button;
 
     Bundle bundle;
-
+String chk="";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -38,10 +38,10 @@ public class SignupActivity extends AppCompatActivity implements View.OnClickLis
         setContentView(R.layout.activity_signup);
         name = findViewById(R.id.name);
         phone = findViewById(R.id.phone);
-        cntry = findViewById(R.id.country);
+        cntry = findViewById(R.id.city);
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
         checkBox = findViewById(R.id.checkBox);
-
+chk=getIntent().getStringExtra("chk");
 
         bundle=new Bundle();
 
@@ -57,7 +57,14 @@ public class SignupActivity extends AppCompatActivity implements View.OnClickLis
         switch (v.getId()) {
 
             case R.id.back:
-                finish();
+                if (TextUtils.isEmpty(chk)){
+                finish();}else {
+                    startActivity(new Intent(getApplicationContext(),MainActivity.class).putExtra("chk","main")
+                            .addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP)
+                            .addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK)
+                            .addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
+                            .addFlags(Intent.FLAG_ACTIVITY_NO_HISTORY));
+                }
                 break;
             case R.id.signup_button:
 
