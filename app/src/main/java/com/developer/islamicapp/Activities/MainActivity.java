@@ -3,9 +3,11 @@ package com.developer.islamicapp.Activities;
 import android.content.ActivityNotFoundException;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.media.MediaPlayer;
 import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
+import android.os.Handler;
 import android.text.TextUtils;
 import android.util.Log;
 import android.view.View;
@@ -170,7 +172,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         findViewById(R.id.Bstatuseslyt3).setOnClickListener(this);
 
         relativeLayout = findViewById(R.id.card);
-        greetings();
 //        cardView=findViewById(R.id.card);
 findViewById(R.id.signoutpic).setOnClickListener(this);
         findViewById(R.id.signouttxt).setOnClickListener(this);
@@ -1508,24 +1509,24 @@ String hr=String.valueOf(Integer.parseInt(asr.substring(0,2))+1);
     }
     private void greetings(){
 
-//        try {  MediaPlayer mp = MediaPlayer.create(this, R.raw.gf);
-//
-//            if(! mp.isPlaying()){
-//                mp.start();}
-//            new Handler().postDelayed(new Runnable() {
-//                @Override
-//                public void run() {
-//                    if(mp!=null){
-//
-//                        if(mp.isPlaying()){
-//                            mp.stop();
-//                        }
-//                        mp.release();
-//
-//                    }
-//                }
-//            }, 5000);
-//        }catch (Exception e){}
+        try {  MediaPlayer mp = MediaPlayer.create(this, R.raw.asa);
+
+            if(! mp.isPlaying()){
+                mp.start();}
+            new Handler().postDelayed(new Runnable() {
+                @Override
+                public void run() {
+                    if(mp!=null){
+
+                        if(mp.isPlaying()){
+                            mp.stop();
+                        }
+                        mp.release();
+
+                    }
+                }
+            }, 5000);
+        }catch (Exception e){}
     }
     private void getUser(){
         if (TextUtils.isEmpty(get_number)){
