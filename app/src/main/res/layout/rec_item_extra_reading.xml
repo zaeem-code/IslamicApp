@@ -10,7 +10,6 @@
             xmlns:app="http://schemas.android.com/apk/res-auto"
             xmlns:android="http://schemas.android.com/apk/res/android"
             android:layout_margin="5dp"
-            android:minHeight="100dp"
             android:layout_marginTop="10dp"
 
             android:padding="5dp"
@@ -28,7 +27,7 @@
                 android:id="@+id/textx"
                 android:textColor="@color/gold"
                 android:textStyle="bold"
-                android:textSize="21sp"
+                android:textSize="24sp"
 
                 />
         </androidx.cardview.widget.CardView>

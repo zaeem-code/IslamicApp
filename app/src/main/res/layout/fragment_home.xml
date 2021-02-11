@@ -555,7 +555,7 @@ android:visibility="gone"
                 android:layout_centerHorizontal="true"
 
                 android:layout_marginLeft="10dp"
-                android:text="Islamic Date"
+                android:text="Calender of Islamic Events"
                 android:textColor="@color/gold2"
                 android:textStyle="bold"
                 android:layout_marginTop="15dp"

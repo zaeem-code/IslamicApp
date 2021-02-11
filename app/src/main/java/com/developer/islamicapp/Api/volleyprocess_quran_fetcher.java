@@ -26,7 +26,8 @@ public class volleyprocess_quran_fetcher {
     ProgressDialog progressDialog;
     String DB;
     int attempt = 0;
-    ArrayList<Temp_data> arabicDATA, urduDATA;String ParahorNumber;
+    ArrayList<Temp_data> arabicDATA, urduDATA;
+    String ParahorNumber;
     String SurahNumber, chk_if_suparah_or_surah;
 
 
@@ -122,7 +123,8 @@ public class volleyprocess_quran_fetcher {
 number=String.valueOf(Integer.parseInt(number)-1);
                                     if (count == 0)
                                     {
-                                        if (number.equals("0")){
+                                        if (number.equals("0"))
+                                        {
 
                                             arabicDATA.add(new Temp_data(text  , number));
 

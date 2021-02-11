@@ -66,8 +66,10 @@ public class HomeFragment extends Fragment implements View.OnClickListener {
             wazifa_text,
             eventoftheday_text,
             islamicdate_text,admin_calander,counter;
+    SharedPreferences.Editor editor;
 
-     DatabaseReference databaseReference,databaseReferenceIMG;
+
+    DatabaseReference databaseReference,databaseReferenceIMG;
      ArrayList<String> image_uri_array=new ArrayList<>();
     long enqueID;
     DownloadManager downloadManager;
@@ -148,6 +150,7 @@ LottieAnimationView l1,l2,l3,l4,l5,l6;
 
         Typcastregular.Typcastregular(getContext(), "SERIF", "Poppins-Regular.otf");
 
+        editor = getContext().getSharedPreferences("sun", MODE_PRIVATE).edit();
 
         l1=view.findViewById(R.id.loading1);
         l2=view.findViewById(R.id.loading2);
@@ -175,6 +178,34 @@ LottieAnimationView l1,l2,l3,l4,l5,l6;
         calandr_img=view.findViewById(R.id.calander_img);
 
         f = new StoryModel();
+
+
+
+
+
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
+            if (NetworkState.isOnline(getActivity()))
+            {
+
+            }
+            else
+            {
+                SharedPreferences prefs = getContext().getSharedPreferences("sun", MODE_PRIVATE);
+                String chanel =prefs.getString("mehfil","");
+                itla_e_mehfil_text.setText(chanel);
+
+
+
+            }
+        }
+
+
+
+
+
+
+
+
 
         calandr_img.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -364,6 +395,11 @@ if (TextUtils.isEmpty(ayat_admin)){
                     ayatoftheday_txt.setText(ayat_admin);
                     eventoftheday_text.setText(event_admin);
                     itla_e_mehfil_text.setText(mahfil_admin);
+                    editor.putString("mehfil",mahfil_admin);
+                    editor.commit();
+                    editor.apply();
+
+
                     itla_e_mehfil_text.setVisibility(View.VISIBLE);
                     hadeesoftheday_text.setText(hadese_admin);
                     wazifa_text.setText(wazifa_admin);

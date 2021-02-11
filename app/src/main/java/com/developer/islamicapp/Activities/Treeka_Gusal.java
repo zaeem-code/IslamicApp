@@ -51,6 +51,8 @@ public class Treeka_Gusal extends AppCompatActivity {
     private ArrayList<Integer> getdata2() {
 
         ArrayList<Integer> fldrData=new ArrayList<>();
+
+        fldrData.add(R.drawable.end);
         fldrData.add(R.drawable.salatp18);
         fldrData.add(R.drawable.salatp17);
         fldrData.add(R.drawable.salatp16);

@@ -45,7 +45,7 @@ public class AdapterNamazact extends RecyclerView.Adapter<AdapterNamazact.ViewHo
 
         holder.textView.setText(data.get(position).ENG);
         if (position!=0){
-            holder.textView.setTextSize(15f);
+//            holder.textView.setTextSize(15f);
 
             holder.textView.setTextColor(Color.parseColor("#FFD700"));
         }

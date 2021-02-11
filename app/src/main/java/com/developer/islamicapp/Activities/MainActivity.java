@@ -45,6 +45,7 @@ import com.developer.islamicapp.Fragments.LiberaryFragment;
 import com.developer.islamicapp.Fragments.LiveFragment;
 import com.developer.islamicapp.Fragments.QuranFragment;
 import com.developer.islamicapp.Model.NotficationCounter;
+import com.developer.islamicapp.Network.NetworkState;
 import com.developer.islamicapp.R;
 import com.developer.islamicapp.utils.Typcastregular;
 import com.developer.islamicapp.utils.share;
@@ -123,11 +124,16 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     NotficationCounter notficationCounter;
     RelativeLayout relativeLayout;
     CardView cardView;
+    SharedPreferences.Editor editor;
+
 
 
     /* access modifiers changed from: protected */
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
+
+        editor = getSharedPreferences("sun", MODE_PRIVATE).edit();
 
         Typcastregular.Typcastregular(getApplicationContext(), "SERIF", "Poppins-Regular.otf");
         setContentView(R.layout.activity_main);
@@ -293,11 +299,44 @@ findViewById(R.id.signoutpic).setOnClickListener(this);
 
         georgeon_Date();
 
+        GetPrayer_api();
+        GetPrayer_hijri();
+
+
         Date_Time_of_Any_Country("Asia/Riyadh","SAU");
         Date_Time_of_Any_Country("Asia/Karachi","PK");
 
-        GetPrayer_api();
-        GetPrayer_hijri();
+
+
+
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
+            if (NetworkState.isOnline(getApplicationContext()))
+            {
+
+            }
+            else
+            {
+                SharedPreferences prefs = getSharedPreferences("sun", MODE_PRIVATE);
+                String sunrise = prefs.getString("sunrise", "No name defined");
+                String sunset = prefs.getString("sunset", "No name defined");
+                String next = prefs.getString("next", "No name defined");
+                String current = prefs.getString("current", "No name defined");
+                String geo = prefs.getString("geo", "No name defined");
+                String geor = prefs.getString("geor", "No name defined");
+
+
+
+                Sun_rise.setText(sunrise);
+                Sun_set.setText(sunset);
+                next_namaz.setText(next);
+                curr_namaz.setText(current);
+                l_georgeon_D_T.setText(geo);
+                gorgeon.setText(geor);
+
+
+            }
+        }
+
 
 
 
@@ -307,6 +346,11 @@ findViewById(R.id.signoutpic).setOnClickListener(this);
         Date currDate = new Date();
         String formattedDate = sdf.format(currDate);
         l_georgeon_D_T.setText(formattedDate);
+        editor.putString("geo",formattedDate);
+        editor.commit();
+        editor.apply();
+
+
 
 
 //        final Handler mHandler = new Handler();
@@ -690,15 +734,29 @@ String hr=String.valueOf(Integer.parseInt(asr.substring(0,2))+1);
                     sun_rise = enter.getString("Sunrise");
 
 
+
+
                     _24HourSDF = new SimpleDateFormat("HH:mm");
                     _12HourSDF = new SimpleDateFormat("hh:mm a");
                     _24HourDt = _24HourSDF.parse(sun_set);
                     Sun_set.setText(_12HourSDF.format(_24HourDt));
+                    editor.putString("sunset", _12HourSDF.format(_24HourDt));
+                    editor.commit();
+                    editor.apply();
+
+
+
 
 
                     _24HourSDF = new SimpleDateFormat("HH:mm");
                     _12HourSDF = new SimpleDateFormat("hh:mm a");
                     _24HourDt = _24HourSDF.parse(sun_rise);
+                    editor.putString("sunrise", _12HourSDF.format(_24HourDt));
+                    editor.commit();
+                    editor.apply();
+
+
+
 
 
                     Sun_rise.setText(_12HourSDF.format(_24HourDt));
@@ -764,6 +822,12 @@ String hr=String.valueOf(Integer.parseInt(asr.substring(0,2))+1);
                         next_namaz.setText("zoher"+" "+zohr);
                         curr_namaz.setText("fajer"+" "+fajr);
 
+                        editor.putString("next", "zoher"+" "+zohr);
+                        editor.putString("current", "fajer"+" "+fajr);
+                        editor.commit();
+                        editor.apply();
+
+
                     }
 
                     else  if (curr_Time.compareTo(zohr) >= 0 && curr_Time.compareTo(asr) < 0)
@@ -782,6 +846,13 @@ String hr=String.valueOf(Integer.parseInt(asr.substring(0,2))+1);
 
                         next_namaz.setText("aser"+" "+asr);
                         curr_namaz.setText("zoher"+" "+zohr);
+
+
+                        editor.putString("next", "aser"+" "+asr);
+                        editor.putString("current","zoher"+" "+zohr);
+                        editor.commit();
+                        editor.apply();
+
 
                     }
 
@@ -803,6 +874,13 @@ String hr=String.valueOf(Integer.parseInt(asr.substring(0,2))+1);
                         next_namaz.setText("magrib"+" "+magrib);
                         curr_namaz.setText("aser"+" "+asr);
 
+
+                        editor.putString("next", "magrib"+" "+magrib);
+                        editor.putString("current","aser"+" "+asr);
+                        editor.commit();
+                        editor.apply();
+
+
                     }
 
                     else if (curr_Time.compareTo(magrib) >= 0 && curr_Time.compareTo(isha) < 0)
@@ -822,6 +900,13 @@ String hr=String.valueOf(Integer.parseInt(asr.substring(0,2))+1);
 
                         next_namaz.setText("isha"+" "+isha);
                         curr_namaz.setText("magrib"+" "+magrib);
+
+
+                        editor.putString("next", "isha"+" "+isha);
+                        editor.putString("current","magrib"+" "+magrib);
+                        editor.commit();
+                        editor.apply();
+
                     }
 
                     else if (curr_Time.compareTo(isha) >= 0)
@@ -842,6 +927,14 @@ String hr=String.valueOf(Integer.parseInt(asr.substring(0,2))+1);
 
                         next_namaz.setText("fajer"+" "+fajr);
                         curr_namaz.setText("isha"+" "+isha);
+
+                        editor.putString("next", "fajer"+" "+fajr);
+                        editor.putString("current","isha"+" "+isha);
+                        editor.commit();
+                        editor.apply();
+
+
+
                     }
 
                     else {
@@ -849,8 +942,9 @@ String hr=String.valueOf(Integer.parseInt(asr.substring(0,2))+1);
 
                         _24HourSDF = new SimpleDateFormat("HH:mm");
                         _12HourSDF = new SimpleDateFormat("hh:mm a");
-                        _24HourDt = _24HourSDF.parse(fajr);
-                        fajr=_12HourSDF.format(_24HourDt);
+                         _24HourDt = _24HourSDF.parse(fajr);
+
+                         fajr=_12HourSDF.format(_24HourDt);
 
 
                         _24HourSDF = new SimpleDateFormat("HH:mm");
@@ -860,6 +954,13 @@ String hr=String.valueOf(Integer.parseInt(asr.substring(0,2))+1);
 
                         next_namaz.setText("fajer"+" "+fajr);
                         curr_namaz.setText("isha"+" "+isha);
+
+
+                        editor.putString("next", "fajer"+" "+fajr);
+                        editor.putString("current","isha"+" "+isha);
+                        editor.commit();
+                        editor.apply();
+
 
                     }
 
@@ -898,6 +999,15 @@ String hr=String.valueOf(Integer.parseInt(asr.substring(0,2))+1);
 
                     String get_hijri=jsonObject.getString("date");
                      gorgeon.setText(get_hijri);
+
+
+                    editor.putString("geor",get_hijri);
+                    editor.commit();
+                    editor.apply();
+
+
+
+
 
 
                 }
@@ -982,6 +1092,7 @@ String hr=String.valueOf(Integer.parseInt(asr.substring(0,2))+1);
                 _12HourSDF = new SimpleDateFormat("hh:mm a");
                 try {
                     _24HourDt = _24HourSDF.parse(output);
+
                     islamic_D_T.setText(_12HourSDF.format(_24HourDt)+"\n"+output2);
 
                 } catch (ParseException e) {

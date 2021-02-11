@@ -49,7 +49,8 @@ public class NamazActivit_details extends AppCompatActivity {
 
     }
 
-    private ArrayList<data_model_arabicandurdu> loadData(String chk) {
+    private ArrayList<data_model_arabicandurdu> loadData(String chk)
+    {
         ArrayList<data_model_arabicandurdu> data = new ArrayList<>();
 
         switch (chk) {

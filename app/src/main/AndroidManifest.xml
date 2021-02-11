@@ -26,6 +26,8 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
+
+
         <activity android:name=".Activities.WebviewActivity"></activity>
         <activity android:name=".Activities.SlideMasnon" />
         <activity android:name=".Activities.Notificaton_Activity" />
@@ -81,6 +83,10 @@
                 android:name="android.support.FILE_PROVIDER_PATHS"
                 android:resource="@xml/provider_path" />
         </provider>
+
+
+
+
     </application>
 
 </manifest>

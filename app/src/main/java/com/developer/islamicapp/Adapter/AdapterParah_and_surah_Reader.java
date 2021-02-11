@@ -1,5 +1,6 @@
 package com.developer.islamicapp.Adapter;
 
+import android.app.Activity;
 import android.app.Dialog;
 import android.app.DownloadManager;
 import android.app.ProgressDialog;
@@ -18,6 +19,7 @@ import android.net.Uri;
 import android.os.Build;
 import android.os.Environment;
 import android.os.Handler;
+import android.os.Looper;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.MotionEvent;
@@ -54,6 +56,7 @@ public class AdapterParah_and_surah_Reader extends RecyclerView.Adapter<AdapterP
     ArrayList<data_model_arabicandurdu> data=new ArrayList<>();
     ArrayList<Integer> indexxx=new ArrayList<>();
     Context context;
+    Activity activity;
     String bism="بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ ";
 String apndArabi,apndurdu;
     String chk;
@@ -75,7 +78,7 @@ String apndArabi,apndurdu;
     TextView start,end;
     ImageView play,recently;
     SeekBar seekBar;
-    Handler handler=new Handler();
+    Handler handler=new Handler(Looper.getMainLooper());
     MediaPlayer mediaPlayer;
     String timer_string="",second_string;
     String download_status="not_success";
@@ -701,6 +704,9 @@ context.getSharedPreferences(numb,MODE_PRIVATE).edit().putInt("Recent",position)
                                      else
                                      {
 
+                                         play.setImageResource(R.drawable.play_sound);
+
+
                                          if (numb.equals("1"))
                                          {
                                              Toast.makeText(context, "Downloading start", Toast.LENGTH_SHORT).show();
@@ -1249,7 +1255,7 @@ try {
 
         if (DownloadManager.STATUS_SUCCESSFUL == cursor.getInt(columIndex)) {
 
-            Toast.makeText(context, "download complete press play", Toast.LENGTH_SHORT).show();
+//            Toast.makeText(context, "download complete press play", Toast.LENGTH_SHORT).show();
 
 
 
